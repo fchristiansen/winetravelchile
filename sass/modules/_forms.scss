@@ -1,0 +1,255 @@
+
+a{
+	display: inline-block;
+	&.back{
+		background: url(../img/arrow-left.svg) no-repeat;
+		display: block;
+		width: 13px;
+		height: 24px;
+		background-size: cover;
+		background-position: center;
+		float: left;
+		margin-right: 10px;
+	}
+}
+
+.form-section{
+	margin-bottom: 3rem;
+	img{
+		margin-bottom: 20px;
+	}
+	h2{
+		@include regular(24px, $negro);
+		letter-spacing: 4px;
+		margin-bottom: 30px;
+		line-height: 24px;
+
+
+	}
+	p{
+			@include regular(13px, $negro);
+			letter-spacing: 4px;
+			margin-bottom: 0;
+			margin-bottom: 0.5rem;
+			a{
+				@include link;
+				@include font-size(13px);
+				font-weight: bold;
+				color: $rosa !important;
+				text-transform: uppercase;
+				border-bottom: 1px solid $rosa;
+				//line-height: 20px;
+				padding-bottom: 2px;
+				display: inline-block;
+				&:hover{
+					color: $cafe !important;
+					border-bottom-color: $cafe;
+				}
+			}
+		}
+	label{
+		margin-bottom: 20px !important;
+		text-transform: uppercase;
+		letter-spacing: 4px;
+		@include font-size(13px);
+	}
+}
+
+form#form-suscribe{
+    border: 1px solid $negro;
+    //margin-bottom: 210px;
+    &.form-inline{
+          display: block;
+          .form-control{
+              border: none;
+              background-color: transparent;
+          }
+          .btn-primary{
+            @include boton-negro;
+          }
+    }
+}
+section.crear-cuenta{
+  background-color: $rosa;
+  padding-bottom: 45px;
+   h2{
+      @include regular(36px, black);
+      text-transform: uppercase;
+      text-align: center;
+      letter-spacing: 4px;
+      padding: 45px 0;
+     // margin-bottom: 50px;
+      border-bottom: 1px solid $negro;
+   }
+   p{
+    @include font-size(11px);
+    color: black;
+    letter-spacing:4px;
+    text-align: center;
+   }
+}
+form#form-crear-cuenta{
+    margin: 0 auto;
+    //margin-bottom: 210px;
+    max-width: 700px;
+    padding: 50px 0 20px 0;
+    label{
+      text-transform: uppercase;
+      @include regular(13px, black);
+      letter-spacing: 4px;
+    }
+    .form-control{
+      border: 1px solid black;
+      border-radius: 0;
+    }
+    .boton-negro{
+      @include boton-negro;
+      @include font-size(13px);
+      padding-left: 50px;
+      padding-right: 50px;
+      //margin: 0 auto;
+      @media (max-width: 518px){
+          margin-top: 20px;
+      }
+    }
+    // &.form-inline{
+    //       display: block;
+    //       .form-control{
+    //           border: none;
+    //       }
+    //       .btn-primary{
+    //         @include boton-negro;
+    //       }
+    // }
+}
+
+form#form-modal-news-letter{
+  @extend #form-crear-cuenta;
+  padding-top: 20px;
+  max-width: 80%;
+}
+
+
+/*==== form info ====*/
+
+#form-info{
+	.form-control{
+		border: 1px solid $negro;
+		border-radius: 0 !important;
+	}
+	select{
+		border-radius: 0;
+
+
+		//-webkit-appearance: none;
+		&.form-control{
+			border: 1px solid $negro;
+			text-transform: uppercase;
+			letter-spacing: 4px;
+			@include font-size(14px);
+			border: 1px solid $negro;
+			font-size: 12px;
+		}
+	}
+	.btn-comprar{
+		@include boton-negro;
+		width: 100%;
+		padding: 10px 0;
+		margin-top: 10px;
+		@include font-size(13px);
+	}
+}
+
+#form-carro{
+	input[type="email"]::-webkit-input-placeholder,
+	input[type="text"]::-webkit-input-placeholder,
+	input[type="password"]::-webkit-input-placeholder
+
+	 { /* Chrome/Opera/Safari */
+	  @include bold(13px, $negro);
+	  text-transform: uppercase;
+	  letter-spacing: 4px;
+	  text-align: left;
+
+	   @media(max-width:1024px){
+	      @include font-size(11px);
+	    }
+	}
+
+
+	input[type="email"]::-moz-placeholder,
+	input[type="text"]::-moz-placeholder,
+	input[type="password"]::-moz-placeholder
+
+	 { /* Firefox 19+ */
+	  @include bold(13px, $negro);
+	  text-transform: uppercase;
+	  letter-spacing: 4px;
+	  text-align: left;
+	   @media(max-width:1024px){
+	      @include font-size(11px);
+	    }
+	}
+
+
+	input[type="email"]:-ms-input-placeholder,
+	input[type="text"]:-ms-input-placeholder,
+	input[type="password"]:-ms-input-placeholder
+
+	 { /* IE 10+ */
+	  @include bold(13px, $negro);
+	  text-transform: uppercase;
+	  letter-spacing: 4px;
+	  text-align: left;
+	   @media(max-width:1024px){
+	      @include font-size(11px);
+	    }
+	}
+
+
+	input[type="email"]:-moz-placeholder,
+	input[type="text"]:-moz-placeholder,
+	input[type="password"]:-moz-placeholder
+
+	 { /* Firefox 18- */
+	  @include bold(13px, $negro);
+	  text-transform: uppercase;
+	  letter-spacing: 4px;
+	  text-align: left;
+	   @media(max-width:1024px){
+	      @include font-size(11px);
+	    }
+	}
+
+	.form-control{
+		text-align: left;
+		border: none;
+		border-radius: 0 !important;
+		&:hover, &:focus{
+			outline: none;
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

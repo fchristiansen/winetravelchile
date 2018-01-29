@@ -1,0 +1,49 @@
+.content-menu{
+  margin-bottom: 4rem;
+}
+.caluga{
+  overflow: hidden;
+  @media(max-width: 767px){
+    margin-bottom: 15px;
+  }
+  a.caluga-enlace{
+    position: relative;
+    display: block;
+    cursor: pointer;
+        .caluga-title {
+          @include regular(55px, #FFFEFD );
+          letter-spacing: 4px;
+          @include centerer(true, true);
+        // top: 55%;
+          opacity: 1;
+          transition: all 0.3s ease-in-out;
+          z-index: 1;
+            @media(max-width: 1024px){
+               @include font-size(33px);
+               opacity: 1;
+               top: 50%;
+               transition: none;
+            }
+            @media(max-width: 768px){
+                @include font-size(26px);
+            }
+            @media(max-width: 767px){
+                @include font-size(33px);
+            }
+
+        }
+        .caluga-img {
+          transform: scale(1);
+          transition: all 0.5s ease-in-out;
+          width: 100%;
+        }
+
+        &:hover {
+          @media(min-width: 1025px){
+             .caluga-img {
+               transform: scale(1.05);
+             }
+          }
+        }
+  }
+}

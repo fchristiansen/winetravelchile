@@ -1,0 +1,188 @@
+// section.nav-top-wrapper{
+//   background-color: $gris;
+//   .nav-top{
+//     min-height: 30px;
+//     .nav-top-carro-wrapper{
+//       .fa-circle{
+//         font-size: 24px;
+//         margin-top: 3px;
+//       }
+//         .fa-inverse{
+//        //   @include regular(13px, white);
+//           font-family: $font-stack;
+//           font-weight: 400;
+//           color: white;
+//           font-size: 12px;
+//           margin-top: -1px;
+//         }
+//         a{
+//            @include regular(12px, $negro);
+//            text-transform: uppercase;
+//            @include link;
+//            letter-spacing: 4px;
+//            @media(max-width: 767px){
+//             @include font-size(10px);
+//             letter-spacing: 2px;
+//            }
+
+//         }
+//     }
+
+//     ul{
+//       @include centerer(false, true);
+//       right: 130px;
+//       min-height: 30px;
+//        @media(max-width: 767px){
+//         right: auto;
+//         left: 4px;
+//     }
+//       li{
+//           &.divider{
+//            // padding: 0;
+//                 font-size: 12px;
+//                 margin: 0 3px;
+//           }
+//         a{
+//           @include regular(11px, $negro);
+//           text-transform: uppercase;
+//           @include link;
+//           letter-spacing: 4px;
+//           @media(max-width: 767px){
+//            @include font-size(10px);
+//            letter-spacing: 2px;
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
+
+// .barra-nav-wrapper{
+//   position: relative;
+//   background-color: white;
+//  // border-bottom: 1px solid $cafe;
+//   @media(min-width: 991px){
+//    // min-height: 160px;
+//   }
+//   .logo-xs{
+//       @include centerer(true, false);
+//       top: 10px;
+//       margin: 0;
+//       }
+//   .nav-container{
+//     width: 100%;
+//     margin-right: auto;
+//     margin-left: auto;
+//     @media(min-width: 1200px){
+//       max-width: 1300px;
+//     }
+//     @media(min-width: 991px){
+//         @include centerer(true, true);
+//         z-index: 100;
+//     }
+//     button.navbar-toggler{
+//       border-color: transparent;
+//     }
+
+//     #main-nav-wrapper{
+//       ul#main-nav{
+//         li{
+//           a{
+//             &.nav-link{
+//               @include regular(13px, $negro);
+//               text-transform: uppercase;
+//               letter-spacing: 4px;
+//               @include link;
+//               text-align: right;
+//               @media(min-width: 992px){
+//                   padding-right: 0.8rem;
+//                   padding-left: 0.8rem;
+//                   text-align: left;
+
+//               }
+
+//             }
+//             &.dropdown-item{
+//               @include regular(11px, $negro);
+//               text-transform: uppercase;
+//               letter-spacing: 4px;
+//               //border-bottom: 1px solid $cafe;
+//               text-align: right;
+//               padding: 0.3rem 0.5rem;
+//               border-bottom: 1px solid transparent;
+
+//               @include link;
+//              // transition: none;
+//               &:hover, &:focus{
+//                 border-bottom: 1px solid $cafe;
+//               }
+//               @media(max-width: 991px){
+//                   text-align: right;
+//               }
+//             }
+//           }
+//           .dropdown-menu{
+//             background-color: white;
+//             border-radius: 0;
+//             //padding: 0;
+//             top: 25px;
+//             left: -46px;
+//             border: none;
+//           }
+//         }
+//       }
+//     }
+//   }
+
+// }
+
+#main-nav{
+	margin-bottom: 0;
+	background-color: $gris;
+	border-radius: 0;
+	border-color: $gris;
+	min-height: 100px;
+	.search-wrapper{
+		float: right;
+		width: 100%;
+		margin: 20px 0 20px 0;
+		form{
+			margin: 0;
+			padding: 0;
+			&.navbar-form {
+				border-top: none;
+				border-bottom: none;
+			}
+			.form-control{
+				border-radius: 0;
+				height: 30px;
+				border-color: transparent;
+				background-color: $gris-oscuro;
+				color: white;
+				margin-right: 10px;
+			}
+		}
+	}
+
+	ul{
+		li{
+			color: white;
+			&.active a {
+				background-color: none;
+				color: lighten($vino, 20%);
+
+			}
+			a{
+				@include link;
+				color: white;
+				text-transform: uppercase;
+				@include font-size(18px);
+				font-family: $montserrat;
+				padding: 0 10px;
+				line-height: normal;
+			}
+		}
+	}
+
+}
+

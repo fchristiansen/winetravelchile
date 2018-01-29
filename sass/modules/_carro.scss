@@ -1,0 +1,64 @@
+section.carro{
+	h2{
+		@include regular(25px, $negro);
+		text-transform: uppercase;
+		letter-spacing: 4px;
+	}
+
+	table#bolsa{
+		width: 100%;
+		thead{
+			tr{
+				th{
+
+					border: none;
+					@include font-size(13px);
+					text-transform: uppercase;
+					letter-spacing: 4px;
+
+				}
+			}
+		} // thead
+		tbody{
+			tr{
+				.precio-total{
+					@include bold(21px, $negro);
+					line-height: 26px;
+				}
+				.btn-negro{
+					@include boton-negro;
+				}
+				.btn-pagar{
+					@include boton-negro;
+				}
+				.btn-update{
+					@include boton-negro;
+					background-color: white;
+					color: $negro;
+
+				}
+				td{
+					&.thumb-producto{
+						width: 20%;
+					}
+					border: none;
+					@include bold(15px, $negro);
+					letter-spacing: 4px;
+					text-transform: uppercase;
+					h3{
+						@include bold(13px, $negro);
+					}
+					p{
+						@include light(14px, $negro);
+						&.texto-negro{
+							font-weight: 400;
+						}
+					}
+					a{
+						@include bold(13px, $negro);
+					}
+				}
+			}
+		}
+	} // tabla bolsa
+}

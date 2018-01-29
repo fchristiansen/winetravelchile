@@ -1,0 +1,49 @@
+section.faq-wrapper{
+  padding: 40px 0 80px 0;
+  background-color: $rosa;
+  #faq {
+    .card{
+      background-color: $rosa;
+      border: none;
+      .card-header{
+        background-color: $rosa;
+        border-bottom-color:#B8ACAC;
+        padding: 40px 0 20px 0;
+        position: relative;
+        .fa{
+          @include centerer(false, true);
+          right: 20px;
+        }
+        a{
+          display: block;
+          @include bold(16px, $negro);
+        }
+      }
+      .card-block{
+        padding: 30px;
+        ul{
+           @include font-size(16px);
+          li{
+            margin: 0 0 10px 0;
+
+            a{
+              font-weight: bold;
+              color: black;
+              &:hover, &:focus{
+
+              }
+            }
+          }
+        }
+        p{
+            @include font-size(16px);
+        }
+        strong{
+          @include bold(16px, black);
+          text-transform: uppercase;
+          font-style: italic;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+section.instagram-wrapper {
+  padding: 2.5rem;
+  height: 100%;
+  border: 1px solid $cafe;
+ // min-height: 360px;
+  margin-bottom: 40px;
+  position: relative;
+  h2{
+    background-color: #fff;
+    @include regular(16px, $cafe);
+    text-transform: uppercase;
+    @include centerer(true, false);
+    padding: 0px 24px;
+    top: -12px;
+    letter-spacing: 4px;
+    text-align: center;
+    @media(max-width: 768px){
+      top:-27px;
+      @include font-size(16px);
+      padding: 0 12px;
+      margin-bottom: 0;
+    }
+  }
+
+}

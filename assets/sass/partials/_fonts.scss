@@ -23,9 +23,7 @@ $size: 16px;
   font-size: $size;
   font-size: calculateRem($size);
 }
-html {
-    font-size: 100%;
-}
+
 
 body {
   font-family:$font-stack;

@@ -2,10 +2,14 @@
 <?php include('main-nav.php'); ?>
 <?php include('slider-home.php'); ?>
 
-
-	<div class="container">
+<section id="intro" class="position-relative">
+	<div class="uva"></div>
+	<div class="parra"></div>
+	<div class="vina"></div>
+	<div class="bloque-blanco-top-content"></div>
+	<div class="container no-padding">
 		<div class="row">
-			<div class="bloque clearfix">
+			<div class="bloque clearfix pl-50">
 				<div class="col-sm-6">
 					<h4> Private Wine and Food Experience</h4>
 					<p>
@@ -20,7 +24,7 @@
 
 				</div>
 				<div class="col-sm-6">
-					<div class="picture-r">
+					<div class="picture-r clearfix">
 						<div class="bg-picture-r">
 							<img class="img-responsive picture" src="assets/img/bg1.png" alt="">
 						</div>
@@ -34,7 +38,7 @@
 			</div>
 			<div class="bloque clearfix">
 				<div class="col-sm-6">
-					<div class="picture-r">
+					<div class="picture-r clearfix">
 						<div class="bg-picture-r">
 							<img class="img-responsive picture" src="assets/img/img2.png" alt="">
 						</div>
@@ -51,13 +55,13 @@
 					</div>
 				</div>
 			</div>
-
-
 			</div>
 		</div>
+</section>
+
 		<section id="guided">
-			<div class="container-fluid bg-gris-2 no-padding mt-50">
-				<img id="img-chile" src="assets/img/chile.png" alt="">
+			<div class="container-fluid bg-gris-2 no-padding mt-50 position-relative">
+				<img class="visible-md visible-lg" id="img-chile" src="assets/img/chile.png" alt="">
 				<div class="container box-padding">
 					<div class="row">
 						<div class="bloque clearfix">
@@ -75,7 +79,7 @@
 								</div>
 							</div>
 							<div class="col-sm-6">
-								<div class="picture-r">
+								<div class="picture-r clearfix">
 									<div class="bg-picture-r">
 										<img class="img-responsive picture" src="assets/img/img4.png" alt="">
 									</div>
@@ -86,7 +90,36 @@
 					</div>
 				</div>
 			</div>
-		</section>
+		</section> <!-- guided -->
+		<section id="recomended" class="">
+			<div class="container">
+				<div class="row">
+						<h3>recommended by</h3>
+					<div class="logos-recomended clearfix">
+						<div class="col-sm-2">
+							<img class="img-responsive center-block" src="assets/img/logo-travel.png" alt="">
+						</div>
+						<div class="col-sm-2">
+							<img class="img-responsive center-block" src="assets/img/logo-frommers.png" alt="">
+						</div>
+						<div class="col-sm-2">
+							<img class="img-responsive center-block" src="assets/img/logo-harpers.png" alt="">
+						</div>
+						<div class="col-sm-2">
+							<img class="img-responsive center-block" src="assets/img/logo-decanter.png" alt="">
+						</div>
+						<div class="col-sm-2">
+							<img class="img-responsive center-block" src="assets/img/logo-placeres.png" alt="">
+						</div>
+						<div class="col-sm-2">
+							<img class="img-responsive center-block" src="assets/img/logo-cav.png" alt="">
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+		</section> <!-- recomended -->
 
 
 </div>

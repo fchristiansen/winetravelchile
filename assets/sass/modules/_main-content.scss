@@ -1,5 +1,53 @@
-div.main-content{
+section#intro{
+	.uva{
+		background:url(../img/uvas.png) no-repeat;
+		background-position: center;
+		background-size: cover;
+		position: absolute;
+		right:0;
+		top: 440px;
+		width: 138px;
+		height: 376px;
+	}
+	.vina{
+		background:url(../img/vina.png) no-repeat;
+		background-position: center;
+		background-size: cover;
+		position: absolute;
+		right:0;
+		top: 180px;
+		width: 519px;
+		height: 188px;
+	}
+	.parra{
+		background:url(../img/rama.png) no-repeat;
+		background-position: center;
+		background-size: cover;
+		position: absolute;
+		left:0;
+		top:0;
+		width: 220px;
+		height: 272px;
+	}
+}
+section#guided{
 
+	#img-chile{
+		position: absolute;
+		bottom: -570px;
+	}
+}
+
+section#recomended{
+	//min-height: 190px;
+	padding: 30px 0;
+	h3{
+		text-transform: uppercase;
+		@include font-size(15px);
+		font-family: $montserrat;
+		text-align: center;
+		margin-bottom: 40px;
+	}
 }
 
 

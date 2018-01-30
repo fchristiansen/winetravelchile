@@ -1,4 +1,17 @@
 
+.section{
+    padding: 5rem 0 3rem 0;
+}
+.bloque-blanco-top-content{
+	display: block;
+	width: 100%;
+	min-height: 82px;
+	background-color: #fff;
+	@include centerer(true, false);
+	top: -80px;
+	max-width: 1170px;
+	z-index: 100;
+}
 .pt-200{
 	padding-top: 200px;
 }
@@ -7,11 +20,17 @@
 }
 .bg-gris-2{
 	background-color:#f8f6ef;
+	overflow: hidden;
 }
 
 .box-padding{
-	padding: 90px 0;
-
+	padding: 120px 0;
+}
+.pl-50{
+	padding-left: 50px;
+	@media(max-width:768px){
+		padding-left: 15px;
+	}
 }
 .bloque{
 	margin-bottom: 0px;
@@ -67,7 +86,7 @@
 		//position: absolute;
 		//right: 0;
 		position: relative;
-		width: 90%;
+		width: 85%;
 		float: right;
 		display: block;
 		z-index: 0;
@@ -75,7 +94,12 @@
 	}
 }
 
-
+.position-relative{
+	position: relative !important;
+}
+.position-absolute{
+	position: absolute !important;
+}
 .divisor{
 	display: block;
 	height: 2px;
@@ -246,9 +270,7 @@ input[type="password"]:-moz-placeholder
       @include font-size(11px);
     }
 }
-.section{
-    padding: 5rem 0 3rem 0;
-}
+
 .linea{
 
   width: 100%;
@@ -338,8 +360,28 @@ td.border-top-cafe{
 	&:hover, &:active, &:focus{
 		background-color:darken($vino, 30%);
 		border-color: darken($vino, 30%);
+		color: white;
 	}
 }
+.bt-submit{
+
+	background-color: #a53b69;
+	border-color: darken(#a53b69, 10%);
+	@include font-size(18px);
+	text-transform: uppercase;
+	color: white;
+	border-radius: 0;
+	transition: all 0.2s ease-in-out;
+	width: 170px;
+	height: 60px;
+	font-family: $montserrat;
+		&:hover, &:active, &:focus{
+			background-color:darken(#a53b69, 30%);
+			border-color: darken(#a53b69, 30%);
+			color: white;
+		}
+}
+
 
 
 

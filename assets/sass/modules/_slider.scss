@@ -99,12 +99,14 @@ section.slider-home {
     	.carousel-info{
     	    @include centerer(true, true);
     	    z-index: 2;
-    	    .carousel-info-inner {
+    	    top: 35%;
+    	    .carousel-info-inner{
     	    	text-align: center;
     	    	h2{
     				font-family: $prata;
 					color: white;
 					@include font-size(80px);
+					margin: 0;
     			//	text-transform: uppercase;
     				//letter-spacing: 4px;
     				//margin-bottom: 40px;

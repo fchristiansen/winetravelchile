@@ -75,6 +75,8 @@ body { font-family: "Quicksand", Helvetica, Arial, sans-serif; }
 
 .no-padding { padding: 0 !important; display: block !important; }
 
+@media (max-width: 991px) { .no-padding { padding-left: 15px !important; padding-right: 15px !important; } }
+
 .no-margin { margin: 0 !important; display: block !important; }
 
 .clear { clear: both; }

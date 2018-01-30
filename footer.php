@@ -79,7 +79,7 @@
 
 			</div>
 		</div>
-	</div>
+
 </footer>
 <div class="container-fluid no-pad clearfix rrss-container">
 		<div class="container">

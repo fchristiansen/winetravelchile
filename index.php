@@ -1,6 +1,6 @@
 <?php include('header.php'); ?>
 <?php include('main-nav.php'); ?>
-<?php include('slider-home.php'); ?>
+<?php //include('slider-home.php'); ?>
 
 <section id="intro" class="position-relative">
 	<div class="uva"></div>
@@ -121,6 +121,4 @@
 			</div>
 		</section> <!-- recomended -->
 
-
-</div>
-<?php include('footer.php'); ?>
+<?php //include('footer.php'); ?>

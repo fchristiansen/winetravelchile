@@ -1,7 +1,79 @@
 
+.pt-200{
+	padding-top: 200px;
+}
+.mt-50{
+	margin-top: 50px;
+}
+.bg-gris-2{
+	background-color:#f8f6ef;
+}
+
+.box-padding{
+	padding: 90px 0;
+
+}
+.bloque{
+	margin-bottom: 0px;
+	margin-top: 50px;
+	h4{
+		font-family: $prata;
+		color: $vino;
+		text-transform: uppercase;
+		@include font-size(46px);
+		margin-bottom: 50px;
+	}
+	p{
+		font-family: $montserrat;
+		font-weight: 300;
+		color: #616552;
+		line-height: 28px;
+		//text-transform: uppercase;
+		@include font-size(15px);
+		a{
+			color: $vino;
+			text-decoration: none;
+		}
+	}
+}
+.title-about{
+	padding-top: 30px;
+	img{
+		margin: 30px auto;
+	}
+}
+.title-vino{
+	color: $vino;
+	font-family: $montserrat;
+	letter-spacing:4px;
+	text-align: center;
+	@include font-size(22px);
+	margin: 20px auto;
+}
 
 
+.picture-r{
+	position: relative;
+	.picture {
+		//position: absolute;
+		//left: 30px;
+		z-index: 1;
+		@include centerer(false, true);
+		right: 30px;
 
+	}
+	.bg-picture-r{
+		background-color: #e2ddbe;
+		//position: absolute;
+		//right: 0;
+		position: relative;
+		width: 90%;
+		float: right;
+		display: block;
+		z-index: 0;
+		min-height: 350px;
+	}
+}
 
 
 .divisor{
@@ -61,15 +133,13 @@
     }
 }
 
-.container-fluid{
-  //background-color: blue;
-}
-.container{
-   // background-color: tomato;
-    @media(min-width: 1200px){
-      max-width: 1300px;
-  }
-}
+
+// .container{
+
+//     @media(min-width: 1200px){
+//       max-width: 1300px;
+//   }
+// }
 .overflow-hidden{
   overflow: hidden !important;
   display: block;
@@ -177,7 +247,7 @@ input[type="password"]:-moz-placeholder
     }
 }
 .section{
-    padding: 2rem 0 4rem 0;
+    padding: 5rem 0 3rem 0;
 }
 .linea{
 

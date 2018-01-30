@@ -1,9 +1,36 @@
-@import url("https://fonts.googleapis.com/css?family=Quicksand:300,400,700");
 * { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 
 html { font-size: 100%; }
 
 body { font-family: "Quicksand", Helvetica, Arial, sans-serif; }
+
+.pt-200 { padding-top: 200px; }
+
+.mt-50 { margin-top: 50px; }
+
+.bg-gris-2 { background-color: #f8f6ef; }
+
+.box-padding { padding: 90px 0; }
+
+.bloque { margin-bottom: 0px; margin-top: 50px; }
+
+.bloque h4 { font-family: "Prata", serif; color: #682944; text-transform: uppercase; font-size: 46px; font-size: 2.875rem; margin-bottom: 50px; }
+
+.bloque p { font-family: "Montserrat", sans-serif; font-weight: 300; color: #616552; line-height: 28px; font-size: 15px; font-size: 0.9375rem; }
+
+.bloque p a { color: #682944; text-decoration: none; }
+
+.title-about { padding-top: 30px; }
+
+.title-about img { margin: 30px auto; }
+
+.title-vino { color: #682944; font-family: "Montserrat", sans-serif; letter-spacing: 4px; text-align: center; font-size: 22px; font-size: 1.375rem; margin: 20px auto; }
+
+.picture-r { position: relative; }
+
+.picture-r .picture { z-index: 1; position: absolute; top: 50%; -webkit-transform: translate(0, -50%); -ms-transform: translate(0, -50%); transform: translate(0, -50%); right: 30px; }
+
+.picture-r .bg-picture-r { background-color: #e2ddbe; position: relative; width: 90%; float: right; display: block; z-index: 0; min-height: 350px; }
 
 .divisor { display: block; height: 2px; }
 
@@ -18,8 +45,6 @@ body { font-family: "Quicksand", Helvetica, Arial, sans-serif; }
 #return-to-top .fa-chevron-up { color: #fff; margin: 0; position: absolute; position: absolute; right: 0; top: -20px; font-size: 18px; color: black; transition: all 0.3s ease; }
 
 #return-to-top:hover .fa-chevron-up { top: -24px; }
-
-@media (min-width: 1200px) { .container { max-width: 1300px; } }
 
 .overflow-hidden { overflow: hidden !important; display: block; }
 
@@ -53,7 +78,7 @@ input[type="email"]:-moz-placeholder, input[type="text"]:-moz-placeholder, input
 
 @media (max-width: 1024px) { input[type="email"]:-moz-placeholder, input[type="text"]:-moz-placeholder, input[type="password"]:-moz-placeholder { font-size: 11px; font-size: 0.6875rem; } }
 
-.section { padding: 2rem 0 4rem 0; }
+.section { padding: 5rem 0 3rem 0; }
 
 .linea { width: 100%; height: 2px; border-top: 1px solid #86754D; display: block; }
 
@@ -82,7 +107,11 @@ td.border-top-cafe { border-top: 1px solid #86754D !important; }
 
 .bt-vino:hover, .bt-vino:active, .bt-vino:focus { background-color: black; border-color: black; }
 
-#main-nav { margin-bottom: 0; background-color: #313131; border-radius: 0; border-color: #313131; min-height: 100px; }
+.navbar-brand { position: absolute; display: block; top: 20px; z-index: 100; width: 170px; height: auto; padding: 0; }
+
+.navbar-brand img { width: 170px; height: auto; }
+
+#main-nav { margin-bottom: 0; background-color: #313131; border-radius: 0; border-color: #313131; min-height: 110px; }
 
 #main-nav .search-wrapper { float: right; width: 100%; margin: 20px 0 20px 0; }
 
@@ -94,9 +123,11 @@ td.border-top-cafe { border-top: 1px solid #86754D !important; }
 
 #main-nav ul li { color: white; }
 
-#main-nav ul li.active a { background-color: none; color: #b14674; }
+#main-nav ul li.active { background-color: transparent; }
 
-#main-nav ul li a { transition: all 0.2s ease-in-out; color: #000000; cursor: pointer; color: white; text-transform: uppercase; font-size: 18px; font-size: 1.125rem; font-family: "Montserrat", sans-serif; padding: 0 10px; line-height: normal; }
+#main-nav ul li.active a { background-color: transparent; color: #b14674; }
+
+#main-nav ul li a { transition: all 0.2s ease-in-out; color: #000000; cursor: pointer; color: white; text-transform: uppercase; font-size: 16px; font-size: 1rem; font-family: "Montserrat", sans-serif; padding: 0 10px; line-height: normal; }
 
 #main-nav ul li a:hover, #main-nav ul li a:focus { text-decoration: none; color: #682944; }
 

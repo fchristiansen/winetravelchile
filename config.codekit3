@@ -9,11 +9,353 @@
 	],
 "creatorBuild": "26148",
 "files": {
-	"\/.gitignore": {
+	"\/_sources\/fonts.zip": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/.gitignore",
+		"oAP": "\/_sources\/fonts.zip",
+		"oF": 0
+		},
+	"\/_sources\/fonts\/montserrat\/Montserrat-Black.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_sources\/fonts\/montserrat\/Montserrat-Black.otf",
+		"oF": 0
+		},
+	"\/_sources\/fonts\/montserrat\/Montserrat-Bold.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_sources\/fonts\/montserrat\/Montserrat-Bold.otf",
+		"oF": 0
+		},
+	"\/_sources\/fonts\/montserrat\/Montserrat-ExtraBold.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_sources\/fonts\/montserrat\/Montserrat-ExtraBold.otf",
+		"oF": 0
+		},
+	"\/_sources\/fonts\/montserrat\/Montserrat-Hairline.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_sources\/fonts\/montserrat\/Montserrat-Hairline.otf",
+		"oF": 0
+		},
+	"\/_sources\/fonts\/montserrat\/Montserrat-Light.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_sources\/fonts\/montserrat\/Montserrat-Light.otf",
+		"oF": 0
+		},
+	"\/_sources\/fonts\/montserrat\/Montserrat-Regular.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_sources\/fonts\/montserrat\/Montserrat-Regular.otf",
+		"oF": 0
+		},
+	"\/_sources\/fonts\/montserrat\/Montserrat-SemiBold.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_sources\/fonts\/montserrat\/Montserrat-SemiBold.otf",
+		"oF": 0
+		},
+	"\/_sources\/fonts\/montserrat\/Montserrat-UltraLight.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_sources\/fonts\/montserrat\/Montserrat-UltraLight.otf",
+		"oF": 0
+		},
+	"\/_sources\/fonts\/prata\/Prata-Regular.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_sources\/fonts\/prata\/Prata-Regular.ttf",
+		"oF": 0
+		},
+	"\/_sources\/material-psd y jpg.zip": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_sources\/material-psd y jpg.zip",
+		"oF": 0
+		},
+	"\/_sources\/material-psd y jpg\/JPG\/chilewine-interior--Casual-White-&-Red-Wine-Experience.jpg": {
+		"ft": 16384,
+		"iS": 3027260,
+		"oA": 0,
+		"oAP": "\/_sources\/material-psd y jpg\/JPG\/chilewine-interior--Casual-White-&-Red-Wine-Experience.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_sources\/material-psd y jpg\/JPG\/chilewine-interior--Chilean-Wine-Route.jpg": {
+		"ft": 16384,
+		"iS": 3166359,
+		"oA": 0,
+		"oAP": "\/_sources\/material-psd y jpg\/JPG\/chilewine-interior--Chilean-Wine-Route.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_sources\/material-psd y jpg\/JPG\/chilewine-interior--organicandbiodynamic-experience.jpg": {
+		"ft": 16384,
+		"iS": 3007644,
+		"oA": 0,
+		"oAP": "\/_sources\/material-psd y jpg\/JPG\/chilewine-interior--organicandbiodynamic-experience.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_sources\/material-psd y jpg\/JPG\/chilewine-interior--TAILOR-MADE-EXPERIENCES-OK.jpg": {
+		"ft": 16384,
+		"iS": 1990535,
+		"oA": 0,
+		"oAP": "\/_sources\/material-psd y jpg\/JPG\/chilewine-interior--TAILOR-MADE-EXPERIENCES-OK.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_sources\/material-psd y jpg\/JPG\/chilewine-interior-ABOUT-press.jpg": {
+		"ft": 16384,
+		"iS": 1446740,
+		"oA": 0,
+		"oAP": "\/_sources\/material-psd y jpg\/JPG\/chilewine-interior-ABOUT-press.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_sources\/material-psd y jpg\/JPG\/chilewine-interior-ABOUT-team-OK.jpg": {
+		"ft": 16384,
+		"iS": 1829597,
+		"oA": 0,
+		"oAP": "\/_sources\/material-psd y jpg\/JPG\/chilewine-interior-ABOUT-team-OK.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_sources\/material-psd y jpg\/JPG\/chilewine-interior-ABOUT-testimonials.jpg": {
+		"ft": 16384,
+		"iS": 1361744,
+		"oA": 0,
+		"oAP": "\/_sources\/material-psd y jpg\/JPG\/chilewine-interior-ABOUT-testimonials.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_sources\/material-psd y jpg\/JPG\/chilewine-interior-ABOUT-what-is-winetravel.jpg": {
+		"ft": 16384,
+		"iS": 1360831,
+		"oA": 0,
+		"oAP": "\/_sources\/material-psd y jpg\/JPG\/chilewine-interior-ABOUT-what-is-winetravel.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_sources\/material-psd y jpg\/JPG\/chilewine-interior-Coastal-Wine-Experience.jpg": {
+		"ft": 16384,
+		"iS": 2969868,
+		"oA": 0,
+		"oAP": "\/_sources\/material-psd y jpg\/JPG\/chilewine-interior-Coastal-Wine-Experience.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_sources\/material-psd y jpg\/JPG\/chilewine-interior-contact.jpg": {
+		"ft": 16384,
+		"iS": 1180177,
+		"oA": 0,
+		"oAP": "\/_sources\/material-psd y jpg\/JPG\/chilewine-interior-contact.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_sources\/material-psd y jpg\/JPG\/chilewine-interior-destinations.jpg": {
+		"ft": 16384,
+		"iS": 1978685,
+		"oA": 0,
+		"oAP": "\/_sources\/material-psd y jpg\/JPG\/chilewine-interior-destinations.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_sources\/material-psd y jpg\/JPG\/chilewine-interior-Luxury-Red-Wine-Experience.jpg": {
+		"ft": 16384,
+		"iS": 2711508,
+		"oA": 0,
+		"oAP": "\/_sources\/material-psd y jpg\/JPG\/chilewine-interior-Luxury-Red-Wine-Experience.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_sources\/material-psd y jpg\/JPG\/chilewine-interior-sitemap.jpg": {
+		"ft": 16384,
+		"iS": 515332,
+		"oA": 0,
+		"oAP": "\/_sources\/material-psd y jpg\/JPG\/chilewine-interior-sitemap.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_sources\/material-psd y jpg\/JPG\/chilewine-menu-contact.jpg": {
+		"ft": 16384,
+		"iS": 849541,
+		"oA": 0,
+		"oAP": "\/_sources\/material-psd y jpg\/JPG\/chilewine-menu-contact.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_sources\/material-psd y jpg\/JPG\/chilewine-selector-menu.jpg": {
+		"ft": 16384,
+		"iS": 1430932,
+		"oA": 0,
+		"oAP": "\/_sources\/material-psd y jpg\/JPG\/chilewine-selector-menu.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_sources\/material-psd y jpg\/JPG\/chilewine.jpg": {
+		"ft": 16384,
+		"iS": 2196164,
+		"oA": 0,
+		"oAP": "\/_sources\/material-psd y jpg\/JPG\/chilewine.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_sources\/material-psd y jpg\/PSD\/chilewine-1518.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_sources\/material-psd y jpg\/PSD\/chilewine-1518.psd",
+		"oF": 0
+		},
+	"\/_sources\/material-psd y jpg\/PSD\/chilewine-interior- Casual White & Red Wine Experience.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_sources\/material-psd y jpg\/PSD\/chilewine-interior- Casual White & Red Wine Experience.psd",
+		"oF": 0
+		},
+	"\/_sources\/material-psd y jpg\/PSD\/chilewine-interior- Chilean Wine Route.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_sources\/material-psd y jpg\/PSD\/chilewine-interior- Chilean Wine Route.psd",
+		"oF": 0
+		},
+	"\/_sources\/material-psd y jpg\/PSD\/chilewine-interior- organicandbiodynamic-experience.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_sources\/material-psd y jpg\/PSD\/chilewine-interior- organicandbiodynamic-experience.psd",
+		"oF": 0
+		},
+	"\/_sources\/material-psd y jpg\/PSD\/chilewine-interior- TAILOR-MADE EXPERIENCES-OK.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_sources\/material-psd y jpg\/PSD\/chilewine-interior- TAILOR-MADE EXPERIENCES-OK.psd",
+		"oF": 0
+		},
+	"\/_sources\/material-psd y jpg\/PSD\/chilewine-interior-ABOUT-press.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_sources\/material-psd y jpg\/PSD\/chilewine-interior-ABOUT-press.psd",
+		"oF": 0
+		},
+	"\/_sources\/material-psd y jpg\/PSD\/chilewine-interior-ABOUT-team-OK.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_sources\/material-psd y jpg\/PSD\/chilewine-interior-ABOUT-team-OK.psd",
+		"oF": 0
+		},
+	"\/_sources\/material-psd y jpg\/PSD\/chilewine-interior-ABOUT-testimonials.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_sources\/material-psd y jpg\/PSD\/chilewine-interior-ABOUT-testimonials.psd",
+		"oF": 0
+		},
+	"\/_sources\/material-psd y jpg\/PSD\/chilewine-interior-ABOUT-what is winetravel.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_sources\/material-psd y jpg\/PSD\/chilewine-interior-ABOUT-what is winetravel.psd",
+		"oF": 0
+		},
+	"\/_sources\/material-psd y jpg\/PSD\/chilewine-interior-Coastal Wine Experience.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_sources\/material-psd y jpg\/PSD\/chilewine-interior-Coastal Wine Experience.psd",
+		"oF": 0
+		},
+	"\/_sources\/material-psd y jpg\/PSD\/chilewine-interior-contact.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_sources\/material-psd y jpg\/PSD\/chilewine-interior-contact.psd",
+		"oF": 0
+		},
+	"\/_sources\/material-psd y jpg\/PSD\/chilewine-interior-destinations.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_sources\/material-psd y jpg\/PSD\/chilewine-interior-destinations.psd",
+		"oF": 0
+		},
+	"\/_sources\/material-psd y jpg\/PSD\/chilewine-interior-Luxury Red Wine Experience.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_sources\/material-psd y jpg\/PSD\/chilewine-interior-Luxury Red Wine Experience.psd",
+		"oF": 0
+		},
+	"\/_sources\/material-psd y jpg\/PSD\/chilewine-interior-sitemap.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_sources\/material-psd y jpg\/PSD\/chilewine-interior-sitemap.psd",
+		"oF": 0
+		},
+	"\/_sources\/material-psd y jpg\/PSD\/chilewine-menu-contact.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_sources\/material-psd y jpg\/PSD\/chilewine-menu-contact.psd",
+		"oF": 0
+		},
+	"\/_sources\/material-psd y jpg\/PSD\/chilewine.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_sources\/material-psd y jpg\/PSD\/chilewine.psd",
 		"oF": 0
 		},
 	"\/assets\/css\/custom.css": {
@@ -167,6 +509,39 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/assets\/img\/bg1.png": {
+		"ft": 32768,
+		"iS": 351207,
+		"oA": 0,
+		"oAP": "\/assets\/img\/bg1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/cava.png": {
+		"ft": 32768,
+		"iS": 53237,
+		"oA": 0,
+		"oAP": "\/assets\/img\/cava.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/chile.png": {
+		"ft": 32768,
+		"iS": 51599,
+		"oA": 0,
+		"oAP": "\/assets\/img\/chile.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/img\/close.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -176,6 +551,28 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/assets\/img\/img2.png": {
+		"ft": 32768,
+		"iS": 305405,
+		"oA": 0,
+		"oAP": "\/assets\/img\/img2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/img4.png": {
+		"ft": 32768,
+		"iS": 351397,
+		"oA": 0,
+		"oAP": "\/assets\/img\/img4.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/img\/logo.svg": {
 		"ft": 2097152,
@@ -189,7 +586,7 @@
 		},
 	"\/assets\/img\/next.png": {
 		"ft": 32768,
-		"iS": 384,
+		"iS": 1076,
 		"oA": 0,
 		"oAP": "\/assets\/img\/next.png",
 		"oF": 0,
@@ -211,7 +608,7 @@
 		},
 	"\/assets\/img\/prev.png": {
 		"ft": 32768,
-		"iS": 348,
+		"iS": 1076,
 		"oA": 0,
 		"oAP": "\/assets\/img\/prev.png",
 		"oF": 0,
@@ -1249,16 +1646,6 @@
 		"oAP": "\/assets\/sass\/.sass-cache\/e7fd34000dbb62de6401c6a84a0b0eaad82c143f\/_value-prefixer.scssc",
 		"oF": 0
 		},
-	"\/assets\/sass\/custom.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/sass\/custom-min.css",
-		"oF": 0,
-		"oS": 3
-		},
 	"\/assets\/sass\/custom.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1359,6 +1746,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/assets\/sass\/modules\/_instagram.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/sass\/modules\/_main-content.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/sass\/modules\/_main-content.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1480,11 +1880,39 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/index.html": {
+	"\/footer.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/index.html",
+		"oAP": "\/footer.php",
+		"oF": 0
+		},
+	"\/header.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/header.php",
+		"oF": 0
+		},
+	"\/index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/index.php",
+		"oF": 0
+		},
+	"\/main-nav.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/main-nav.php",
+		"oF": 0
+		},
+	"\/slider-home.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/slider-home.php",
 		"oF": 0
 		}
 	},
@@ -1500,7 +1928,7 @@
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
-	"alwaysUseExternalServer": 0,
+	"alwaysUseExternalServer": 1,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",

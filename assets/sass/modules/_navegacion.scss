@@ -136,47 +136,68 @@
 
 // }
 
+
+	.navbar-brand{
+		//background:url() no-repeat;
+		position: absolute;
+		display: block;
+		top: 20px;
+		z-index: 100;
+		width: 170px;
+		height: auto;
+		padding: 0;
+		//height: auto;
+		img{
+			width: 170px;
+			height: auto;
+		}
+	}
+
+
 #main-nav{
 	margin-bottom: 0;
 	background-color: $gris;
 	border-radius: 0;
 	border-color: $gris;
-	min-height: 100px;
-	.search-wrapper{
-		float: right;
-		width: 100%;
-		margin: 20px 0 20px 0;
-		form{
-			margin: 0;
-			padding: 0;
-			&.navbar-form {
-				border-top: none;
-				border-bottom: none;
-			}
-			.form-control{
-				border-radius: 0;
-				height: 30px;
-				border-color: transparent;
-				background-color: $gris-oscuro;
-				color: white;
-				margin-right: 10px;
+	min-height: 110px;
+		.search-wrapper{
+			float: right;
+			width: 100%;
+			margin: 20px 0 20px 0;
+			form{
+				margin: 0;
+				padding: 0;
+				&.navbar-form {
+					border-top: none;
+					border-bottom: none;
+				}
+				.form-control{
+					border-radius: 0;
+					height: 30px;
+					border-color: transparent;
+					background-color: $gris-oscuro;
+					color: white;
+					margin-right: 10px;
+				}
 			}
 		}
-	}
+
 
 	ul{
 		li{
 			color: white;
+			&.active{
+				background-color: transparent;
+			}
 			&.active a {
-				background-color: none;
+				background-color: transparent;
 				color: lighten($vino, 20%);
-
 			}
 			a{
 				@include link;
 				color: white;
 				text-transform: uppercase;
-				@include font-size(18px);
+				@include font-size(16px);
 				font-family: $montserrat;
 				padding: 0 10px;
 				line-height: normal;

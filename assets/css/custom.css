@@ -392,9 +392,11 @@ section.about .content-about p { font-size: 15px; font-size: 0.9375rem; }
 
 #modal-producto .modal-dialog .modal-content .modal-footer { border-top-color: white; }
 
-footer { background-color: #313131; min-height: 330px; padding: 2rem 0 0 0; position: relative; }
+footer { background-color: #313131; min-height: 330px; padding: 3rem 0 3rem 0; position: relative; }
 
 @media (max-width: 768px) { footer { padding: 0 0 1.5rem 0; } }
+
+footer .box-news-letter { margin-bottom: 30px; }
 
 footer .box-news-letter .texto-sobre { margin-top: 10px; }
 
@@ -419,3 +421,13 @@ footer .box-links-footer ul li a:hover, footer .box-links-footer ul li a:focus {
 footer p.copy { text-align: left; position: relative; font-family: "Montserrat", sans-serif; font-size: 10px; font-size: 0.625rem; text-transform: uppercase; color: #313131; }
 
 @media (max-width: 991px) { footer p.copy { text-align: center; } }
+
+.rrss-container { min-height: 70px; }
+
+ul.rrss { margin: 0; padding: 0; }
+
+ul.rrss li { display: inline-block; margin-bottom: 0 10px; }
+
+ul.rrss li a { transition: all 0.2s ease-in-out; color: #000000; cursor: pointer; }
+
+ul.rrss li a:hover, ul.rrss li a:focus { text-decoration: none; color: #682944; }

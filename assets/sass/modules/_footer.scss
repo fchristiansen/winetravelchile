@@ -31,6 +31,7 @@ footer{
 	}
 
 	.box-links-footer{
+		padding: 0 30px;
 		h4{
 			color:#e3dcd9;
 			@include font-size(14px);
@@ -79,15 +80,22 @@ footer{
 }
 .rrss-container{
 	min-height: 70px;
+	padding-top: 20px;
 }
   	ul.rrss{
        		margin: 0;
         	padding: 0;
+        	float: right;
 	        li{
 	          display:inline-block;
-	          margin-bottom: 0 10px;
+	          //margin-bottom: 0 10px;
+	          margin-right: 15px;
 	          a{
 	            @include link;
+	            opacity: 1;
+	            &:hover, &:focus{
+	            	opacity: 0.8;
+	            }
 	          }
 	          // @media(max-width:991px){
 	          //   &:nth-child(1){

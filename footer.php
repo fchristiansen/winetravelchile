@@ -23,7 +23,7 @@
 			</div>
 		</form>
 			<div class="box-links-footer clearfix">
-				<div class="row">
+				<div class="row no-gutters">
 					<div class="col-sm-3">
 							<h4>chile</h4>
 							<ul>
@@ -90,10 +90,10 @@
 					<div class="col-sm-6">
 						<ul class="rrss">
 							<li>Follow us:</li>
-							<li><a href="">Facebook</a></li>
-							<li><a href="">instagram</a></li>
-							<li><a href="">twitter</a></li>
-							<li><a href="">youtube</a></li>
+							<li><a href=""><img src="assets/img/ico-fb.svg" width="27" alt="facebook"></a></li>
+							<li><a href=""><img src="assets/img/ico-ig.svg" width="31" alt="instagram"></a></li>
+							<li><a href=""><img src="assets/img/ico-tw.svg" width="29" alt="twitter"></a></li>
+							<li><a href=""><img src="assets/img/ico-yt.svg" width="32" alt="youtube"></a></li>
 						</ul>
 					</div>
 			</div>

@@ -152,8 +152,6 @@
 			height: auto;
 		}
 	}
-
-
 #main-nav{
 	margin-bottom: 0;
 	background-color: $gris;
@@ -181,8 +179,6 @@
 				}
 			}
 		}
-
-
 	ul{
 		li{
 			color: white;
@@ -206,4 +202,66 @@
 	}
 
 }
+#sub-menu{
+	position: absolute;
+    min-height: 360px;
+    background: white;
+    width: 100%;
+    top: 110px;
+    z-index: 10001;
+    padding: 40px 0 0 0;
+    background-color: white;
+    // .menu-experiences{
+
+    // }
+}
+
+#sub-menu-experiences-container{
+
+	background-color: $invierno;
+	position: absolute;
+    bottom: 0;
+    width: 100%;
+    .menu-list-wrapper{
+    	position: relative;
+		min-height: 90px;
+	    ul{
+
+			@include centerer(true, true);
+	    	li{
+	    		a{
+	    			padding-top: 0;
+	    			padding-bottom: 0;
+					text-decoration: none;
+					font-family: $prata;
+	    			color: $vino;
+	    			@include font-size(16px);
+	    			 transition: all 0.3s ease-in-out;
+	    			//@include link;
+	    			&:hover{
+	    				background-color: transparent;
+	    				color: $gris-oscuro;
+
+	    			}
+	    			&:focus{
+	    					background-color: transparent;
+	    			}
+	    		}
+	    	}
+	    }
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
 

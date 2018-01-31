@@ -1,35 +1,67 @@
-.content-menu{
-  margin-bottom: 4rem;
-}
+
 .caluga{
   overflow: hidden;
+  -webkit-box-shadow: -5px 2px 20px -1px rgba(0,0,0,0.35);
+-moz-box-shadow: -5px 2px 20px -1px rgba(0,0,0,0.35);
+box-shadow: -5px 2px 20px -1px rgba(0,0,0,0.35);
+
   @media(max-width: 767px){
     margin-bottom: 15px;
   }
+
   a.caluga-enlace{
     position: relative;
     display: block;
     cursor: pointer;
+    	.lente{
+    		width: 100%;
+    		height: 100%;
+    		display: inline-block;
+    		background-color: rgba(0,0,0,0.6);
+    		transition: all 0.3s ease-in-out;
+    		position: absolute;
+    		top: 0;
+    		z-index: 1;
+    		&:hover{
+				background-color: rgba(0,0,0,0.3);
+    		}
+
+    	}
         .caluga-title {
-          @include regular(55px, #FFFEFD );
-          letter-spacing: 4px;
+          @include regular(18px, #ffffff );
           @include centerer(true, true);
-        // top: 55%;
           opacity: 1;
           transition: all 0.3s ease-in-out;
           z-index: 1;
-            @media(max-width: 1024px){
-               @include font-size(33px);
-               opacity: 1;
-               top: 50%;
-               transition: none;
-            }
-            @media(max-width: 768px){
-                @include font-size(26px);
-            }
-            @media(max-width: 767px){
-                @include font-size(33px);
-            }
+          margin: 0;
+          font-family: $montserrat;
+          text-align: center;
+          width: 80%;
+          line-height: normal;
+          &:hover{
+			    	.lente{
+
+							background-color: rgba(0,0,0,0.3);
+
+
+			    	}
+
+          }
+
+
+
+            // @media(max-width: 1024px){
+            //    @include font-size(33px);
+            //    opacity: 1;
+            //    top: 50%;
+            //    transition: none;
+            // }
+            // @media(max-width: 768px){
+            //     @include font-size(26px);
+            // }
+            // @media(max-width: 767px){
+            //     @include font-size(33px);
+            // }
 
         }
         .caluga-img {
@@ -37,13 +69,13 @@
           transition: all 0.5s ease-in-out;
           width: 100%;
         }
-
         &:hover {
           @media(min-width: 1025px){
              .caluga-img {
-               transform: scale(1.05);
+               transform: scale(1.07);
              }
           }
         }
   }
 }
+

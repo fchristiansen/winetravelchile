@@ -78,8 +78,6 @@
 		padding-left: 15px;
 	}
 }
-
-
 .title-about{
 	padding-top: 30px;
 	img{
@@ -95,7 +93,6 @@
 	margin: 20px auto;
 }
 
-
 .picture-r{
 	position: relative;
 	.picture {
@@ -104,7 +101,6 @@
 		z-index: 1;
 		@include centerer(false, true);
 		right: 30px;
-
 	}
 	.bg-picture-r{
 		background-color: #e2ddbe;

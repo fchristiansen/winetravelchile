@@ -142,7 +142,7 @@
 		position: absolute;
 		display: block;
 		top: 20px;
-		z-index: 100;
+		z-index: 1000;
 		width: 170px;
 		height: auto;
 		padding: 0;
@@ -204,12 +204,12 @@
 }
 #sub-menu{
 	position: absolute;
-    min-height: 360px;
+    min-height: 440px;
     background: white;
     width: 100%;
     top: 110px;
-    z-index: 10001;
-    padding: 40px 0 0 0;
+    z-index: 100;
+    padding: 100px 0 0 0;
     background-color: white;
     // .menu-experiences{
 

@@ -1827,6 +1827,13 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/assets\/video\/small.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/video\/small.mp4",
+		"oF": 0
+		},
 	"\/footer.php": {
 		"cB": 0,
 		"ft": 8192,

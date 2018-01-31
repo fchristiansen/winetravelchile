@@ -1,7 +1,7 @@
 <?php include('header.php'); ?>
 <?php include('main-nav.php'); ?>
 <?php include('slider-home.php'); ?>
-<section id="sub-menu">
+<section id="sub-menu" class="hide">
 	<div class="container-fluid no-pad">
 		<div class="container">
 			<div class="row">

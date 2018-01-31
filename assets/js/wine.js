@@ -20,14 +20,16 @@ $('#return-to-top').click(function() {      // When arrow is clicked
 
 
 $('#slider-home').owlCarousel({
-    loop:true,
-    lazyLoad: true,
-    margin:0,
-    dots: false,
-    nav:true,
-    video: true,
-   // autoWidth: true,
-    autoplay: false,
+	loop:true,
+	lazyLoad: true,
+	margin:0,
+	dots: false,
+	nav:true,
+	video: true,
+	// resposive: true,
+	//goToFirstSpeed : 1300,
+	// autoWidth: true,
+	autoplay: false,
     responsive:{
         0:{
             items:1
@@ -41,7 +43,11 @@ $('#slider-home').owlCarousel({
     }
 })
 
+var thumb = $(".owl-video").attr("data-video-thumb");
 
+$(".owl-video-tn").append('<img class="img-responsive"  src="'+thumb+'" alt="">');
+
+console.log(thumb);
 
 // para video html 5
 

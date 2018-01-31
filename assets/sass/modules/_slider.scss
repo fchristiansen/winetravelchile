@@ -50,8 +50,10 @@ section.slider-home {
 	    		}
 
 				.owl-video-wrapper {
-	                min-height: 750px;
-                  	overflow: hidden;
+	              //  min-height: 750px;
+					overflow: hidden;
+					width :100%;
+					height:auto;
                   @media (max-width: 767px){
                       min-height: 400px;
                   }
@@ -74,9 +76,9 @@ section.slider-home {
               }
               .owl-video-tn {
 
-                min-height: 750px;
+                //min-height: 750px;
                   @media (max-width: 767px){
-                      min-height: 500px;
+                  //    min-height: 500px;
                   }
               }
         }

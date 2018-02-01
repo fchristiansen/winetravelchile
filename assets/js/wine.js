@@ -44,9 +44,7 @@ $('#slider-home').owlCarousel({
 })
 
 var thumb = $(".owl-video").attr("data-video-thumb");
-
 $(".owl-video-tn").append('<img class="img-responsive"  src="'+thumb+'" alt="">');
-
 console.log(thumb);
 
 // para video html 5

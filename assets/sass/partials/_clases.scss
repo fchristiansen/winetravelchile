@@ -2,6 +2,12 @@
 .section{
     padding: 5rem 0 3rem 0;
 }
+li.divisor-item-menu{
+	display: none;
+	@media(min-width: 768px){
+		display: block;
+	}
+}
 .bloque-blanco-top-content{
 	display: block;
 	width: 100%;

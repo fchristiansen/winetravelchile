@@ -15,6 +15,9 @@ body { font-family: "Quicksand", Helvetica, Arial, sans-serif; }
 
 .section { padding: 5rem 0 3rem 0; }
 
+li.divisor-item-menu { display: none; }
+@media (min-width: 768px) { li.divisor-item-menu { display: block; } }
+
 .bloque-blanco-top-content { display: block; width: 100%; min-height: 82px; background-color: #fff; position: absolute; left: 50%; -webkit-transform: translate(-50%, 0); -ms-transform: translate(-50%, 0); transform: translate(-50%, 0); top: -80px; max-width: 1170px; z-index: 1; }
 
 .bloque { margin-bottom: 0px; margin-top: 50px; }
@@ -114,19 +117,32 @@ td.border-top-cafe { border-top: 1px solid #86754D !important; }
 .bt-submit { background-color: #a53b69; border-color: #7f2e51; font-size: 18px; font-size: 1.125rem; text-transform: uppercase; color: white; border-radius: 0; transition: all 0.2s ease-in-out; width: 170px; height: 60px; font-family: "Montserrat", sans-serif; }
 .bt-submit:hover, .bt-submit:active, .bt-submit:focus { background-color: #341321; border-color: #341321; color: white; }
 
-.navbar-brand { position: absolute; display: block; top: 20px; z-index: 1000; width: 170px; height: auto; padding: 0; }
-.navbar-brand img { width: 170px; height: auto; }
+.navbar-brand { position: absolute; display: block; top: 20px; z-index: 1000; height: auto; padding: 0; }
+@media (max-width: 768px) { .navbar-brand { left: 50px; } }
+.navbar-brand img#logo-desk { width: 170px; height: auto; }
+@media (max-width: 768px) { .navbar-brand img#logo-desk { width: 130px; } }
+@media (max-width: 767px) { .navbar-brand img#logo-desk { display: none; } }
+
+@media (max-width: 767px) { .logo-xs { display: block; margin-bottom: 20px; } }
+.logo-xs img#logo-mobile { width: 130px; height: auto; }
+@media (min-width: 768px) { .logo-xs img#logo-mobile { display: none; } }
 
 #main-nav { margin-bottom: 0; background-color: #313131; border-radius: 0; border-color: #313131; min-height: 110px; }
 #main-nav .search-wrapper { float: right; width: 100%; margin: 20px 0 20px 0; }
-#main-nav .search-wrapper form { margin: 0; padding: 0; }
+@media (max-width: 767px) { #main-nav .search-wrapper { margin: 40px 0 0 0; } }
+#main-nav .search-wrapper form { margin: 0; padding: 0; box-shadow: none; }
 #main-nav .search-wrapper form.navbar-form { border-top: none; border-bottom: none; }
 #main-nav .search-wrapper form .form-control { border-radius: 0; height: 30px; border-color: transparent; background-color: #282828; color: white; margin-right: 10px; }
-#main-nav ul li { color: white; }
-#main-nav ul li.active { background-color: transparent; }
-#main-nav ul li.active a { background-color: transparent; color: #b14674; }
-#main-nav ul li a { transition: all 0.2s ease-in-out; color: #000000; cursor: pointer; color: white; text-transform: uppercase; font-size: 16px; font-size: 1rem; font-family: "Montserrat", sans-serif; padding: 0 10px; line-height: normal; }
-#main-nav ul li a:hover, #main-nav ul li a:focus { text-decoration: none; color: #682944; }
+@media (max-width: 767px) { #main-nav .search-wrapper form .form-control { height: 60px; } }
+@media (max-width: 767px) { #main-nav ul#nav-list { padding: 20px 0; } }
+#main-nav ul#nav-list li { color: white; }
+#main-nav ul#nav-list li.active { background-color: transparent; }
+#main-nav ul#nav-list li.active a { background-color: transparent; color: #b14674; }
+@media (max-width: 767px) { #main-nav ul#nav-list li { margin-bottom: 30px; } }
+#main-nav ul#nav-list li a { transition: all 0.2s ease-in-out; color: #000000; cursor: pointer; color: white; text-transform: uppercase; font-size: 16px; font-size: 1rem; font-family: "Montserrat", sans-serif; padding: 0 10px; line-height: normal; }
+#main-nav ul#nav-list li a:hover, #main-nav ul#nav-list li a:focus { text-decoration: none; color: #682944; }
+@media (max-width: 1023px) { #main-nav ul#nav-list li a { font-size: 14px; font-size: 0.875rem; } }
+@media (max-width: 767px) { #main-nav ul#nav-list li a { font-size: 20px; font-size: 1.25rem; } }
 
 #sub-menu { position: absolute; min-height: 440px; background: white; width: 100%; top: 110px; z-index: 100; padding: 100px 0 0 0; background-color: white; }
 

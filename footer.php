@@ -23,7 +23,7 @@
 			</div>
 		</form>
 			<div class="box-links-footer clearfix">
-				<div class="row no-gutters">
+				<div class="row">
 					<div class="col-sm-3">
 							<h4>chile</h4>
 							<ul>
@@ -76,25 +76,27 @@
 						</ul>
 					</div>
 				</div>
-
 			</div>
 		</div>
-
 </footer>
-<div class="container-fluid no-pad clearfix rrss-container">
+<div class="container-fluid clearfix rrss-container">
 		<div class="container">
 			<div class="row">
-					<div class="col-sm-6">
-						<p class="copy">WINE TRAVEL CHILE. | 2018 ALL RIGHTS RESERVED.</p>
+
+					<div class="col-xs-12 col-sm-6 col-sm-push-6">
+						<div class="center-xs">
+							<ul class="rrss">
+								<li>Follow us:</li>
+								<li><a href=""><img src="assets/img/ico-fb.svg" width="27" alt="facebook"></a></li>
+								<li><a href=""><img src="assets/img/ico-ig.svg" width="31" alt="instagram"></a></li>
+								<li><a href=""><img src="assets/img/ico-tw.svg" width="29" alt="twitter"></a></li>
+								<li><a href=""><img src="assets/img/ico-yt.svg" width="32" alt="youtube"></a></li>
+							</ul>
+						</div>
+
 					</div>
-					<div class="col-sm-6">
-						<ul class="rrss">
-							<li>Follow us:</li>
-							<li><a href=""><img src="assets/img/ico-fb.svg" width="27" alt="facebook"></a></li>
-							<li><a href=""><img src="assets/img/ico-ig.svg" width="31" alt="instagram"></a></li>
-							<li><a href=""><img src="assets/img/ico-tw.svg" width="29" alt="twitter"></a></li>
-							<li><a href=""><img src="assets/img/ico-yt.svg" width="32" alt="youtube"></a></li>
-						</ul>
+					<div class="col-xs-12 col-sm-6 col-sm-pull-6">
+						<p class="copy">WINE TRAVEL CHILE. | 2018 ALL RIGHTS RESERVED.</p>
 					</div>
 			</div>
 		</div>

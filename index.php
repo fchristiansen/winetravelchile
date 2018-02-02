@@ -72,7 +72,7 @@
 			<div class="parra"></div>
 			<div class="vina"></div>
 			<div class="bloque-blanco-top-content"></div>
-			<div class="container no-padding">
+			<div class="container">
 				<div class="row">
 					<div class="bloque clearfix pl-50">
 						<div class="col-sm-6">
@@ -127,7 +127,7 @@
 				</div>
 		</section>
 		<section id="guided">
-			<div class="container-fluid bg-gris-2 no-padding mt-50 position-relative">
+			<div class="container-fluid no-padding bg-gris-2 mt-50 position-relative">
 				<img  id="img-chile" src="assets/img/chile.png" alt="">
 				<div class="container box-padding">
 					<div class="row">

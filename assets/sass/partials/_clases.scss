@@ -1,4 +1,10 @@
-
+@media(max-width:767px){
+			/*permite centrar horizontalmente la lista de redes en mobile*/
+			.center-xs{
+				display: table;
+				margin: 0 auto;
+			}
+		}
 .section{
     padding: 5rem 0 3rem 0;
 }
@@ -6,6 +12,12 @@ li.divisor-item-menu{
 	display: none;
 	@media(min-width: 768px){
 		display: block;
+	}
+}
+li.divisor-item-sub-menu{
+	display: none !important;
+	@media(min-width: 768px){
+		display: inline-block !important;
 	}
 }
 .bloque-blanco-top-content{

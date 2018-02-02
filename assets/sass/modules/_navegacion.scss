@@ -161,14 +161,37 @@
 	position: absolute;
     bottom: 0;
     width: 100%;
+    @media(max-width: 768px){
+    	position: relative;
+    	padding: 30px;
+    }
     .menu-list-wrapper{
     	position: relative;
 		min-height: 90px;
+		width: 100%;
 	    ul{
-
-			@include centerer(true, true);
+			@include centerer(false, true);
+			//width: 100%;
+			width: 100%;
+			display: block;
+			padding:0;
+			list-style-type: none;
 	    	li{
+				display: inline-block;
+				padding: 0 6px;
+				&:first-child{
+					padding-left: 0;
+				}
+				&:last-child{
+					padding-right: 0;
+				}
+	    		@media(max-width: 767px){
+	    			margin-bottom: 8px;
+	    			display: block;
+	    			padding: 0px;
+	    		}
 	    		a{
+	    			//display: inline-block;
 	    			padding-top: 0;
 	    			padding-bottom: 0;
 					text-decoration: none;
@@ -183,7 +206,10 @@
 
 	    			}
 	    			&:focus{
-	    					background-color: transparent;
+	    				background-color: transparent;
+	    			}
+	    			@media(max-width: 767px){
+	    				@include font-size(18px);
 	    			}
 	    		}
 	    	}

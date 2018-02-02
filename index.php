@@ -2,7 +2,7 @@
 <?php include('main-nav.php'); ?>
 <?php include('slider-home.php'); ?>
 <section id="sub-menu" class="hide">
-	<div class="container-fluid no-pad">
+	<div class="container-fluid no-padding">
 		<div class="container">
 			<div class="row">
 				<div class="menu-experiences">
@@ -54,16 +54,21 @@
 	</div>
 		<div id="sub-menu-experiences-container">
 			<div class="container position-relative">
-				<div class="menu-list-wrapper">
-					<ul class="nav navbar-nav ">
-					<li class="active"><a href="">WINE REGIONS MAP</a></li>
-					<li>|</li>
-					<li><a href="">HOTELS</a></li>
-					<li>|</li>
-					<li><a href="">TERMS AND CONDITIONS</a></li>
-				</ul>
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="menu-list-wrapper">
+							<div class="text-center">
+								<ul class="">
+									<li class="active"><a href="">WINE REGIONS MAP</a></li>
+									<li class="divisor-item-sub-menu">|</li>
+									<li><a href="">HOTELS</a></li>
+									<li class="divisor-item-sub-menu">|</li>
+									<li><a href="">TERMS AND CONDITIONS</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
 				</div>
-
 			</div>
 		</div>
 </section>

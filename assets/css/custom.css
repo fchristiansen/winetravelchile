@@ -13,10 +13,15 @@ a:focus, input[type="text"] { outline: none !important; }
 
 body { font-family: "Quicksand", Helvetica, Arial, sans-serif; }
 
+@media (max-width: 767px) { /*permite centrar horizontalmente la lista de redes en mobile*/
+  .center-xs { display: table; margin: 0 auto; } }
 .section { padding: 5rem 0 3rem 0; }
 
 li.divisor-item-menu { display: none; }
 @media (min-width: 768px) { li.divisor-item-menu { display: block; } }
+
+li.divisor-item-sub-menu { display: none !important; }
+@media (min-width: 768px) { li.divisor-item-sub-menu { display: inline-block !important; } }
 
 .bloque-blanco-top-content { display: block; width: 100%; min-height: 82px; background-color: #fff; position: absolute; left: 50%; -webkit-transform: translate(-50%, 0); -ms-transform: translate(-50%, 0); transform: translate(-50%, 0); top: -80px; max-width: 1170px; z-index: 1; }
 @media (max-width: 768px) { .bloque-blanco-top-content { display: none; } }
@@ -161,11 +166,17 @@ td.border-top-cafe { border-top: 1px solid #86754D !important; }
 #sub-menu { position: absolute; min-height: 440px; background: white; width: 100%; top: 110px; z-index: 100; padding: 100px 0 0 0; background-color: white; }
 
 #sub-menu-experiences-container { background-color: #f7f5f6; position: absolute; bottom: 0; width: 100%; }
-#sub-menu-experiences-container .menu-list-wrapper { position: relative; min-height: 90px; }
-#sub-menu-experiences-container .menu-list-wrapper ul { position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
+@media (max-width: 768px) { #sub-menu-experiences-container { position: relative; padding: 30px; } }
+#sub-menu-experiences-container .menu-list-wrapper { position: relative; min-height: 90px; width: 100%; }
+#sub-menu-experiences-container .menu-list-wrapper ul { position: absolute; top: 50%; -webkit-transform: translate(0, -50%); -ms-transform: translate(0, -50%); transform: translate(0, -50%); width: 100%; display: block; padding: 0; list-style-type: none; }
+#sub-menu-experiences-container .menu-list-wrapper ul li { display: inline-block; padding: 0 6px; }
+#sub-menu-experiences-container .menu-list-wrapper ul li:first-child { padding-left: 0; }
+#sub-menu-experiences-container .menu-list-wrapper ul li:last-child { padding-right: 0; }
+@media (max-width: 767px) { #sub-menu-experiences-container .menu-list-wrapper ul li { margin-bottom: 8px; display: block; padding: 0px; } }
 #sub-menu-experiences-container .menu-list-wrapper ul li a { padding-top: 0; padding-bottom: 0; text-decoration: none; font-family: "Prata", serif; color: #682944; font-size: 16px; font-size: 1rem; transition: all 0.3s ease-in-out; }
 #sub-menu-experiences-container .menu-list-wrapper ul li a:hover { background-color: transparent; color: #282828; }
 #sub-menu-experiences-container .menu-list-wrapper ul li a:focus { background-color: transparent; }
+@media (max-width: 767px) { #sub-menu-experiences-container .menu-list-wrapper ul li a { font-size: 18px; font-size: 1.125rem; } }
 
 section#intro .uva { background: url(../img/uvas.png) no-repeat; background-position: center; background-size: cover; position: absolute; right: 0; top: 440px; width: 138px; height: 376px; }
 section#intro .vina { background: url(../img/vina.png) no-repeat; background-position: center; background-size: cover; position: absolute; right: 0; top: 180px; width: 519px; height: 188px; }
@@ -331,8 +342,6 @@ footer .box-links-footer ul li a:hover, footer .box-links-footer ul li a:focus {
 
 .rrss-container { min-height: 70px; padding-top: 20px; padding-bottom: 20px; }
 @media (max-width: 767px) { .rrss-container { padding-top: 30px; } }
-@media (max-width: 767px) { .rrss-container { /*permite centrar horizontalmente la lista de redes en mobile*/ }
-  .rrss-container .center-xs { display: table; margin: 0 auto; } }
 .rrss-container ul.rrss { margin: 0; padding: 0; float: right; display: block; }
 @media (max-width: 767px) { .rrss-container ul.rrss { margin-bottom: 30px; float: left; text-align: center; } }
 .rrss-container ul.rrss li { display: inline-block; margin-right: 15px; }

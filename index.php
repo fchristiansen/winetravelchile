@@ -123,8 +123,9 @@
 								most spectacular settings, and regional cuisine, while visiting local villages
 								and lodging in small and luxury hotels.</p>
 								<div class="box-more">
-									<a href="">more</a>
-									<img src="assets/img/arrow-more.png" alt="">
+									<a href="">more
+										<img src="assets/img/arrow-more.png" alt="">
+									</a>
 								</div>
 						</div>
 					</div>
@@ -147,8 +148,9 @@
 									Argentina, Uruguay, France, and beyond.
 								</p>
 								<div class="box-more">
-									<a href="">more</a>
-									<img src="assets/img/arrow-more.png" alt="">
+									<a href="">more
+										<img src="assets/img/arrow-more.png" alt="">
+									</a>
 								</div>
 							</div>
 							<div class="col-sm-6">

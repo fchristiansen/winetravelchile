@@ -2,11 +2,19 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">
+				<a class="logo-xs" href="">
+					<img id="logo-mobile" class="img-responsive center-block" src="assets/img/logo.svg" alt="wine travel chile">
+				</a>
 				<div class="search-wrapper">
-						<a class="logo-xs" href="">
-							<img id="logo-mobile" class="img-responsive center-block" src="assets/img/logo.svg" alt="wine travel chile">
-						</a>
+
+						<form id="sear" class="navbar-form navbar-right">
+							<div class="form-group">
+								<input type="text" placeholder="" class="form-control">
+							</div>
+							<button type="submit" class="btn btn-success bt-vino"> in</button>
+						</form>
 				</div>
+
 			</div>
 		</div>
 	</div>
@@ -25,6 +33,20 @@
 				</a>
 		</div>
 		<div id="navbar" class="navbar-collapse collapse">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="search-wrapper-xs">
+							<form class="navbar-form navbar-right">
+								<div class="form-group">
+									<input type="text" placeholder="" class="form-control">
+								</div>
+								<button type="submit" class="btn btn-success bt-vino"> in</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
 			<ul id="nav-list" class="nav navbar-nav navbar-right">
 				<li class="active"><a href="">CHILE <span class="sr-only">(current)</span></a></li>
 				<li class="divisor-item-menu">|</li>
@@ -38,16 +60,7 @@
 				<li class="divisor-item-menu">|</li>
 				<li><a href="">contact</a></li>
 			</ul>
-			<div class="col-sm-12">
-				<div class="search-wrapper">
-					<form class="navbar-form navbar-right">
-						<div class="form-group">
-							<input type="text" placeholder="" class="form-control">
-						</div>
-						<button type="submit" class="btn btn-success bt-vino"> in</button>
-					</form>
-				</div>
-			</div>
+
 		</div><!--/.nav-collapse -->
 
 	</div><!--/.container-fluid -->

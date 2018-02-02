@@ -18,6 +18,9 @@ section#intro{
 		top: 180px;
 		width: 519px;
 		height: 188px;
+		@media(max-width:767px){
+			display: none;
+		}
 	}
 	.parra{
 		background:url(../img/rama.png) no-repeat;
@@ -35,6 +38,9 @@ section#guided{
 	#img-chile{
 		position: absolute;
 		bottom: -570px;
+		@media(max-width: 1540px){
+			display: none;
+		}
 	}
 }
 

@@ -128,7 +128,7 @@
 		</section>
 		<section id="guided">
 			<div class="container-fluid bg-gris-2 no-padding mt-50 position-relative">
-				<img class="visible-md visible-lg" id="img-chile" src="assets/img/chile.png" alt="">
+				<img  id="img-chile" src="assets/img/chile.png" alt="">
 				<div class="container box-padding">
 					<div class="row">
 						<div class="bloque clearfix">

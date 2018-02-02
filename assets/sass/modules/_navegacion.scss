@@ -27,17 +27,15 @@
 
 	}
 	.logo-xs{
+		display: none;
 		@media(max-width: 767px){
 			display:block;
-			margin-bottom: 20px;
+			//margin-bottom: 20px;
 			//width: 130px;
-
-
 		}
 		img#logo-mobile{
 			width: 130px;
 			height: auto;
-
 			@media(min-width: 768px){
 				display: none;
 
@@ -54,8 +52,10 @@
 			float: right;
 			width: 100%;
 			margin: 20px 0 20px 0;
+			display:block;
 			@media(max-width: 767px){
 				margin: 40px 0 0 0;
+				display: none;
 			}
 			form{
 				margin: 0;
@@ -78,40 +78,67 @@
 				}
 			}
 		}
-		ul#nav-list{
+		.search-wrapper-xs{
+			@extend .search-wrapper;
+			display: none;
 			@media(max-width: 767px){
-				padding: 20px 0;
+				margin: 20px 0 0 0;
+					display: block;
 			}
-			li{
 
-				color: white;
-				&.active{
-					background-color: transparent;
-				}
-				&.active a {
-					background-color: transparent;
-					color: lighten($vino, 20%);
-				}
+			.bt-vino{
 				@media(max-width: 767px){
-					margin-bottom: 30px;
+					@include font-size(20px);
+					width: 100%;
 				}
-				a{
-					@include link;
+
+			}
+
+		}
+		#navbar{
+
+			@media(max-width: 767px){
+				//padding-left: 30px;
+				border-color: transparent;
+				box-shadow: none;
+					background-color: #1e1e1e;
+			}
+			ul#nav-list{
+				@media(max-width: 767px){
+					padding: 20px 15px;
+				}
+				li{
+
 					color: white;
-					text-transform: uppercase;
-					@include font-size(16px);
-					font-family: $montserrat;
-					padding: 0 10px;
-					line-height: normal;
-					@media(max-width: 1023px){
-						@include font-size(14px);
+					&.active{
+						background-color: transparent;
+					}
+					&.active a {
+						background-color: transparent;
+						color: lighten($vino, 20%);
 					}
 					@media(max-width: 767px){
-						@include font-size(20px);
+						margin-bottom: 20px;
+					}
+					a{
+						@include link;
+						color: white;
+						text-transform: uppercase;
+						@include font-size(16px);
+						font-family: $montserrat;
+						padding: 0 10px;
+						line-height: normal;
+						@media(max-width: 1023px){
+							@include font-size(14px);
+						}
+						@media(max-width: 767px){
+							@include font-size(20px);
+						}
 					}
 				}
 			}
-	}
+		}
+
 
 }
 #sub-menu{

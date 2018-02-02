@@ -4,9 +4,9 @@ footer{
   min-height: 330px;
   padding: 3rem 0 3rem 0;
   position: relative;
-  @media(max-width:768px){
-    padding:0 0 1.5rem 0;
-  }
+  @media(max-width:767px){
+     padding: 4rem 0 4rem 0;
+    }
 	.box-news-letter{
 		margin-bottom :30px;
 		.texto-sobre{
@@ -31,6 +31,9 @@ footer{
 
 	.box-links-footer{
 		padding: 0 30px;
+		 @media(max-width:767px){
+     		padding: 0;
+    	}
 		h4{
 			color:#e3dcd9;
 			@include font-size(14px);

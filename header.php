@@ -32,5 +32,7 @@
 		//   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 		// })();
 		</script>
+		
+		<link rel="icon" type="image/png" href="assets/img/logo.png" />
 	</head>
 	<body>

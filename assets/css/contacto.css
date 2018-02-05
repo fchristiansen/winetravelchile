@@ -1,0 +1,146 @@
+#contacto .bloque{
+	margin-top: 0;
+}
+
+#contacto .container-fluid{
+	padding-left: 0;
+}
+
+#contacto .bloque h4{
+	margin-bottom: 20px;
+}
+
+#contacto .box-contacto{
+	padding-top: 70px;
+	padding-left: 30px;
+	padding-right: 30px;
+	width: 100%;
+	max-width: 640px;
+}
+
+#contacto .box-contacto p.bajada{
+	font-family: "Montserrat", sans-serif;
+	text-transform: uppercase;
+	color: #626554;
+	font-weight: 600;
+	line-height: 24px;
+	width: 100%;
+	max-width: 480px;
+}
+
+#contacto .formulario-contacto label{
+	font-family: "Montserrat", sans-serif;
+	color: #682944;
+	font-weight: 600;
+	margin-bottom: 12px;
+}
+
+#contacto .formulario-contacto form .form-control {
+	font-family: "Montserrat", sans-serif;
+    border-radius: 0;
+    height: 40px;
+    border-color: #682944;
+    color: #682944;
+    font-weight: 600;
+   
+}
+
+#contacto .formulario-contacto form textarea.form-control {
+	height: inherit;
+	overflow: auto;
+}
+
+#contacto .formulario-contacto form .form-group{
+	margin-bottom: 25px;
+}
+
+#contacto .formulario-contacto form .bt-submit{
+	background-color: #5c2d45;
+	border-color: #5c2d45;
+	font-size: 1rem;
+	font-weight: 600;
+	height: 55px;
+	margin-top: 15px;
+	letter-spacing: 1px;
+	margin-bottom: 30px;
+}
+
+#contacto .formulario-contacto form .bt-submit:hover{
+	background-color: #a53b69;
+	border-color: #a53b69;
+}
+
+#contacto span.input-group-addon{
+	border-radius: 0px;
+	background-color: #5c2d45;
+	border-color: #5c2d45;
+	color: #fff;
+	cursor: pointer;
+}
+
+.datepicker table tr td, .datepicker table tr th{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 600;
+}
+
+.datepicker table tr td.active.active, .datepicker table tr td.active.day{
+	background-color: #5c2d45 !important;
+	background-image: inherit;
+	border-radius: 0px;
+	color: #fff;
+}
+
+.datepicker table tr td.day:hover{
+	border-radius: 0px;
+}
+
+#contacto .formulario-contacto label.error{
+    color: tomato;
+    font-size: .85rem;
+}
+
+/* foto de la cava */
+@media only screen and (min-width : 1350px) {
+	.img-cava1{
+		display: block;
+	}
+	.img-cava2{
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 892px) and (max-width: 1349px) {
+	.img-cava1{
+		display: none;
+	}
+
+	.img-cava2{
+		display: block;
+	}
+}
+
+  /* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	#contacto .box-contacto {
+	    max-width: inherit;
+	    padding-top: 100px;
+	    padding-bottom: 70px;
+	}
+	
+	#contacto .box-contacto p.bajada{
+		max-width: inherit;
+	}
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+	#contacto .box-contacto {
+	    max-width: inherit;
+	    padding-left: 15px;
+	    padding-right: 0px;
+	    padding-top: 40px;
+	    padding-bottom: 30px;
+
+	}
+}

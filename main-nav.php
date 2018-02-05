@@ -50,13 +50,13 @@
 				<ul id="nav-list" class="nav navbar-nav navbar-right">
 					<li class="active"><a href="">CHILE <span class="sr-only">(current)</span></a></li>
 					<li class="divisor-item-menu">|</li>
-					<li><a href="">ARGENTINA</a></li>
+					<li><a href="javascript:void(0);">ARGENTINA</a></li>
 					<li class="divisor-item-menu">|</li>
-					<li><a href="">(+) Destinations</a></li>
+					<li><a href="javascript:void(0);" id="btn-destinations">(+) Destinations</a></li>
 					<li class="divisor-item-menu">|</li>
-					<li><a href="">ABOUT US</a></li>
+					<li><a href="javascript:void(0);">ABOUT US</a></li>
 					<li class="divisor-item-menu">|</li>
-					<li><a href="">blog</a></li>
+					<li><a href="javascript:void(0);">blog</a></li>
 					<li class="divisor-item-menu">|</li>
 					<li><a href="contacto.php">contact</a></li>
 				</ul>

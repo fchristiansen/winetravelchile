@@ -7,11 +7,11 @@ require_once ('lib/MysqliDb.php');
 if ($_SERVER['REQUEST_METHOD']== "POST") {
 $db = new MysqliDb (HOST, USERNAME, PASSWORD, DATABASE);
 
-$destino = $_POST["destino"];
-$pasajeros = $_POST["pasajeros"];
-$nombre = $_POST["nombre"];
-$apellido = $_POST["apellido"];
-$email = $_POST["email"]; 
+$destino 	= $_POST["destino"];
+$pasajeros 	= $_POST["pasajeros"];
+$nombre 	= $_POST["nombre"];
+$apellido 	= $_POST["apellido"];
+$email 	= $_POST["email"]; 
 $fecha1 = $_POST["fecha1"]; 
 $fecha2 = $_POST["fecha2"]; 
 $phone = $_POST["phone"];

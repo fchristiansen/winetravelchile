@@ -143,7 +143,7 @@ td.border-top-cafe { border-top: 1px solid #86754D !important; }
 .logo-xs img#logo-mobile { width: 130px; height: auto; }
 @media (min-width: 768px) { .logo-xs img#logo-mobile { display: none; } }
 
-#main-nav { margin-bottom: 0; background-color: #313131; border-radius: 0; border-color: #313131; min-height: 110px; }
+#main-nav { margin-bottom: 0; background-color: #313131; border-radius: 0; border-color: #313131; min-height: 110px; position: relative; z-index: 1000;}
 #main-nav .search-wrapper, #main-nav .search-wrapper-xs { float: right; width: 100%; margin: 20px 0 20px 0; display: block; }
 @media (max-width: 767px) { #main-nav .search-wrapper, #main-nav .search-wrapper-xs { margin: 40px 0 0 0; display: none; } }
 #main-nav .search-wrapper form, #main-nav .search-wrapper-xs form { margin: 0; padding: 0; -webkit-box-shadow: none; box-shadow: none; }
@@ -164,7 +164,7 @@ td.border-top-cafe { border-top: 1px solid #86754D !important; }
 @media (max-width: 1023px) { #main-nav #navbar ul#nav-list li a { font-size: 14px; font-size: 0.875rem; } }
 @media (max-width: 767px) { #main-nav #navbar ul#nav-list li a { font-size: 20px; font-size: 1.25rem; } }
 
-#sub-menu { position: absolute; min-height: 440px; background: white; width: 100%; top: 110px; z-index: 100; padding: 100px 0 0 0; background-color: white; }
+#sub-menu { position: absolute; min-height: 440px; background: white; width: 100%; top: -250px; z-index: 100; padding: 100px 0 0 0; background-color: white; display: none;}
 
 #sub-menu-experiences-container { background-color: #f7f5f6; position: absolute; bottom: 0; width: 100%; }
 @media (max-width: 768px) { #sub-menu-experiences-container { position: relative; padding: 30px; } }
@@ -397,11 +397,16 @@ ul.not-include li img{top: -15px;position: relative; float: left; margin-right: 
 
 .bloque p.disclaimer{text-transform: uppercase; font-weight: bolder; font-size: 16px; margin-bottom: 50px; line-height: 120%; }
 
+#gallery{margin-bottom: -3px;}
+#gallery a{display: inline;}
+
 #testimonial{background: #5c2d45;}
 #testimonial .bloque h4{color: #fff; margin-bottom: 10px;}
 #testimonial .bloque p{color: #fff;}
 #testimonial .bloque p.by{font-weight: bolder; text-transform: uppercase; margin-bottom: 30px;}
 
-
+.br5w{border-right: 5px solid #f7f6ef;}
+.bl5w{border-left: 5px solid #f7f6ef;}
+.bb10w{border-bottom: 11px solid #f7f6ef;}
 
 

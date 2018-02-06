@@ -1,4 +1,4 @@
-<section id="sub-menu" class="hide">
+<section id="sub-menu">
 	<div class="container-fluid no-padding">
 		<div class="container">
 			<div class="row">
@@ -15,7 +15,7 @@
 					</div>
 					<div class="col-sm-3">
 						<div class="caluga">
-						    <a class="caluga-enlace" href="">
+						    <a class="caluga-enlace" href="active-wine-and-wine-experience.php">
 						    	<div class="lente">
 						      		<h3 class="caluga-title"> ACTIVE WINE AND WINE EXPERIENCE</h3>
 						      	</div>

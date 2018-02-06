@@ -101,14 +101,15 @@ console.log(thumb);
 
 $('#btn-chile').on('click',function(){
 	if($('#sub-menu').hasClass('hide')){
-	//	$(this).html('(-) Destinations');
-		$('#sub-menu').removeClass('hide');
+		$('#sub-menu').css({'top':'110px'});
+		$('#sub-menu').fadeIn();
 	}else{
-	//	$(this).html('(+) Destinations');
-		$('#sub-menu').addClass('hide');
+		$('#sub-menu').css({'top':'-250px'});
+		$('#sub-menu').fadeOut();
 	}
 });
 
+$('#gallery a').simpleLightbox();
 
 
 

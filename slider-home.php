@@ -11,7 +11,7 @@
 	          	</div>
 	          	<img class="img-responsive owl-lazy" data-src="assets/img/slider1.jpg" src="assets/img/slider1.jpg" alt="">
 	         	 <!-- 768 x 550 -->
-	            <img class="img-responsive owl-lazy" data-src="assets/img/slider1-xs.jpg" src="assets/img/slider1-xs.jpg" alt="">
+<!-- 	            <img class="img-responsive owl-lazy" data-src="assets/img/slider1-xs.jpg" src="assets/img/slider1-xs.jpg" alt=""> -->
 	    </div>
 
 
@@ -26,7 +26,7 @@
 	          			<h3>Design your perfect trip with us</h3>
 	          		</div>
 	          	</div> -->
-	        <a class="owl-video" href="https://www.youtube.com/watch?v=KZWZ6OuJQMk" data-video-thumb="assets/img/slider1.jpg"></a>
+	        <a class="owl-video" href="https://www.youtube.com/watch?v=KZWZ6OuJQMk" data-video-thumb="assets/img/slider2.jpg"></a>
 
 	    </div>
 

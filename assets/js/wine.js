@@ -99,12 +99,12 @@ console.log(thumb);
 
 
 
-$('#btn-destinations').on('click',function(){
+$('#btn-chile').on('click',function(){
 	if($('#sub-menu').hasClass('hide')){
-		$(this).html('(-) Destinations');
+	//	$(this).html('(-) Destinations');
 		$('#sub-menu').removeClass('hide');
 	}else{
-		$(this).html('(+) Destinations');
+	//	$(this).html('(+) Destinations');
 		$('#sub-menu').addClass('hide');
 	}
 });

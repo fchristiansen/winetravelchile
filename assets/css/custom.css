@@ -357,17 +357,38 @@ footer .box-links-footer ul li a:hover, footer .box-links-footer ul li a:focus {
 
 /* agregados por Seo2 */
 
-.carousel-info-inner p{text-transform: uppercase; font-family: "Montserrat", sans-serif;color: #fff;}
-.carousel-info-inner p a{color: #fff;}
-.carousel-info-inner p a.active{background: #682944;}
+#slider-destinations section.slider-home #slider-home .item .carousel-info{width: 70%;}
+#slider-destinations section.slider-home #slider-home .item .carousel-info .carousel-info-inner h2{font-size: 3rem;}
+#slider-destinations .carousel-info-inner p{text-transform: uppercase; font-family: "Montserrat", sans-serif; color: #fff; line-height: 220%;}
+#slider-destinations .carousel-info-inner p a{color: #fff; padding-left: 5px; padding-right: 5px; display: inline-block;}
+#slider-destinations .carousel-info-inner p a.active{background: #682944;}
+
+#tourmap{background: #fff; padding: 20px; 
+	-webkit-box-shadow: 0px 0px 30px 1px rgba(50, 50, 50, 0.59);
+	-moz-box-shadow:    0px 0px 30px 1px rgba(50, 50, 50, 0.59);
+	box-shadow:         0px 0px 30px 1px rgba(50, 50, 50, 0.59);}
+
+#mapa{overflow: hidden;}
+.embed-container { position: relative; padding-bottom: 86.25%; height: 0; overflow: hidden; max-width: 100%; top: -50px; margin-bottom: -50px;} 
+.embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
 
 ul.complimentary{color: #682944; text-transform: uppercase;list-style: none; padding: 0;}
-ul.complimentary li{line-height: 55px; display: inline-block; margin-right: 30px;}
+ul.complimentary li{line-height: 55px; display: inline-block; }
 ul.complimentary span{background: #682944; color: #fff; border-radius: 50%; display: inline-block; width: 55px; height: 55px; font-weight: bolder; font-size: 20px;  text-align: center; margin-right: 10px;}
+#simbologia ul.complimentary li{ margin-right: 30px;}
 
 .bloque h5 { font-family: "Prata", serif; color: #682944; text-transform: uppercase; font-size: 31px; font-size: 1.875rem; margin-bottom: 20px; }
+.bloque h6 {font-family: "Montserrat", sans-serif; font-size: 19px; color: #626554; border-left: 3px solid #682944; text-transform: uppercase; margin-left: -20px; padding-left: 10px;     margin-bottom: 30px;}
 
-#destinations .bloque p a{font-weight: bolder;}
+#destinations .bloque p a{font-weight: 700;}
+.day{margin-bottom: 30px;}
+
+a#request{display: block; float: left; background: #682944; color: #fff; text-align: center; font-size: 29px; text-transform: uppercase; font-weight: 700; padding: 30px 87px;line-height: 100%; font-family: "Montserrat", sans-serif; -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out;}
+a#request:hover{background: #000; text-decoration: none;}
+
+#includes{}
+#includes .bloque h4{font-family: "Montserrat", sans-serif; color: #5c2d45; font-size: 24px; letter-spacing: 10px;}
+#includes .bloque h4.includes{background: #e0dbd8; display: inline-block; padding: 10px 20px;}
 
 #testimonial{background: #5c2d45;}
 #testimonial .bloque h4{color: #fff;}

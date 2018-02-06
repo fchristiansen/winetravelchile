@@ -11,7 +11,7 @@
 		<!-- Bootstrap -->
 		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-		<link href="//fonts.googleapis.com/css?family=Montserrat:300,400" rel="stylesheet">
+		<link href="//fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
 		<link href="//fonts.googleapis.com/css?family=Prata" rel="stylesheet">
 		<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
 		<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">

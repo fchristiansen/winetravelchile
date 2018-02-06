@@ -48,7 +48,7 @@
 					</div>
 				</div>
 				<ul id="nav-list" class="nav navbar-nav navbar-right">
-					<li class="active"><a href="">CHILE <span class="sr-only">(current)</span></a></li>
+					<li class="active"><a href="javascript:void(0);" id="btn-chile">CHILE <span class="sr-only">(current)</span></a></li>
 					<li class="divisor-item-menu">|</li>
 					<li><a href="javascript:void(0);">ARGENTINA</a></li>
 					<li class="divisor-item-menu">|</li>

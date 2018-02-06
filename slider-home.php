@@ -26,7 +26,7 @@
 	          			<h3>Design your perfect trip with us</h3>
 	          		</div>
 	          	</div> -->
-	        <a class="owl-video" href="https://www.youtube.com/watch?v=9sXpxxMN_yo" data-video-thumb="assets/img/slider1.jpg"></a>
+	        <a class="owl-video" href="https://www.youtube.com/watch?v=KZWZ6OuJQMk" data-video-thumb="assets/img/slider1.jpg"></a>
 
 	    </div>
 

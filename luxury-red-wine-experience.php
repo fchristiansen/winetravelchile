@@ -7,7 +7,7 @@
 			<div class="bloque-blanco-top-content"></div>
 			<div class="container">
 				<div class="row">
-					<div class="bloque clearfix pl-50">
+					<div class="bloque clearfix mt-0">
 						<div class="col-sm-12 text-center">
 							<h4>LUXURY RED WINE EXPERIENCE</h4>
 							<p>In the Maipo Valley you will find Chile’s oldest and finest wineries. Many keep their cellars just as they were when first established in the 19th century. The red wine produced in this region is world-renowned, and the Colchagua & Cachapoal Valleys produces some of the country’s best red wines, including Carmenere, Cabernet Sauvignon, Syrah and Merlot.</p>
@@ -16,7 +16,7 @@
 
 						</div>
 					</div>
-					<div class="bloque clearfix pl-50">
+					<div class="bloque clearfix">
 						<div class="col-sm-12 col-md-10 col-md-offset-1" id="tourmap">
 							<div class="row">
 								<div class="col-sm-6">
@@ -35,7 +35,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="bloque clearfix pl-50" id="simbologia">
+					<div class="bloque clearfix" id="simbologia">
 						<div class="col-sm-12 text-center">
 							<ul class="complimentary">
 								<li><span>B</span> Breakfast</li>
@@ -44,7 +44,7 @@
 							</ul>
 						</div>
 					</div>
-					<div class="bloque clearfix pl-50">
+					<div class="bloque clearfix">
 						<div class="col-sm-12">
 							<div class="row">
 								<div class="col-md-6 day">
@@ -129,6 +129,17 @@
 							<div class="col-sm-12 text-center">
 								<h4>The program does not include:</h4>
 							</div>
+							<div class="col-sm-12 text-center">
+								<ul class="not-include">
+									<li><img src="assets/img/ico-plane.png"> Travel insurance</li>
+									<li><img src="assets/img/ico-luggage.png"> Personal expenses and other items<br>not indicated in the program </li>
+									<li><img src="assets/img/ico-bellman.png"> Tips for hotel staff, guides and drivers</li>
+								</ul>
+							</div>
+							<div class="col-sm-12 text-center">
+								<p class="disclaimer">This is a sample itinerary. We work closely with our travelers<br> 
+									to personally design the itinerary that best meets their needs and desires.<p>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -138,11 +149,11 @@
 			
 			<div class="container">
 				<div class="row">
-					<div class="bloque clearfix pl-50">
+					<div class="bloque clearfix">
 						<div class="col-sm-12 text-center">
 							<h4>testimonial</h4>
-							<p>“As the mayor of San Francisco and a private citizen, I have had an opportunity to travel to many wonderful countries…but our trip to Argentina and Chile this year has become one of the best ever. Your expert guidance and assistance with every phase was invaluable. Every day’s events and activities felt like they were specific to our particular interests and not part of a conventional “package.” And the food and wine were magnificent in city neighborhoods and out in the countryside. The personnel you selected as guides and drivers at each location were obviously well informed as well as most trustworthy. When the spouse of our companion couple was taken ill and required hospital treatment, you and our guides were with us every step of the way like family. We will be back soon!”</p>
-							<p class="by">art agnos in san francisco, ca</p>
+							<p>“Thank you so much for showing us part of the wonderful wine country of Chile. Each vineyard was very special in different ways, and we will never forget our first lunch at Altair, our time at Lapostolle and Matetic and our very special visit to the Harvest Festival in Santa Cruz. Thank you for taking us to the dances! We greatly appreciate your patience and sense of humor with our group. You made this visit very special for us and we will never forget it”</p>
+							<p class="by">Linda and Rich Goyne. Dallas, USA.</p>
 
 						</div>
 					</div>

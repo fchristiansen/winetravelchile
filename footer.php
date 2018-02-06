@@ -87,10 +87,10 @@
 						<div class="center-xs">
 							<ul class="rrss">
 								<li>Follow us:</li>
-								<li><a href=""><img src="assets/img/ico-fb.svg" width="27" alt="facebook"></a></li>
-								<li><a href=""><img src="assets/img/ico-ig.svg" width="31" alt="instagram"></a></li>
-								<li><a href=""><img src="assets/img/ico-tw.svg" width="29" alt="twitter"></a></li>
-								<li><a href=""><img src="assets/img/ico-yt.svg" width="32" alt="youtube"></a></li>
+								<li><a href="https://www.facebook.com/winetravelchileofficial/ " target="_blank"><img src="assets/img/ico-fb.svg" width="27" alt="facebook"></a></li>
+								<li><a href="https://www.instagram.com/winetravelchileofficial/" target="_blank"><img src="assets/img/ico-ig.svg" width="31" alt="instagram"></a></li>
+								<li><a href="https://twitter.com/winetravelchile" target="_blank"><img src="assets/img/ico-tw.svg" width="29" alt="twitter"></a></li>
+								<li><a href="https://www.youtube.com/watch?v=KZWZ6OuJQMk" target="_blank"><img src="assets/img/ico-yt.svg" width="32" alt="youtube"></a></li>
 							</ul>
 						</div>
 

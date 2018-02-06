@@ -102,10 +102,10 @@
 					<h3>recommended by</h3>
 					<div class="logos-recomended clearfix">
 						<div class="col-sm-2">
-							<img class="img-responsive center-block" src="assets/img/logo-travel.png" alt="">
+							<a href="http://www.travelandleisure.com/trip-ideas/best-places-travel-south-america-february#15" target="_blank"><img class="img-responsive center-block" src="assets/img/logo-travel.png" alt="Travel and Leisure"></a>
 						</div>
 						<div class="col-sm-2">
-							<img class="img-responsive center-block" src="assets/img/logo-frommers.png" alt="">
+							<a href="https://www.frommers.com/trip-ideas/cultural-immersion/4-vineyard-vacations-to-chile-and-argentina" target="_blank"><img class="img-responsive center-block" src="assets/img/logo-frommers.png" alt="Frommers"></a>
 						</div>
 						<div class="col-sm-2">
 							<img class="img-responsive center-block" src="assets/img/logo-harpers.png" alt="">

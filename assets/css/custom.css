@@ -174,7 +174,7 @@ td.border-top-cafe { border-top: 1px solid #86754D !important; }
 
 #sub-menu { position: absolute; min-height: 440px; background: white; width: 100%; margin-top: 110px; z-index: 100; padding: 100px 0 0 0; background-color: white; opacity: 1; transition: all 0.5s ease-in-out; top: 0;} 
 #sub-menu.clander{margin-top: -450px; opacity: 0;}
-
+@media (max-width: 767px) { #sub-menu{display: none;} }
 
 
 #sub-menu-experiences-container { background-color: #f7f5f6; position: absolute; bottom: 0; width: 100%; }
@@ -423,3 +423,33 @@ ul.not-include li img{top: -15px;position: relative; float: left; margin-right: 
 .bb10w{border-bottom: 11px solid #f7f6ef;}
 
 
+
+@media (max-width: 767px) { 
+	#slider-destinations section.slider-home #slider-home .item .carousel-info .carousel-info-inner h2{font-size: 2rem;}
+	.bloque h4 {  font-size: 1.7rem; margin-top: 25px; }
+	#simbologia ul.complimentary li {
+	    margin-right: 10px;
+	    display: block;
+	}
+	ul.complimentary li {
+	    line-height: 35px;
+	    text-align: left;
+	}
+	ul.complimentary span {
+	    width: 35px;
+	    height: 35px;
+	    font-size: 18px;
+	    margin-right: 5px;
+	}
+	a#request {
+    	padding: 30px 0;
+	}
+	#includes .bloque h4 {
+	    font-size: 14px;
+	    line-height: 150%;
+	}
+	.bloque p.disclaimer { font-size: 12px;}
+	.br5w{border-right: 0 solid #f7f6ef;}
+	.bl5w{border-left: 0 solid #f7f6ef;}
+	.bl5w.br5w{border-top: 10px solid #f7f6ef; border-bottom: 10px solid #f7f6ef;}
+}

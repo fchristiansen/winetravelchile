@@ -1,3 +1,10 @@
+<?php
+	require_once 'classes/Mobile_Detect.php';
+	$detect = new Mobile_Detect;
+
+	$deviceType 	= ($detect->isMobile() ? ($detect->isTablet() ? 'tablet' : 'phone') : 'computer');
+	$scriptVersion 	= $detect->getScriptVersion();	
+?>
 <!DOCTYPE html>
 <html lang="es">
 	<head>

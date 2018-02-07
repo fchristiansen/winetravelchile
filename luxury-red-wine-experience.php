@@ -1,7 +1,12 @@
 <?php include('header.php'); ?>
 <?php include('main-nav.php'); ?>
 <?php include('slider-lrwe.php'); ?>
-<?php include('include-menu-experiencias.php') ?>
+<?php
+	$detect = new Mobile_Detect();
+	if (!$detect->isMobile()) {
+		include('include-menu-experiencias.php');
+	}
+?>
 		<section id="destinations" class="position-relative">
 			
 			<div class="bloque-blanco-top-content"></div>
@@ -21,7 +26,7 @@
 							<div class="row">
 								<div class="col-sm-6">
 									<h6>Tour Map</h6>
-									<div class="row">
+									<div class="row hidden-xs">
 										<div class="col-sm-10 col-sm-offset-1">
 											<img src="assets/img/lrwe-mapa.png" class="img-responsive">
 										</div>

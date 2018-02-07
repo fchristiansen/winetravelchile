@@ -100,12 +100,10 @@ console.log(thumb);
 
 
 $('#btn-chile').on('click',function(){
-	if($('#sub-menu').hasClass('hide')){
-		$('#sub-menu').css({'top':'110px'});
-		$('#sub-menu').fadeIn();
+	if($('#sub-menu').hasClass('clander')){
+		$('#sub-menu').removeClass('clander');
 	}else{
-		$('#sub-menu').css({'top':'-250px'});
-		$('#sub-menu').fadeOut();
+		$('#sub-menu').addClass('clander');
 	}
 });
 

@@ -1,4 +1,4 @@
-<section id="sub-menu">
+<section id="sub-menu" class="clander">
 	<div class="container-fluid no-padding">
 		<div class="container">
 			<div class="row">

@@ -164,7 +164,10 @@ td.border-top-cafe { border-top: 1px solid #86754D !important; }
 @media (max-width: 1023px) { #main-nav #navbar ul#nav-list li a { font-size: 14px; font-size: 0.875rem; } }
 @media (max-width: 767px) { #main-nav #navbar ul#nav-list li a { font-size: 20px; font-size: 1.25rem; } }
 
-#sub-menu { position: absolute; min-height: 440px; background: white; width: 100%; top: -250px; z-index: 100; padding: 100px 0 0 0; background-color: white; display: none;}
+#sub-menu { position: absolute; min-height: 440px; background: white; width: 100%; margin-top: 110px; z-index: 100; padding: 100px 0 0 0; background-color: white; opacity: 1; transition: all 0.5s ease-in-out; top: 0;} 
+#sub-menu.clander{margin-top: -450px; opacity: 0;}
+
+
 
 #sub-menu-experiences-container { background-color: #f7f5f6; position: absolute; bottom: 0; width: 100%; }
 @media (max-width: 768px) { #sub-menu-experiences-container { position: relative; padding: 30px; } }
@@ -379,7 +382,7 @@ ul.complimentary span{background: #682944; color: #fff; border-radius: 50%; disp
 #simbologia ul.complimentary li{ margin-right: 30px;}
 
 .bloque h5 { font-family: "Prata", serif; color: #682944; text-transform: uppercase; font-size: 31px; font-size: 1.875rem; margin-bottom: 20px; }
-.bloque h6 {font-family: "Montserrat", sans-serif; font-size: 19px; color: #626554; border-left: 3px solid #682944; text-transform: uppercase; margin-left: -20px; padding-left: 10px;     margin-bottom: 30px;}
+.bloque h6 {font-family: "Montserrat", sans-serif; font-size: 19px; color: #626554; border-left: 3px solid #682944; text-transform: uppercase; margin-left: -20px; padding-left: 10px; margin-bottom: 30px;}
 
 #destinations .bloque p a{font-weight: 700;}
 .day{margin-bottom: 30px;}
@@ -399,6 +402,8 @@ ul.not-include li img{top: -15px;position: relative; float: left; margin-right: 
 
 #gallery{margin-bottom: -3px;}
 #gallery a{display: inline;}
+#gallery a img{transition: all 0.2s ease-in-out;}
+#gallery a:hover img{opacity: 0.8;}
 
 #testimonial{background: #5c2d45;}
 #testimonial .bloque h4{color: #fff; margin-bottom: 10px;}

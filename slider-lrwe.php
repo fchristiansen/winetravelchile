@@ -8,7 +8,7 @@
 		          		<div class="carousel-info-inner">
 		          			<p class="hidden-xs"><a href="index.php">Home</a> / <a href="javascript:void(0);">Chile</a> / Wine and food experience</p>
 		          			<h2>Wine and Food Experience</h2>	          			
-		          			<p class="hidden-xs">
+		          			<p class="hidden-xs hide-beta">
 			          			<a href="index.php">chilean wine route</a> | 
 		          				<a href="javascript:void(0);">organic AND biodinamic experience</a> | 
 		          				<a href="javascript:void(0);" class="active"> luxury red wine experience</a> | 

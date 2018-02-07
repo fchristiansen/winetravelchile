@@ -1,11 +1,11 @@
 <nav id="main-nav" class="navbar navbar-default">
 	<div class="container">
-		<div class="row">
+		<div class="row" >
 			<div class="col-sm-12">
 				<a class="logo-xs" href="index.php">
 					<img id="logo-mobile" class="img-responsive center-block" src="assets/img/logo.svg" alt="wine travel chile">
 				</a>
-				<div class="search-wrapper">
+				<div class="search-wrapper" style="opacity: 0;">
 
 						<form id="sear" class="navbar-form navbar-right">
 							<div class="form-group">
@@ -49,14 +49,14 @@
 				</div>
 				<ul id="nav-list" class="nav navbar-nav navbar-right">
 					<li><a href="javascript:void(0);" id="btn-chile">CHILE <span class="sr-only">(current)</span></a></li>
-					<li class="divisor-item-menu">|</li>
-					<li><a href="javascript:void(0);">ARGENTINA</a></li>
-					<li class="divisor-item-menu">|</li>
-					<li><a href="javascript:void(0);" id="btn-destinations">(+) Destinations</a></li>
-					<li class="divisor-item-menu">|</li>
-					<li><a href="javascript:void(0);">ABOUT US</a></li>
-					<li class="divisor-item-menu">|</li>
-					<li><a href="javascript:void(0);">blog</a></li>
+					<li class="divisor-item-menu hide-beta">|</li>
+					<li class="hide-beta"><a href="javascript:void(0);">ARGENTINA</a></li>
+					<li class="divisor-item-menu hide-beta">|</li>
+					<li class="hide-beta"><a href="javascript:void(0);" id="btn-destinations">(+) Destinations</a></li>
+					<li class="divisor-item-menu hide-beta">|</li>
+					<li class="hide-beta"><a href="javascript:void(0);">ABOUT US</a></li>
+					<li class="divisor-item-menu hide-beta">|</li>
+					<li class="hide-beta"><a href="javascript:void(0);">blog</a></li>
 					<li class="divisor-item-menu">|</li>
 					<li><a href="contacto.php">contact</a></li>
 				</ul>

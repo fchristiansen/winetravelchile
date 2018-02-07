@@ -96,7 +96,6 @@ Santa Cruz</h5>
 									<ul class="complimentary">
 										<li><span>B</span></li>
 										<li><span>L</span></li>
-										<li><span>D</span></li>
 									</ul>
 								</div>
 							</div>

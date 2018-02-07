@@ -7,7 +7,7 @@
 						<div class="caluga">
 						    <a class="caluga-enlace" href="luxury-red-wine-experience.php">
 						    	<div class="lente">
-						    		<h3 class="caluga-title">  WINE AND FOOD EXPERIENCES</h3>
+						    		<h3 class="caluga-title">  LUXURY RED WINE EXPERIENCE</h3>
 						    	</div>
 						        <img class="caluga-img" src="assets/img/exp1.jpg" alt="">
 						    </a>
@@ -17,7 +17,7 @@
 						<div class="caluga">
 						    <a class="caluga-enlace" href="active-wine-and-wine-experience.php">
 						    	<div class="lente">
-						      		<h3 class="caluga-title"> ACTIVE WINE AND WINE EXPERIENCE</h3>
+						      		<h3 class="caluga-title"> WOMEN'S WALKING, WINE AND FOOD EXPERIENCE</h3>
 						      	</div>
 						        <img class="caluga-img" src="assets/img/exp2.jpg" alt="">
 						    </a>
@@ -48,23 +48,23 @@
 			</div>
 		</div>
 	</div>
-		<div id="sub-menu-experiences-container">
-			<div class="container position-relative">
-				<div class="row">
-					<div class="col-sm-12">
-						<div class="menu-list-wrapper">
-							<div class="text-center">
-								<ul class="">
-									<li class="active"><a href="">WINE REGIONS MAP</a></li>
-									<li class="divisor-item-sub-menu">|</li>
-									<li><a href="">HOTELS</a></li>
-									<li class="divisor-item-sub-menu">|</li>
-									<li><a href="">TERMS AND CONDITIONS</a></li>
-								</ul>
-							</div>
+	<div id="sub-menu-experiences-container" class="hide-beta">
+		<div class="container position-relative">
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="menu-list-wrapper">
+						<div class="text-center">
+							<ul class="">
+								<li class="active"><a href="">WINE REGIONS MAP</a></li>
+								<li class="divisor-item-sub-menu">|</li>
+								<li><a href="">HOTELS</a></li>
+								<li class="divisor-item-sub-menu">|</li>
+								<li><a href="">TERMS AND CONDITIONS</a></li>
+							</ul>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
+	</div>
 </section>

@@ -369,6 +369,10 @@ footer .box-links-footer ul li a:hover, footer .box-links-footer ul li a:focus {
 
 /* agregados por Seo2 */
 
+.btn-primary{background-color: #682944; border-color: #682944; text-transform: uppercase; font-family: "Montserrat", sans-serif; border-radius: 0;}
+.btn-primary:focus, .btn-primary:active,
+.btn-primary:hover { background-color: #000; border-color: #000;}
+
 #slider-destinations section.slider-home #slider-home .item .carousel-info{width: 70%;}
 #slider-destinations section.slider-home #slider-home .item .carousel-info .carousel-info-inner h2{font-size: 3rem;}
 #slider-destinations .carousel-info-inner p{text-transform: uppercase; font-family: "Montserrat", sans-serif; color: #fff; line-height: 220%;}
@@ -421,6 +425,99 @@ ul.not-include li img{top: -15px;position: relative; float: left; margin-right: 
 .br5w{border-right: 5px solid #f7f6ef;}
 .bl5w{border-left: 5px solid #f7f6ef;}
 .bb10w{border-bottom: 11px solid #f7f6ef;}
+
+.hide-beta{display: none !important;}
+
+
+.modal-body iframe {
+  height: 100vh;
+  width: 100%;
+}
+
+.modal-body {
+  padding: 0;
+  margin: 0;
+}
+
+.modal button.close {
+    color: white;
+    position: absolute;
+    background: #5c2d45;
+    border: 0;
+    top: 0;
+    z-index: 99999;
+    right: 3%;
+    float: none;
+    opacity: 1;
+    font-size: 40px;
+    font-weight: 400;
+    width: 50px;
+    height: 50px;
+}
+
+.modal button.close:focus, .modal button.close:hover {
+    background: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-footer {
+  text-align: initial;
+}
+
+.modal-transparent {
+  background: transparent;
+}
+.modal-transparent .modal-content {
+  background: transparent;
+}
+
+.modal-backdrop.modal-backdrop-transparent {
+  background: #000;
+}
+.modal-backdrop.modal-backdrop-transparent.in {
+  opacity: .9;
+  filter: alpha(opacity=90);
+}
+.modal-backdrop.modal-backdrop-fullscreen {
+  background: #000;
+}
+.modal-backdrop.modal-backdrop-fullscreen.in {
+  opacity: .97;
+  filter: alpha(opacity=97);
+}
+
+.modal-fullscreen {
+  background: transparent;
+}
+.modal-fullscreen .modal-content {
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+}
+.modal-fullscreen .modal-dialog {
+  margin: 0;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .modal-fullscreen .modal-dialog {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .modal-fullscreen .modal-dialog {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .modal-fullscreen .modal-dialog {
+    width: 100%;
+  }
+}
+
 
 
 

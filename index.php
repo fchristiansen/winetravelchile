@@ -21,7 +21,7 @@
 								most spectacular settings, <a href="">and regional cuisine</a>, while visiting local villages
 								and lodging in small and luxury hotels.
 							</p>
-							<div class="box-more">
+							<div class="box-more hide-beta">
 								<a href="">more
 									<img src="assets/img/arrow-more.png" alt="">
 								</a>
@@ -55,7 +55,7 @@
 								in each of the wine valleys along the route. You will also enjoy World’s
 								most spectacular settings, and regional cuisine, while visiting local villages
 								and lodging in small and luxury hotels.</p>
-								<div class="box-more">
+								<div class="box-more hide-beta">
 									<a href="">more
 										<img src="assets/img/arrow-more.png" alt="">
 									</a>
@@ -80,7 +80,7 @@
 									regional cuisine, and taste the most delicious wines in Chile,
 									Argentina, Uruguay, France, and beyond.
 								</p>
-								<div class="box-more">
+								<div class="box-more hide-beta">
 									<a href="">more
 										<img src="assets/img/arrow-more.png" alt="">
 									</a>
@@ -108,8 +108,12 @@
 							<a href="http://www.travelandleisure.com/trip-ideas/best-places-travel-south-america-february#15" target="_blank"><img class="img-responsive center-block" src="assets/img/logo-travel.png" alt="Travel and Leisure"></a>
 						</div>
 						<div class="col-sm-2 col-xs-6">
+							<a href="http://www.travelandleisure.com/articles/santiago-cleans-up" target="_blank"><img class="img-responsive center-block" src="assets/img/logo-travel.png" alt="Travel and Leisure"></a>
+						</div>
+						<div class="col-sm-2 col-xs-6">
 							<a href="https://www.frommers.com/trip-ideas/cultural-immersion/4-vineyard-vacations-to-chile-and-argentina" target="_blank"><img class="img-responsive center-block" src="assets/img/logo-frommers.png" alt="Frommers"></a>
 						</div>
+<!--
 						<div class="col-sm-2 col-xs-6">
 							<img class="img-responsive center-block" src="assets/img/logo-harpers.png" alt="">
 						</div>
@@ -122,6 +126,7 @@
 						<div class="col-sm-2 col-xs-6">
 							<img class="img-responsive center-block" src="assets/img/logo-cav.png" alt="">
 						</div>
+-->
 					</div>
 				</div>
 			</div>

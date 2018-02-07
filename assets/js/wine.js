@@ -43,9 +43,11 @@ $('#slider-home').owlCarousel({
     }
 })
 
+/*
 var thumb = $(".owl-video").attr("data-video-thumb");
 $(".owl-video-tn").append('<img class="img-responsive"  src="'+thumb+'" alt="">');
 console.log(thumb);
+*/
 
 // para video html 5
 
@@ -112,7 +114,32 @@ $('#btn-chile').on('click',function(){
 $('#gallery a').simpleLightbox();
 
 
+// .modal-backdrop classes
 
+$(".modal-transparent").on('show.bs.modal', function () {
+  setTimeout( function() {
+    $(".modal-backdrop").addClass("modal-backdrop-transparent");
+  }, 0);
+});
+$(".modal-transparent").on('hidden.bs.modal', function () {
+  $(".modal-backdrop").addClass("modal-backdrop-transparent");
+});
 
+$(".modal-fullscreen").on('show.bs.modal', function () {
+  setTimeout( function() {
+    $(".modal-backdrop").addClass("modal-backdrop-fullscreen");
+  }, 0);
+});
+$(".modal-fullscreen").on('hidden.bs.modal', function () {
+  $(".modal-backdrop").addClass("modal-backdrop-fullscreen");
+});
+
+$('.modal').on('hidden.bs.modal', function () {
+	$('.modal iframe').attr('src','');
+});
+
+$('.modal').on('shown.bs.modal', function () {
+    $('.modal iframe').attr('src','https://www.youtube-nocookie.com/embed/tarqPWVgnvk?rel=0&amp;controls=0&amp;showinfo=0&amp;autoplay=1');
+});
 
 

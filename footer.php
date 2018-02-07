@@ -1,4 +1,4 @@
-<footer>
+<footer class="hide-beta">
 	<div class="container">
 		<form id="newsletter">
 			<div class="row">

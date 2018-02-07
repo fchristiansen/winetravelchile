@@ -26,7 +26,7 @@
 								</div>
 								<div class="col-sm-6" id="mapa">
 									<div class='embed-container'>
-										<iframe src='https://www.google.com/maps/d/u/0/embed?mid=1lPtRtdLZVucpd4EpPbmXUlaKmcreToCv' width='600' height='450' frameborder='0' style='border:0'></iframe>
+										<iframe src='https://www.google.com/maps/d/embed?mid=1GPgqVNMmGXtAWOXdvartgpgOn-oxIGWT&hl=es' width='600' height='450' frameborder='0' style='border:0'></iframe>
 									</div>
 								</div>
 							</div>

@@ -9,7 +9,7 @@
 				<div class="row">
 					<div class="bloque clearfix mt-0">
 						<div class="col-sm-12 text-center">
-							<h4>WOMEN´S WALKING, WINE AND FOOD EXPERIENCE</h4>
+							<h4>WOMEN'S WALKING, WINE AND FOOD EXPERIENCE</h4>
 							<p>Travel from Santiago, visiting beautiful wineries and tasting the most delicious wines in each of the wine valleys along the route. You will also enjoy great views of the Andes Mountains, beautiful scenery, and regional cuisine while visiting local villages and lodging in small and luxury hotels. </p>
 						</div>
 					</div>

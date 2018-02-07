@@ -140,12 +140,20 @@ td.border-top-cafe { border-top: 1px solid #86754D !important; }
 
 .logo-xs { display: none; }
 @media (max-width: 767px) { .logo-xs { display: block; } }
-.logo-xs img#logo-mobile { width: 130px; height: auto; }
+.logo-xs img#logo-mobile {
+    width: 60px;
+    height: auto;
+    position: absolute;
+    top: 10px;
+}
 @media (min-width: 768px) { .logo-xs img#logo-mobile { display: none; } }
 
 #main-nav { margin-bottom: 0; background-color: #313131; border-radius: 0; border-color: #313131; min-height: 110px; position: relative; z-index: 1000;}
 #main-nav .search-wrapper, #main-nav .search-wrapper-xs { float: right; width: 100%; margin: 20px 0 20px 0; display: block; }
-@media (max-width: 767px) { #main-nav .search-wrapper, #main-nav .search-wrapper-xs { margin: 40px 0 0 0; display: none; } }
+@media (max-width: 767px) { 
+	#main-nav { min-height: 80px;}
+	#main-nav .search-wrapper, #main-nav .search-wrapper-xs { margin: 40px 0 0 0; display: none; } 
+}
 #main-nav .search-wrapper form, #main-nav .search-wrapper-xs form { margin: 0; padding: 0; -webkit-box-shadow: none; box-shadow: none; }
 #main-nav .search-wrapper form.navbar-form, #main-nav .search-wrapper-xs form.navbar-form { border-top: none; border-bottom: none; }
 #main-nav .search-wrapper form .form-control, #main-nav .search-wrapper-xs form .form-control { border-radius: 0; height: 30px; border-color: transparent; background-color: #282828; color: white; margin-right: 10px; }

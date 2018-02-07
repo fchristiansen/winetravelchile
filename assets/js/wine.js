@@ -100,8 +100,10 @@ console.log(thumb);
 
 
 $('#btn-chile').on('click',function(){
+	
 	if($('#sub-menu').hasClass('clander')){
 		$('#sub-menu').removeClass('clander');
+		$('#navbar').removeClass('in');
 	}else{
 		$('#sub-menu').addClass('clander');
 	}

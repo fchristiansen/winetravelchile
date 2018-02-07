@@ -23,7 +23,7 @@
 						    </a>
 						</div>
 					</div>
-					<div class="col-sm-3">
+					<div class="col-sm-3 hidden-xs">
 						<div class="caluga">
 						    <a class="caluga-enlace" href="javascript:void(0);">
 						    	<div class="lente">
@@ -33,7 +33,7 @@
 						    </a>
 						</div>
 					</div>
-					<div class="col-sm-3">
+					<div class="col-sm-3 hidden-xs">
 						<div class="caluga">
 						    <a class="caluga-enlace" href="javascript:void(0);">
 						    	<div class="lente">

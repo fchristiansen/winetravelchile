@@ -1,12 +1,7 @@
 <?php include('header.php'); ?>
 <?php include('main-nav.php'); ?>
+<?php include('include-menu-experiencias.php'); ?>
 <?php include('slider-lrwe.php'); ?>
-<?php
-	$detect = new Mobile_Detect();
-	if (!$detect->isMobile()) {
-		include('include-menu-experiencias.php');
-	}
-?>
 		<section id="destinations" class="position-relative">
 			
 			<div class="bloque-blanco-top-content"></div>

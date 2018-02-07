@@ -1,12 +1,10 @@
 <?php include('header.php'); ?>
 <?php include('main-nav.php'); ?>
-<?php include('slider-home.php'); ?>
 <?php
-	$detect = new Mobile_Detect();
-	if (!$detect->isMobile()) {
 		include('include-menu-experiencias.php');
-	}
 ?>
+<?php include('slider-home.php'); ?>
+
 		<section id="intro" class="position-relative">
 			<div class="uva"></div>
 			<div class="parra"></div>

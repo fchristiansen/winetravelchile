@@ -452,4 +452,16 @@ ul.not-include li img{top: -15px;position: relative; float: left; margin-right: 
 	.br5w{border-right: 0 solid #f7f6ef;}
 	.bl5w{border-left: 0 solid #f7f6ef;}
 	.bl5w.br5w{border-top: 10px solid #f7f6ef; border-bottom: 10px solid #f7f6ef;}
+	
+	#sub-menu.clander {
+	    margin-top: 20px;
+	    display: none;
+	}#sub-menu {
+	    position: relative;
+	    margin-top: 20px;
+	    padding: 0;
+	    opacity: 1;
+	    display: block;
+	}
+	
 }

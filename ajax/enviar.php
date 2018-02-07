@@ -106,17 +106,17 @@ $error_count = 0;
 		}
 
 	//enviar email
-		$to = "carorojas27@gmail.com";
+		$to = "winetravelchile@gmail.com";
 		$subject = "Contact Form - Winetravel.com";
-		$txt = "Destination: ".$destino."\n";
-		$txt.= "#Of Passengers: ".$pasajeros."\n";
-		$txt.= "First Name: ".$nombre."\n";
-		$txt.= "Last Name: ".$apellido."\n";
-		$txt.= "Email: ".$email."\n";
-		$txt.= "Phone: ".$phone."\n";
-		$txt.= "Dates of Travel From: ".$fecha1."\n";
+		$txt = "Destination: ".$destino."\n\n";
+		$txt.= "#Of Passengers: ".$pasajeros."\n\n";
+		$txt.= "First Name: ".$nombre."\n\n";
+		$txt.= "Last Name: ".$apellido."\n\n";
+		$txt.= "Email: ".$email."\n\n";
+		$txt.= "Phone: ".$phone."\n\n";
+		$txt.= "Dates of Travel From: ".$fecha1."\n\n";
 		$txt.= "Dates of Travel To: ".$fecha2."\n\n";
-		$txt.= " Comments:\n".$mensaje;
+		$txt.= "Comments:\n".$mensaje;
 
 		$headers = "From: ".$email;
 

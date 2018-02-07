@@ -1,27 +1,15 @@
 jQuery(function() {
 	
 
-		// show a simple loading indicator
-		var loader = jQuery('<div id="loader"><img src="assets/img/ajax-loader.gif" alt="loading..."></div>')
-			.css({
-				position: "relative",
-				top: "1em",
-				left: "25em",
-				display: "inline"
-			})
-			.appendTo("#result")
-			.hide();
-		jQuery().ajaxStart(function() {
-			loader.show();
-		}).ajaxStop(function() {
-			loader.hide();
-		}).ajaxError(function(a, b, e) {
-			throw e;
-		});
+		
 
 		var v = jQuery("#formContacto").validate({
 			submitHandler: function(form) {
 				jQuery(form).ajaxSubmit({
+
+					beforeSubmit: function(arr, $form, options) { 
+					    $("#result").html('<div id="loader"><img src="assets/img/ajax-loader.gif" alt="loading..."></div>');               
+					},
 					success: function(data) { 
 			            //$('#htmlExampleTarget').fadeIn('slow'); 
 			            if(data >=1){

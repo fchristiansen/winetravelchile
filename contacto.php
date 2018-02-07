@@ -29,8 +29,8 @@
 											<div class="form-group">
 											    <label for="sel1">Destination *</label>
 												  <select class="form-control required" id="sel1" name="destino">
-												    <option value="1">Luxury Red Wine Experience</option>
-												    <option value="2">Women's Walking, Wine and Food Experience</option>
+												    <option value="Luxury Red Wine Experience">Luxury Red Wine Experience</option>
+												    <option value="Women's Walking, Wine and Food Experience">Women's Walking, Wine and Food Experience</option>
 												   
 												  </select>
 											</div>

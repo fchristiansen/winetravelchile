@@ -15,7 +15,7 @@
 					</div>
 					<div class="col-sm-3">
 						<div class="caluga">
-						    <a class="caluga-enlace" href="active-wine-and-wine-experience.php">
+						    <a class="caluga-enlace" href="womens-walking-wine-and-food-experience.php">
 						    	<div class="lente">
 						      		<h3 class="caluga-title"> WOMEN'S WALKING, WINE AND FOOD EXPERIENCE</h3>
 						      	</div>

@@ -5,9 +5,14 @@
 				<a class="logo-xs" href="index.php">
 					<img id="logo-mobile" class="img-responsive center-block" src="assets/img/logo.svg" alt="wine travel chile">
 				</a>
-				<div class="search-wrapper" style="opacity: 0;">
-
-						<form id="sear" class="navbar-form navbar-right">
+				<div class="search-wrapper" style="opacity: 1;">
+						<!-- info contacto temp -->
+						<ul class="info-contact">
+							<li class="whatsapp"><a href="whatsapp://tel:56995381177" alt="WhatsApp" title="WhatsApp"><i class="fa fa-whatsapp"></i> + 56 9 95381177</a></li>
+							<li class="mail"><a href="mailto:winetravelchile@gmail.com"><i class="fa fa-envelope"></i> winetravelchile@gmail.com</a></li>
+						</ul>
+						<!-- fin contacto temp -->
+						<form id="sear" class="navbar-form navbar-right" style="display: none;">
 							<div class="form-group">
 								<input type="text" placeholder="" class="form-control">
 							</div>
@@ -37,7 +42,8 @@
 					<div class="row">
 						<div class="col-sm-12">
 							<div class="search-wrapper-xs">
-								<form class="navbar-form navbar-right">
+
+								<form class="navbar-form navbar-right" style="display: none;">
 									<div class="form-group">
 										<input type="text" placeholder="" class="form-control">
 									</div>
@@ -59,6 +65,14 @@
 					<li class="hide-beta"><a href="javascript:void(0);">blog</a></li>
 					<li class="divisor-item-menu">|</li>
 					<li><a href="contacto.php">contact</a></li>
+					<li id="mobile-contact">
+						<!-- info contacto temp -->
+						<ul class="info-contact">
+							<li class="whatsapp"><a href="whatsapp://tel:56995381177" alt="WhatsApp" title="WhatsApp"><i class="fa fa-whatsapp"></i> + 56 9 95381177</a></li>
+							<li class="mail"><a href="mailto:winetravelchile@gmail.com"><i class="fa fa-envelope"></i> winetravelchile@gmail.com</a></li>
+						</ul>
+						<!-- fin contacto temp -->
+					</li>
 				</ul>
 
 			</div><!--/.nav-collapse -->

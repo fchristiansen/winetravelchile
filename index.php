@@ -51,10 +51,7 @@
 						</div>
 						<div class="col-sm-6">
 							<p>
-								Travel visiting beautiful wineries and tasting the most delicious wines
-								in each of the wine valleys along the route. You will also enjoy World’s
-								most spectacular settings, and regional cuisine, while visiting local villages
-								and lodging in small and luxury hotels.</p>
+								Wine Travel Chile specializes in tailor-made wine-and-food-focused tours. Founded in 2002, when Karen Gilchrist returned to Chile after living in France and England for 8 years, there she had the opportunity to learn about great wines and travel to the most important wine regions in the world. We have built our reputation by tailor-made creative journeys through Chilean and Argentine best wine valleys.</p>
 								<div class="box-more hide-beta">
 									<a href="">more
 										<img src="assets/img/arrow-more.png" alt="">
@@ -107,7 +104,7 @@
 						<div class="col-sm-2 col-xs-6">
 							<a href="http://www.travelandleisure.com/trip-ideas/best-places-travel-south-america-february#15" target="_blank"><img class="img-responsive center-block" src="assets/img/logo-travel.png" alt="Travel and Leisure"></a>
 						</div>
-						<div class="col-sm-2 col-xs-6">
+						<div class="col-sm-2 col-xs-6" style="display: none;">
 							<a href="http://www.travelandleisure.com/articles/santiago-cleans-up" target="_blank"><img class="img-responsive center-block" src="assets/img/logo-travel.png" alt="Travel and Leisure"></a>
 						</div>
 						<div class="col-sm-2 col-xs-6">

@@ -655,5 +655,5 @@ ul.not-include li img{top: -15px;position: relative; float: left; margin-right: 
 }
 
 @media (max-width: 320px){
-	#mobile-contact ul li.mail a{font-size:1em !important;}
+	#mobile-contact ul li.mail a{font-size:0.96em !important;}
 }

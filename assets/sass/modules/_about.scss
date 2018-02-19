@@ -1,23 +1,113 @@
-section.about{
-  margin-bottom: 3rem;
-  //background-color: white;
-  @media(max-width: 1024px){
-      img{
-          margin: 0 auto;
-          width: 100%;
-      }
-  }
-  .content-about {
-    background-color: $gris;
-    padding: 6rem 3rem 2rem 3rem;
-    @media(max-width: 1024px){
-      padding: 3rem;
-    }
-     @media(max-width: 1023px){
-      padding: 2rem;
-    }
-    p{
-      @include font-size(15px);
-    }
-  }
+#about{
+	.content{
+		padding: 0em 7.500em;
+		@media(max-width: 768px){
+			padding: 0em;
+		}
+    	h2{
+			font-family: $prata;
+			color: $vino;
+			text-transform: uppercase;
+			@include font-size(60px);
+			@media(max-width: 768px){
+				@include font-size(30px);
+			}
+			@media(max-width: 767px){
+				@include font-size(20px);
+			}
+    	}
+
+		p{
+			font-weight: 300;
+			@include font-size(15px);
+			color: $verde;
+			margin-bottom: 2.188em;
+		}
+	}
+	#menu-about{
+		text-align: center;
+		margin-top: 3px;
+		margin-bottom: 4em;
+		@media(max-width:768px){
+			margin-top: 70px;
+		}
+		ul{
+			margin: 0;
+			padding: 0;
+			list-style-type: none;
+
+			li{
+				display: inline-block;
+				margin-right: 15px;
+				// &:first-child{
+
+				// }
+				&:last-child{
+				margin-right: 0;
+				}
+				@media(max-width:768px){
+					display: block;
+					margin-right: 0;
+					margin-bottom: 15px;
+				}
+				a{
+					border-radius: 0;
+					border: 3px solid $crema;
+					background-color: #fff;
+					@include link;
+					color: $vino;
+					@include font-size(15px);
+					font-family: $montserrat;
+					font-weight: 400;
+					text-transform: uppercase;
+					letter-spacing: 3px;
+					padding-left: 20px;
+					padding-right: 20px;
+					&:hover, &:focus, &.activo{
+						border-color: transparent !important;
+						background-color: $crema !important;
+						color: $vino !important;
+					}
+					@media(max-width:768px){
+						@include font-size(12px);
+						padding-left: 10px;
+						padding-right: 10px;
+					}
+
+				}
+			}
+		}
+
+	}
+}
+#founder{
+	.founder-img-box{
+		background-color: $vino;
+	}
+	.founder-signature-box{
+		background: url(../img/bg-signature.jpg) no-repeat;
+		background-size: cover;
+		background-position: center;
+		.founder-signature{
+			overflow: hidden;
+			p{
+				font-family: $montserrat;
+				@include font-size(13px);
+				color: $verde;
+				text-transform: uppercase;
+				letter-spacing: 3px;
+				text-align: center;
+				font-weight: 700;
+			}
+			.rectangulo-vino{
+				display: block;
+				width: 45px;
+				height: 11px;
+				background-color: $vino;
+			}
+		}
+	}
+}
+#team{
+
 }

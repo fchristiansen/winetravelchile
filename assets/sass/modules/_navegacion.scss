@@ -1,19 +1,16 @@
 
 
 	.navbar-brand{
-		//background:url() no-repeat;
+
 		position: absolute;
 		display: block;
 		top: 20px;
 		z-index: 1000;
-		//width: 170px;
 		height: auto;
 		padding: 0;
-		//height: auto;
 		@media(max-width: 768px){
 			left: 50px;
 		}
-
 		img#logo-desk{
 			width: 170px;
 			height: auto;
@@ -34,11 +31,12 @@
 			//width: 130px;
 		}
 		img#logo-mobile{
-			width: 130px;
+			width: 60px;
 			height: auto;
+			position: absolute;
+			top: 10px;
 			@media(min-width: 768px){
 				display: none;
-
 			}
 		}
 	}
@@ -48,6 +46,11 @@
 	border-radius: 0;
 	border-color: $gris;
 	min-height: 110px;
+	position: relative;
+	z-index: 1000;
+	@media(max-width: 767px){
+		min-height: 80px;
+	}
 		.search-wrapper{
 			float: right;
 			width: 100%;
@@ -80,20 +83,17 @@
 		}
 		.search-wrapper-xs{
 			@extend .search-wrapper;
-			display: none;
+			display: block;
 			@media(max-width: 767px){
-				margin: 20px 0 0 0;
-					display: block;
+				margin: 40px 0 0 0;
+				display: none;
 			}
-
 			.bt-vino{
 				@media(max-width: 767px){
 					@include font-size(20px);
 					width: 100%;
 				}
-
 			}
-
 		}
 		#navbar{
 
@@ -101,9 +101,11 @@
 				//padding-left: 30px;
 				border-color: transparent;
 				box-shadow: none;
-					background-color: #1e1e1e;
+				background-color: #1e1e1e;
+
 			}
 			ul#nav-list{
+				padding: 10px 15px;
 				@media(max-width: 767px){
 					padding: 20px 15px;
 				}
@@ -118,7 +120,7 @@
 						color: lighten($vino, 20%);
 					}
 					@media(max-width: 767px){
-						margin-bottom: 20px;
+					 	margin-bottom: 20px;
 					}
 					a{
 						@include link;
@@ -142,17 +144,19 @@
 
 }
 #sub-menu{
-	position: absolute;
-    min-height: 440px;
-    background: white;
-    width: 100%;
-    top: 110px;
-    z-index: 100;
-    padding: 100px 0 0 0;
-    background-color: white;
-    // .menu-experiences{
 
-    // }
+	position: absolute;
+	min-height: 440px;
+	background: white;
+	width: 100%;
+	margin-top: 110px;
+	z-index: 100;
+	padding: 100px 0 0 0;
+	background-color: white;
+	opacity: 1;
+	transition: all 0.5s ease-in-out;
+	top: 0;
+ 	&.clander{margin-top: -450px; opacity: 0;}
 }
 
 #sub-menu-experiences-container{

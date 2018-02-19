@@ -51,9 +51,24 @@ section.slider-home {
 							@include font-size(15px);
 						}
 	    	    	}
+	    	    	h4{
+	    				font-family: $prata;
+						color: white;
+						@include font-size(60px);
+						@media(max-width: 768px){
+							@include font-size(40px);
+						}
+						@media(max-width: 767px){
+							@include font-size(30px);
+						}
 
 	    	    	}
-	    		}
+					p{
+						letter-spacing: 3px;
+						@include font-size(15px);
+					}
+	    	    }
+	    	}
 
 				.owl-video-wrapper {
 	              //  min-height: 750px;

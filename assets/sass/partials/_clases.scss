@@ -1,12 +1,20 @@
+//.hide-beta{display: none !important;}
 @media(max-width:767px){
 			/*permite centrar horizontalmente la lista de redes en mobile*/
 			.center-xs{
 				display: table;
 				margin: 0 auto;
 			}
-		}
+	}
+	.center{
+		@include centerer(true, true);
+	}
 .section{
     padding: 5rem 0 3rem 0;
+}
+
+.mh-500{
+	min-height: 500px;
 }
 li.divisor-item-menu{
 	display: none;
@@ -39,6 +47,9 @@ li.divisor-item-sub-menu{
 	margin-top: 50px;
 	@media(max-width: 767px){
 		margin-top: 25px;
+	}
+	&.mt-0{
+		margin-top: 0;
 	}
 	h4{
 		font-family: $prata;

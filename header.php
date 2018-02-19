@@ -3,7 +3,7 @@
 	$detect = new Mobile_Detect;
 
 	$deviceType 	= ($detect->isMobile() ? ($detect->isTablet() ? 'tablet' : 'phone') : 'computer');
-	$scriptVersion 	= $detect->getScriptVersion();	
+	$scriptVersion 	= $detect->getScriptVersion();
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -31,6 +31,8 @@
 		<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
+
+		<!-- GOOGLE ANALYTICS -->
 		<script type="text/javascript">
 		// var _gaq = _gaq || [];
 		// _gaq.push(['_setAccount', 'UA-25725292-1']);
@@ -41,7 +43,7 @@
 		//   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 		// })();
 		</script>
-		
+
 		<link rel="icon" type="image/png" href="assets/img/logo.png" />
 	</head>
 	<body>

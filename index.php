@@ -1,7 +1,7 @@
 <?php include('header.php'); ?>
 <?php include('main-nav.php'); ?>
 <?php
-		include('include-menu-experiencias.php');
+	include('include-menu-experiencias.php');
 ?>
 <?php include('slider-home.php'); ?>
 

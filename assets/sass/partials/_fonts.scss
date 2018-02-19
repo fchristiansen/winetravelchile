@@ -47,6 +47,10 @@ body {
   @include font-size($size);
 }
 
+.texto-bold-wine{
+	font-weight: 700;
+	color: $vino;
+}
 //Títulos
 
 

@@ -270,7 +270,7 @@ section.slider-home #slider-home .owl-prev { background: url(../img/prev.png) no
 @media (max-width: 768px) { section.slider-home #slider-home .owl-prev { left: 10px; } }
 
 #about .content { padding: 0em 7.500em; margin-bottom: 100px; }
-@media (max-width: 768px) { #about .content { padding: 0em; margin-bottom: 30px; } }
+@media (max-width: 768px) { #about .content { padding: 0em; margin-bottom: 50px; } }
 #about .content h2 { font-family: "Prata", serif; color: #682944; text-transform: uppercase; font-size: 60px; font-size: 3.75rem; }
 @media (max-width: 768px) { #about .content h2 { font-size: 34px; font-size: 2.125rem; } }
 @media (max-width: 767px) { #about .content h2 { font-size: 30px; font-size: 1.875rem; } }
@@ -311,6 +311,15 @@ section#team .expert-box .expert-text h4 { text-transform: capitalize; color: #6
 section#team .expert-box .expert-text h3 { color: #682944; text-transform: uppercase; letter-spacing: 3px; font-size: 11px; font-size: 0.6875rem; font-family: "Montserrat", sans-serif; font-weight: 700; margin: 0 0 30px 0; }
 section#team .expert-box .expert-text p { color: #616552; font-size: 12px; font-size: 0.75rem; font-family: "Montserrat", sans-serif; font-weight: 300; line-height: 16px; margin: 0; padding-left: 250px; padding-bottom: 30px; }
 @media (max-width: 768px) { section#team .expert-box .expert-text p { font-size: 15px; font-size: 0.9375rem; line-height: 22px; padding: 0; } }
+
+section#testimonials .testimonial-box { position: relative; background-color: #f0eeee; padding: 60px 30px 0 30px; margin-bottom: 70px; }
+section#testimonials .testimonial-box .ico-testimonial { background: url(../img/ico-testimonial.png) no-repeat; width: 78px; height: 78px; position: absolute; position: absolute; left: 50%; -webkit-transform: translate(-50%, 0); transform: translate(-50%, 0); top: -39px; }
+section#testimonials .testimonial-box .testimonial-text { padding-bottom: 4px; }
+section#testimonials .testimonial-box .testimonial-text h4 { letter-spacing: 3px; text-transform: uppercase; font-size: 9px; font-size: 0.5625rem; color: #682944; font-family: "Montserrat", sans-serif; font-weight: 400; line-height: 12px; }
+@media (max-width: 768px) { section#testimonials .testimonial-box .testimonial-text h4 { font-size: 11px; font-size: 0.6875rem; line-height: 14px; } }
+section#testimonials .testimonial-box .testimonial-text p { font-size: 12px; font-size: 0.75rem; color: #383838; font-family: "Montserrat", sans-serif; font-weight: 300; }
+@media (max-width: 768px) { section#testimonials .testimonial-box .testimonial-text p { font-size: 14px; font-size: 0.875rem; } }
+section#testimonials .testimonial-box .testimonial-text .border-bottom-testimonial-box { background: url(../img/border-bottom-testimonial-box.png) repeat-x; width: 100%; height: 5px; position: absolute; bottom: 0; left: 0; }
 
 .caluga { overflow: hidden; -webkit-box-shadow: -5px 2px 20px -1px rgba(0, 0, 0, 0.35); box-shadow: -5px 2px 20px -1px rgba(0, 0, 0, 0.35); }
 @media (max-width: 767px) { .caluga { margin-bottom: 15px; } }
@@ -538,7 +547,7 @@ ul.not-include li img { top: -15px; position: relative; float: left; margin-righ
   #mobile-contact ul li.mail { font-size: 1em; } }
 @media (max-width: 320px) { #mobile-contact ul li.mail a { font-size: 0.96em !important; } }
 #about .content { padding: 0em 7.500em; margin-bottom: 100px; }
-@media (max-width: 768px) { #about .content { padding: 0em; margin-bottom: 30px; } }
+@media (max-width: 768px) { #about .content { padding: 0em; margin-bottom: 50px; } }
 #about .content h2 { font-family: "Prata", serif; color: #682944; text-transform: uppercase; font-size: 60px; font-size: 3.75rem; }
 @media (max-width: 768px) { #about .content h2 { font-size: 34px; font-size: 2.125rem; } }
 @media (max-width: 767px) { #about .content h2 { font-size: 30px; font-size: 1.875rem; } }
@@ -579,3 +588,12 @@ section#team .expert-box .expert-text h4 { text-transform: capitalize; color: #6
 section#team .expert-box .expert-text h3 { color: #682944; text-transform: uppercase; letter-spacing: 3px; font-size: 11px; font-size: 0.6875rem; font-family: "Montserrat", sans-serif; font-weight: 700; margin: 0 0 30px 0; }
 section#team .expert-box .expert-text p { color: #616552; font-size: 12px; font-size: 0.75rem; font-family: "Montserrat", sans-serif; font-weight: 300; line-height: 16px; margin: 0; padding-left: 250px; padding-bottom: 30px; }
 @media (max-width: 768px) { section#team .expert-box .expert-text p { font-size: 15px; font-size: 0.9375rem; line-height: 22px; padding: 0; } }
+
+section#testimonials .testimonial-box { position: relative; background-color: #f0eeee; padding: 60px 30px 0 30px; margin-bottom: 70px; }
+section#testimonials .testimonial-box .ico-testimonial { background: url(../img/ico-testimonial.png) no-repeat; width: 78px; height: 78px; position: absolute; position: absolute; left: 50%; -webkit-transform: translate(-50%, 0); transform: translate(-50%, 0); top: -39px; }
+section#testimonials .testimonial-box .testimonial-text { padding-bottom: 4px; }
+section#testimonials .testimonial-box .testimonial-text h4 { letter-spacing: 3px; text-transform: uppercase; font-size: 9px; font-size: 0.5625rem; color: #682944; font-family: "Montserrat", sans-serif; font-weight: 400; line-height: 12px; }
+@media (max-width: 768px) { section#testimonials .testimonial-box .testimonial-text h4 { font-size: 11px; font-size: 0.6875rem; line-height: 14px; } }
+section#testimonials .testimonial-box .testimonial-text p { font-size: 12px; font-size: 0.75rem; color: #383838; font-family: "Montserrat", sans-serif; font-weight: 300; }
+@media (max-width: 768px) { section#testimonials .testimonial-box .testimonial-text p { font-size: 14px; font-size: 0.875rem; } }
+section#testimonials .testimonial-box .testimonial-text .border-bottom-testimonial-box { background: url(../img/border-bottom-testimonial-box.png) repeat-x; width: 100%; height: 5px; position: absolute; bottom: 0; left: 0; }

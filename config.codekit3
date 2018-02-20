@@ -359,6 +359,26 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/assets\/img\/banner-testimonials-xs.jpg": {
+		"ft": 16384,
+		"iS": 70686,
+		"oA": 0,
+		"oAP": "\/assets\/img\/banner-testimonials-xs.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/banner-testimonials.jpg": {
+		"ft": 16384,
+		"iS": 1114298,
+		"oA": 0,
+		"oAP": "\/assets\/img\/banner-testimonials.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/assets\/img\/bg-signature.jpg": {
 		"ft": 16384,
 		"iS": 156434,
@@ -374,6 +394,17 @@
 		"iS": 351207,
 		"oA": 0,
 		"oAP": "\/assets\/img\/bg1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/border-bottom-testimonial-box.png": {
+		"ft": 32768,
+		"iS": 3660,
+		"oA": 0,
+		"oAP": "\/assets\/img\/border-bottom-testimonial-box.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -601,6 +632,17 @@
 		"iS": 2192,
 		"oA": 0,
 		"oAP": "\/assets\/img\/ico-plane.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/ico-testimonial.png": {
+		"ft": 32768,
+		"iS": 6352,
+		"oA": 0,
+		"oAP": "\/assets\/img\/ico-testimonial.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1134,6 +1176,16 @@
 		"oA": 1,
 		"oAP": "\/assets\/js\/jquery.fancybox.min-min.js",
 		"oF": 1,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/assets\/js\/masonry.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/masonry-min.js",
+		"oF": 0,
 		"sC": 0,
 		"tS": 0
 		},
@@ -2585,6 +2637,13 @@
 		"oAP": "\/page-about-team.php",
 		"oF": 0
 		},
+	"\/page-about-testimonials.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/page-about-testimonials.php",
+		"oF": 0
+		},
 	"\/page-about.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -2625,6 +2684,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/slider-lrwe.php",
+		"oF": 0
+		},
+	"\/slider-testimonials.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/slider-testimonials.php",
 		"oF": 0
 		},
 	"\/womens-walking-wine-and-food-experience.php": {

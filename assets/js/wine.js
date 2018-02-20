@@ -43,6 +43,14 @@ $('#slider-home').owlCarousel({
     }
 })
 
+$('.grid').masonry({
+  itemSelector: '.grid-item', // use a separate class for itemSelector, other than .col-
+  columnWidth: '.grid-sizer',
+  percentPosition: true
+});
+
+
+
 /*
 var thumb = $(".owl-video").attr("data-video-thumb");
 $(".owl-video-tn").append('<img class="img-responsive"  src="'+thumb+'" alt="">');
@@ -102,7 +110,7 @@ console.log(thumb);
 
 
 $('#btn-chile').on('click',function(){
-	
+
 	if($('#sub-menu').hasClass('clander')){
 		$('#sub-menu').removeClass('clander');
 		$('#navbar').removeClass('in');

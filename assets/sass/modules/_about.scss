@@ -1,8 +1,10 @@
 #about{
 	.content{
 		padding: 0em 7.500em;
+		margin-bottom: 100px;
 		@media(max-width: 768px){
 			padding: 0em;
+			margin-bottom: 30px;
 		}
     	h2{
 			font-family: $prata;
@@ -10,10 +12,10 @@
 			text-transform: uppercase;
 			@include font-size(60px);
 			@media(max-width: 768px){
-				@include font-size(30px);
+				@include font-size(34px);
 			}
 			@media(max-width: 767px){
-				@include font-size(20px);
+				@include font-size(30px);
 			}
     	}
 
@@ -73,7 +75,6 @@
 						padding-left: 10px;
 						padding-right: 10px;
 					}
-
 				}
 			}
 		}
@@ -99,15 +100,126 @@
 				text-align: center;
 				font-weight: 700;
 			}
-			.rectangulo-vino{
-				display: block;
-				width: 45px;
-				height: 11px;
-				background-color: $vino;
-			}
 		}
 	}
 }
-#team{
+section#featured{
+	h5{
+		text-transform: capitalize;
+		color: $verde;
+		@include font-size(35px);
+		font-family: $montserrat;
+		font-weight: 400;
+		@media(max-width:768px){
+			@include font-size(30px);
+		}
+	}
+	h6{
+		color: $verde;
+		text-transform: uppercase;
+		letter-spacing: 3px;
+		@include font-size(12px);
+		font-family: $montserrat;
+		font-weight: 700;
+		margin-bottom: 16px;
+		@media(max-width:768px){
+			margin-top: 16px;
+		}
+
+	}
+	p{
+		color: $verde;
+		@include font-size(14px);
+		margin-bottom:1em;
+		font-family: $montserrat;
+		font-weight: 300;
+		line-height: 23px;
+		@media(max-width:768px){
+			line-height: 22px;
+			@include font-size(15px);
+		}
+	}
+}
+section#team{
+	padding-bottom: 3rem;
+	.expert-box{
+		background-color: $gris-caja;
+		margin-bottom: 30px;
+		position: relative;
+		padding: 0px 30px 0 0;
+
+		@media(max-width:768px){
+			padding-right: 0px;
+		}
+			img{
+				float: left;
+				margin-right: 30px;
+
+				@media(max-width:1024px){
+					margin-bottom: 0;
+				}
+				@media(max-width:1023px){
+					margin-bottom: 30px;
+				}
+
+			}
+
+			// @media(max-width: 768px){
+			// 	padding: 30px;
+			// }
+			.expert-text{
+		//		@include centerer(false, true);
+		//		left: 252px;
+				padding-top: 30px;
+				@media(max-width:768px){
+					//padding-top: 0;
+					float: left;
+					padding:20px 20px 30px 20px;
+				}
+				h4{
+					text-transform: capitalize;
+					color: $verde;
+					@include font-size(26px);
+					font-family: $montserrat;
+					font-weight: 400;
+					margin: 0 0 5px 0;
+					@media(max-width:768px){
+						@include font-size(18px);
+					}
+				}
+				h3{
+					color: $vino;
+					text-transform: uppercase;
+					letter-spacing: 3px;
+					@include font-size(11px);
+					font-family: $montserrat;
+					font-weight: 700;
+					margin: 0 0 30px 0;
+					@media(max-width:768px){
+
+					}
+				}
+				p{
+					color: $verde;
+					@include font-size(12px);
+					//margin-bottom:1em;
+					font-family: $montserrat;
+					font-weight: 300;
+					line-height: 16px;
+					margin: 0;
+					padding-left: 250px;
+					padding-bottom: 30px;
+					@media(max-width:768px){
+						@include font-size(15px);
+						line-height: 22px;
+						padding: 0;
+					}
+				}
+			}
+
+
+	}
+
+
 
 }

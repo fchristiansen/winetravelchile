@@ -492,6 +492,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/assets\/img\/expert.jpg": {
+		"ft": 16384,
+		"iS": 64874,
+		"oA": 0,
+		"oAP": "\/assets\/img\/expert.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/assets\/img\/founder-signature.png": {
 		"ft": 32768,
 		"iS": 23487,
@@ -1039,6 +1049,17 @@
 		"iS": 87644,
 		"oA": 0,
 		"oAP": "\/assets\/img\/uvas.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/vina-section-team.png": {
+		"ft": 32768,
+		"iS": 43801,
+		"oA": 0,
+		"oAP": "\/assets\/img\/vina-section-team.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

@@ -7,7 +7,7 @@
 		          	<div class="carousel-info">
 		          		<div class="carousel-info-inner">
 		          			<p class="hidden-xs">
-		          				<a href="index.php">Home</a> / about us
+		          				<a href="index.php">Home</a> / <a href="page-about.php">about us</a>  / team
 		          			</p>
 		          			<h4>Guided by Wine experts </h4>
 		          		</div>

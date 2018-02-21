@@ -1,9 +1,7 @@
 
 .caluga{
-  overflow: hidden;
-  -webkit-box-shadow: -5px 2px 20px -1px rgba(0,0,0,0.35);
--moz-box-shadow: -5px 2px 20px -1px rgba(0,0,0,0.35);
-box-shadow: -5px 2px 20px -1px rgba(0,0,0,0.35);
+  	overflow: hidden;
+	box-shadow: -5px 2px 20px -1px rgba(0,0,0,0.35);
 
   @media(max-width: 767px){
     margin-bottom: 15px;
@@ -39,16 +37,10 @@ box-shadow: -5px 2px 20px -1px rgba(0,0,0,0.35);
           width: 80%;
           line-height: normal;
           &:hover{
-			    	.lente{
-
-							background-color: rgba(0,0,0,0.3);
-
-
+			    .lente{
+						background-color: rgba(0,0,0,0.3);
 			    	}
-
           }
-
-
 
             // @media(max-width: 1024px){
             //    @include font-size(33px);
@@ -56,9 +48,9 @@ box-shadow: -5px 2px 20px -1px rgba(0,0,0,0.35);
             //    top: 50%;
             //    transition: none;
             // }
-            // @media(max-width: 768px){
-            //     @include font-size(26px);
-            // }
+            @media(max-width: 768px){
+                @include font-size(14px);
+            }
             // @media(max-width: 767px){
             //     @include font-size(33px);
             // }

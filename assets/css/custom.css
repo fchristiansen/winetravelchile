@@ -17,11 +17,22 @@ body { font-family: "Quicksand", Helvetica, Arial, sans-serif; }
 
 @media (max-width: 767px) { /*permite centrar horizontalmente la lista de redes en mobile*/
   .center-xs { display: table; margin: 0 auto; } }
+.content { padding: 0em 7.500em; margin-bottom: 100px; }
+@media (max-width: 768px) { .content { padding: 0em; margin-top: 50px; margin-bottom: 50px; } }
+.content h2 { font-family: "Prata", serif; color: #682944; text-transform: uppercase; font-size: 60px; font-size: 3.75rem; }
+@media (max-width: 768px) { .content h2 { font-size: 34px; font-size: 2.125rem; } }
+@media (max-width: 767px) { .content h2 { font-size: 40px; font-size: 2.5rem; margin-bottom: 30px; } }
+.content p { font-weight: 300; font-size: 15px; font-size: 0.9375rem; color: #616552; margin-bottom: 2.188em; }
+
 .center { position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
 
 .img-center { margin: 40px auto; }
 
 .section { padding: 5rem 0 3rem 0; }
+
+.mb-0 { margin-bottom: 0 !important; }
+
+.pb-0 { padding-bottom: 0 !important; }
 
 .rectangulo-vino { display: block; width: 45px; height: 11px; background-color: #682944; }
 
@@ -100,7 +111,7 @@ li.divisor-item-sub-menu { display: none !important; }
 
 .no-margin { margin: 0 !important; display: block !important; }
 
-.clear { clear: both; }
+.clear { clear: both !important; }
 
 .bg-gris { background-color: #313131; }
 
@@ -119,10 +130,6 @@ input[type="email"]:-moz-placeholder, input[type="text"]:-moz-placeholder, input
 @media (max-width: 1024px) { input[type="email"]:-moz-placeholder, input[type="text"]:-moz-placeholder, input[type="password"]:-moz-placeholder { font-size: 11px; font-size: 0.6875rem; } }
 
 .linea { width: 100%; height: 2px; border-top: 1px solid #86754D; display: block; }
-
-.titulo-con-imagen { background-color: white; display: inline-block; position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); top: 0; height: 28px; padding: 0 40px; z-index: 1; }
-.titulo-con-imagen h3 { font-weight: 400; color: #86754D; font-size: 13px; font-size: 0.8125rem; text-transform: uppercase; letter-spacing: 4px; display: inline-block; text-align: center; margin: 0; z-index: 1; }
-.titulo-con-imagen .hojas { width: 151px; height: 68px; background: url(../img/hojas.svg) no-repeat; background-position: center bottom; position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); top: 10; z-index: -1; }
 
 .navbar-brand { position: absolute; display: block; top: 20px; z-index: 1000; height: auto; padding: 0; }
 @media (max-width: 768px) { .navbar-brand { left: 50px; } }
@@ -269,14 +276,8 @@ section.slider-home #slider-home .owl-prev { background: url(../img/prev.png) no
 @media (max-width: 1024px) { section.slider-home #slider-home .owl-prev { margin-top: -30px !important; } }
 @media (max-width: 768px) { section.slider-home #slider-home .owl-prev { left: 10px; } }
 
-#about .content { padding: 0em 7.500em; margin-bottom: 100px; }
-@media (max-width: 768px) { #about .content { padding: 0em; margin-bottom: 50px; } }
-#about .content h2 { font-family: "Prata", serif; color: #682944; text-transform: uppercase; font-size: 60px; font-size: 3.75rem; }
-@media (max-width: 768px) { #about .content h2 { font-size: 34px; font-size: 2.125rem; } }
-@media (max-width: 767px) { #about .content h2 { font-size: 30px; font-size: 1.875rem; } }
-#about .content p { font-weight: 300; font-size: 15px; font-size: 0.9375rem; color: #616552; margin-bottom: 2.188em; }
 #about #menu-about { text-align: center; margin-top: 3px; margin-bottom: 4em; }
-@media (max-width: 768px) { #about #menu-about { margin-top: 70px; } }
+@media (max-width: 768px) { #about #menu-about { margin-top: 70px; margin-bottom: 0; } }
 #about #menu-about ul { margin: 0; padding: 0; list-style-type: none; }
 #about #menu-about ul li { display: inline-block; margin-right: 15px; }
 #about #menu-about ul li:last-child { margin-right: 0; }
@@ -285,6 +286,7 @@ section.slider-home #slider-home .owl-prev { background: url(../img/prev.png) no
 #about #menu-about ul li a:hover, #about #menu-about ul li a:focus { text-decoration: none; color: #682944; }
 #about #menu-about ul li a:hover, #about #menu-about ul li a:focus, #about #menu-about ul li a.activo { border-color: transparent !important; background-color: #e3dcd9 !important; color: #682944 !important; }
 @media (max-width: 768px) { #about #menu-about ul li a { font-size: 12px; font-size: 0.75rem; padding-left: 10px; padding-right: 10px; } }
+#about .logos { margin-bottom: 0; }
 
 #founder .founder-img-box { background-color: #682944; }
 #founder .founder-signature-box { background: url(../img/bg-signature.jpg) no-repeat; background-size: cover; background-position: center; }
@@ -321,6 +323,17 @@ section#testimonials .testimonial-box .testimonial-text p { font-size: 12px; fon
 @media (max-width: 768px) { section#testimonials .testimonial-box .testimonial-text p { font-size: 14px; font-size: 0.875rem; } }
 section#testimonials .testimonial-box .testimonial-text .border-bottom-testimonial-box { background: url(../img/border-bottom-testimonial-box.png) repeat-x; width: 100%; height: 5px; position: absolute; bottom: 0; left: 0; }
 
+#prensa { margin-bottom: 60px; }
+@media (max-width: 768px) { #prensa { margin-bottom: 30px; } }
+#prensa .download-box h2 { font-family: "Montserrat", sans-serif; font-size: 35px; font-size: 2.1875rem; color: #616552; font-weight: 400; }
+@media (max-width: 768px) { #prensa .download-box h2 { font-size: 25px; font-size: 1.5625rem; } }
+#prensa .download-box p { font-family: "Montserrat", sans-serif; font-size: 15px; font-size: 0.9375rem; color: #616552; font-weight: 300; }
+@media (max-width: 768px) { #prensa .download-box p { font-size: 12px; font-size: 0.75rem; } }
+#prensa .download-box a { -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; color: #000000; cursor: pointer; font-family: "Montserrat", sans-serif; font-weight: 700; font-size: 15px; font-size: 0.9375rem; text-transform: uppercase; color: #616552; }
+#prensa .download-box a:hover, #prensa .download-box a:focus { text-decoration: none; color: #682944; }
+@media (max-width: 768px) { #prensa .download-box a { font-size: 12px; font-size: 0.75rem; } }
+#prensa .download-box a img { margin-left: 20px; }
+
 .caluga { overflow: hidden; -webkit-box-shadow: -5px 2px 20px -1px rgba(0, 0, 0, 0.35); box-shadow: -5px 2px 20px -1px rgba(0, 0, 0, 0.35); }
 @media (max-width: 767px) { .caluga { margin-bottom: 15px; } }
 .caluga a.caluga-enlace { position: relative; display: block; cursor: pointer; }
@@ -328,6 +341,7 @@ section#testimonials .testimonial-box .testimonial-text .border-bottom-testimoni
 .caluga a.caluga-enlace .lente:hover { background-color: rgba(0, 0, 0, 0.3); }
 .caluga a.caluga-enlace .caluga-title { font-weight: 400; color: #ffffff; font-size: 18px; font-size: 1.125rem; position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); opacity: 1; -webkit-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out; z-index: 1; margin: 0; font-family: "Montserrat", sans-serif; text-align: center; width: 80%; line-height: normal; }
 .caluga a.caluga-enlace .caluga-title:hover .lente { background-color: rgba(0, 0, 0, 0.3); }
+@media (max-width: 768px) { .caluga a.caluga-enlace .caluga-title { font-size: 14px; font-size: 0.875rem; } }
 .caluga a.caluga-enlace .caluga-img { -webkit-transform: scale(1); transform: scale(1); -webkit-transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; width: 100%; }
 @media (min-width: 1025px) { .caluga a.caluga-enlace:hover .caluga-img { -webkit-transform: scale(1.07); transform: scale(1.07); } }
 
@@ -546,14 +560,8 @@ ul.not-include li img { top: -15px; position: relative; float: left; margin-righ
   #mobile-contact .info-contact li.mail i { font-size: 1.1em; }
   #mobile-contact ul li.mail { font-size: 1em; } }
 @media (max-width: 320px) { #mobile-contact ul li.mail a { font-size: 0.96em !important; } }
-#about .content { padding: 0em 7.500em; margin-bottom: 100px; }
-@media (max-width: 768px) { #about .content { padding: 0em; margin-bottom: 50px; } }
-#about .content h2 { font-family: "Prata", serif; color: #682944; text-transform: uppercase; font-size: 60px; font-size: 3.75rem; }
-@media (max-width: 768px) { #about .content h2 { font-size: 34px; font-size: 2.125rem; } }
-@media (max-width: 767px) { #about .content h2 { font-size: 30px; font-size: 1.875rem; } }
-#about .content p { font-weight: 300; font-size: 15px; font-size: 0.9375rem; color: #616552; margin-bottom: 2.188em; }
 #about #menu-about { text-align: center; margin-top: 3px; margin-bottom: 4em; }
-@media (max-width: 768px) { #about #menu-about { margin-top: 70px; } }
+@media (max-width: 768px) { #about #menu-about { margin-top: 70px; margin-bottom: 0; } }
 #about #menu-about ul { margin: 0; padding: 0; list-style-type: none; }
 #about #menu-about ul li { display: inline-block; margin-right: 15px; }
 #about #menu-about ul li:last-child { margin-right: 0; }
@@ -562,6 +570,7 @@ ul.not-include li img { top: -15px; position: relative; float: left; margin-righ
 #about #menu-about ul li a:hover, #about #menu-about ul li a:focus { text-decoration: none; color: #682944; }
 #about #menu-about ul li a:hover, #about #menu-about ul li a:focus, #about #menu-about ul li a.activo { border-color: transparent !important; background-color: #e3dcd9 !important; color: #682944 !important; }
 @media (max-width: 768px) { #about #menu-about ul li a { font-size: 12px; font-size: 0.75rem; padding-left: 10px; padding-right: 10px; } }
+#about .logos { margin-bottom: 0; }
 
 #founder .founder-img-box { background-color: #682944; }
 #founder .founder-signature-box { background: url(../img/bg-signature.jpg) no-repeat; background-size: cover; background-position: center; }
@@ -597,3 +606,28 @@ section#testimonials .testimonial-box .testimonial-text h4 { letter-spacing: 3px
 section#testimonials .testimonial-box .testimonial-text p { font-size: 12px; font-size: 0.75rem; color: #383838; font-family: "Montserrat", sans-serif; font-weight: 300; }
 @media (max-width: 768px) { section#testimonials .testimonial-box .testimonial-text p { font-size: 14px; font-size: 0.875rem; } }
 section#testimonials .testimonial-box .testimonial-text .border-bottom-testimonial-box { background: url(../img/border-bottom-testimonial-box.png) repeat-x; width: 100%; height: 5px; position: absolute; bottom: 0; left: 0; }
+
+#prensa { margin-bottom: 60px; }
+@media (max-width: 768px) { #prensa { margin-bottom: 30px; } }
+#prensa .download-box h2 { font-family: "Montserrat", sans-serif; font-size: 35px; font-size: 2.1875rem; color: #616552; font-weight: 400; }
+@media (max-width: 768px) { #prensa .download-box h2 { font-size: 25px; font-size: 1.5625rem; } }
+#prensa .download-box p { font-family: "Montserrat", sans-serif; font-size: 15px; font-size: 0.9375rem; color: #616552; font-weight: 300; }
+@media (max-width: 768px) { #prensa .download-box p { font-size: 12px; font-size: 0.75rem; } }
+#prensa .download-box a { -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; color: #000000; cursor: pointer; font-family: "Montserrat", sans-serif; font-weight: 700; font-size: 15px; font-size: 0.9375rem; text-transform: uppercase; color: #616552; }
+#prensa .download-box a:hover, #prensa .download-box a:focus { text-decoration: none; color: #682944; }
+@media (max-width: 768px) { #prensa .download-box a { font-size: 12px; font-size: 0.75rem; } }
+#prensa .download-box a img { margin-left: 20px; }
+
+#hotels h2 { margin-bottom: 50px; }
+@media (max-width: 768px) { #hotels h2 { margin-top: 25px; margin-bottom: 25px; } }
+#hotels .hotel-box { margin-bottom: 30px; }
+#hotels .hotel-box img { margin-bottom: 20px; }
+#hotels .hotel-box p { color: #616552; font-size: 13px; font-size: 0.8125rem; font-family: "Montserrat", sans-serif; font-weight: 400; text-transform: uppercase; }
+@media (max-width: 768px) { #hotels .hotel-box p { font-size: 15px; font-size: 0.9375rem; } }
+
+#terms h2 { margin-bottom: 50px; font-size: 40px; font-size: 2.5rem; }
+@media (max-width: 768px) { #terms h2 { margin-top: 25px; margin-bottom: 25px; font-size: 30px; font-size: 1.875rem; } }
+#terms .term-box { margin-bottom: 40px; }
+@media (max-width: 768px) { #terms .term-box { margin-bottom: 20px; } }
+#terms .term-box p { color: #616552; font-size: 15px; font-size: 0.9375rem; font-family: "Montserrat", sans-serif; font-weight: 300; }
+@media (max-width: 768px) { #terms .term-box p { font-size: 14px; font-size: 0.875rem; } }

@@ -1,0 +1,26 @@
+#hotels{
+	h2{
+		margin-bottom:50px;
+		@media(max-width:768px){
+			margin-top: 25px;
+			margin-bottom:25px;
+		}
+	}
+	.hotel-box{
+		margin-bottom: 30px;
+		img{
+			margin-bottom: 20px;
+		}
+		p{
+			color: $verde;
+			@include font-size(13px);
+			font-family: $montserrat;
+			font-weight: 400;
+			text-transform: uppercase;
+			@media(max-width:768px){
+				@include font-size(15px);
+			}
+		}
+	}
+
+}

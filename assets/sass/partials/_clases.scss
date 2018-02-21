@@ -6,6 +6,35 @@
 				margin: 0 auto;
 			}
 	}
+	.content{
+		padding: 0em 7.500em;
+		margin-bottom: 100px;
+		@media(max-width: 768px){
+			padding: 0em;
+			margin-top: 50px;
+			margin-bottom: 50px;
+		}
+		h2{
+			font-family: $prata;
+			color: $vino;
+			text-transform: uppercase;
+			@include font-size(60px);
+			@media(max-width: 768px){
+				@include font-size(34px);
+			}
+			@media(max-width: 767px){
+				@include font-size(40px);
+				margin-bottom: 30px;
+			}
+		}
+
+		p{
+			font-weight: 300;
+			@include font-size(15px);
+			color: $verde;
+			margin-bottom: 2.188em;
+		}
+	}
 .center{
 	@include centerer(true, true);
 }
@@ -15,7 +44,12 @@
 .section{
     padding: 5rem 0 3rem 0;
 }
-
+.mb-0{
+	margin-bottom: 0 !important;
+}
+.pb-0{
+	padding-bottom: 0 !important;
+}
 .rectangulo-vino{
 	display: block;
 	width: 45px;
@@ -220,10 +254,6 @@ li.divisor-item-sub-menu{
     position: absolute;
     bottom: -55px;
     right:15px;
-   // background: black;
-    //background: rgba(0, 0, 0, 0.7);
-    // width: 50px;
-    // height: 50px;
     display: block;
     text-decoration: none;
     display: block;
@@ -233,9 +263,6 @@ li.divisor-item-sub-menu{
     @include regular(11px, black);
     letter-spacing: 4px;
     text-transform: uppercase;
-    //background-color: #000;
-    //padding: 2;
-    //line-height: 1;
      .fa-chevron-up {
 			color: #fff;
 			margin: 0;
@@ -255,13 +282,6 @@ li.divisor-item-sub-menu{
     }
 }
 
-
-// .container{
-
-//     @media(min-width: 1200px){
-//       max-width: 1300px;
-//   }
-// }
 .overflow-hidden{
   overflow: hidden !important;
   display: block;
@@ -291,7 +311,7 @@ li.divisor-item-sub-menu{
   }
 
 .clear {
-  clear: both;
+  clear: both !important;
 }
 
 .bg-gris{
@@ -376,40 +396,38 @@ input[type="password"]:-moz-placeholder
 .linea{
 
   width: 100%;
- // position: absolute;
   height: 2px;
   border-top: 1px solid $cafe;
-  //top: 0;
   display:block;
-  //margin: 0 auto 30px 0;
+
 }
-.titulo-con-imagen{
-    background-color: white;
-    display: inline-block;
-    @include centerer(true, true);
-    top: 0;
-    height: 28px;
-    padding: 0 40px;
-    z-index: 1;
-      h3{
-              @include regular(13px, $cafe);
-              text-transform: uppercase;
-              letter-spacing: 4px;
-              display: inline-block;
-              text-align: center;
-              margin: 0;
-              z-index: 1;
-      }
-      .hojas{
-            width: 151px;
-            height: 68px;
-            background: url(../img/hojas.svg) no-repeat;
-            background-position: center bottom;
-            @include centerer(true, true);
-            top: 10;
-            z-index: -1;
-        }
-}
+// .titulo-con-imagen{
+//     background-color: white;
+//     display: inline-block;
+//     @include centerer(true, true);
+//     top: 0;
+//     height: 28px;
+//     padding: 0 40px;
+//     z-index: 1;
+//       h3{
+//               @include regular(13px, $cafe);
+//               text-transform: uppercase;
+//               letter-spacing: 4px;
+//               display: inline-block;
+//               text-align: center;
+//               margin: 0;
+//               z-index: 1;
+//       }
+//       .hojas{
+//             width: 151px;
+//             height: 68px;
+//             background: url(../img/hojas.svg) no-repeat;
+//             background-position: center bottom;
+//             @include centerer(true, true);
+//             top: 10;
+//             z-index: -1;
+//         }
+// }
 
 
 

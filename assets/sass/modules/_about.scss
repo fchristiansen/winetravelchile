@@ -1,37 +1,12 @@
 #about{
-	.content{
-		padding: 0em 7.500em;
-		margin-bottom: 100px;
-		@media(max-width: 768px){
-			padding: 0em;
-			margin-bottom: 50px;
-		}
-    	h2{
-			font-family: $prata;
-			color: $vino;
-			text-transform: uppercase;
-			@include font-size(60px);
-			@media(max-width: 768px){
-				@include font-size(34px);
-			}
-			@media(max-width: 767px){
-				@include font-size(30px);
-			}
-    	}
 
-		p{
-			font-weight: 300;
-			@include font-size(15px);
-			color: $verde;
-			margin-bottom: 2.188em;
-		}
-	}
 	#menu-about{
 		text-align: center;
 		margin-top: 3px;
 		margin-bottom: 4em;
 		@media(max-width:768px){
 			margin-top: 70px;
+			margin-bottom: 0;
 		}
 		ul{
 			margin: 0;
@@ -79,6 +54,9 @@
 			}
 		}
 
+	}
+	.logos{
+		margin-bottom: 0;
 	}
 }
 #founder{
@@ -225,7 +203,6 @@ section#team{
 }
 
 section#testimonials{
-
 	.testimonial-box{
 		position: relative;
 		background-color: $gris-caja;
@@ -269,7 +246,6 @@ section#testimonials{
 				}
 
 			}
-
 			.border-bottom-testimonial-box{
 				background: url(../img/border-bottom-testimonial-box.png) repeat-x;
 				width: 100%;
@@ -277,8 +253,54 @@ section#testimonials{
 				position: absolute;
 				bottom: 0;
 				left: 0;
-
 			}
 		}
 	}
 }
+
+#prensa{
+	margin-bottom: 60px;
+	@media(max-width:768px){
+		margin-bottom: 30px;
+	}
+	.download-box{
+		h2{
+			font-family: $montserrat;
+			@include font-size(35px);
+			color: $verde;
+			font-weight: 400;
+			@media(max-width: 768px){
+				@include font-size(25px);
+			}
+		}
+		p{
+			font-family: $montserrat;
+			@include font-size(15px);
+			color: $verde;
+			font-weight: 300;
+			@media(max-width: 768px){
+				@include font-size(12px);
+			}
+		}
+		a{
+			@include link;
+			font-family: $montserrat;
+			font-weight: 700;
+			@include font-size(15px);
+			text-transform: uppercase;
+			color: $verde;
+			@media(max-width: 768px){
+				@include font-size(12px);
+			}
+			img{
+				margin-left: 20px;
+			}
+			&:hover, &:focus{
+
+			}
+		}
+
+	}
+}
+
+

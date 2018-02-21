@@ -1,0 +1,29 @@
+#terms{
+	h2{
+		margin-bottom:50px;
+		@include font-size(40px);
+		@media(max-width:768px){
+			margin-top: 25px;
+			margin-bottom:25px;
+			@include font-size(30px);
+		}
+	}
+	.term-box{
+		margin-bottom: 40px;
+		@media(max-width:768px){
+			margin-bottom: 20px;
+		}
+
+		p{
+			color: $verde;
+			@include font-size(15px);
+			font-family: $montserrat;
+			font-weight: 300;
+			//text-transform: uppercase;
+			@media(max-width:768px){
+				@include font-size(14px);
+			}
+		}
+	}
+
+}

@@ -41,7 +41,51 @@ $('#slider-home').owlCarousel({
             items:1
         }
     }
-})
+});
+
+// $('#carousel-destinations').owlCarousel({
+// 	center: true,
+//     items:3,
+//     loop:true,
+//     margin:10,
+//     responsive:{
+//         600:{
+//             items:1
+//         }
+//     }
+
+// });
+
+$('.carousel-destinations').slick({
+  centerMode: true,
+  centerPadding: '500px',
+  slidesToShow: 1,
+  arrows:true,
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 1
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 1
+      }
+    }
+  ]
+});
+
+
+
+
 
 $('.grid').masonry({
   itemSelector: '.grid-item', // use a separate class for itemSelector, other than .col-

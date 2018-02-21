@@ -333,6 +333,27 @@ li.divisor-item-sub-menu{
   cursor: pointer;
 }
 
+.boton-submit{
+	@include link;
+	background-color: #a53b69;
+	border-color: #a53b69;
+	border-radius: 0;
+	font-size: 1rem;
+	font-weight: 700;
+	height: 60px;
+	//margin-top: 15px;
+	letter-spacing: 3px;
+	//margin-bottom: 30px;
+	color: white;
+	text-transform: uppercase;
+
+	&:hover, &:focus{
+		background-color: #682944;
+		border-color: #682944;
+		color: white;
+	}
+}
+
 input[type="email"]::-webkit-input-placeholder,
 input[type="text"]::-webkit-input-placeholder,
 input[type="password"]::-webkit-input-placeholder
@@ -392,44 +413,68 @@ input[type="password"]:-moz-placeholder
       @include font-size(11px);
     }
 }
-
 .linea{
-
   width: 100%;
   height: 2px;
   border-top: 1px solid $cafe;
   display:block;
-
 }
-// .titulo-con-imagen{
-//     background-color: white;
-//     display: inline-block;
-//     @include centerer(true, true);
-//     top: 0;
-//     height: 28px;
-//     padding: 0 40px;
-//     z-index: 1;
-//       h3{
-//               @include regular(13px, $cafe);
-//               text-transform: uppercase;
-//               letter-spacing: 4px;
-//               display: inline-block;
-//               text-align: center;
-//               margin: 0;
-//               z-index: 1;
-//       }
-//       .hojas{
-//             width: 151px;
-//             height: 68px;
-//             background: url(../img/hojas.svg) no-repeat;
-//             background-position: center bottom;
-//             @include centerer(true, true);
-//             top: 10;
-//             z-index: -1;
-//         }
-// }
 
+	.botonera{
+		text-align: center;
+		margin-top: 3px;
+		margin-bottom: 4em;
+		@media(max-width:768px){
+			margin-top: 70px;
+			margin-bottom: 0;
+		}
+		ul{
+			margin: 0;
+			padding: 0;
+			list-style-type: none;
 
+			li{
+				display: inline-block;
+				margin-right: 15px;
+				// &:first-child{
+
+				// }
+				&:last-child{
+				margin-right: 0;
+				}
+				@media(max-width:768px){
+					display: block;
+					margin-right: 0;
+					margin-bottom: 15px;
+				}
+				a{
+					border-radius: 0;
+					border: 3px solid $crema;
+					background-color: #fff;
+					@include link;
+					color: $vino;
+					@include font-size(15px);
+					font-family: $montserrat;
+					font-weight: 400;
+					text-transform: uppercase;
+					letter-spacing: 3px;
+					padding-left: 20px;
+					padding-right: 20px;
+					&:hover, &:focus, &.activo{
+						border-color: transparent !important;
+						background-color: $crema !important;
+						color: $vino !important;
+					}
+					@media(max-width:768px){
+						@include font-size(12px);
+						padding-left: 10px;
+						padding-right: 10px;
+					}
+				}
+			}
+		}
+
+	}
 
 
 

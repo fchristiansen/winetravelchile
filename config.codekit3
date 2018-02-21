@@ -42,9 +42,9 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/assets\/css\/bootstrap-datepicker-min.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3
 		},
 	"\/assets\/css\/bootstrap-datepicker.min.css": {
@@ -52,9 +52,9 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/assets\/css\/bootstrap-datepicker.min-min.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3
 		},
 	"\/assets\/css\/contacto.css": {
@@ -62,9 +62,9 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/assets\/css\/contacto-min.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3
 		},
 	"\/assets\/css\/custom.css": {
@@ -82,9 +82,9 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/assets\/css\/font-awesome.min-min.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3
 		},
 	"\/assets\/css\/fonts.css": {
@@ -92,9 +92,9 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/assets\/css\/fonts-min.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3
 		},
 	"\/assets\/css\/jquery.fancybox.min.css": {
@@ -102,9 +102,9 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/assets\/css\/jquery.fancybox.min-min.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3
 		},
 	"\/assets\/css\/owl.carousel.min.css": {
@@ -112,9 +112,9 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/assets\/css\/owl.carousel.min-min.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3
 		},
 	"\/assets\/css\/owl.theme.default.min.css": {
@@ -122,9 +122,9 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/assets\/css\/owl.theme.default.min-min.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3
 		},
 	"\/assets\/css\/simpleLightbox.min.css": {
@@ -132,9 +132,9 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/assets\/css\/simpleLightbox.min-min.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3
 		},
 	"\/assets\/fonts\/fontawesome-webfont.eot": {
@@ -359,6 +359,26 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/assets\/img\/banner-destinations-xs.jpg": {
+		"ft": 16384,
+		"iS": 98972,
+		"oA": 0,
+		"oAP": "\/assets\/img\/banner-destinations-xs.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/banner-destinations.jpg": {
+		"ft": 16384,
+		"iS": 897556,
+		"oA": 0,
+		"oAP": "\/assets\/img\/banner-destinations.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/assets\/img\/banner-testimonials-xs.jpg": {
 		"ft": 16384,
 		"iS": 70686,
@@ -463,12 +483,52 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/assets\/img\/destinations-img1.jpg": {
+		"ft": 16384,
+		"iS": 219706,
+		"oA": 0,
+		"oAP": "\/assets\/img\/destinations-img1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/destinations-img2.jpg": {
+		"ft": 16384,
+		"iS": 183715,
+		"oA": 0,
+		"oAP": "\/assets\/img\/destinations-img2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/destinations-img3.jpg": {
+		"ft": 16384,
+		"iS": 304586,
+		"oA": 0,
+		"oAP": "\/assets\/img\/destinations-img3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/assets\/img\/dyptwu-xs.jpg": {
 		"ft": 16384,
 		"iS": 68559,
 		"oA": 1,
 		"oAP": "\/assets\/img\/dyptwu-xs.jpg",
 		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/dyptwu.jpg": {
+		"ft": 16384,
+		"iS": 429465,
+		"oA": 0,
+		"oAP": "\/assets\/img\/dyptwu.jpg",
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -561,6 +621,16 @@
 		"oA": 1,
 		"oAP": "\/assets\/img\/gbwe-xs.jpg",
 		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/gbwe.jpg": {
+		"ft": 16384,
+		"iS": 248758,
+		"oA": 0,
+		"oAP": "\/assets\/img\/gbwe.jpg",
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -709,6 +779,16 @@
 		"oA": 1,
 		"oAP": "\/assets\/img\/img-slide.jpg",
 		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/img-slide2.jpg": {
+		"ft": 16384,
+		"iS": 175816,
+		"oA": 0,
+		"oAP": "\/assets\/img\/img-slide2.jpg",
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -1005,6 +1085,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/assets\/img\/press.jpg": {
+		"ft": 16384,
+		"iS": 686616,
+		"oA": 0,
+		"oAP": "\/assets\/img\/press.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/assets\/img\/prev.png": {
 		"ft": 32768,
 		"iS": 1076,
@@ -1033,6 +1123,16 @@
 		"oA": 1,
 		"oAP": "\/assets\/img\/slider-press-xs.jpg",
 		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/slider-press.jpg": {
+		"ft": 16384,
+		"iS": 649726,
+		"oA": 0,
+		"oAP": "\/assets\/img\/slider-press.jpg",
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -1098,6 +1198,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/assets\/img\/top-hotels.jpg": {
+		"ft": 16384,
+		"iS": 393450,
+		"oA": 0,
+		"oAP": "\/assets\/img\/top-hotels.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/assets\/img\/top-terms-xs.jpg": {
 		"ft": 16384,
 		"iS": 80923,
@@ -1106,6 +1216,16 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/img\/top-terms.jpg": {
+		"ft": 16384,
+		"iS": 511569,
+		"oA": 0,
+		"oAP": "\/assets\/img\/top-terms.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/assets\/img\/uvas.png": {
@@ -1205,9 +1325,9 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/assets\/js\/masonry-min.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 0,
 		"tS": 0
 		},
@@ -1682,6 +1802,13 @@
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/assets\/sass\/.sass-cache\/35e0ff924f4938e8d5437d3efcd0ab2b5038b0f4\/_slider.scssc",
+		"oF": 0
+		},
+	"\/assets\/sass\/.sass-cache\/35e0ff924f4938e8d5437d3efcd0ab2b5038b0f4\/_terms.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/sass\/.sass-cache\/35e0ff924f4938e8d5437d3efcd0ab2b5038b0f4\/_terms.scssc",
 		"oF": 0
 		},
 	"\/assets\/sass\/.sass-cache\/370ed60ab52338ee3d71ecf156db4d34ce627042\/_settings.scssc": {
@@ -2615,6 +2742,152 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/assets\/slick\/ajax-loader.gif": {
+		"ft": 4194304,
+		"iS": 4178,
+		"oA": 0,
+		"oAP": "\/assets\/slick\/ajax-loader.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/slick\/config.rb": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/slick\/config.rb",
+		"oF": 0
+		},
+	"\/assets\/slick\/fonts\/slick.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/slick\/fonts\/slick.eot",
+		"oF": 0
+		},
+	"\/assets\/slick\/fonts\/slick.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/slick\/fonts\/slick.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/slick\/fonts\/slick.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/slick\/fonts\/slick.ttf",
+		"oF": 0
+		},
+	"\/assets\/slick\/fonts\/slick.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/slick\/fonts\/slick.woff",
+		"oF": 0
+		},
+	"\/assets\/slick\/slick-theme.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/slick\/slick-theme-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/assets\/slick\/slick-theme.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/assets\/slick\/slick-theme.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/assets\/slick\/slick-theme.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/slick\/slick-theme.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/slick\/slick.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/slick\/slick-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/assets\/slick\/slick.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/slick\/slick-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/assets\/slick\/slick.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/assets\/slick\/slick.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/assets\/slick\/slick.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/slick\/slick.min-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/assets\/slick\/slick.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/slick\/slick.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/assets\/video\/small.mp4": {
 		"cB": 0,
 		"ft": 8192,
@@ -2655,6 +2928,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/include-menu-about.php",
+		"oF": 0
+		},
+	"\/include-menu-destinations.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/include-menu-destinations.php",
 		"oF": 0
 		},
 	"\/include-menu-experiencias.php": {
@@ -2713,6 +2993,13 @@
 		"oAP": "\/page-about.php",
 		"oF": 0
 		},
+	"\/page-destinations.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/page-destinations.php",
+		"oF": 0
+		},
 	"\/page-hotels.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -2732,6 +3019,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/slider-awawe.php",
+		"oF": 0
+		},
+	"\/slider-destinations.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/slider-destinations.php",
 		"oF": 0
 		},
 	"\/slider-dtptwu.php": {

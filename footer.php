@@ -17,7 +17,7 @@
 						</div>
 					</div>
 					<div class="col-sm-3">
-						<button type="submit" class="btn btn-default bt-submit">submit</button>
+						<button type="submit" class="btn btn-default boton-submit">submit</button>
 					</div>
 				</div>
 			</div>
@@ -109,6 +109,7 @@
 		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 		<script src="assets/js/simpleLightbox.min.js"></script>
 		<script src="assets/js/masonry.js"></script>
+		<script type="text/javascript" src="assets/slick/slick.min.js"></script>
 		<script src="assets/js/wine.js"></script>
 </body>
 </html>

@@ -42,7 +42,7 @@
     border-color: #682944;
     color: #682944;
     font-weight: 600;
-   
+
 }
 
 #contacto .formulario-contacto form textarea.form-control {
@@ -61,8 +61,12 @@
 	font-weight: 600;
 	height: 55px;
 	margin-top: 15px;
-	letter-spacing: 1px;
+	letter-spacing: 3px;
 	margin-bottom: 30px;
+	color: white;
+	border-radius: 0;
+	text-transform: uppercase;
+	 transition: all 0.2s ease-in-out;
 }
 
 #contacto .formulario-contacto form .bt-submit:hover{
@@ -126,14 +130,14 @@
 	    padding-top: 100px;
 	    padding-bottom: 70px;
 	}
-	
+
 	#contacto .box-contacto p.bajada{
 		max-width: inherit;
 	}
 
 }
 
-/* Extra Small Devices, Phones */ 
+/* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
 	#contacto .box-contacto {
 	    max-width: inherit;

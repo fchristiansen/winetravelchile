@@ -1,4 +1,4 @@
-<section id="menu-about">
+<section class="botonera">
 	<ul>
 		<li><a class="btn btn-default activo" href="page-about.php" role="button">ABOUT WINE TRAVEL CHILE</a></li>
 		<li><a class="btn btn-default" href="page-about-team.php" role="button">THE TEAM</a></li>

@@ -1,60 +1,6 @@
 #about{
 
-	#menu-about{
-		text-align: center;
-		margin-top: 3px;
-		margin-bottom: 4em;
-		@media(max-width:768px){
-			margin-top: 70px;
-			margin-bottom: 0;
-		}
-		ul{
-			margin: 0;
-			padding: 0;
-			list-style-type: none;
 
-			li{
-				display: inline-block;
-				margin-right: 15px;
-				// &:first-child{
-
-				// }
-				&:last-child{
-				margin-right: 0;
-				}
-				@media(max-width:768px){
-					display: block;
-					margin-right: 0;
-					margin-bottom: 15px;
-				}
-				a{
-					border-radius: 0;
-					border: 3px solid $crema;
-					background-color: #fff;
-					@include link;
-					color: $vino;
-					@include font-size(15px);
-					font-family: $montserrat;
-					font-weight: 400;
-					text-transform: uppercase;
-					letter-spacing: 3px;
-					padding-left: 20px;
-					padding-right: 20px;
-					&:hover, &:focus, &.activo{
-						border-color: transparent !important;
-						background-color: $crema !important;
-						color: $vino !important;
-					}
-					@media(max-width:768px){
-						@include font-size(12px);
-						padding-left: 10px;
-						padding-right: 10px;
-					}
-				}
-			}
-		}
-
-	}
 	.logos{
 		margin-bottom: 0;
 	}

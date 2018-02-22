@@ -159,7 +159,7 @@
 			<div class="container-fluid no-padding bg-gris-2 position-relative">
 				<div class="container">
 					<div class="row">
-						<div class="bloque clearfix">
+						<div class="bloque clearfix content">
 							<div class="col-sm-12 text-center">
 								<h4>The program does not include:</h4>
 							</div>
@@ -173,13 +173,11 @@
 							<div class="col-sm-12 text-center">
 								<p class="disclaimer">This is a sample itinerary. We work closely with our travelers<br>
 									to personally design the itinerary that best meets their needs and desires.<p>
-
 								<!-- texto para argentina -->
 								<p class="disclaimer">
 									You can also email or phone us: Email: info@winetravelchile.com
 									Phone:  Chile + 56 9 927 81331, WhatsApp (+ 56 9) 953 81177   USA + 1 (626) 657 0045
 								</p>
-
 							</div>
 						</div>
 					</div>

@@ -2,7 +2,9 @@
 <?php include('main-nav.php'); ?>
 <?php
 	include('include-menu-experiencias.php');
+	include('include-menu-experiencias-ar.php');
 ?>
+
 <?php include('slider-home.php'); ?>
 
 		<section id="intro" class="position-relative">

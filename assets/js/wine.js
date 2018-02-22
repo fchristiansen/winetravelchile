@@ -160,6 +160,16 @@ $('#btn-chile').on('click',function(){
 	}
 });
 
+$('#btn-argentina').on('click',function(){
+
+	if($('#sub-menu-2').hasClass('clander2')){
+		$('#sub-menu-2').removeClass('clander2');
+		$('#navbar').removeClass('in');
+	}else{
+		$('#sub-menu-2').addClass('clander2');
+	}
+});
+
 $('#gallery a').simpleLightbox();
 
 

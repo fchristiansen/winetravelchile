@@ -1,4 +1,4 @@
-<section id="sub-menu" class="clander">
+<section id="sub-menu-2" class="clander2">
 	<div class="container-fluid no-padding">
 		<div class="container">
 			<div class="row">
@@ -7,7 +7,7 @@
 						<div class="caluga">
 						    <a class="caluga-enlace" href="luxury-red-wine-experience.php">
 						    	<div class="lente">
-						    		<h3 class="caluga-title"> LUXURY RED WINE EXPERIENCE</h3>
+						    		<h3 class="caluga-title"> LUXURY RED WINE EXPERIENCE argentina</h3>
 						    	</div>
 						        <img class="caluga-img" src="assets/img/exp1.jpg" alt="">
 						    </a>

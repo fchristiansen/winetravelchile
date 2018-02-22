@@ -7,10 +7,10 @@
 				</a>
 				<div class="search-wrapper" style="opacity: 1;">
 						<!-- info contacto temp -->
-					<!-- 	<ul class="info-contact">
+						<ul class="info-contact">
 							<li class="whatsapp"><a href="whatsapp://tel:56995381177" alt="WhatsApp" title="WhatsApp"><i class="fa fa-whatsapp"></i> + 56 9 95381177</a></li>
 							<li class="mail"><a href="mailto:winetravelchile@gmail.com"><i class="fa fa-envelope"></i> winetravelchile@gmail.com</a></li>
-						</ul> -->
+						</ul>
 						<!-- fin contacto temp -->
 						<form id="search" class="navbar-form navbar-right hide">
 							<div class="form-group">

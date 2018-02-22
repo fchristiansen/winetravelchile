@@ -192,6 +192,8 @@ input[type="email"]:-moz-placeholder, input[type="text"]:-moz-placeholder, input
 #sub-menu, #sub-menu-2 { position: absolute; min-height: 440px; background: white; width: 100%; margin-top: 110px; z-index: 100; padding: 100px 0 0 0; background-color: white; opacity: 1; -webkit-transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; top: 0; }
 #sub-menu.clander, #sub-menu.clander2, #sub-menu-2.clander, #sub-menu-2.clander2 { margin-top: -450px; opacity: 0; }
 
+#menu-contact { position: absolute; min-height: 440px; background: white; width: 100%; margin-top: 110px; z-index: 100; padding: 100px 0 0 0; background-color: white; opacity: 1; -webkit-transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; top: 0; }
+
 #sub-menu-experiences-container { background-color: #f7f5f6; position: absolute; bottom: 0; width: 100%; }
 @media (max-width: 768px) { #sub-menu-experiences-container { position: relative; padding: 30px; } }
 #sub-menu-experiences-container .menu-list-wrapper { position: relative; min-height: 90px; width: 100%; }

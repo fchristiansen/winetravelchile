@@ -3,6 +3,7 @@
 <?php
 	include('include-menu-experiencias.php');
 	include('include-menu-experiencias-ar.php');
+	include('include-menu-contact.php');
 ?>
 
 <?php include('slider-home.php'); ?>

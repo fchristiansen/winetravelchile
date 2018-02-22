@@ -158,6 +158,24 @@
 
 }
 
+#menu-contact{
+
+	position: absolute;
+	min-height: 440px;
+	background: white;
+	width: 100%;
+	margin-top: 110px;
+	z-index: 100;
+	padding: 100px 0 0 0;
+	background-color: white;
+	opacity: 1;
+	transition: all 0.5s ease-in-out;
+	top: 0;
+ 	//	&.chamber, &.clander2{margin-top: -450px; opacity: 0;}
+
+}
+
+
 #sub-menu-experiences-container{
 
 	background-color: $invierno;
@@ -221,15 +239,4 @@
 
 
 }
-
-
-
-
-
-
-
-
-
-
-
 

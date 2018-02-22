@@ -3089,6 +3089,13 @@
 		"oAP": "\/include-menu-about.php",
 		"oF": 0
 		},
+	"\/include-menu-contact.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/include-menu-contact.php",
+		"oF": 0
+		},
 	"\/include-menu-destinations.php": {
 		"cB": 0,
 		"ft": 8192,

@@ -3,7 +3,7 @@
 <?php include('include-menu-experiencias.php'); ?>
 <?php include('slider-lrwe.php'); ?>
 		<section id="destinations" class="position-relative">
-			
+
 			<div class="bloque-blanco-top-content"></div>
 			<div class="container">
 				<div class="row">
@@ -81,19 +81,19 @@
 									<ul class="complimentary">
 										<li><span>B</span></li>
 										<li><span>L</span></li>
-										
+
 									</ul>
 								</div>
 							</div>
 							<a href="contacto.php" id="request">REQUEST A DETAILED<br>ITINERARY</a>
 						</div>
 					</div>
-					
+
 				</div>
 			</div>
 		</section>
 		<section id="includes">
-			<div class="container-fluid no-padding bg-gris-2 mt-50 position-relative">		
+			<div class="container-fluid no-padding bg-gris-2 mt-50 position-relative">
 				<div class="container">
 					<div class="row">
 						<div class="bloque clearfix">
@@ -138,7 +138,7 @@
 								</ul>
 							</div>
 							<div class="col-sm-12 text-center">
-								<p class="disclaimer">This is a sample itinerary. We work closely with our travelers<br> 
+								<p class="disclaimer">This is a sample itinerary. We work closely with our travelers<br>
 									to personally design the itinerary that best meets their needs and desires.<p>
 							</div>
 						</div>
@@ -180,12 +180,12 @@
 							</a>
 						</div>
 					</div>
-					
+
 				</div>
 			</div>
 		</section>
 		<section id="testimonial" class="position-relative">
-			
+
 			<div class="container">
 				<div class="row">
 					<div class="bloque clearfix">
@@ -196,7 +196,7 @@
 
 						</div>
 					</div>
-					
+
 				</div>
 			</div>
 		</section>

@@ -1,47 +1,63 @@
 <?php include('header.php'); ?>
 <?php include('main-nav.php'); ?>
 <?php include('include-menu-experiencias.php'); ?>
-<?php include('slider-destinations.php'); ?>
-
+<?php include('slider-tailor-made-experiences.php'); ?>
 		<section id="destinations" class="position-relative">
-			<div class="bloque-blanco-top-content"> </div>
+
+			<div class="bloque-blanco-top-content"></div>
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-12 text-center">
-						<div class="content clearfix mb-0">
-							<h2>destinations</h2>
-							<?php include('include-menu-destinations.php'); ?>
-						</div> <!-- content -->
+					<div class="bloque clearfix mt-0">
+						<div class="col-sm-12 text-center">
+							<div class="content center-block clearfix mb-0">
+								<h4> TAILOR-MADE EXPERIENCES</h4>
+								<p>Chile’s boutique Wine Travel Company specializes in tailor-made experiences. We work closely with our travelers to personally design the itinerary that best meets their needs and desires.
+									Private Travel means you go with your friends, your family or your colleagues. we’ll pool our expert knowledge—and 15 years of experience arranging and guiding high-quality trips.
+								</p>
+							</div>
+						</div>
 					</div>
+
 				</div>
 			</div>
-		</section><!-- destinations -->
-		<section class="slider-destinations">
-			<div class="container-fluid no-padding">
-
-				<div id="carousel-destinations" class="carousel-destinations">
-					    <div>
-			      			<img class="img-responsive owl-lazy" data-src="assets/img/destinations-img1.jpg" src="assets/img/destinations-img1.jpg" alt="">
-					    </div>
-					    <div>
-			      			<img class="img-responsive owl-lazy" data-src="assets/img/destinations-img2.jpg" src="assets/img/destinations-img2.jpg" alt="">
-					    </div>
-					    <div>
-			      			<img class="img-responsive owl-lazy" data-src="assets/img/destinations-img3.jpg" src="assets/img/destinations-img3.jpg" alt="">
-					    </div>
+		</section>
+		<section class="border-box center-block">
+				<div class="punto-l">
+					<div class="cuadrado">
+						<div class="circle"></div>
 					</div>
-			</div>
-					<p class="quote">Ready for your next wine adventure? Contact us for a personalized quote.</p>
+				</div>
+				<div class="punto-r">
+					<div class="cuadrado">
+						<div class="circle"> </div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-sm-6">
+						<ul>
+							<li>Design your perfect trip with us</li>
+							<li>We want to plan your dream trip!!</li>
+						</ul>
+					</div>
+					<div class="col-sm-6">
+						<ul>
+							<li>Extraordinary journeys</li>
+							<li>The Word’s most spectacular settings</li>
+						</ul>
+					</div>
+				</div>
+
 
 		</section>
 		<section id="contacto">
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-12">
-						<div class="contact clearfix">
+						<div class="contact content clearfix mb-0">
 							<div class="formulario-contacto">
 								<form action="ajax/enviar.php" method="post" id="formContacto">
-									<input type="hidden" name="from" value="1">
+									<input type="hidden" name="from" value="3">
 								<div class="row">
 									<div class="col-md-6">
 										<div class="form-group">
@@ -137,10 +153,77 @@
 
 			</div>
 
+		</section> <!-- contacto -->
 
+		<section id="includes">
+			<div class="container-fluid no-padding bg-gris-2 position-relative">
+				<div class="container">
+					<div class="row">
+						<div class="bloque clearfix">
+							<div class="col-sm-12 text-center">
+								<h4>The program does not include:</h4>
+							</div>
+							<div class="col-sm-12 text-center">
+								<ul class="not-include">
+									<li><img src="assets/img/ico-plane.png"> Travel insurance</li>
+									<li><img src="assets/img/ico-luggage.png"> Personal expenses and other items<br>not indicated in the program </li>
+									<li><img src="assets/img/ico-bellman.png"> Tips for hotel staff, guides and drivers</li>
+								</ul>
+							</div>
+							<div class="col-sm-12 text-center">
+								<p class="disclaimer">This is a sample itinerary. We work closely with our travelers<br>
+									to personally design the itinerary that best meets their needs and desires.<p>
+
+								<!-- texto para argentina -->
+								<p class="disclaimer">
+									You can also email or phone us: Email: info@winetravelchile.com
+									Phone:  Chile + 56 9 927 81331, WhatsApp (+ 56 9) 953 81177   USA + 1 (626) 657 0045
+								</p>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section> <!-- guided -->
+
+		<section id="gallery" class="position-relative">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-sm-4">
+						<div class="row">
+							<a href="assets/img/lrwe-foto01_lg.jpg">
+								<img src="assets/img/lrwe-foto01.jpg" class="img-responsive br5w bb10w">
+							</a>
+						</div>
+						<div class="row">
+							<a href="assets/img/lrwe-foto02_lg.jpg">
+								<img src="assets/img/lrwe-foto02.jpg" class="img-responsive br5w">
+							</a>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="row">
+							<a href="assets/img/lrwe-foto03_lg.jpg">
+								<img src="assets/img/lrwe-foto03.jpg" class="img-responsive br5w bl5w">
+							</a>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="row">
+							<a href="assets/img/lrwe-foto04_lg.jpg">
+								<img src="assets/img/lrwe-foto04.jpg" class="img-responsive bl5w bb10w">
+							</a>
+						</div>
+						<div class="row">
+							<a href="assets/img/lrwe-foto05_lg.jpg">
+								<img src="assets/img/lrwe-foto05.jpg" class="img-responsive bl5w">
+							</a>
+						</div>
+					</div>
+
+				</div>
+			</div>
 		</section>
 
 <?php include('footer.php'); ?>
-
-
-

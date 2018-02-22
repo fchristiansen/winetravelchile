@@ -26,6 +26,8 @@
 		<link rel="stylesheet" href="assets/css/font-awesome.min.css">
 		<link rel="stylesheet" type="text/css" href="assets/slick/slick.css"/>
 		<link rel="stylesheet" type="text/css" href="assets/slick/slick-theme.css"/>
+		<link rel='stylesheet prefetch' href='//cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.1/css/bootstrap-datepicker.min.css'>
+		<link rel="stylesheet" href="assets/css/contacto.css">
 
 		<link rel="stylesheet" href="assets/css/custom.css">
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->

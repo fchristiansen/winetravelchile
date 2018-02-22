@@ -58,7 +58,7 @@
 					<li class="divisor-item-menu hide-beta">|</li>
 					<li class="hide-beta"><a href="javascript:void(0);">ARGENTINA</a></li>
 					<li class="divisor-item-menu hide-beta">|</li>
-					<li class="hide-beta"><a href="javascript:void(0);" id="btn-destinations">(+) Destinations</a></li>
+					<li class="hide-beta"><a href="javascript:void(0);" id="btn-destinations">more Destinations</a></li>
 					<li class="divisor-item-menu hide-beta">|</li>
 					<li class="hide-beta"><a href="javascript:void(0);">ABOUT US</a></li>
 					<li class="divisor-item-menu hide-beta">|</li>

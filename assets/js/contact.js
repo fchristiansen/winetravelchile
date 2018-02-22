@@ -1,17 +1,17 @@
 jQuery(function() {
-	
 
-		
+
+
 
 		var v = jQuery("#formContacto").validate({
 			submitHandler: function(form) {
 				jQuery(form).ajaxSubmit({
 
-					beforeSubmit: function(arr, $form, options) { 
-					    $("#result").html('<div id="loader"><img src="assets/img/ajax-loader.gif" alt="loading..."></div>');               
+					beforeSubmit: function(arr, $form, options) {
+					    $("#result").html('<div id="loader"><img src="assets/img/ajax-loader.gif" alt="loading..."></div>');
 					},
-					success: function(data) { 
-			            //$('#htmlExampleTarget').fadeIn('slow'); 
+					success: function(data) {
+			            //$('#htmlExampleTarget').fadeIn('slow');
 			            if(data >=1){
 			            	$('#result').html("<div class='alert alert-success'>Your message was successfully sent. Thank you.</div>");
 			            	v.resetForm();
@@ -19,13 +19,13 @@ jQuery(function() {
 			            	console.log(data);
 			            	$('#result').html("<div class='alert alert-danger'>There was a problem sending your message. please try again</div>");
 			            }
-			            	$('#result').fadeIn('slow'); 
+			            	$('#result').fadeIn('slow');
 
 			           setTimeout(function() {
 						    $('#result').fadeOut('slow');
-						}, 3000); // <-- time in milliseconds 	
+						}, 3000); // <-- time in milliseconds
 
-			        } 
+			        }
 				});
 			}
 		});
@@ -136,7 +136,7 @@ jQuery(function() {
 /*
 	Masked Input plugin for jQuery
 	Copyright (c) 2007-2011 Josh Bush (digitalbush.com)
-	Licensed under the MIT license (http://digitalbush.com/projects/masked-input-plugin/#license) 
+	Licensed under the MIT license (http://digitalbush.com/projects/masked-input-plugin/#license)
 	Version: 1.3
   https://cloud.github.com/downloads/digitalBush/jquery.maskedinput/jquery.maskedinput-1.3.min.js
 */
@@ -145,7 +145,7 @@ jQuery(function() {
 /*     My Javascript      */
 
 $(function(){
-  
+
   $("#phone").mask("(999) 9999-9999");
 
 
@@ -162,13 +162,13 @@ $(function(){
           $(this).val( first + move + '-' + lastfour );
       }
   });
-}); 
+});
 
 	});
 
  $('.input-group.date').datepicker({format: "yyyy-mm-dd"});
       //# sourceURL=pen.js
-      function maxLength(el) {    
+      function maxLength(el) {
     if (!('maxLength' in el)) {
         var max = el.attributes.maxLength.value;
         el.onkeypress = function () {

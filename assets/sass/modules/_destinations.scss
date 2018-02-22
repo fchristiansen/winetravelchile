@@ -1,0 +1,22 @@
+section#destinations{
+
+}
+.slider-destinations{
+	overflow: hidden;
+	p.quote{
+		text-transform: uppercase;
+		color: $verde;
+		font-family: $montserrat;
+		@include font-size(15px);
+		text-align: center;
+		font-weight: 700;
+		margin: 80px 0;
+		@media(max-width: 768px){
+			@include font-size(12px);
+			margin: 40px 0;
+			padding: 0 15px;
+		}
+
+
+	}
+}

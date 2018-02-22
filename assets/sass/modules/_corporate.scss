@@ -1,0 +1,45 @@
+
+#includes{
+	&.events{
+		.content{
+			max-width: 600px;
+			padding: 0;
+			margin-bottom: 50px;
+			@media(max-width: 768px){
+				margin-top: 0;
+			}
+			h4{
+				&.includes{
+					@include font-size(14px);
+					letter-spacing: 3px;
+					text-transform: uppercase;
+					background: #e0dbd8;
+					display: inline-block;
+					padding: 20px 20px;
+					color: #5c2d45;
+					width: 100%;
+					margin-bottom: 70px;
+				}
+			}
+			ul{
+				padding: 0;
+				list-style-type: none;
+				li{
+					@include font-size(18px);
+					font-weight: 300;
+					color: $verde;
+					text-transform: capitalize;
+					padding: 0 40px;
+
+				}
+
+			}
+		}
+
+	}
+}
+
+
+
+
+

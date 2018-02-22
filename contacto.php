@@ -1,20 +1,19 @@
 <?php include('header.php'); ?>
 <?php include('main-nav.php'); ?>
 <?php include('include-menu-experiencias.php') ?>
-<link rel='stylesheet prefetch' href='//cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.1/css/bootstrap-datepicker.min.css'>	
-<link rel="stylesheet" href="assets/css/contacto.css">
-	
+
+
 		<section id="contacto">
 			<div class="container-fluid position-relative">
 				<!--<div class="container">-->
 					<div class="row">
 						<div class="bloque clearfix">
 							<div class="col-sm-6 hidden-xs hidden-sm col-md-6 col-lg-6">
-									
+
 										<img class="img-responsive img-cava1" src="assets/img/contacto/bodega-cavas.jpg" alt="">
-										
+
 										<img class="img-responsive img-cava2" src="assets/img/contacto/bodega-cavas-1024.jpg" alt="">
-								
+
 							</div>
 							<div class="col-sm-12 col-md-6 col-lg-6">
 								<div class="box-contacto">
@@ -24,6 +23,7 @@
 								</p>
 								<div class="formulario-contacto">
 									<form action="ajax/enviar.php" method="post" id="formContacto">
+									<input type="hidden" name="from" value="2">
 									<div class="row">
 										<div class="col-md-6">
 											<div class="form-group">
@@ -31,7 +31,7 @@
 												  <select class="form-control required" id="sel1" name="destino">
 												    <option value="Luxury Red Wine Experience">Luxury Red Wine Experience</option>
 												    <option value="Women's Walking, Wine and Food Experience">Women's Walking, Wine and Food Experience</option>
-												   
+
 												  </select>
 											</div>
 										</div>
@@ -40,7 +40,7 @@
 											    <label for="passengers">#Of Passengers *</label>
 											    <input type="number" class="form-control required" id="passengers" name="pasajeros">
 											</div>
-										</div>	
+										</div>
 									</div><!-- fin linea form -->
 									<div class="row">
 										<div class="col-md-6">
@@ -54,7 +54,7 @@
 											    <label for="lastname">Last Name *</label>
 											    <input type="text" class="form-control required" id="lastname" name="apellido">
 											</div>
-										</div>	
+										</div>
 									</div><!-- fin linea form -->
 									<div class="row">
 										<div class="col-md-6">
@@ -68,13 +68,13 @@
 											    <label for="phone">Phone *</label>
 											    <input type="text" class="form-control required" id="phone" name="phone">
 											</div>
-										</div>	
+										</div>
 									</div><!-- fin linea form -->
 									<div class="row">
 										<div class="col-md-6">
 											<div class="form-group">
 											    <label for="date1">Dates of Travel From</label>
-											    
+
 											    <div class='input-group date' id='datetimepicker1'>
 								                    <input type='text' class="form-control fechainput required" name="fecha1" id="date1" readonly=""  />
 								                    <span class="input-group-addon">
@@ -95,7 +95,7 @@
 								                </div>
 								                <label id="date2-error" class="error" for="date2" style="display: none;"></label>
 											</div>
-										</div>	
+										</div>
 									</div><!-- fin linea form -->
 									<div class="row">
 										<div class="col-md-12">
@@ -104,28 +104,24 @@
 											  <textarea class="form-control" rows="5" id="comment" name="comment" maxlength="600"></textarea>
 											</div>
 										</div>
-									</div>	
+									</div>
 									<div class="row">
 										<div class="col-md-12">
 											<div id="result"></div>
 											<button type="submit" class="btn bt-submit pull-right">Submit</button>
 										</div>
 									</div>
-									
+
 									</form>
 								</div>
 								</div>
 							</div>
-							
+
 
 						</div>
 					</div>
 				<!--</div>-->
 			</div>
 		</section> <!-- guided -->
-		
+
 <?php include('footer.php'); ?>
-<script src='//cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.1/js/bootstrap-datepicker.min.js'></script>
-<script src="assets/js/vendor/jquery.form.min.js"></script>
-<script src="assets/js/vendor/jquery.validate.min.js"></script>
-<script src="assets/js/contact.js"></script>

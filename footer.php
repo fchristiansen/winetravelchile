@@ -110,6 +110,10 @@
 		<script src="assets/js/simpleLightbox.min.js"></script>
 		<script src="assets/js/masonry.js"></script>
 		<script type="text/javascript" src="assets/slick/slick.min.js"></script>
+		<script src='//cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.1/js/bootstrap-datepicker.min.js'></script>
+		<script src="assets/js/vendor/jquery.form.min.js"></script>
+		<script src="assets/js/vendor/jquery.validate.min.js"></script>
+		<script src="assets/js/contact.js"></script>
 		<script src="assets/js/wine.js"></script>
 </body>
 </html>

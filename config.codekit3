@@ -269,31 +269,11 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/assets\/img\/awawe-foto02_lg.jpg": {
-		"ft": 16384,
-		"iS": 338816,
-		"oA": 1,
-		"oAP": "\/assets\/img\/awawe-foto02_lg.jpg",
-		"oF": 1,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/assets\/img\/awawe-foto03.jpg": {
 		"ft": 16384,
 		"iS": 130836,
 		"oA": 1,
 		"oAP": "\/assets\/img\/awawe-foto03.jpg",
-		"oF": 1,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/assets\/img\/awawe-foto03_lg.jpg": {
-		"ft": 16384,
-		"iS": 440825,
-		"oA": 1,
-		"oAP": "\/assets\/img\/awawe-foto03_lg.jpg",
 		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
@@ -339,16 +319,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/assets\/img\/awawe01.jpg": {
-		"ft": 16384,
-		"iS": 312022,
-		"oA": 1,
-		"oAP": "\/assets\/img\/awawe01.jpg",
-		"oF": 1,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/assets\/img\/awawe01_m.jpg": {
 		"ft": 16384,
 		"iS": 21176,
@@ -369,31 +339,11 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/assets\/img\/banner-destinations.jpg": {
-		"ft": 16384,
-		"iS": 897556,
-		"oA": 0,
-		"oAP": "\/assets\/img\/banner-destinations.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/assets\/img\/banner-testimonials-xs.jpg": {
 		"ft": 16384,
 		"iS": 70686,
 		"oA": 1,
 		"oAP": "\/assets\/img\/banner-testimonials-xs.jpg",
-		"oF": 1,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/assets\/img\/banner-testimonials.jpg": {
-		"ft": 16384,
-		"iS": 1114298,
-		"oA": 1,
-		"oAP": "\/assets\/img\/banner-testimonials.jpg",
 		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
@@ -407,17 +357,6 @@
 		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
-		},
-	"\/assets\/img\/bg1.png": {
-		"ft": 32768,
-		"iS": 351207,
-		"oA": 1,
-		"oAP": "\/assets\/img\/bg1.png",
-		"oF": 1,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
 		"q": 100
 		},
 	"\/assets\/img\/border-bottom-testimonial-box.png": {
@@ -503,32 +442,12 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/assets\/img\/destinations-img3.jpg": {
-		"ft": 16384,
-		"iS": 304586,
-		"oA": 0,
-		"oAP": "\/assets\/img\/destinations-img3.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/assets\/img\/dyptwu-xs.jpg": {
 		"ft": 16384,
 		"iS": 68559,
 		"oA": 1,
 		"oAP": "\/assets\/img\/dyptwu-xs.jpg",
 		"oF": 1,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/assets\/img\/dyptwu.jpg": {
-		"ft": 16384,
-		"iS": 429465,
-		"oA": 0,
-		"oAP": "\/assets\/img\/dyptwu.jpg",
-		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -813,28 +732,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/assets\/img\/img2.png": {
-		"ft": 32768,
-		"iS": 305405,
-		"oA": 1,
-		"oAP": "\/assets\/img\/img2.png",
-		"oF": 1,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/assets\/img\/img4.png": {
-		"ft": 32768,
-		"iS": 351397,
-		"oA": 1,
-		"oAP": "\/assets\/img\/img4.png",
-		"oF": 1,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"\/assets\/img\/logo-cav.png": {
 		"ft": 32768,
 		"iS": 19521,
@@ -932,16 +829,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/assets\/img\/lrwe-foto01_lg.jpg": {
-		"ft": 16384,
-		"iS": 385503,
-		"oA": 1,
-		"oAP": "\/assets\/img\/lrwe-foto01_lg.jpg",
-		"oF": 1,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/assets\/img\/lrwe-foto02.jpg": {
 		"ft": 16384,
 		"iS": 45403,
@@ -1033,16 +920,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/img\/lrwe01.jpg": {
-		"ft": 16384,
-		"iS": 351739,
-		"oA": 1,
-		"oAP": "\/assets\/img\/lrwe01.jpg",
-		"oF": 1,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/assets\/img\/lrwe01m.jpg": {
 		"ft": 16384,
 		"iS": 32200,
@@ -1051,6 +928,28 @@
 		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/map-md.png": {
+		"ft": 32768,
+		"iS": 123474,
+		"oA": 0,
+		"oAP": "\/assets\/img\/map-md.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/map-sm.png": {
+		"ft": 32768,
+		"iS": 54974,
+		"oA": 0,
+		"oAP": "\/assets\/img\/map-sm.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/assets\/img\/next.png": {
@@ -1081,16 +980,6 @@
 		"oA": 1,
 		"oAP": "\/assets\/img\/press-xs.jpg",
 		"oF": 1,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/assets\/img\/press.jpg": {
-		"ft": 16384,
-		"iS": 686616,
-		"oA": 0,
-		"oAP": "\/assets\/img\/press.jpg",
-		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -1127,11 +1016,11 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/assets\/img\/slider-press.jpg": {
+	"\/assets\/img\/slider-tailor-xs.jpg": {
 		"ft": 16384,
-		"iS": 649726,
+		"iS": 60321,
 		"oA": 0,
-		"oAP": "\/assets\/img\/slider-press.jpg",
+		"oAP": "\/assets\/img\/slider-tailor-xs.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1188,21 +1077,21 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/img\/top-hotels-xs.jpg": {
+	"\/assets\/img\/top-history-xs.jpg": {
 		"ft": 16384,
-		"iS": 100861,
+		"iS": 97801,
 		"oA": 0,
-		"oAP": "\/assets\/img\/top-hotels-xs.jpg",
+		"oAP": "\/assets\/img\/top-history-xs.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/assets\/img\/top-hotels.jpg": {
+	"\/assets\/img\/top-hotels-xs.jpg": {
 		"ft": 16384,
-		"iS": 393450,
+		"iS": 100861,
 		"oA": 0,
-		"oAP": "\/assets\/img\/top-hotels.jpg",
+		"oAP": "\/assets\/img\/top-hotels-xs.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1218,11 +1107,11 @@
 		"opt": 1,
 		"q": 100
 		},
-	"\/assets\/img\/top-terms.jpg": {
+	"\/assets\/img\/top-trips-xs.jpg": {
 		"ft": 16384,
-		"iS": 511569,
+		"iS": 98345,
 		"oA": 0,
-		"oAP": "\/assets\/img\/top-terms.jpg",
+		"oAP": "\/assets\/img\/top-trips-xs.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1237,6 +1126,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/vina-history.jpg": {
+		"ft": 16384,
+		"iS": 51586,
+		"oA": 0,
+		"oAP": "\/assets\/img\/vina-history.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/assets\/img\/vina-section-team.png": {
@@ -1748,11 +1647,25 @@
 		"oAP": "\/assets\/sass\/.sass-cache\/35e0ff924f4938e8d5437d3efcd0ab2b5038b0f4\/_caluga.scssc",
 		"oF": 0
 		},
+	"\/assets\/sass\/.sass-cache\/35e0ff924f4938e8d5437d3efcd0ab2b5038b0f4\/_corporate.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/sass\/.sass-cache\/35e0ff924f4938e8d5437d3efcd0ab2b5038b0f4\/_corporate.scssc",
+		"oF": 0
+		},
 	"\/assets\/sass\/.sass-cache\/35e0ff924f4938e8d5437d3efcd0ab2b5038b0f4\/_css_seo2.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/assets\/sass\/.sass-cache\/35e0ff924f4938e8d5437d3efcd0ab2b5038b0f4\/_css_seo2.scssc",
+		"oF": 0
+		},
+	"\/assets\/sass\/.sass-cache\/35e0ff924f4938e8d5437d3efcd0ab2b5038b0f4\/_destinations.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/sass\/.sass-cache\/35e0ff924f4938e8d5437d3efcd0ab2b5038b0f4\/_destinations.scssc",
 		"oF": 0
 		},
 	"\/assets\/sass\/.sass-cache\/35e0ff924f4938e8d5437d3efcd0ab2b5038b0f4\/_footer.scssc": {
@@ -1767,6 +1680,13 @@
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/assets\/sass\/.sass-cache\/35e0ff924f4938e8d5437d3efcd0ab2b5038b0f4\/_forms.scssc",
+		"oF": 0
+		},
+	"\/assets\/sass\/.sass-cache\/35e0ff924f4938e8d5437d3efcd0ab2b5038b0f4\/_history.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/sass\/.sass-cache\/35e0ff924f4938e8d5437d3efcd0ab2b5038b0f4\/_history.scssc",
 		"oF": 0
 		},
 	"\/assets\/sass\/.sass-cache\/35e0ff924f4938e8d5437d3efcd0ab2b5038b0f4\/_hotels.scssc": {
@@ -2521,6 +2441,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/assets\/sass\/modules\/_corporate.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/sass\/modules\/_corporate.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/assets\/sass\/modules\/_css_seo2.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -2530,6 +2463,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/assets\/sass\/modules\/_css_seo2.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/sass\/modules\/_destinations.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/sass\/modules\/_destinations.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -2569,6 +2515,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/assets\/sass\/modules\/_forms.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/sass\/modules\/_history.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/sass\/modules\/_history.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -2909,6 +2868,13 @@
 		"oAP": "\/contacto.php",
 		"oF": 0
 		},
+	"\/corporate-and-press-trips.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/corporate-and-press-trips.php",
+		"oF": 0
+		},
 	"\/footer.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -3000,6 +2966,13 @@
 		"oAP": "\/page-destinations.php",
 		"oF": 0
 		},
+	"\/page-history.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/page-history.php",
+		"oF": 0
+		},
 	"\/page-hotels.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -3042,6 +3015,13 @@
 		"oAP": "\/slider-gbwe.php",
 		"oF": 0
 		},
+	"\/slider-history.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/slider-history.php",
+		"oF": 0
+		},
 	"\/slider-home.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -3070,6 +3050,13 @@
 		"oAP": "\/slider-press.php",
 		"oF": 0
 		},
+	"\/slider-tailor-made-experiences.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/slider-tailor-made-experiences.php",
+		"oF": 0
+		},
 	"\/slider-terms.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -3082,6 +3069,20 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/slider-testimonials.php",
+		"oF": 0
+		},
+	"\/slider-trips.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/slider-trips.php",
+		"oF": 0
+		},
+	"\/tailor-made-experiences.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/tailor-made-experiences.php",
 		"oF": 0
 		},
 	"\/womens-walking-wine-and-food-experience.php": {

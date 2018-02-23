@@ -60,13 +60,15 @@
 					<li class="divisor-item-menu hide-beta">|</li>
 					<li><a href="javascript:void(0);" id="btn-argentina">ARGENTINA</a></li>
 					<li class="divisor-item-menu hide-beta">|</li>
-					<li class="hide-beta"><a href="javascript:void(0);" id="btn-destinations">more Destinations</a></li>
+					<li class="hide-beta"><a href="<?php bloginfo('url'); ?>/destinations" id="btn-destinations">more Destinations</a></li>
 					<li class="divisor-item-menu hide-beta">|</li>
-					<li class="hide-beta"><a href="javascript:void(0);">ABOUT US</a></li>
+					<li class="hide-beta"><a href="<?php bloginfo('url'); ?>/about">ABOUT US</a></li>
+<!--
 					<li class="divisor-item-menu hide-beta">|</li>
 					<li class="hide-beta"><a href="javascript:void(0);">blog</a></li>
+-->
 					<li class="divisor-item-menu">|</li>
-					<li><a href="contacto.php" id="btn-contacto">contact</a></li>
+					<li><a href="<?php bloginfo('url'); ?>/contact" id="btn-contacto">contact</a></li>
 					<li id="mobile-contact">
 						<!-- info contacto temp -->
 						<ul class="info-contact">

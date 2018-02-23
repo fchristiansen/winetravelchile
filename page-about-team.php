@@ -1,3 +1,10 @@
+<?
+/*
+
+Template name: About - Team
+
+*/
+?>
 <?php include('header.php'); ?>
 <?php include('main-nav.php'); ?>
 <?php include('include-menu-experiencias.php'); ?>

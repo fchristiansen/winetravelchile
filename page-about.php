@@ -1,3 +1,11 @@
+<?
+/*
+
+Template name: About
+
+*/
+?>
+
 <?php include('header.php'); ?>
 <?php include('main-nav.php'); ?>
 <?php include('include-menu-experiencias.php'); ?>

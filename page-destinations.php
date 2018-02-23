@@ -1,7 +1,39 @@
+<?
+/*
+
+Template name: Destinations
+
+*/
+?>
 <?php include('header.php'); ?>
 <?php include('main-nav.php'); ?>
 <?php include('include-menu-experiencias.php'); ?>
-<?php include('slider-destinations.php'); ?>
+
+		<div id="slider-destinations">
+			<section class="slider-home container-fluid no-padding">
+				<div id="slider-home" class="owl-carousel owl-theme">
+				    <div class="item">
+				    	<div class="layer"></div>
+				          	<!-- 1920 x 550 -->
+				          	<div class="carousel-info">
+				          		<div class="carousel-info-inner">
+				          			<p class="hidden-xs">
+				          				<a href="<?php bloginfo('url'); ?>">Home</a> / <a href="page-about.php">about us</a>  / destinations
+				          			</p>
+				          			<h4>Every Day is a Unique Wine</h4>
+				          		</div>
+				          	</div>
+				          	<!-- 1920 x 990 -->
+				          	<img class="img-responsive owl-lazy hidden-xs" data-src="<?php bloginfo('template_url'); ?>/assets/img/banner-destinations.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/banner-destinations.jpg" alt="">
+				          	<!-- 320 x 550 -->
+				          	<img class="img-responsive owl-lazy visible-xs" data-src="<?php bloginfo('template_url'); ?>/assets/img/banner-destinations-xs.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/banner-destinations-xs.jpg" alt="">
+						  	<!-- 768 x 550 -->
+			<!-- 	            <img class="img-responsive owl-lazy" data-src="<?php bloginfo('template_url'); ?>/assets/img/slider1-xs.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/slider1-xs.jpg" alt=""> -->
+				    </div>
+				</div> <!-- contenedor slider -->
+			</section>
+		</div>
+
 
 		<section id="destinations" class="position-relative">
 			<div class="bloque-blanco-top-content"> </div>
@@ -10,7 +42,13 @@
 					<div class="col-sm-12 text-center">
 						<div class="content clearfix mb-0">
 							<h2>destinations</h2>
-							<?php include('include-menu-destinations.php'); ?>
+							<section class="botonera">
+								<ul>
+									<li><a class="btn btn-default activo" href="page-about.php" role="button">francia</a></li>
+									<li><a class="btn btn-default" href="page-about-team.php" role="button">new Zealand</a></li>
+									<li><a class="btn btn-default" href="page-about-testimonials.php" role="button">uruguay</a></li>
+								</ul>
+							</section>
 						</div> <!-- content -->
 					</div>
 				</div>

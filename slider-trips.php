@@ -7,7 +7,7 @@
 		          	<div class="carousel-info">
 		          		<div class="carousel-info-inner">
 		          			<p class="hidden-xs">
-		          				<a href="index.php">Home</a> / argentina / CORPORATE AND PRESS TRIPS
+		          				<a href="<?php bloginfo('url'); ?>">Home</a> / argentina / CORPORATE AND PRESS TRIPS
 		          			</p>
 		          			<h4>Corporate Wine Events</h4>
 		          		</div>

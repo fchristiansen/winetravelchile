@@ -6,7 +6,7 @@
 		          <!-- 1920 x 550 -->
 		          	<div class="carousel-info">
 		          		<div class="carousel-info-inner">
-		          			<p class="hidden-xs"><a href="index.php">Home</a> / <a href="javascript:void(0);">Chile</a> / Active Wine And Food Experience</p>
+		          			<p class="hidden-xs"><a href="<?php bloginfo('url'); ?>">Home</a> / <a href="javascript:void(0);">Chile</a> / Active Wine And Food Experience</p>
 		          			<h2>Active Wine and Food Experience</h2>	          			
 		          			<p class="hidden-xs hide-beta">
 			          			<a href="javascript:void(0);" class="active">WOMEN'S WALKING, WINE AND FOOD EXPERIENCE</a> | 

@@ -7,7 +7,7 @@
 		          	<div class="carousel-info">
 		          		<div class="carousel-info-inner">
 		          			<p class="hidden-xs">
-		          				<a href="index.php">Home</a> / <a href="page-about.php">about us</a>  / destinations
+		          				<a href="<?php bloginfo('url'); ?>">Home</a> / <a href="page-about.php">about us</a>  / destinations
 		          			</p>
 		          			<h4>Every Day is a Unique Wine</h4>
 		          		</div>

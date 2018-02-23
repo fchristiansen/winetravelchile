@@ -7,7 +7,7 @@
 		          	<div class="carousel-info">
 		          		<div class="carousel-info-inner">
 		          			<p class="hidden-xs">
-		          				<a href="index.php">Home</a> / about us
+		          				<a href="<?php bloginfo('url'); ?>">Home</a> / about us
 		          			</p>
 		          			<h4>Design Your Perfect Trip With Us!!</h4>
 		          		</div>

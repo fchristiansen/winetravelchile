@@ -7,7 +7,7 @@
 		          	<div class="carousel-info">
 		          		<div class="carousel-info-inner">
 		          			<p class="hidden-xs">
-		          				<a href="index.php">Home</a> / argentina /  WINE REGIONS MAP
+		          				<a href="<?php bloginfo('url'); ?>">Home</a> / argentina /  WINE REGIONS MAP
 		          			</p>
 		          			<h4>History of Argentina Wine</h4>
 		          		</div>

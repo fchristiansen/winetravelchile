@@ -7,7 +7,7 @@
 		          	<div class="carousel-info">
 		          		<div class="carousel-info-inner">
 		          			<p class="hidden-xs">
-		          				<a href="index.php">Home</a> / argentina / terms and conditions
+		          				<a href="<?php bloginfo('url'); ?>">Home</a> / argentina / terms and conditions
 		          			</p>
 		          			<h4>Terms and Conditions</h4>
 		          		</div>

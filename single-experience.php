@@ -15,7 +15,7 @@ if ( have_posts() ) {
 				          <!-- 1920 x 550 -->
 				          	<div class="carousel-info">
 				          		<div class="carousel-info-inner">
-				          			<p class="hidden-xs"><a href="index.php">Home</a> / <a href="javascript:void(0);">Chile</a> / Active Wine And Food Experience</p>
+				          			<p class="hidden-xs"><a href="<?php bloginfo('url'); ?>">Home</a> / <a href="javascript:void(0);">Chile</a> / Active Wine And Food Experience</p>
 				          			<h2>Active Wine and Food Experience</h2>	          			
 				          			<p class="hidden-xs hide-beta">
 					          			<a href="javascript:void(0);" class="active">WOMEN'S WALKING, WINE AND FOOD EXPERIENCE</a> | 
@@ -47,13 +47,13 @@ if ( have_posts() ) {
 									<h6>Tour Map</h6>
 									<div class="row hidden-xs">
 										<div class="col-sm-10 col-sm-offset-1">
-											<img src="<?php bloginfo('template_url');?>/assets/img/lrwe-mapa.png" class="img-responsive">
+											<img src="<?php echo get('detalles_mapa'); ?>" class="img-responsive">	
 										</div>
 									</div>
 								</div>
 								<div class="col-sm-6" id="mapa">
 									<div class='embed-container'>
-										<iframe src='https://www.google.com/maps/d/embed?mid=1GPgqVNMmGXtAWOXdvartgpgOn-oxIGWT&hl=es' width='600' height='450' frameborder='0' style='border:0'></iframe>
+										<?php echo get('detalles_tour_map'); ?>
 									</div>
 								</div>
 							</div>
@@ -213,32 +213,62 @@ Santa Cruz</h5>
 				<div class="row">
 					<div class="col-sm-4">
 						<div class="row">
-							<a href="<?php bloginfo('template_url');?>/assets/img/awawe-foto01_lg.jpg">
+							<a href="<?php echo get('galery_photo_1'); ?>">
+								<?php 
+									$ext  = pathinfo(get('galery_photo_1'), PATHINFO_EXTENSION);
+									$file = pathinfo(get('galery_photo_1'), PATHINFO_FILENAME);
+									$dir  = pathinfo(get('galery_photo_1'), PATHINFO_DIRNAME);
+									$foto = $dir.'/'.$file.'-610x355.'.$ext;
+								?>
 								<img src="<?php bloginfo('template_url');?>/assets/img/awawe-foto01.jpg" class="img-responsive br5w bb10w">
 							</a>
 						</div>
 						<div class="row">
-							<a href="<?php bloginfo('template_url');?>/assets/img/awawe-foto02_lg.jpg">
+							<a href="<?php echo get('galery_photo_2'); ?>">
+								<?php 
+									$ext  = pathinfo(get('galery_photo_2'), PATHINFO_EXTENSION);
+									$file = pathinfo(get('galery_photo_2'), PATHINFO_FILENAME);
+									$dir  = pathinfo(get('galery_photo_2'), PATHINFO_DIRNAME);
+									$foto = $dir.'/'.$file.'-610x427.'.$ext;
+								?>
 								<img src="<?php bloginfo('template_url');?>/assets/img/awawe-foto02.jpg" class="img-responsive br5w">
 							</a>
 						</div>
 					</div>
 					<div class="col-sm-4">
 						<div class="row">
-							<a href="<?php bloginfo('template_url');?>/assets/img/awawe-foto03_lg.jpg">
+							<a href="<?php echo get('galery_photo_3'); ?>">
+								<?php 
+									$ext  = pathinfo(get('galery_photo_3'), PATHINFO_EXTENSION);
+									$file = pathinfo(get('galery_photo_3'), PATHINFO_FILENAME);
+									$dir  = pathinfo(get('galery_photo_3'), PATHINFO_DIRNAME);
+									$foto = $dir.'/'.$file.'-600x792.'.$ext;
+								?>
 								<img src="<?php bloginfo('template_url');?>/assets/img/awawe-foto03.jpg" class="img-responsive br5w bl5w">
 							</a>
 						</div>
 					</div>
 					<div class="col-sm-4">
 						<div class="row">
-							<a href="<?php bloginfo('template_url');?>/assets/img/awawe-foto04_lg.jpg">
+							<a href="<?php echo get('galery_photo_4'); ?>">
+								<?php 
+									$ext  = pathinfo(get('galery_photo_4'), PATHINFO_EXTENSION);
+									$file = pathinfo(get('galery_photo_4'), PATHINFO_FILENAME);
+									$dir  = pathinfo(get('galery_photo_4'), PATHINFO_DIRNAME);
+									$foto = $dir.'/'.$file.'-610x425.'.$ext;
+								?>
 								<img src="<?php bloginfo('template_url');?>/assets/img/awawe-foto04.jpg" class="img-responsive bl5w bb10w">
 							</a>
 						</div>
 						<div class="row">
-							<a href="<?php bloginfo('template_url');?>/assets/img/awawe-foto05_lg.jpg">
-								<img src="<?php bloginfo('template_url');?>/assets/img/awawe-foto05.jpg" class="img-responsive bl5w">
+							<a href="<?php echo get('galery_photo_5'); ?>">
+								<?php 
+									$ext  = pathinfo(get('galery_photo_5'), PATHINFO_EXTENSION);
+									$file = pathinfo(get('galery_photo_5'), PATHINFO_FILENAME);
+									$dir  = pathinfo(get('galery_photo_5'), PATHINFO_DIRNAME);
+									$foto = $dir.'/'.$file.'-610x357.'.$ext;
+								?>
+								<img src="<?php echo $foto; ?>" class="img-responsive bl5w">
 							</a>
 						</div>
 					</div>

@@ -7,7 +7,7 @@
 		          	<div class="carousel-info">
 		          		<div class="carousel-info-inner">
 		          			<p class="hidden-xs">
-		          				<a href="index.php">Home</a> / press
+		          				<a href="<?php bloginfo('url'); ?>">Home</a> / press
 		          			</p>
 		          			<h4>Press</h4>
 		          		</div>

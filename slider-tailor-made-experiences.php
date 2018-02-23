@@ -7,7 +7,7 @@
 		          	<div class="carousel-info">
 		          		<div class="carousel-info-inner">
 		          			<p class="hidden-xs">
-		          				<a href="index.php">Home</a> / argentina / tailor-made-experiences
+		          				<a href="<?php bloginfo('url'); ?>">Home</a> / argentina / tailor-made-experiences
 		          			</p>
 		          			<h4>Tailor-made creative journeys </h4>
 		          		</div>

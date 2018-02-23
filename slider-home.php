@@ -9,9 +9,9 @@
 	          			<h3>Design your perfect trip with us</h3>
 	          		</div>
 	          	</div>
-	          	<img class="img-responsive owl-lazy hidden-xs" data-src="assets/img/img-slide.jpg" src="assets/img/img-slide.jpg" alt="">
+	          	<img class="img-responsive owl-lazy hidden-xs" data-src="<?php bloginfo('template_url'); ?>/assets/img/img-slide.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/img-slide.jpg" alt="">
 	         	 <!-- 768 x 550 -->
-	            <img class="img-responsive owl-lazy visible-xs" data-src="assets/img/img-slidem.jpg" src="assets/img/img-slidem.jpg" alt="">
+	            <img class="img-responsive owl-lazy visible-xs" data-src="<?php bloginfo('template_url'); ?>/assets/img/img-slidem.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/img-slidem.jpg" alt="">
 	    </div>
 
 	    <div class="item">
@@ -28,9 +28,9 @@
 	          			
 	          		</div>
 	          	</div>
-	          	<img class="img-responsive owl-lazy hidden-xs" data-src="assets/img/img-slide2.jpg" src="assets/img/img-slide2.jpg" alt="">
+	          	<img class="img-responsive owl-lazy hidden-xs" data-src="<?php bloginfo('template_url'); ?>/assets/img/img-slide2.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/img-slide2.jpg" alt="">
 	         	 <!-- 768 x 550 -->
-	            <img class="img-responsive owl-lazy visible-xs" data-src="assets/img/img-slide2m.jpg" src="assets/img/img-slide2m.jpg" alt="">
+	            <img class="img-responsive owl-lazy visible-xs" data-src="<?php bloginfo('template_url'); ?>/assets/img/img-slide2m.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/img-slide2m.jpg" alt="">
 	    </div>
 <!--
 	    <div class="item">
@@ -42,11 +42,11 @@
 					if ($detect->isMobile()) {
 					   ?>
 					   
-			 	<a class="owl-video" href="https://www.youtube.com/watch?v=KZWZ6OuJQMk" data-video-thumb="assets/img/slider2m.jpg"></a>
+			 	<a class="owl-video" href="https://www.youtube.com/watch?v=KZWZ6OuJQMk" data-video-thumb="<?php bloginfo('template_url'); ?>/assets/img/slider2m.jpg"></a>
 					  <?php
 					}else{
 						?>
-			 	<a class="owl-video" href="https://www.youtube.com/watch?v=KZWZ6OuJQMk" data-video-thumb="assets/img/slider2.jpg"></a>
+			 	<a class="owl-video" href="https://www.youtube.com/watch?v=KZWZ6OuJQMk" data-video-thumb="<?php bloginfo('template_url'); ?>/assets/img/slider2.jpg"></a>
 						<?php
 					}
 				?>
@@ -65,7 +65,7 @@
 	    		</div>
 	    	</div>
 			<video loop="" class="hidden-xs">
-				<source src="assets/video/small.mp4" type="video/mp4">
+				<source src="<?php bloginfo('template_url'); ?>/assets/video/small.mp4" type="video/mp4">
 			</video>
 	    </div> -->
 	</div> <!-- contenedor slider -->

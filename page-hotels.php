@@ -12,31 +12,31 @@
 
 								<div class="col-sm-6 col-md-4">
 									<div class="hotel-box">
-										<img class="img-responsive" src="assets/img/hotel.jpg" alt="">
+										<img class="img-responsive" src="<?php bloginfo('template_url'); ?>/assets/img/hotel.jpg" alt="">
 										<p>the vines resort and spa</p>
 									</div>
 								</div>
 								<div class="col-sm-6 col-md-4">
 									<div class="hotel-box">
-										<img class="img-responsive" src="assets/img/hotel.jpg" alt="">
+										<img class="img-responsive" src="<?php bloginfo('template_url'); ?>/assets/img/hotel.jpg" alt="">
 										<p>the vines resort and spa</p>
 									</div>
 								</div>
 								<div class="col-sm-6 col-md-4">
 									<div class="hotel-box">
-										<img class="img-responsive" src="assets/img/hotel.jpg" alt="">
+										<img class="img-responsive" src="<?php bloginfo('template_url'); ?>/assets/img/hotel.jpg" alt="">
 										<p>the vines resort and spa</p>
 									</div>
 								</div>
 								<div class="col-sm-6 col-md-4">
 									<div class="hotel-box">
-										<img class="img-responsive" src="assets/img/hotel.jpg" alt="">
+										<img class="img-responsive" src="<?php bloginfo('template_url'); ?>/assets/img/hotel.jpg" alt="">
 										<p>the vines resort and spa</p>
 									</div>
 								</div>
 								<div class="col-sm-6 col-md-4">
 									<div class="hotel-box">
-										<img class="img-responsive" src="assets/img/hotel.jpg" alt="">
+										<img class="img-responsive" src="<?php bloginfo('template_url'); ?>/assets/img/hotel.jpg" alt="">
 										<p>the vines resort and spa</p>
 									</div>
 								</div>

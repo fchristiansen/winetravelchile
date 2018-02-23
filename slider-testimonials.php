@@ -13,11 +13,11 @@
 		          		</div>
 		          	</div>
 		          	<!-- 1920 x 990 -->
-		          	<img class="img-responsive owl-lazy hidden-xs" data-src="assets/img/banner-testimonials.jpg" src="assets/img/banner-testimonials.jpg" alt="">
+		          	<img class="img-responsive owl-lazy hidden-xs" data-src="<?php bloginfo('template_url'); ?>/assets/img/banner-testimonials.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/banner-testimonials.jpg" alt="">
 		          	<!-- 320 x 550 -->
-		          	<img class="img-responsive owl-lazy visible-xs" data-src="assets/img/banner-testimonials-xs.jpg" src="assets/img/banner-testimonials-xs.jpg" alt="">
+		          	<img class="img-responsive owl-lazy visible-xs" data-src="<?php bloginfo('template_url'); ?>/assets/img/banner-testimonials-xs.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/banner-testimonials-xs.jpg" alt="">
 				  	<!-- 768 x 550 -->
-	<!-- 	            <img class="img-responsive owl-lazy" data-src="assets/img/slider1-xs.jpg" src="assets/img/slider1-xs.jpg" alt=""> -->
+	<!-- 	            <img class="img-responsive owl-lazy" data-src="<?php bloginfo('template_url'); ?>/assets/img/slider1-xs.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/slider1-xs.jpg" alt=""> -->
 		    </div>
 		</div> <!-- contenedor slider -->
 	</section>

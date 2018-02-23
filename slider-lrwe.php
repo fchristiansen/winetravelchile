@@ -17,10 +17,10 @@
 		          			</p> -->
 		          		</div>
 		          	</div>
-		          	<img class="img-responsive owl-lazy hidden-xs" data-src="assets/img/lrwe01.jpg" src="assets/img/lrwe01.jpg" alt="">
-		          	<img class="img-responsive owl-lazy visible-xs" data-src="assets/img/lrwe01m.jpg" src="assets/img/lrwe01m.jpg" alt="">
+		          	<img class="img-responsive owl-lazy hidden-xs" data-src="<?php bloginfo('template_url'); ?>/assets/img/lrwe01.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/lrwe01.jpg" alt="">
+		          	<img class="img-responsive owl-lazy visible-xs" data-src="<?php bloginfo('template_url'); ?>/assets/img/lrwe01m.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/lrwe01m.jpg" alt="">
 				  	<!-- 768 x 550 -->
-	<!-- 	            <img class="img-responsive owl-lazy" data-src="assets/img/slider1-xs.jpg" src="assets/img/slider1-xs.jpg" alt=""> -->
+	<!-- 	            <img class="img-responsive owl-lazy" data-src="<?php bloginfo('template_url'); ?>/assets/img/slider1-xs.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/slider1-xs.jpg" alt=""> -->
 		    </div>
 		</div> <!-- contenedor slider -->
 	</section>

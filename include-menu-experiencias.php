@@ -9,7 +9,7 @@
 						    	<div class="lente">
 						    		<h3 class="caluga-title"> LUXURY RED WINE EXPERIENCE</h3>
 						    	</div>
-						        <img class="caluga-img" src="assets/img/exp1.jpg" alt="">
+						        <img class="caluga-img" src="<?php bloginfo('template_url'); ?>/assets/img/exp1.jpg" alt="">
 						    </a>
 						</div>
 					</div>
@@ -19,7 +19,7 @@
 						    	<div class="lente">
 						      		<h3 class="caluga-title"> WOMEN'S WALKING, WINE AND FOOD EXPERIENCE</h3>
 						      	</div>
-						        <img class="caluga-img" src="assets/img/exp2.jpg" alt="">
+						        <img class="caluga-img" src="<?php bloginfo('template_url'); ?>/assets/img/exp2.jpg" alt="">
 						    </a>
 						</div>
 					</div>
@@ -29,7 +29,7 @@
 						    	<div class="lente">
 						      		<h3 class="caluga-title">SOON<!-- TAILOR - MADE --></h3>
 						      	</div>
-						        <img class="caluga-img" src="assets/img/exp3.jpg" alt="">
+						        <img class="caluga-img" src="<?php bloginfo('template_url'); ?>/assets/img/exp3.jpg" alt="">
 						    </a>
 						</div>
 					</div>
@@ -39,7 +39,7 @@
 						    	<div class="lente">
 						      		<h3 class="caluga-title">SOON<!-- CORPORATE AND PRESS TRIPS --></h3>
 						      	</div>
-						        <img class="caluga-img" src="assets/img/exp4.jpg" alt="">
+						        <img class="caluga-img" src="<?php bloginfo('template_url'); ?>/assets/img/exp4.jpg" alt="">
 						    </a>
 						</div>
 					</div>

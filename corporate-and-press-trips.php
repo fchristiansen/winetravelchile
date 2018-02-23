@@ -51,32 +51,32 @@
 				<div class="row">
 					<div class="col-sm-4">
 						<div class="row">
-							<a href="assets/img/lrwe-foto01_lg.jpg">
-								<img src="assets/img/lrwe-foto01.jpg" class="img-responsive br5w bb10w">
+							<a href="<?php bloginfo('template_url'); ?>/assets/img/lrwe-foto01_lg.jpg">
+								<img src="<?php bloginfo('template_url'); ?>/assets/img/lrwe-foto01.jpg" class="img-responsive br5w bb10w">
 							</a>
 						</div>
 						<div class="row">
-							<a href="assets/img/lrwe-foto02_lg.jpg">
-								<img src="assets/img/lrwe-foto02.jpg" class="img-responsive br5w">
-							</a>
-						</div>
-					</div>
-					<div class="col-sm-4">
-						<div class="row">
-							<a href="assets/img/lrwe-foto03_lg.jpg">
-								<img src="assets/img/lrwe-foto03.jpg" class="img-responsive br5w bl5w">
+							<a href="<?php bloginfo('template_url'); ?>/assets/img/lrwe-foto02_lg.jpg">
+								<img src="<?php bloginfo('template_url'); ?>/assets/img/lrwe-foto02.jpg" class="img-responsive br5w">
 							</a>
 						</div>
 					</div>
 					<div class="col-sm-4">
 						<div class="row">
-							<a href="assets/img/lrwe-foto04_lg.jpg">
-								<img src="assets/img/lrwe-foto04.jpg" class="img-responsive bl5w bb10w">
+							<a href="<?php bloginfo('template_url'); ?>/assets/img/lrwe-foto03_lg.jpg">
+								<img src="<?php bloginfo('template_url'); ?>/assets/img/lrwe-foto03.jpg" class="img-responsive br5w bl5w">
+							</a>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="row">
+							<a href="<?php bloginfo('template_url'); ?>/assets/img/lrwe-foto04_lg.jpg">
+								<img src="<?php bloginfo('template_url'); ?>/assets/img/lrwe-foto04.jpg" class="img-responsive bl5w bb10w">
 							</a>
 						</div>
 						<div class="row">
-							<a href="assets/img/lrwe-foto05_lg.jpg">
-								<img src="assets/img/lrwe-foto05.jpg" class="img-responsive bl5w">
+							<a href="<?php bloginfo('template_url'); ?>/assets/img/lrwe-foto05_lg.jpg">
+								<img src="<?php bloginfo('template_url'); ?>/assets/img/lrwe-foto05.jpg" class="img-responsive bl5w">
 							</a>
 						</div>
 					</div>

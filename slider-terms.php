@@ -13,9 +13,9 @@
 		          		</div>
 		          	</div>
 		          	<!-- 1920 x 990 -->
-		          	<img class="img-responsive owl-lazy hidden-xs" data-src="assets/img/top-terms.jpg" src="assets/img/top-terms.jpg" alt="">
+		          	<img class="img-responsive owl-lazy hidden-xs" data-src="<?php bloginfo('template_url'); ?>/assets/img/top-terms.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/top-terms.jpg" alt="">
 		          	<!-- 320 x 550 -->
-		          	<img class="img-responsive owl-lazy visible-xs" data-src="assets/img/top-terms-xs.jpg" src="assets/img/top-terms-xs.jpg" alt="">
+		          	<img class="img-responsive owl-lazy visible-xs" data-src="<?php bloginfo('template_url'); ?>/assets/img/top-terms-xs.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/top-terms-xs.jpg" alt="">
 
 		    </div>
 		</div> <!-- contenedor top -->

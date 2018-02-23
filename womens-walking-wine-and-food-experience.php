@@ -20,7 +20,7 @@
 									<h6>Tour Map</h6>
 									<div class="row hidden-xs">
 										<div class="col-sm-10 col-sm-offset-1">
-											<img src="assets/img/lrwe-mapa.png" class="img-responsive">
+											<img src="<?php bloginfo('template_url'); ?>/assets/img/lrwe-mapa.png" class="img-responsive">
 										</div>
 									</div>
 								</div>
@@ -167,9 +167,9 @@ Santa Cruz</h5>
 							</div>
 							<div class="col-sm-12 text-center">
 								<ul class="not-include">
-									<li><img src="assets/img/ico-plane.png"> Travel insurance</li>
-									<li><img src="assets/img/ico-luggage.png"> Personal expenses and other items<br>not indicated in the program </li>
-									<li><img src="assets/img/ico-bellman.png"> Tips for hotel staff, guides and drivers</li>
+									<li><img src="<?php bloginfo('template_url'); ?>/assets/img/ico-plane.png"> Travel insurance</li>
+									<li><img src="<?php bloginfo('template_url'); ?>/assets/img/ico-luggage.png"> Personal expenses and other items<br>not indicated in the program </li>
+									<li><img src="<?php bloginfo('template_url'); ?>/assets/img/ico-bellman.png"> Tips for hotel staff, guides and drivers</li>
 								</ul>
 							</div>
 							<div class="col-sm-12 text-center">
@@ -186,32 +186,32 @@ Santa Cruz</h5>
 				<div class="row">
 					<div class="col-sm-4">
 						<div class="row">
-							<a href="assets/img/awawe-foto01_lg.jpg">
-								<img src="assets/img/awawe-foto01.jpg" class="img-responsive br5w bb10w">
+							<a href="<?php bloginfo('template_url'); ?>/assets/img/awawe-foto01_lg.jpg">
+								<img src="<?php bloginfo('template_url'); ?>/assets/img/awawe-foto01.jpg" class="img-responsive br5w bb10w">
 							</a>
 						</div>
 						<div class="row">
-							<a href="assets/img/awawe-foto02_lg.jpg">
-								<img src="assets/img/awawe-foto02.jpg" class="img-responsive br5w">
-							</a>
-						</div>
-					</div>
-					<div class="col-sm-4">
-						<div class="row">
-							<a href="assets/img/awawe-foto03_lg.jpg">
-								<img src="assets/img/awawe-foto03.jpg" class="img-responsive br5w bl5w">
+							<a href="<?php bloginfo('template_url'); ?>/assets/img/awawe-foto02_lg.jpg">
+								<img src="<?php bloginfo('template_url'); ?>/assets/img/awawe-foto02.jpg" class="img-responsive br5w">
 							</a>
 						</div>
 					</div>
 					<div class="col-sm-4">
 						<div class="row">
-							<a href="assets/img/awawe-foto04_lg.jpg">
-								<img src="assets/img/awawe-foto04.jpg" class="img-responsive bl5w bb10w">
+							<a href="<?php bloginfo('template_url'); ?>/assets/img/awawe-foto03_lg.jpg">
+								<img src="<?php bloginfo('template_url'); ?>/assets/img/awawe-foto03.jpg" class="img-responsive br5w bl5w">
+							</a>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="row">
+							<a href="<?php bloginfo('template_url'); ?>/assets/img/awawe-foto04_lg.jpg">
+								<img src="<?php bloginfo('template_url'); ?>/assets/img/awawe-foto04.jpg" class="img-responsive bl5w bb10w">
 							</a>
 						</div>
 						<div class="row">
-							<a href="assets/img/awawe-foto05_lg.jpg">
-								<img src="assets/img/awawe-foto05.jpg" class="img-responsive bl5w">
+							<a href="<?php bloginfo('template_url'); ?>/assets/img/awawe-foto05_lg.jpg">
+								<img src="<?php bloginfo('template_url'); ?>/assets/img/awawe-foto05.jpg" class="img-responsive bl5w">
 							</a>
 						</div>
 					</div>

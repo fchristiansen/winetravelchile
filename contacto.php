@@ -10,9 +10,9 @@
 						<div class="bloque clearfix">
 							<div class="col-sm-6 hidden-xs hidden-sm col-md-6 col-lg-6">
 
-										<img class="img-responsive img-cava1" src="assets/img/contacto/bodega-cavas.jpg" alt="">
+										<img class="img-responsive img-cava1" src="<?php bloginfo('template_url'); ?>/assets/img/contacto/bodega-cavas.jpg" alt="">
 
-										<img class="img-responsive img-cava2" src="assets/img/contacto/bodega-cavas-1024.jpg" alt="">
+										<img class="img-responsive img-cava2" src="<?php bloginfo('template_url'); ?>/assets/img/contacto/bodega-cavas-1024.jpg" alt="">
 
 							</div>
 							<div class="col-sm-12 col-md-6 col-lg-6">

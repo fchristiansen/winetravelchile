@@ -13,9 +13,9 @@
 		          		</div>
 		          	</div>
 		          	<!-- 1920 x 990 -->
-		          	<img class="img-responsive owl-lazy hidden-xs" data-src="assets/img/top-hotels.jpg" src="assets/img/top-hotels.jpg" alt="">
+		          	<img class="img-responsive owl-lazy hidden-xs" data-src="<?php bloginfo('template_url'); ?>/assets/img/top-hotels.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/top-hotels.jpg" alt="">
 		          	<!-- 320 x 550 -->
-		          	<img class="img-responsive owl-lazy visible-xs" data-src="assets/img/top-hotels-xs.jpg" src="assets/img/top-hotels-xs.jpg" alt="">
+		          	<img class="img-responsive owl-lazy visible-xs" data-src="<?php bloginfo('template_url'); ?>/assets/img/top-hotels-xs.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/top-hotels-xs.jpg" alt="">
 
 		    </div>
 		</div> <!-- contenedor top -->

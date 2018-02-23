@@ -14,8 +14,8 @@
 		          			</p>
 		          		</div>
 		          	</div>
-		          	<img class="img-responsive owl-lazy hidden-xs" data-src="assets/img/awawe01.jpg" src="assets/img/awawe01.jpg" alt="">
-		          	<img class="img-responsive owl-lazy visible-xs" data-src="assets/img/awawe01_m.jpg" src="assets/img/awawe01_m.jpg" alt="">
+		          	<img class="img-responsive owl-lazy hidden-xs" data-src="<?php bloginfo('template_url'); ?>/assets/img/awawe01.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/awawe01.jpg" alt="">
+		          	<img class="img-responsive owl-lazy visible-xs" data-src="<?php bloginfo('template_url'); ?>/assets/img/awawe01_m.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/awawe01_m.jpg" alt="">
 		    </div>
 		</div> <!-- contenedor slider -->
 	</section>

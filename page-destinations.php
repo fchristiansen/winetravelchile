@@ -21,13 +21,13 @@
 
 				<div id="carousel-destinations" class="carousel-destinations">
 					    <div>
-			      			<img class="img-responsive owl-lazy" data-src="assets/img/destinations-img1.jpg" src="assets/img/destinations-img1.jpg" alt="">
+			      			<img class="img-responsive owl-lazy" data-src="<?php bloginfo('template_url'); ?>/assets/img/destinations-img1.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/destinations-img1.jpg" alt="">
 					    </div>
 					    <div>
-			      			<img class="img-responsive owl-lazy" data-src="assets/img/destinations-img2.jpg" src="assets/img/destinations-img2.jpg" alt="">
+			      			<img class="img-responsive owl-lazy" data-src="<?php bloginfo('template_url'); ?>/assets/img/destinations-img2.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/destinations-img2.jpg" alt="">
 					    </div>
 					    <div>
-			      			<img class="img-responsive owl-lazy" data-src="assets/img/destinations-img3.jpg" src="assets/img/destinations-img3.jpg" alt="">
+			      			<img class="img-responsive owl-lazy" data-src="<?php bloginfo('template_url'); ?>/assets/img/destinations-img3.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/destinations-img3.jpg" alt="">
 					    </div>
 					</div>
 			</div>

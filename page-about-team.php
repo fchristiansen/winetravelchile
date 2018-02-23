@@ -26,7 +26,7 @@
 				<div class="row">
 					<div class="col-sm-4">
 						<div class="">
-							<img class="img-responsive img-circle" src="assets/img/founder.jpg" alt="">
+							<img class="img-responsive img-circle" src="<?php bloginfo('template_url'); ?>/assets/img/founder.jpg" alt="">
 						</div>
 					</div>
 					<div class="col-sm-8">
@@ -55,7 +55,7 @@
 
 					</div>
 				</div>
-					<img class="img-responsive center-block img-center" src="assets/img/vina-section-team.png" alt="">
+					<img class="img-responsive center-block img-center" src="<?php bloginfo('template_url'); ?>/assets/img/vina-section-team.png" alt="">
 			</div>
 		</section>
 		<section id="team">
@@ -63,7 +63,7 @@
 				<div class="row">
 					<div class="col-sm-6">
 						<div class="expert-box clearfix">
-								<img class="img-responsive clearfix" src="assets/img/expert.jpg" alt="">
+								<img class="img-responsive clearfix" src="<?php bloginfo('template_url'); ?>/assets/img/expert.jpg" alt="">
 									<div class="expert-text">
 										<h4> MARGARET SNOOK</h4>
 										<h3>SOMMELIER - FOOD AND WINE WRITER</h3>
@@ -82,7 +82,7 @@
 					</div>
 					<div class="col-sm-6">
 						<div class="expert-box clearfix">
-							<img class="img-responsive" src="assets/img/expert.jpg" alt="">
+							<img class="img-responsive" src="<?php bloginfo('template_url'); ?>/assets/img/expert.jpg" alt="">
 							<div class="expert-text">
 								<h4> MARGARET SNOOK</h4>
 								<h3>SOMMELIER - FOOD AND WINE WRITER</h3>
@@ -101,7 +101,7 @@
 					</div>
 					<div class="col-sm-6">
 						<div class="expert-box clearfix">
-								<img class="img-responsive" src="assets/img/expert.jpg" alt="">
+								<img class="img-responsive" src="<?php bloginfo('template_url'); ?>/assets/img/expert.jpg" alt="">
 								<div class="expert-text">
 									<h4> MARGARET SNOOK</h4>
 									<h3>SOMMELIER - FOOD AND WINE WRITER</h3>
@@ -120,7 +120,7 @@
 					</div>
 					<div class="col-sm-6">
 						<div class="expert-box clearfix">
-								<img class="img-responsive" src="assets/img/expert.jpg" alt="">
+								<img class="img-responsive" src="<?php bloginfo('template_url'); ?>/assets/img/expert.jpg" alt="">
 								<div class="expert-text">
 									<h4> MARGARET SNOOK</h4>
 									<h3>SOMMELIER - FOOD AND WINE WRITER</h3>
@@ -139,7 +139,7 @@
 					</div>
 					<div class="col-sm-6">
 						<div class="expert-box clearfix">
-								<img class="img-responsive" src="assets/img/expert.jpg" alt="">
+								<img class="img-responsive" src="<?php bloginfo('template_url'); ?>/assets/img/expert.jpg" alt="">
 								<div class="expert-text">
 									<h4> MARGARET SNOOK</h4>
 									<h3>SOMMELIER - FOOD AND WINE WRITER</h3>
@@ -158,7 +158,7 @@
 					</div>
 					<div class="col-sm-6">
 						<div class="expert-box clearfix">
-								<img class="img-responsive" src="assets/img/expert.jpg" alt="">
+								<img class="img-responsive" src="<?php bloginfo('template_url'); ?>/assets/img/expert.jpg" alt="">
 								<div class="expert-text">
 									<h4> MARGARET SNOOK</h4>
 									<h3>SOMMELIER - FOOD AND WINE WRITER</h3>

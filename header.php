@@ -20,16 +20,16 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<link href="//fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
 		<link href="//fonts.googleapis.com/css?family=Prata" rel="stylesheet">
-		<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-		<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
-		<link rel="stylesheet" href="assets/css/simpleLightbox.min.css">
-		<link rel="stylesheet" href="assets/css/font-awesome.min.css">
-		<link rel="stylesheet" type="text/css" href="assets/slick/slick.css"/>
-		<link rel="stylesheet" type="text/css" href="assets/slick/slick-theme.css"/>
+		<link rel="stylesheet" href="<?php bloginfo('template_url');?>/assets/css/owl.carousel.min.css">
+		<link rel="stylesheet" href="<?php bloginfo('template_url');?>/assets/css/owl.theme.default.min.css">
+		<link rel="stylesheet" href="<?php bloginfo('template_url');?>/assets/css/simpleLightbox.min.css">
+		<link rel="stylesheet" href="<?php bloginfo('template_url');?>/assets/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url');?>/assets/slick/slick.css"/>
+		<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url');?>/assets/slick/slick-theme.css"/>
 		<link rel='stylesheet prefetch' href='//cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.1/css/bootstrap-datepicker.min.css'>
-		<link rel="stylesheet" href="assets/css/contacto.css">
+		<link rel="stylesheet" href="<?php bloginfo('template_url');?>/assets/css/contacto.css">
 
-		<link rel="stylesheet" href="assets/css/custom.css">
+		<link rel="stylesheet" href="<?php bloginfo('template_url');?>/assets/css/custom.css">
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 		<!--[if lt IE 9]>
@@ -49,6 +49,6 @@
 		// })();
 		</script>
 
-		<link rel="icon" type="image/png" href="assets/img/logo.png" />
+		<link rel="icon" type="image/png" href="<?php bloginfo('template_url');?>/assets/img/logo.png" />
 	</head>
 	<body>

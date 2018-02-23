@@ -3,7 +3,7 @@
 		<div class="row" >
 			<div class="col-sm-12">
 				<a class="logo-xs" href="index.php">
-					<img id="logo-mobile" class="img-responsive center-block" src="assets/img/logo.svg" alt="wine travel chile">
+					<img id="logo-mobile" class="img-responsive center-block" src="<?php bloginfo('template_url');?>/assets/img/logo.svg" alt="wine travel chile">
 				</a>
 				<div class="search-wrapper" style="opacity: 1;">
 						<!-- info contacto temp -->
@@ -36,7 +36,7 @@
 				<span class="icon-bar"></span>
 				</button>
 					<a class="navbar-brand" href="index.php">
-						<img id="logo-desk" class="img-responsive" src="assets/img/logo.svg" width="170" alt="wine travel chile">
+						<img id="logo-desk" class="img-responsive" src="<?php bloginfo('template_url');?>/assets/img/logo.svg" width="170" alt="wine travel chile">
 					</a>
 			</div>
 			<div id="navbar" class="navbar-collapse collapse">

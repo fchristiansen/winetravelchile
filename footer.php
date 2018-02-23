@@ -5,7 +5,7 @@
 				<div class="box-news-letter clearfix">
 					<div class="col-sm-3">
 							<div class="texto-sobre">
-								<img  id="sobre" class="img-responsive" src="assets/img/sobre.png" alt="">
+								<img  id="sobre" class="img-responsive" src="<?php bloginfo('template_url');?>/assets/img/sobre.png" alt="">
 								<p>Sign up for <br>
 								our newsletter</p>
 							</div>
@@ -87,10 +87,10 @@
 						<div class="center-xs">
 							<ul class="rrss">
 								<li>Follow us:</li>
-								<li><a href="https://www.facebook.com/winetravelchileofficial/ " target="_blank"><img src="assets/img/ico-fb.svg" width="27" alt="facebook"></a></li>
-								<li><a href="https://www.instagram.com/winetravelchileofficial/" target="_blank"><img src="assets/img/ico-ig.svg" width="31" alt="instagram"></a></li>
-								<li><a href="https://twitter.com/winetravelchile" target="_blank"><img src="assets/img/ico-tw.svg" width="29" alt="twitter"></a></li>
-								<li><a href="https://www.youtube.com/watch?v=KZWZ6OuJQMk" target="_blank"><img src="assets/img/ico-yt.svg" width="32" alt="youtube"></a></li>
+								<li><a href="https://www.facebook.com/winetravelchileofficial/ " target="_blank"><img src="<?php bloginfo('template_url');?>/assets/img/ico-fb.svg" width="27" alt="facebook"></a></li>
+								<li><a href="https://www.instagram.com/winetravelchileofficial/" target="_blank"><img src="<?php bloginfo('template_url');?>/assets/img/ico-ig.svg" width="31" alt="instagram"></a></li>
+								<li><a href="https://twitter.com/winetravelchile" target="_blank"><img src="<?php bloginfo('template_url');?>/assets/img/ico-tw.svg" width="29" alt="twitter"></a></li>
+								<li><a href="https://www.youtube.com/watch?v=KZWZ6OuJQMk" target="_blank"><img src="<?php bloginfo('template_url');?>/assets/img/ico-yt.svg" width="32" alt="youtube"></a></li>
 							</ul>
 						</div>
 
@@ -105,16 +105,16 @@
 		<script src="//code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<!-- Latest compiled and minified JavaScript -->
-		<script src="assets/js/owl.carousel.min.js"></script>
+		<script src="<?php bloginfo('template_url');?>/assets/js/owl.carousel.min.js"></script>
 		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-		<script src="assets/js/simpleLightbox.min.js"></script>
-		<script src="assets/js/masonry.js"></script>
-		<script type="text/javascript" src="assets/slick/slick.min.js"></script>
+		<script src="<?php bloginfo('template_url');?>/assets/js/simpleLightbox.min.js"></script>
+		<script src="<?php bloginfo('template_url');?>/assets/js/masonry.js"></script>
+		<script type="text/javascript" src="<?php bloginfo('template_url');?>/assets/slick/slick.min.js"></script>
 		<script src='//cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.1/js/bootstrap-datepicker.min.js'></script>
-		<script src="assets/js/vendor/jquery.form.min.js"></script>
-		<script src="assets/js/vendor/jquery.validate.min.js"></script>
-		<script src="assets/js/contact.js"></script>
+		<script src="<?php bloginfo('template_url');?>/assets/js/vendor/jquery.form.min.js"></script>
+		<script src="<?php bloginfo('template_url');?>/assets/js/vendor/jquery.validate.min.js"></script>
+		<script src="<?php bloginfo('template_url');?>/assets/js/contact.js"></script>
 		<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-		<script src="assets/js/wine.js"></script>
+		<script src="<?php bloginfo('template_url');?>/assets/js/wine.js"></script>
 </body>
 </html>

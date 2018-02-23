@@ -1,4 +1,4 @@
-<nav id="main-nav" class="navbar navbar-default">
+<nav id="main-nav" class="navbar navbar-default position-relative">
 	<div class="container">
 		<div class="row" >
 			<div class="col-sm-12">
@@ -7,9 +7,11 @@
 				</a>
 				<div class="search-wrapper" style="opacity: 1;">
 						<!-- info contacto temp -->
-						<ul class="info-contact">
+						<ul class="info-contact hidden-lg">
 							<li class="whatsapp"><a href="whatsapp://tel:56995381177" alt="WhatsApp" title="WhatsApp"><i class="fa fa-whatsapp"></i> + 56 9 95381177</a></li>
 							<li class="mail"><a href="mailto:winetravelchile@gmail.com"><i class="fa fa-envelope"></i> winetravelchile@gmail.com</a></li>
+							<li class="mail"><a href="tel:56992781331"><i class="fa fa-mobile" aria-hidden="true"></i> +56 9 92781331 </a></li>
+
 						</ul>
 						<!-- fin contacto temp -->
 						<form id="search" class="navbar-form navbar-right hide">
@@ -24,7 +26,7 @@
 		</div>
 	</div>
 
-	<div class="container">
+	<div class="container position-relative">
 		<div class="row">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -64,12 +66,13 @@
 					<li class="divisor-item-menu hide-beta">|</li>
 					<li class="hide-beta"><a href="javascript:void(0);">blog</a></li>
 					<li class="divisor-item-menu">|</li>
-					<li><a href="contacto.php">contact</a></li>
+					<li><a href="contacto.php" id="btn-contacto">contact</a></li>
 					<li id="mobile-contact">
 						<!-- info contacto temp -->
 						<ul class="info-contact">
 							<li class="whatsapp"><a href="whatsapp://tel:56995381177" alt="WhatsApp" title="WhatsApp"><i class="fa fa-whatsapp"></i> + 56 9 95381177</a></li>
 							<li class="mail"><a href="mailto:winetravelchile@gmail.com"><i class="fa fa-envelope"></i> winetravelchile@gmail.com</a></li>
+							<li class="mail"><a href="tel:56992781331"><i class="fa fa-mobile" aria-hidden="true"></i> +56 9 92781331 </a></li>
 						</ul>
 						<!-- fin contacto temp -->
 					</li>
@@ -79,8 +82,11 @@
 
 		</div>
 
+	<?php include('include-menu-contact.php'); ?>
 
 	</div><!--/.container -->
-</nav> <!-- /. main nav -->
+	</nav> <!-- /. main nav -->
+<div id="overlay" class=""></div>
+
 
 

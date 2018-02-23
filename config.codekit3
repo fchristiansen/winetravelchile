@@ -513,6 +513,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/assets\/img\/down-arrow.png": {
+		"ft": 32768,
+		"iS": 3972,
+		"oA": 0,
+		"oAP": "\/assets\/img\/down-arrow.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/img\/dyptwu-xs.jpg": {
 		"ft": 16384,
 		"iS": 68559,
@@ -656,12 +667,32 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/img\/ico-email.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/img\/ico-email.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/assets\/img\/ico-fb.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/ico-fb.svg",
 		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/img\/ico-fono.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/img\/ico-fono.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -740,6 +771,16 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"\/assets\/img\/ico-wasap.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/img\/ico-wasap.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/assets\/img\/ico-yt.svg": {
 		"ft": 2097152,

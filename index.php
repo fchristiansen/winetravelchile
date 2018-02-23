@@ -3,16 +3,20 @@
 <?php
 	include('include-menu-experiencias.php');
 	include('include-menu-experiencias-ar.php');
-	include('include-menu-contact.php');
 ?>
-
 <?php include('slider-home.php'); ?>
+
 
 		<section id="intro" class="position-relative">
 			<div class="uva"></div>
 			<div class="parra"></div>
 			<div class="vina"></div>
-			<div class="bloque-blanco-top-content"></div>
+			<div id="contenido" class="bloque-blanco-top-content">
+				<a href="#contenido">
+					<img src="assets/img/down-arrow.png" alt="" class="down-arrow">
+				</a>
+
+			</div>
 			<div class="container">
 				<div class="row">
 					<div class="bloque clearfix pl-50">

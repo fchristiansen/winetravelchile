@@ -121,6 +121,7 @@
 					 	margin-bottom: 20px;
 					}
 					a{
+
 						@include link;
 						color: white;
 						text-transform: uppercase;
@@ -158,21 +159,96 @@
 
 }
 
-#menu-contact{
+#fig-header-reveal-wrapper {
+  	display: none;
+    position: absolute;
+    right: 20px;
+    top: 82px;
+    width: 50%;
+    max-width: 700px;
+    padding: 3.125rem 2rem 1.875rem 2rem;
+    z-index: 100;
+    background-color: #fff;
+	&.chamber{
+		display:block;
+	}
+    .fig-header-reveal-block {
+        text-align: center;
+        //padding: .9375rem;
+        @media(min-width: 768px){
+        	    padding: 0;
+        }
 
-	position: absolute;
-	min-height: 440px;
-	background: white;
+        a{
+        	display: inline-block;
+        	cursor: pointer;
+        	text-align: center;
+        	@include link;
+        	color: $gris-texto-caja-conacto;
+        //	@include link;
+        	span{
+        		&.icon-Mail{
+					background: url(../img/ico-email.svg) no-repeat;
+					width: 36px;
+					height: 25px;
+					display:inline-block;
+					vertical-align: top;
+					margin-bottom: 15px;
+
+        		}
+        		&.icon-Phone{
+					background: url(../img/ico-wasap.svg) no-repeat;
+					width: 29px;
+					height: 30px;
+					display:inline-block;
+					vertical-align: top;
+					margin-bottom: 15px;
+        		}
+        		&.icon-Phone2{
+					background: url(../img/ico-fono.svg) no-repeat;
+					width: 25px;
+					height: 40px;
+					display:inline-block;
+					vertical-align: top;
+					margin-bottom: 7px;
+
+        		}
+
+        	}
+    		p{
+    			margin-bottom: 0;
+    			padding: 0;
+    			//line-height: 0;
+    			margin-bottom: 10px;
+    			&.text{
+	    			font-family: $montserrat;
+	    			font-weight: 400;
+	    			text-transform: uppercase;
+					@include font-size(10px);
+					color: $gris-texto-caja-conacto;
+    			}
+    		}
+
+
+
+		}
+    }
+
+}
+#overlay{
+	display: none;
 	width: 100%;
-	margin-top: 110px;
-	z-index: 100;
-	padding: 100px 0 0 0;
-	background-color: white;
-	opacity: 1;
-	transition: all 0.5s ease-in-out;
+	height: 100%;
+	position: absolute;
 	top: 0;
- 	//	&.chamber, &.clander2{margin-top: -450px; opacity: 0;}
-
+	left: 0;
+	background-color: rgba(0,0,0,0.5);
+	//display: block;
+	z-index: 99;
+	position: fixed;
+	&.chamber{
+		display: block;
+	}
 }
 
 

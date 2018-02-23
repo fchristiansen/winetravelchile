@@ -114,6 +114,7 @@
 		<script src="assets/js/vendor/jquery.form.min.js"></script>
 		<script src="assets/js/vendor/jquery.validate.min.js"></script>
 		<script src="assets/js/contact.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
 		<script src="assets/js/wine.js"></script>
 </body>
 </html>

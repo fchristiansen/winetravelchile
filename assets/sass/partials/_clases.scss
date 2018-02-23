@@ -169,7 +169,10 @@ li.divisor-item-sub-menu{
 	max-width: 1170px;
 	z-index: 1;
 	position: relative;
-	outline: 0;
+
+	&:focus{
+		outline: 0;
+	}
 	@media(max-width:768px){
 		display: none;
 	}

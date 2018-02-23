@@ -59,7 +59,8 @@ li.divisor-item-menu { display: none; }
 li.divisor-item-sub-menu { display: none !important; }
 @media (min-width: 768px) { li.divisor-item-sub-menu { display: inline-block !important; } }
 
-.bloque-blanco-top-content { display: block; width: 100%; min-height: 82px; background-color: #fff; position: absolute; left: 50%; -webkit-transform: translate(-50%, 0); transform: translate(-50%, 0); top: -80px; max-width: 1170px; z-index: 1; position: relative; outline: 0; }
+.bloque-blanco-top-content { display: block; width: 100%; min-height: 82px; background-color: #fff; position: absolute; left: 50%; -webkit-transform: translate(-50%, 0); transform: translate(-50%, 0); top: -80px; max-width: 1170px; z-index: 1; position: relative; }
+.bloque-blanco-top-content:focus { outline: 0; }
 @media (max-width: 768px) { .bloque-blanco-top-content { display: none; } }
 .bloque-blanco-top-content img.down-arrow { position: absolute; left: 50%; -webkit-transform: translate(-50%, 0); transform: translate(-50%, 0); top: -51px; }
 

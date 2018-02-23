@@ -17,3 +17,6 @@ function iniciarTema(){
   }
   // Cuando ocurra 'after_setup_theme, invocar "iniciarTema"
   add_action( 'after_setup_theme', 'iniciarTema' );
+  
+  
+  

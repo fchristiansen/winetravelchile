@@ -71,21 +71,22 @@ if ( have_posts() ) {
 					<div class="bloque clearfix">
 						<div class="col-sm-12">
 							<div class="row">
+							   	<?php
+									$itinerarios = get_order_group('intinerary_day');
+									foreach($itinerarios as $itinerario){   
+								?>    								
 								<div class="col-md-6 day">
-									<h5>Day 1:  Santiago</h5>
-									<p>Meet and great your bilingual guide at the Santiago airport and private group transfer to your hotel. Afternoon at leisure to enjoy the charming boutiques, local handcraft markets or time to relax at the hotel. Explanation of the trip program and introduction to Chilean wine and wine regions, given by Karen Gilchrist - Welcome dinner and overnight at the luxury hotel in Santiago</p>
+									<h5><?php echo get('intinerary_day',$horario); ?></h5>
+									<p><?php echo get('intinerary_description',$horario); ?></p>
 									<ul class="complimentary">
+										<<?php echo get('intinerary_complimentary',$horario); ?>
+										<li><span>B</span></li>
+										<li><span>L</span></li>
 										<li><span>D</span></li>
 									</ul>
 								</div>
-								<div class="col-md-6 day">
-									<h5>Day 2: Aconcagua Valley</h5>
-									<p>Breakfast and depart for the Aconcagua Valley, a 1.5-hour drive from Santiago - Walk around the <b>Errázuriz</b> and <b>Von Siebenthal</b>. These are fun and easy trails on small paths through the vineyards. After walking, we enjoy an interesting tour of the cellar facilities, followed by a gourmet lunch - Arrival in Santiago and dinner on your own - Overnight at the luxury hotel in Santiago</p>
-									<ul class="complimentary">
-										<li><span>B</span></li>
-										<li><span>L</span></li>
-									</ul>
-								</div>
+                                <?php } ?>
+								
 							</div>
 							<div class="row">
 								<div class="col-md-6 day">
@@ -220,7 +221,7 @@ Santa Cruz</h5>
 									$dir  = pathinfo(get('galery_photo_1'), PATHINFO_DIRNAME);
 									$foto = $dir.'/'.$file.'-610x355.'.$ext;
 								?>
-								<img src="<?php bloginfo('template_url');?>/assets/img/awawe-foto01.jpg" class="img-responsive br5w bb10w">
+								<img src="<?php echo $foto; ?>" class="img-responsive br5w bb10w">
 							</a>
 						</div>
 						<div class="row">
@@ -231,7 +232,7 @@ Santa Cruz</h5>
 									$dir  = pathinfo(get('galery_photo_2'), PATHINFO_DIRNAME);
 									$foto = $dir.'/'.$file.'-610x427.'.$ext;
 								?>
-								<img src="<?php bloginfo('template_url');?>/assets/img/awawe-foto02.jpg" class="img-responsive br5w">
+								<img src="<?php echo $foto; ?>" class="img-responsive br5w">
 							</a>
 						</div>
 					</div>
@@ -244,7 +245,7 @@ Santa Cruz</h5>
 									$dir  = pathinfo(get('galery_photo_3'), PATHINFO_DIRNAME);
 									$foto = $dir.'/'.$file.'-600x792.'.$ext;
 								?>
-								<img src="<?php bloginfo('template_url');?>/assets/img/awawe-foto03.jpg" class="img-responsive br5w bl5w">
+								<img src="<?php echo $foto; ?>" class="img-responsive br5w bl5w">
 							</a>
 						</div>
 					</div>
@@ -257,7 +258,7 @@ Santa Cruz</h5>
 									$dir  = pathinfo(get('galery_photo_4'), PATHINFO_DIRNAME);
 									$foto = $dir.'/'.$file.'-610x425.'.$ext;
 								?>
-								<img src="<?php bloginfo('template_url');?>/assets/img/awawe-foto04.jpg" class="img-responsive bl5w bb10w">
+								<img src="<?php echo $foto; ?>" class="img-responsive bl5w bb10w">
 							</a>
 						</div>
 						<div class="row">

@@ -56,9 +56,9 @@
 					</div>
 				</div>
 				<ul id="nav-list" class="nav navbar-nav navbar-right">
-					<li><a href="javascript:void(0);" id="btn-chile">CHILE <span class="sr-only">(current)</span></a></li>
+					<li><a href="javascript:void(0);" class="btn-pais" data-pais="cl">CHILE <span class="sr-only">(current)</span></a></li>
 					<li class="divisor-item-menu hide-beta">|</li>
-					<li><a href="javascript:void(0);" id="btn-argentina">ARGENTINA</a></li>
+					<li><a href="javascript:void(0);" class="btn-pais" data-pais="ar">ARGENTINA</a></li>
 					<li class="divisor-item-menu hide-beta">|</li>
 					<li class="hide-beta"><a href="<?php bloginfo('url'); ?>/destinations" id="btn-destinations">more Destinations</a></li>
 					<li class="divisor-item-menu hide-beta">|</li>

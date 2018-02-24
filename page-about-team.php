@@ -41,23 +41,17 @@ Template name: About - Team
 							<h5>Karen Gilchrist</h5>
 							<h6>FOUNDER, TRIP PLANNER AND WINE EXPERT GUIDE</h6>
 							<span class="rectangulo-vino-small"></span>
-							<p>Trilingual, with extensive experience in tourism development,
-	 						marketing, and communications in Chile, France, and the United
-	 						Kingdom, Karen saw the opportunity to build a boutique tour operator
-	 						company around the fascinating world of fine wine and dining immersed
-	 						in the natural beauty of Chile and other wine-producing countries around the world.</p>
-
-							<p>Karen Gilchrist is a graduate of the Sorbonne University in Paris and
-							lived in Europe for eight years, during which time she also earned
-							diplomas in wine tasting, tourism, photography and marketing in London.
-							She also has vast experience with wine routes in the new world and old world.</p>
-
-							<p>She was the General Manager of the Maule Valley Wine Route (1999–2002),
-							during which time she organized Chile's first Carmenere event (2001),
-							 attended by the national and international press.
-							 In addition to guiding she is also a wine tourism consultant in
-							  Chile and abroad. She continues to travel widely, seeking out
-							  new experiences.</p>
+											<?php
+					$the_query = new WP_Query( array(
+				    'post_type' => 'the_team',
+				    'posts_per_page'	=> 1
+				) );
+				$m = 0;
+				while ( $the_query->have_posts() ) :
+				    $the_query->the_post();
+					the_content(); 
+				endwhile;
+?>		
 						</div>
 
 					</div>
@@ -68,120 +62,34 @@ Template name: About - Team
 		<section id="team">
 			<div class="container">
 				<div class="row">
+				<?php
+					$the_query = new WP_Query( array(
+				    'post_type' => 'the_team',
+				    'offset'	=> 1
+				) );
+				$m = 0;
+				while ( $the_query->have_posts() ) :
+				    $the_query->the_post();
+				    $m++;
+				?>					
 					<div class="col-sm-6">
 						<div class="expert-box clearfix">
-								<img class="img-responsive clearfix" src="<?php bloginfo('template_url'); ?>/assets/img/expert.jpg" alt="">
-									<div class="expert-text">
-										<h4> MARGARET SNOOK</h4>
-										<h3>SOMMELIER - FOOD AND WINE WRITER</h3>
-										<p>
-											US-born anthropologist with nearly 20 years of experience
-											in the Chilean wine industry. She holds a post-graduate
-											Diploma in Chilean Wine from the Catholic University of Chile,
-											is a graduate of the Chile’s Professional Sommelier
-											program and belongs to the Chilean Association of Sommeliers
-											and the Chilean Circle of Food and Wine Writers. She also holds
-											a Master’s degree in Book Publishing and has taken courses
-											on tourism focused on Chilean heritage.
-										</p>
-									</div>
-						</div>
-					</div>
-					<div class="col-sm-6">
-						<div class="expert-box clearfix">
-							<img class="img-responsive" src="<?php bloginfo('template_url'); ?>/assets/img/expert.jpg" alt="">
+							<?php the_post_thumbnail('hotel', array('class' => 'img-responsive clearfix')); ?>
 							<div class="expert-text">
-								<h4> MARGARET SNOOK</h4>
-								<h3>SOMMELIER - FOOD AND WINE WRITER</h3>
-								<p>
-									US-born anthropologist with nearly 20 years of experience
-									in the Chilean wine industry. She holds a post-graduate
-									Diploma in Chilean Wine from the Catholic University of Chile,
-									is a graduate of the Chile’s Professional Sommelier
-									program and belongs to the Chilean Association of Sommeliers
-									and the Chilean Circle of Food and Wine Writers. She also holds
-									a Master’s degree in Book Publishing and has taken courses
-									on tourism focused on Chilean heritage.
-								</p>
+								<h4><?php the_title(); ?></h4>
+								<h3><?php echo get('cargo'); ?></h3>
+								<?php the_content(); ?>
 							</div>
 						</div>
 					</div>
-					<div class="col-sm-6">
-						<div class="expert-box clearfix">
-								<img class="img-responsive" src="<?php bloginfo('template_url'); ?>/assets/img/expert.jpg" alt="">
-								<div class="expert-text">
-									<h4> MARGARET SNOOK</h4>
-									<h3>SOMMELIER - FOOD AND WINE WRITER</h3>
-									<p>
-										US-born anthropologist with nearly 20 years of experience
-										in the Chilean wine industry. She holds a post-graduate
-										Diploma in Chilean Wine from the Catholic University of Chile,
-										is a graduate of the Chile’s Professional Sommelier
-										program and belongs to the Chilean Association of Sommeliers
-										and the Chilean Circle of Food and Wine Writers. She also holds
-										a Master’s degree in Book Publishing and has taken courses
-										on tourism focused on Chilean heritage.
-									</p>
-								</div>
-						</div>
-					</div>
-					<div class="col-sm-6">
-						<div class="expert-box clearfix">
-								<img class="img-responsive" src="<?php bloginfo('template_url'); ?>/assets/img/expert.jpg" alt="">
-								<div class="expert-text">
-									<h4> MARGARET SNOOK</h4>
-									<h3>SOMMELIER - FOOD AND WINE WRITER</h3>
-									<p>
-										US-born anthropologist with nearly 20 years of experience
-										in the Chilean wine industry. She holds a post-graduate
-										Diploma in Chilean Wine from the Catholic University of Chile,
-										is a graduate of the Chile’s Professional Sommelier
-										program and belongs to the Chilean Association of Sommeliers
-										and the Chilean Circle of Food and Wine Writers. She also holds
-										a Master’s degree in Book Publishing and has taken courses
-										on tourism focused on Chilean heritage.
-									</p>
-								</div>
-						</div>
-					</div>
-					<div class="col-sm-6">
-						<div class="expert-box clearfix">
-								<img class="img-responsive" src="<?php bloginfo('template_url'); ?>/assets/img/expert.jpg" alt="">
-								<div class="expert-text">
-									<h4> MARGARET SNOOK</h4>
-									<h3>SOMMELIER - FOOD AND WINE WRITER</h3>
-									<p>
-										US-born anthropologist with nearly 20 years of experience
-										in the Chilean wine industry. She holds a post-graduate
-										Diploma in Chilean Wine from the Catholic University of Chile,
-										is a graduate of the Chile’s Professional Sommelier
-										program and belongs to the Chilean Association of Sommeliers
-										and the Chilean Circle of Food and Wine Writers. She also holds
-										a Master’s degree in Book Publishing and has taken courses
-										on tourism focused on Chilean heritage.
-									</p>
-								</div>
-						</div>
-					</div>
-					<div class="col-sm-6">
-						<div class="expert-box clearfix">
-								<img class="img-responsive" src="<?php bloginfo('template_url'); ?>/assets/img/expert.jpg" alt="">
-								<div class="expert-text">
-									<h4> MARGARET SNOOK</h4>
-									<h3>SOMMELIER - FOOD AND WINE WRITER</h3>
-									<p>
-										US-born anthropologist with nearly 20 years of experience
-										in the Chilean wine industry. She holds a post-graduate
-										Diploma in Chilean Wine from the Catholic University of Chile,
-										is a graduate of the Chile’s Professional Sommelier
-										program and belongs to the Chilean Association of Sommeliers
-										and the Chilean Circle of Food and Wine Writers. She also holds
-										a Master’s degree in Book Publishing and has taken courses
-										on tourism focused on Chilean heritage.
-									</p>
-								</div>
-						</div>
-					</div>
+<?php
+	
+	if($m==2){
+		$m = 0;
+		echo '<div class="clearfix"></div>';
+	}
+	endwhile;
+?>						
 				</div>
 			</div>
 		</section>

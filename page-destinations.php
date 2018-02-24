@@ -18,7 +18,7 @@ Template name: Destinations
 				          	<div class="carousel-info">
 				          		<div class="carousel-info-inner">
 				          			<p class="hidden-xs">
-				          				<a href="<?php bloginfo('url'); ?>">Home</a> / <a href="page-about.php">about us</a>  / destinations
+				          				<a href="<?php bloginfo('url'); ?>">Home</a><!--  / <a href="page-about.php">about us</a> -->  / destinations
 				          			</p>
 				          			<h4>Every Day is a Unique Wine</h4>
 				          		</div>
@@ -27,8 +27,7 @@ Template name: Destinations
 				          	<img class="img-responsive owl-lazy hidden-xs" data-src="<?php bloginfo('template_url'); ?>/assets/img/banner-destinations.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/banner-destinations.jpg" alt="">
 				          	<!-- 320 x 550 -->
 				          	<img class="img-responsive owl-lazy visible-xs" data-src="<?php bloginfo('template_url'); ?>/assets/img/banner-destinations-xs.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/banner-destinations-xs.jpg" alt="">
-						  	<!-- 768 x 550 -->
-			<!-- 	            <img class="img-responsive owl-lazy" data-src="<?php bloginfo('template_url'); ?>/assets/img/slider1-xs.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/slider1-xs.jpg" alt=""> -->
+
 				    </div>
 				</div> <!-- contenedor slider -->
 			</section>
@@ -44,9 +43,9 @@ Template name: Destinations
 							<h2>destinations</h2>
 							<section class="botonera">
 								<ul>
-									<li><a class="btn btn-default activo" href="page-about.php" role="button">francia</a></li>
-									<li><a class="btn btn-default" href="page-about-team.php" role="button">new Zealand</a></li>
-									<li><a class="btn btn-default" href="page-about-testimonials.php" role="button">uruguay</a></li>
+									<li><a data-pais="fr" class="btn-destination btn btn-default activo" href="javascript:void(0);" role="button">France</a></li>
+									<li><a data-pais="nz" class="btn-destination btn btn-default" href="javascript:void(0);" role="button">New Zealand</a></li>
+									<li><a data-pais="uy" class="btn-destination btn btn-default" href="javascript:void(0);" role="button">Uruguay</a></li>
 								</ul>
 							</section>
 						</div> <!-- content -->
@@ -57,17 +56,83 @@ Template name: Destinations
 		<section class="slider-destinations">
 			<div class="container-fluid no-padding">
 
-				<div id="carousel-destinations" class="carousel-destinations">
-					    <div>
-			      			<img class="img-responsive owl-lazy" data-src="<?php bloginfo('template_url'); ?>/assets/img/destinations-img1.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/destinations-img1.jpg" alt="">
-					    </div>
-					    <div>
-			      			<img class="img-responsive owl-lazy" data-src="<?php bloginfo('template_url'); ?>/assets/img/destinations-img2.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/destinations-img2.jpg" alt="">
-					    </div>
-					    <div>
-			      			<img class="img-responsive owl-lazy" data-src="<?php bloginfo('template_url'); ?>/assets/img/destinations-img3.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/destinations-img3.jpg" alt="">
-					    </div>
-					</div>
+				<div id="carousel-destinations-fr" class="carousel-destinations">
+				    <div>
+		      			<img class="img-responsive owl-lazy" data-src="<?php bloginfo('template_url'); ?>/assets/img/destinations/francia/1.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/destinations/francia/1.jpg" alt="">
+				    </div>
+				    <div>
+		      			<img class="img-responsive owl-lazy" data-src="<?php bloginfo('template_url'); ?>/assets/img/destinations/francia/2.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/destinations/francia/2.jpg" alt="">
+				    </div>
+				    <div>
+		      			<img class="img-responsive owl-lazy" data-src="<?php bloginfo('template_url'); ?>/assets/img/destinations/francia/3.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/destinations/francia/3.jpg" alt="">
+				    </div>
+				    <div>
+		      			<img class="img-responsive owl-lazy" data-src="<?php bloginfo('template_url'); ?>/assets/img/destinations/francia/4.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/destinations/francia/4.jpg" alt="">
+				    </div>
+				    <div>
+		      			<img class="img-responsive owl-lazy" data-src="<?php bloginfo('template_url'); ?>/assets/img/destinations/francia/5.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/destinations/francia/5.jpg" alt="">
+				    </div>
+				    <div>
+		      			<img class="img-responsive owl-lazy" data-src="<?php bloginfo('template_url'); ?>/assets/img/destinations/francia/6.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/destinations/francia/6.jpg" alt="">
+				    </div>
+				    <div>
+		      			<img class="img-responsive owl-lazy" data-src="<?php bloginfo('template_url'); ?>/assets/img/destinations/francia/7.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/destinations/francia/7.jpg" alt="">
+				    </div>
+				    <div>
+		      			<img class="img-responsive owl-lazy" data-src="<?php bloginfo('template_url'); ?>/assets/img/destinations/francia/8.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/destinations/francia/8.jpg" alt="">
+				    </div>
+				    <div>
+		      			<img class="img-responsive owl-lazy" data-src="<?php bloginfo('template_url'); ?>/assets/img/destinations/francia/9.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/destinations/francia/9.jpg" alt="">
+				    </div>
+				</div>
+				
+				<div id="carousel-destinations-nz" class="carousel-destinations hide">
+				    <div>
+		      			<img class="img-responsive owl-lazy" data-src="<?php bloginfo('template_url'); ?>/assets/img/destinations/new-zeland/1.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/destinations/new-zeland/1.jpg" alt="">
+				    </div>
+				    <div>
+		      			<img class="img-responsive owl-lazy" data-src="<?php bloginfo('template_url'); ?>/assets/img/destinations/new-zeland/2.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/destinations/new-zeland/2.jpg" alt="">
+				    </div>
+				    <div>
+		      			<img class="img-responsive owl-lazy" data-src="<?php bloginfo('template_url'); ?>/assets/img/destinations/new-zeland/3.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/destinations/new-zeland/3.jpg" alt="">
+				    </div>
+				    <div>
+		      			<img class="img-responsive owl-lazy" data-src="<?php bloginfo('template_url'); ?>/assets/img/destinations/new-zeland/4.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/destinations/new-zeland/4.jpg" alt="">
+				    </div>
+				    <div>
+		      			<img class="img-responsive owl-lazy" data-src="<?php bloginfo('template_url'); ?>/assets/img/destinations/new-zeland/5.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/destinations/new-zeland/5.jpg" alt="">
+				    </div>
+				    <div>
+		      			<img class="img-responsive owl-lazy" data-src="<?php bloginfo('template_url'); ?>/assets/img/destinations/new-zeland/6.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/destinations/new-zeland/6.jpg" alt="">
+				    </div>
+				    <div>
+		      			<img class="img-responsive owl-lazy" data-src="<?php bloginfo('template_url'); ?>/assets/img/destinations/new-zeland/7.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/destinations/new-zeland/7.jpg" alt="">
+				    </div>
+				    <div>
+		      			<img class="img-responsive owl-lazy" data-src="<?php bloginfo('template_url'); ?>/assets/img/destinations/new-zeland/8.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/destinations/new-zeland/8.jpg" alt="">
+				    </div>
+				    <div>
+		      			<img class="img-responsive owl-lazy" data-src="<?php bloginfo('template_url'); ?>/assets/img/destinations/new-zeland/9.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/destinations/new-zeland/9.jpg" alt="">
+				    </div>
+				</div>
+				
+				<div id="carousel-destinations-uy" class="carousel-destinations hide">
+				    <div>
+		      			<img class="img-responsive owl-lazy" data-src="<?php bloginfo('template_url'); ?>/assets/img/destinations/uruguay/1.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/destinations/uruguay/1.jpg" alt="">
+				    </div>
+				    <div>
+		      			<img class="img-responsive owl-lazy" data-src="<?php bloginfo('template_url'); ?>/assets/img/destinations/uruguay/2.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/destinations/uruguay/2.jpg" alt="">
+				    </div>
+				    <div>
+		      			<img class="img-responsive owl-lazy" data-src="<?php bloginfo('template_url'); ?>/assets/img/destinations/uruguay/3.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/destinations/uruguay/3.jpg" alt="">
+				    </div>
+				    <div>
+		      			<img class="img-responsive owl-lazy" data-src="<?php bloginfo('template_url'); ?>/assets/img/destinations/uruguay/4.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/destinations/uruguay/4.jpg" alt="">
+				    </div>
+				    <div>
+		      			<img class="img-responsive owl-lazy" data-src="<?php bloginfo('template_url'); ?>/assets/img/destinations/uruguay/5.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/destinations/uruguay/5.jpg" alt="">
+				    </div>
+				</div>
 			</div>
 					<p class="quote">Ready for your next wine adventure? Contact us for a personalized quote.</p>
 

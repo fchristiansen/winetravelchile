@@ -9,6 +9,8 @@ function iniciarTema(){
     add_image_size('galeria3', 600, 792, true);
     add_image_size('galeria4', 610, 425, true);
     add_image_size('galeria5', 610, 357, true);
+    add_image_size('hotels', 600, 340, true);
+    add_image_size('team', 222, 332, true);
 /*     add_image_size('galeria', 200); */
 
     // Activar Titulo 

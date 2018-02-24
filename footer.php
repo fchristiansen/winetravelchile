@@ -27,52 +27,52 @@
 					<div class="col-sm-3">
 							<h4>chile</h4>
 							<ul>
-								<li><a href="">Wine and Food Experience</a></li>
-								<li><a href="">Active Wine and Food Experience</a></li>
-								<li><a href="">Tailor-Made</a></li>
-								<li><a href="">Corporate and Press Trips</a></li>
-								<li><a href="">Wine Regions Map</a></li>
-								<li><a href="">Hotels</a></li>
-								<li><a href="">Terms and Conditions</a></li>
+								<li><a href="<?php bloginfo('url'); ?>/experience/luxury-red-wine-experience/">Wine and Food Experience</a></li>
+								<li><a href="<?php bloginfo('url'); ?>/experience/womens-walking-wine-and-food-experience/">Active Wine and Food Experience</a></li>
+								<li><a href="<?php bloginfo('url'); ?>/chile/tailor-made-experiences">Tailor-Made</a></li>
+								<li><a href="<?php bloginfo('url'); ?>/chile/corporate-and-press-trips">Corporate and Press Trips</a></li>
+								<li><a href="<?php bloginfo('url'); ?>/chile/history-of-chilean-wine/">Wine Regions Map</a></li>
+								<li><a href="<?php bloginfo('url'); ?>/chile/hotels/">Hotels</a></li>
+								<li><a href="<?php bloginfo('url'); ?>/chile/terms-and-conditions/">Terms and Conditions</a></li>
 							</ul>
 					</div>
 					<div class="col-sm-3">
 						<h4>argentina</h4>
 							<ul>
-								<li><a href="">Wine and Food Experience</a></li>
-								<li><a href="">Active Wine and Food Experience</a></li>
-								<li><a href="">Tailor-Made</a></li>
-								<li><a href="">Corporate and Press Trips</a></li>
-								<li><a href="">Wine Regions Map</a></li>
-								<li><a href="">Hotels</a></li>
-								<li><a href="">Terms and Conditions</a></li>
+								<li><a href="<?php bloginfo('url'); ?>/experience/luxury-malbec-and-culinary-experience/">Wine and Food Experience</a></li>
+								<li><a href="<?php bloginfo('url'); ?>/experience/active-salta-wine-and-food-experience/">Active Wine and Food Experience</a></li>
+								<li><a href="<?php bloginfo('url'); ?>/argentina/tailor-made-experiences">Tailor-Made</a></li>
+								<li><a href="<?php bloginfo('url'); ?>/argentina/corporate-and-press-trips">Corporate and Press Trips</a></li>
+								<li><a href="<?php bloginfo('url'); ?>/argentina/history-of-argentina-wine/">Wine Regions Map</a></li>
+								<li><a href="<?php bloginfo('url'); ?>/argentina/hotels/">Hotels</a></li>
+								<li><a href="<?php bloginfo('url'); ?>/argentina/terms-and-conditions/">Terms and Conditions</a></li>
 							</ul>
 					</div>
 					<div class="col-sm-2">
-						<h4>(+) destinations</h4>
+						<h4>More destinations</h4>
 							<ul>
-								<li><a href="">France</a></li>
-								<li><a href="">New Zealand</a></li>
-								<li><a href="">Uruguay</a></li>
+								<li><a href="<?php bloginfo('url'); ?>/destinations">France</a></li>
+								<li><a href="<?php bloginfo('url'); ?>/destinations">New Zealand</a></li>
+								<li><a href="<?php bloginfo('url'); ?>/destinations">Uruguay</a></li>
 							</ul>
 					</div>
 					<div class="col-sm-2">
 						<h4>about us</h4>
 						<ul>
-							<li><a href="">History</a></li>
-							<li><a href="">Team</a></li>
-							<li><a href="">Testimonials</a></li>
-							<li><a href="">Press</a></li>
+							<li><a href="<?php bloginfo('url'); ?>/about">History</a></li>
+							<li><a href="<?php bloginfo('url'); ?>/about/the-team/">Team</a></li>
+							<li><a href="<?php bloginfo('url'); ?>/about/testimonials/">Testimonials</a></li>
+							<li><a href="<?php bloginfo('url'); ?>/about/press/">Press</a></li>
 						</ul>
 					</div>
 					<div class="col-sm-2">
 						<h4>contact</h4>
 						<ul>
-							<li><a href="">+569 927 81 331 </a></li>
-							<li><a href="">info@winetravelchile.com</a></li>
+							<li><a href="tel:+56992781331">+569 927 81 331 </a></li>
+							<li><a href="mailto:info@winetravelchile.com">info@winetravelchile.com</a></li>
 							<li>&nbsp</li>
 							<li>&nbsp</li>
-							<li><a href="">SITE MAP</a></li>
+<!-- 							<li><a href="<?php bloginfo('url'); ?>/">SITE MAP</a></li> -->
 						</ul>
 					</div>
 				</div>
@@ -87,10 +87,10 @@
 						<div class="center-xs">
 							<ul class="rrss">
 								<li>Follow us:</li>
-								<li><a href="https://www.facebook.com/winetravelchileofficial/ " target="_blank"><img src="<?php bloginfo('template_url');?>/assets/img/ico-fb.svg" width="27" alt="facebook"></a></li>
-								<li><a href="https://www.instagram.com/winetravelchileofficial/" target="_blank"><img src="<?php bloginfo('template_url');?>/assets/img/ico-ig.svg" width="31" alt="instagram"></a></li>
-								<li><a href="https://twitter.com/winetravelchile" target="_blank"><img src="<?php bloginfo('template_url');?>/assets/img/ico-tw.svg" width="29" alt="twitter"></a></li>
-								<li><a href="https://www.youtube.com/watch?v=KZWZ6OuJQMk" target="_blank"><img src="<?php bloginfo('template_url');?>/assets/img/ico-yt.svg" width="32" alt="youtube"></a></li>
+								<li><a href="<?php bloginfo('url'); ?>/https://www.facebook.com/winetravelchileofficial/ " target="_blank"><img src="<?php bloginfo('template_url');?>/assets/img/ico-fb.svg" width="27" alt="facebook"></a></li>
+								<li><a href="<?php bloginfo('url'); ?>/https://www.instagram.com/winetravelchileofficial/" target="_blank"><img src="<?php bloginfo('template_url');?>/assets/img/ico-ig.svg" width="31" alt="instagram"></a></li>
+								<li><a href="<?php bloginfo('url'); ?>/https://twitter.com/winetravelchile" target="_blank"><img src="<?php bloginfo('template_url');?>/assets/img/ico-tw.svg" width="29" alt="twitter"></a></li>
+								<li><a href="<?php bloginfo('url'); ?>/https://www.youtube.com/watch?v=KZWZ6OuJQMk" target="_blank"><img src="<?php bloginfo('template_url');?>/assets/img/ico-yt.svg" width="32" alt="youtube"></a></li>
 							</ul>
 						</div>
 

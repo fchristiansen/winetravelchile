@@ -1,9 +1,6 @@
 <?php include('header.php'); ?>
 <?php include('main-nav.php'); ?>
-<?php
-	include('include-menu-experiencias.php');
-	include('include-menu-experiencias-ar.php');
-?>
+<?php include('include-menu-experiencias.php'); ?>
 <?php include('slider-home.php'); ?>
 
 
@@ -29,7 +26,7 @@
 								and lodging in small and luxury hotels.
 							</p>
 							<div class="box-more hide-beta">
-								<a href="">more
+								<a href="<?php bloginfo('url'); ?>/luxury-red-wine-experience">more
 									<img src="<?php bloginfo('template_url');?>/assets/img/arrow-more.png" alt="">
 								</a>
 							</div>
@@ -60,7 +57,7 @@
 							<p>
 								Wine Travel Chile specializes in tailor-made wine-and-food-focused tours. Founded in 2002, when Karen Gilchrist returned to Chile after living in France and England for 8 years, there she had the opportunity to learn about great wines and travel to the most important wine regions in the world. We have built our reputation by tailor-made creative journeys through Chilean and Argentine best wine valleys.</p>
 								<div class="box-more hide-beta">
-									<a href="">more
+									<a href="<?php bloginfo('url'); ?>/about">more
 										<img src="<?php bloginfo('template_url');?>/assets/img/arrow-more.png" alt="">
 									</a>
 								</div>
@@ -85,7 +82,7 @@
 									Argentina, Uruguay, France, and beyond.
 								</p>
 								<div class="box-more hide-beta">
-									<a href="">more
+									<a href="<?php bloginfo('url'); ?>/about/the-team">more
 										<img src="<?php bloginfo('template_url');?>/assets/img/arrow-more.png" alt="">
 									</a>
 								</div>

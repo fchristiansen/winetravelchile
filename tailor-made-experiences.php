@@ -1,7 +1,47 @@
+<?
+/*
+
+Template name: Tailor made Experiences
+
+*/
+?>
 <?php include('header.php'); ?>
 <?php include('main-nav.php'); ?>
 <?php include('include-menu-experiencias.php'); ?>
-<?php include('slider-tailor-made-experiences.php'); ?>
+<?php 
+if ( have_posts() ) {
+	while ( have_posts() ) {
+		the_post(); 
+?>
+<div id="slider-destinations">
+	<section class="slider-home container-fluid no-padding">
+		<div id="slider-home" class="owl-carousel owl-theme">
+		    <div class="item">
+		    	<div class="layer"></div>
+		          	<!-- 1920 x 550 -->
+		          	<div class="carousel-info">
+		          		<div class="carousel-info-inner">
+		          			<p class="hidden-xs">
+			          			<?php 
+				          			if ( $post->post_parent == '171' ) {
+										$pais = "Chile";
+									}else{
+										$pais = "Argentina";
+									}
+								?>
+		          				<a href="<?php bloginfo('url'); ?>">Home</a> / <?php echo $pais; ?> / tailor-made-experiences
+		          			</p>
+		          			<h4>Tailor-made creative journeys </h4>
+		          		</div>
+		          	</div>
+		          	<?php the_post_thumbnail('full', array('class' => 'img-responsive owl-lazy hidden-xs')); ?>
+		          	<?php the_post_thumbnail('slider_mobile', array('class' => 'img-responsive owl-lazy visible-xs')); ?>
+
+		    </div>
+		</div> <!-- contenedor top -->
+	</section>
+</div>
+
 		<section id="destinations" class="position-relative">
 
 			<div class="bloque-blanco-top-content"></div>
@@ -10,10 +50,8 @@
 					<div class="bloque clearfix mt-0">
 						<div class="col-sm-12 text-center">
 							<div class="content center-block clearfix mb-0">
-								<h4> TAILOR-MADE EXPERIENCES</h4>
-								<p>Chile’s boutique Wine Travel Company specializes in tailor-made experiences. We work closely with our travelers to personally design the itinerary that best meets their needs and desires.
-									Private Travel means you go with your friends, your family or your colleagues. we’ll pool our expert knowledge—and 15 years of experience arranging and guiding high-quality trips.
-								</p>
+								<h4>TAILOR-MADE EXPERIENCES</h4>
+								<?php the_content(); ?>
 							</div>
 						</div>
 					</div>
@@ -185,43 +223,10 @@
 			</div>
 		</section> <!-- guided -->
 
-		<section id="gallery" class="position-relative">
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-sm-4">
-						<div class="row">
-							<a href="<?php bloginfo('template_url'); ?>/assets/img/lrwe-foto01_lg.jpg">
-								<img src="<?php bloginfo('template_url'); ?>/assets/img/lrwe-foto01.jpg" class="img-responsive br5w bb10w">
-							</a>
-						</div>
-						<div class="row">
-							<a href="<?php bloginfo('template_url'); ?>/assets/img/lrwe-foto02_lg.jpg">
-								<img src="<?php bloginfo('template_url'); ?>/assets/img/lrwe-foto02.jpg" class="img-responsive br5w">
-							</a>
-						</div>
-					</div>
-					<div class="col-sm-4">
-						<div class="row">
-							<a href="<?php bloginfo('template_url'); ?>/assets/img/lrwe-foto03_lg.jpg">
-								<img src="<?php bloginfo('template_url'); ?>/assets/img/lrwe-foto03.jpg" class="img-responsive br5w bl5w">
-							</a>
-						</div>
-					</div>
-					<div class="col-sm-4">
-						<div class="row">
-							<a href="<?php bloginfo('template_url'); ?>/assets/img/lrwe-foto04_lg.jpg">
-								<img src="<?php bloginfo('template_url'); ?>/assets/img/lrwe-foto04.jpg" class="img-responsive bl5w bb10w">
-							</a>
-						</div>
-						<div class="row">
-							<a href="<?php bloginfo('template_url'); ?>/assets/img/lrwe-foto05_lg.jpg">
-								<img src="<?php bloginfo('template_url'); ?>/assets/img/lrwe-foto05.jpg" class="img-responsive bl5w">
-							</a>
-						</div>
-					</div>
+		<?php include('include-galery.php'); ?>
 
-				</div>
-			</div>
-		</section>
-
+<?php
+	} // end while
+} // end if
+?>		
 <?php include('footer.php'); ?>

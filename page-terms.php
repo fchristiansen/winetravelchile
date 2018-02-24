@@ -1,7 +1,47 @@
+<?
+/*
+
+Template name: Terms and Conditions
+
+*/
+?>
 <?php include('header.php'); ?>
 <?php include('main-nav.php'); ?>
 <?php include('include-menu-experiencias.php'); ?>
-<?php include('slider-terms.php'); ?>
+<?php 
+if ( have_posts() ) {
+	while ( have_posts() ) {
+		the_post(); 
+?>
+		<div id="slider-destinations">
+			<section class="slider-home container-fluid no-padding">
+				<div id="slider-home" class="owl-carousel owl-theme">
+				    <div class="item">
+				    	<div class="layer"></div>
+				          	<!-- 1920 x 550 -->
+				          	<div class="carousel-info">
+				          		<div class="carousel-info-inner">
+				          			<p class="hidden-xs">
+					          			<?php 
+						          			if ( $post->post_parent == '171' ) {
+												$pais = "Chile";
+											}else{
+												$pais = "Argentina";
+											}
+										?>
+				          				<a href="<?php bloginfo('url'); ?>">Home</a> / <?php echo $pais; ?> / terms and conditions
+				          			</p>
+				          			<h4>Terms and Conditions</h4>
+				          		</div>
+				          	</div>
+				          	<?php the_post_thumbnail('full', array('class' => 'img-responsive owl-lazy hidden-xs')); ?>
+				          	<?php the_post_thumbnail('slider_mobile', array('class' => 'img-responsive owl-lazy visible-xs')); ?>
+		
+				    </div>
+				</div> <!-- contenedor top -->
+			</section>
+		</div>
+
 		<section id="terms" class="position-relative">
 			<div class="bloque-blanco-top-content"> </div>
 			<div class="container">
@@ -9,33 +49,7 @@
 						<div class="col-sm-12 text-center">
 							<div class="content clearfix">
 								<div class="term-box">
-									<h2>REGISTRATION</h2>
-									<p> A 50% deposit is required at the time of booking, at which time you will receive your invoice and pre-tour documentation.
-										The balance is due 60 days prior to your departure date. If your reservation is made less than 30 days before departure, the entire price of the trip must be paid at the time of confirmation.
-										Any changes during travel will be covered completely by the participants at their own expense. In the event of any of a major currency devaluation of more than 10%, Wine Travel Chile reserves the right to reprice itineraries, and the price may be adjusted for currency fluctuation at final payment.
-									</p>
-								</div>
-								<div class="term-box">
-									<h2>Payments</h2>
-									<p>Wire Transfer to our Chilean US Bank Account</p>
-								</div>
-								<div class="term-box">
-									<h2>REGISTRATION</h2>
-									<p>Wire Transfer to our Chilean US Bank Account</p>
-								</div>
-
-								<div class="term-box">
-									<h2>REGISTRATION</h2>
-									<p>
-										Cancellations received more than 60 days prior to departure date will receive a 75% refund; 31–60 days, 50% of the trip price, and 0–30 days of departure date, no refund.
-										All cancellations must be made via written notice and received by email.
-										Our cancellation policy is applicable to all portions of the trip you have contracted with us: land, air, tours, hotels and
-										trip extensions.
-										</p>
-								</div>
-								<div class="term-box">
-									<h2>Dietary Requirements Food Allergies</h2>
-									<p>Dietary restrictions or food allergies must be recorded at the time of booking.</p>
+									<?php the_content(); ?>
 								</div>
 
 							</div> <!-- content -->
@@ -43,5 +57,8 @@
 				</div>
 			</div>
 		</section><!-- about -->
-
+<?php
+	} // end while
+} // end if
+?>		
 <?php include('footer.php'); ?>

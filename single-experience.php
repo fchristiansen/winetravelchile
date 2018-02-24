@@ -2,6 +2,38 @@
 <?php include('main-nav.php'); ?>
 <?php include('include-menu-experiencias.php'); ?>
 <?php 
+	
+	
+function submenu($category,$pais,$esteid){
+	
+	$the_query = new WP_Query( array(
+	    'post_type' => 'experience',
+	    'category_name' => $category,
+	    'tax_query' => array(
+	        array (
+	            'taxonomy' => 'country',
+	            'field' => 'slug',
+	            'terms' => $pais,
+	        )
+	    ),
+	) );
+	while ( $the_query->have_posts() ) :
+	    $the_query->the_post();
+	    $otroid = get_the_ID();
+		$submenu .= '<a href="'.get_the_permalink().'" ';
+		if($otroid == $esteid){
+			$submenu .= 'class="active" ';
+			$submenu .= '>'.get_the_title().'</a> |'; 
+		}else{
+			$submenu .= '>'.get_the_title().'</a> |';
+		}			          				
+	endwhile;
+	
+	return rtrim($submenu,'|');
+}	
+	
+	
+	
 if ( have_posts() ) {
 	while ( have_posts() ) {
 		the_post(); 
@@ -12,6 +44,8 @@ if ( have_posts() ) {
 		
 		$cat_list = wp_get_post_terms($post->ID, 'category', array("fields" => "all"));
 		$id1 = $cat_list[0]->term_id ;
+		
+		$esteid = get_the_ID();
 ?>
 		<div id="slider-destinations">
 			<section class="slider-home container-fluid no-padding">
@@ -24,12 +58,15 @@ if ( have_posts() ) {
 				          			<p class="hidden-xs"><a href="<?php bloginfo('url'); ?>">Home</a> / <a href="javascript:void(0);"><?php echo $term_list[0]->name ; ?></a> / <?php echo $cat_list[0]->name ; ?></p>
 				          			<h2><?php echo $cat_list[0]->name ; ?></h2>	          			
 				          			<p class="hidden-xs hide-beta">
-					          			<a href="javascript:void(0);" class="active">WOMEN'S WALKING, WINE AND FOOD EXPERIENCE</a> | 
-				          				<a href="javascript:void(0);">CHILE ACTIVE COASTAL WINE EXPERIENCE</a>
+										<?php 
+											$category = $cat_list[0]->slug;
+											$pais	  = $term_list[0]->slug;
+											echo submenu($category,$pais,$esteid);
+										?>
 				          			</p>
 				          		</div>
 				          	</div>
-				          	<?php the_post_thumbnail('full', array('class' => 'img-responsive owl-lazy hidden-xs')); ?>
+				          	<?php the_post_thumbnail('full', array('class' => 'img-responsive hidden-xs')); ?>
 				          	<?php the_post_thumbnail('slider_mobile', array('class' => 'img-responsive owl-lazy visible-xs')); ?>
 				    </div>
 				</div> <!-- contenedor slider -->
@@ -124,7 +161,7 @@ if ( have_posts() ) {
 								?>    	
 							</div><!-- fin row -->
 									<?php } ?>
-							<a href="contacto.php" id="request">REQUEST A DETAILED<br>ITINERARY</a>
+							<a href="<?php bloginfo('url'); ?>/contact" id="request">REQUEST A DETAILED<br>ITINERARY</a>
 						</div>
 					</div>
 					
@@ -175,74 +212,9 @@ if ( have_posts() ) {
 				</div>
 			</div>
 		</section> <!-- guided -->
-		<section id="gallery" class="position-relative">
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-sm-4">
-						<div class="row">
-							<a href="<?php echo get('galery_photo_1'); ?>">
-								<?php 
-									$ext  = pathinfo(get('galery_photo_1'), PATHINFO_EXTENSION);
-									$file = pathinfo(get('galery_photo_1'), PATHINFO_FILENAME);
-									$dir  = pathinfo(get('galery_photo_1'), PATHINFO_DIRNAME);
-									$foto = $dir.'/'.$file.'-610x355.'.$ext;
-								?>
-								<img src="<?php echo $foto; ?>" class="img-responsive br5w bb10w">
-							</a>
-						</div>
-						<div class="row">
-							<a href="<?php echo get('galery_photo_2'); ?>">
-								<?php 
-									$ext  = pathinfo(get('galery_photo_2'), PATHINFO_EXTENSION);
-									$file = pathinfo(get('galery_photo_2'), PATHINFO_FILENAME);
-									$dir  = pathinfo(get('galery_photo_2'), PATHINFO_DIRNAME);
-									$foto = $dir.'/'.$file.'-610x427.'.$ext;
-								?>
-								<img src="<?php echo $foto; ?>" class="img-responsive br5w">
-							</a>
-						</div>
-					</div>
-					<div class="col-sm-4">
-						<div class="row">
-							<a href="<?php echo get('galery_photo_3'); ?>">
-								<?php 
-									$ext  = pathinfo(get('galery_photo_3'), PATHINFO_EXTENSION);
-									$file = pathinfo(get('galery_photo_3'), PATHINFO_FILENAME);
-									$dir  = pathinfo(get('galery_photo_3'), PATHINFO_DIRNAME);
-									$foto = $dir.'/'.$file.'-600x792.'.$ext;
-								?>
-								<img src="<?php echo $foto; ?>" class="img-responsive br5w bl5w">
-							</a>
-						</div>
-					</div>
-					<div class="col-sm-4">
-						<div class="row">
-							<a href="<?php echo get('galery_photo_4'); ?>">
-								<?php 
-									$ext  = pathinfo(get('galery_photo_4'), PATHINFO_EXTENSION);
-									$file = pathinfo(get('galery_photo_4'), PATHINFO_FILENAME);
-									$dir  = pathinfo(get('galery_photo_4'), PATHINFO_DIRNAME);
-									$foto = $dir.'/'.$file.'-610x425.'.$ext;
-								?>
-								<img src="<?php echo $foto; ?>" class="img-responsive bl5w bb10w">
-							</a>
-						</div>
-						<div class="row">
-							<a href="<?php echo get('galery_photo_5'); ?>">
-								<?php 
-									$ext  = pathinfo(get('galery_photo_5'), PATHINFO_EXTENSION);
-									$file = pathinfo(get('galery_photo_5'), PATHINFO_FILENAME);
-									$dir  = pathinfo(get('galery_photo_5'), PATHINFO_DIRNAME);
-									$foto = $dir.'/'.$file.'-610x357.'.$ext;
-								?>
-								<img src="<?php echo $foto; ?>" class="img-responsive bl5w">
-							</a>
-						</div>
-					</div>
-					
-				</div>
-			</div>
-		</section>
+		
+		<?php include('include-galery.php'); ?>
+		
 		<section id="testimonial" class="position-relative">
 			
 			<div class="container">
@@ -250,8 +222,8 @@ if ( have_posts() ) {
 					<div class="bloque clearfix">
 						<div class="col-sm-12 text-center">
 							<h4>testimonial</h4>
-							<p>“Karen, we will now all try to settle into our "former" lives after the wonderful trip of a lifetime that you made for us.  Thank you again so much for everything you did for us.  I think our memories of the adventure will be the topic for our next wine club meeting in December”</p>
-							<p class="by"> Lynne Murphy and friends! Minnesota, USA.</p>
+							<?php echo get('testimonial_text'); ?>
+							<p class="by"> <?php echo get('testimonial_name'); ?><br> <?php echo get('testimonial_origin'); ?></p>
 
 						</div>
 					</div>

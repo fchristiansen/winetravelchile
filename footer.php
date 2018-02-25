@@ -27,8 +27,46 @@
 					<div class="col-sm-3">
 							<h4>chile</h4>
 							<ul>
-								<li><a href="<?php bloginfo('url'); ?>/experience/luxury-red-wine-experience/">Wine and Food Experience</a></li>
-								<li><a href="<?php bloginfo('url'); ?>/experience/womens-walking-wine-and-food-experience/">Active Wine and Food Experience</a></li>
+						<?php
+							$the_query = new WP_Query( array(
+						    'post_type' 		=> 'experience',
+							'category_name' 	=> 'wine-and-food-experience',
+							'posts_per_page'	=> 1,
+						    'tax_query' 		=> array(
+						        array (
+						            'taxonomy' 	=> 'country',
+						            'field' 	=> 'slug',
+						            'terms' 	=> 'chile',
+						        )
+						    ),
+						) );
+						while ( $the_query->have_posts() ) :
+						    $the_query->the_post();
+						?>									
+								<li><a href="<?php the_permalink(); ?>">Wine and Food Experience</a></li>
+						<?php
+							endwhile;
+						?>	
+						<?php
+							$the_query = new WP_Query( array(
+						    'post_type' 		=> 'experience',
+							'category_name' 	=> 'active-wine-and-food-experience',
+							'posts_per_page'	=> 1,
+						    'tax_query' 		=> array(
+						        array (
+						            'taxonomy' 	=> 'country',
+						            'field' 	=> 'slug',
+						            'terms' 	=> 'chile',
+						        )
+						    ),
+						) );
+						while ( $the_query->have_posts() ) :
+						    $the_query->the_post();
+						?>	
+								<li><a href="<?php the_permalink(); ?>">Active Wine and Food Experience</a></li>
+						<?php
+							endwhile;
+						?>	
 								<li><a href="<?php bloginfo('url'); ?>/chile/tailor-made-experiences">Tailor-Made</a></li>
 								<li><a href="<?php bloginfo('url'); ?>/chile/corporate-and-press-trips">Corporate and Press Trips</a></li>
 								<li><a href="<?php bloginfo('url'); ?>/chile/history-of-chilean-wine/">Wine Regions Map</a></li>
@@ -39,8 +77,46 @@
 					<div class="col-sm-3">
 						<h4>argentina</h4>
 							<ul>
-								<li><a href="<?php bloginfo('url'); ?>/experience/luxury-malbec-and-culinary-experience/">Wine and Food Experience</a></li>
-								<li><a href="<?php bloginfo('url'); ?>/experience/active-salta-wine-and-food-experience/">Active Wine and Food Experience</a></li>
+						<?php
+							$the_query = new WP_Query( array(
+						    'post_type' 		=> 'experience',
+							'category_name' 	=> 'wine-and-food-experience',
+							'posts_per_page'	=> 1,
+						    'tax_query' 		=> array(
+						        array (
+						            'taxonomy' 	=> 'country',
+						            'field' 	=> 'slug',
+						            'terms' 	=> 'argentina',
+						        )
+						    ),
+						) );
+						while ( $the_query->have_posts() ) :
+						    $the_query->the_post();
+						?>									
+								<li><a href="<?php the_permalink(); ?>">Wine and Food Experience</a></li>
+						<?php
+							endwhile;
+						?>	
+						<?php
+							$the_query = new WP_Query( array(
+						    'post_type' 		=> 'experience',
+							'category_name' 	=> 'active-wine-and-food-experience',
+							'posts_per_page'	=> 1,
+						    'tax_query' 		=> array(
+						        array (
+						            'taxonomy' 	=> 'country',
+						            'field' 	=> 'slug',
+						            'terms' 	=> 'argentina',
+						        )
+						    ),
+						) );
+						while ( $the_query->have_posts() ) :
+						    $the_query->the_post();
+						?>	
+								<li><a href="<?php the_permalink(); ?>">Active Wine and Food Experience</a></li>
+						<?php
+							endwhile;
+						?>	
 								<li><a href="<?php bloginfo('url'); ?>/argentina/tailor-made-experiences">Tailor-Made</a></li>
 								<li><a href="<?php bloginfo('url'); ?>/argentina/corporate-and-press-trips">Corporate and Press Trips</a></li>
 								<li><a href="<?php bloginfo('url'); ?>/argentina/history-of-argentina-wine/">Wine Regions Map</a></li>
@@ -87,10 +163,10 @@
 						<div class="center-xs">
 							<ul class="rrss">
 								<li>Follow us:</li>
-								<li><a href="<?php bloginfo('url'); ?>/https://www.facebook.com/winetravelchileofficial/ " target="_blank"><img src="<?php bloginfo('template_url');?>/assets/img/ico-fb.svg" width="27" alt="facebook"></a></li>
-								<li><a href="<?php bloginfo('url'); ?>/https://www.instagram.com/winetravelchileofficial/" target="_blank"><img src="<?php bloginfo('template_url');?>/assets/img/ico-ig.svg" width="31" alt="instagram"></a></li>
-								<li><a href="<?php bloginfo('url'); ?>/https://twitter.com/winetravelchile" target="_blank"><img src="<?php bloginfo('template_url');?>/assets/img/ico-tw.svg" width="29" alt="twitter"></a></li>
-								<li><a href="<?php bloginfo('url'); ?>/https://www.youtube.com/watch?v=KZWZ6OuJQMk" target="_blank"><img src="<?php bloginfo('template_url');?>/assets/img/ico-yt.svg" width="32" alt="youtube"></a></li>
+								<li><a href="https://www.facebook.com/winetravelchileofficial/ " target="_blank"><img src="<?php bloginfo('template_url');?>/assets/img/ico-fb.svg" width="27" alt="facebook"></a></li>
+								<li><a href="https://www.instagram.com/winetravelchileofficial/" target="_blank"><img src="<?php bloginfo('template_url');?>/assets/img/ico-ig.svg" width="31" alt="instagram"></a></li>
+								<li><a href="https://twitter.com/winetravelchile" target="_blank"><img src="<?php bloginfo('template_url');?>/assets/img/ico-tw.svg" width="29" alt="twitter"></a></li>
+								<li><a href="https://www.youtube.com/watch?v=KZWZ6OuJQMk" target="_blank"><img src="<?php bloginfo('template_url');?>/assets/img/ico-yt.svg" width="32" alt="youtube"></a></li>
 							</ul>
 						</div>
 

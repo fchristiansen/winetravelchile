@@ -11,6 +11,7 @@ function iniciarTema(){
     add_image_size('galeria5', 610, 357, true);
     add_image_size('hotels', 600, 340, true);
     add_image_size('team', 222, 332, true);
+    add_image_size('menu', 280, 200, true);
 /*     add_image_size('galeria', 200); */
 
     // Activar Titulo 
@@ -21,4 +22,10 @@ function iniciarTema(){
   add_action( 'after_setup_theme', 'iniciarTema' );
   
   
-  
+  add_filter( 'post_thumbnail_html', 'remove_width_attribute', 10 );
+add_filter( 'image_send_to_editor', 'remove_width_attribute', 10 );
+
+function remove_width_attribute( $html ) {
+   $html = preg_replace( '/(width|height)="\d*"\s/', "", $html );
+   return $html;
+}

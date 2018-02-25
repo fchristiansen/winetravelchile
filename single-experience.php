@@ -19,7 +19,7 @@ function submenu($category,$pais,$esteid){
 	) );
 	while ( $the_query->have_posts() ) :
 	    $the_query->the_post();
-	    $otroid = get_the_ID();
+	    $otroid 	= get_the_ID();
 		$submenu .= '<a href="'.get_the_permalink().'" ';
 		if($otroid == $esteid){
 			$submenu .= 'class="active" ';
@@ -61,6 +61,7 @@ if ( have_posts() ) {
 										<?php 
 											$category = $cat_list[0]->slug;
 											$pais	  = $term_list[0]->slug;
+											
 											echo submenu($category,$pais,$esteid);
 										?>
 				          			</p>
@@ -72,6 +73,13 @@ if ( have_posts() ) {
 				</div> <!-- contenedor slider -->
 			</section>
 		</div>
+<?php
+	} // end while
+} // end if
+if ( have_posts() ) {
+	while ( have_posts() ) {
+		the_post(); 
+?>
 		<section id="destinations" class="position-relative">
 			
 			<div class="bloque-blanco-top-content"></div>

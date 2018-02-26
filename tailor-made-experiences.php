@@ -44,7 +44,11 @@ if ( have_posts() ) {
 
 		<section id="destinations" class="position-relative">
 
-			<div class="bloque-blanco-top-content"></div>
+			<div class="bloque-blanco-top-content">
+				<a href="#destinations">
+					<img src="<?php bloginfo('template_url');?>/assets/img/down-arrow.png" alt="" class="down-arrow">
+				</a>
+			</div>
 			<div class="container">
 				<div class="row">
 					<div class="bloque clearfix mt-0">
@@ -94,7 +98,7 @@ if ( have_posts() ) {
 					<div class="col-sm-12">
 						<div class="contact content clearfix mb-0">
 							<div class="formulario-contacto">
-								<form action="ajax/enviar.php" method="post" id="formContacto">
+								<form action="<?php bloginfo('template_url'); ?>/ajax/enviar.php" method="post" id="formContacto">
 									<input type="hidden" name="from" value="3">
 								<div class="row">
 									<div class="col-md-6">

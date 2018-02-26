@@ -8,9 +8,33 @@ Template name: About - Press
 <?php include('header.php'); ?>
 <?php include('main-nav.php'); ?>
 <?php include('include-menu-experiencias.php'); ?>
-<?php include('slider-press.php'); ?>
+		<div id="slider-destinations">
+			<section class="slider-home container-fluid no-padding">
+				<div id="slider-home" class="owl-carousel owl-theme">
+				    <div class="item">
+				    	<div class="layer"></div>
+				          	<!-- 1920 x 550 -->
+				          	<div class="carousel-info">
+				          		<div class="carousel-info-inner">
+				          			<p class="hidden-xs">
+				          				<a href="<?php bloginfo('url'); ?>">Home</a> / press
+				          			</p>
+				          			<h4>Press</h4>
+				          		</div>
+				          	</div>
+				          	<?php the_post_thumbnail('full', array('class' => 'img-responsive hidden-xs')); ?>
+				          	<?php the_post_thumbnail('slider_mobile', array('class' => 'img-responsive owl-lazy visible-xs')); ?>
+				    </div>
+				</div> <!-- contenedor slider -->
+			</section>
+		</div>
+
 		<section id="about" class="position-relative">
-			<div class="bloque-blanco-top-content"> </div>
+			<div class="bloque-blanco-top-content">
+				<a href="#about">
+					<img src="<?php bloginfo('template_url');?>/assets/img/down-arrow.png" alt="" class="down-arrow">
+				</a>
+			</div>
 			<div class="container">
 				<?php include('include-menu-about.php'); ?>
 				<div class="row">
@@ -49,6 +73,37 @@ Template name: About - Press
 		<section id="prensa">
 			<div class="container">
 				<div class="row">
+<?php
+					$the_query = new WP_Query( array(
+					    'post_type' => 'press',
+					    'posts_per_page' => -1
+					) );
+					$i = 0;
+					$m = 0;
+					while ( $the_query->have_posts() ) :
+					    $the_query->the_post();
+					    $m++;
+?>
+					<div class="col-sm-6">
+						<div class="download-box">
+							<h2><?php the_title(); ?></h2>
+							<?php the_content(); ?>
+							<?php if(get('detalles_adjuntar_pdf')){ ?>
+							<a href="<?php echo get('detalles_adjuntar_pdf'); ?>" target="_blank">download pdf<img src="<?php bloginfo('template_url'); ?>/assets/img/ico-pdf.png" alt=""></a>
+							<?php } ?>
+							<?php if(get('detalles_enlace_externo')){ ?>
+							<a href="<?php echo get('detalles_enlace_externo'); ?>" target="_blank">read more<img src="<?php bloginfo('template_url'); ?>/assets/img/ico-url.png" alt=""></a>
+							<?php } ?>
+						</div>
+					</div>
+<?php
+					if($m==2){
+						$m = 0;
+						echo '<div class="clearfix"></div>';
+					}
+					endwhile;
+?>		
+<!--
 					<div class="col-sm-6">
 						<div class="download-box">
 							<h2>Harpers</h2>
@@ -83,6 +138,7 @@ Template name: About - Press
 							<a href="">read more<img src="<?php bloginfo('template_url'); ?>/assets/img/ico-url.png" alt=""></a>
 						</div>
 					</div>
+-->
 				</div>
 			</div>
 		</section>

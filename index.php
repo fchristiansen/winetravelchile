@@ -12,7 +12,6 @@
 				<a href="#contenido">
 					<img src="<?php bloginfo('template_url');?>/assets/img/down-arrow.png" alt="" class="down-arrow">
 				</a>
-
 			</div>
 			<div class="container">
 				<div class="row">
@@ -105,29 +104,31 @@
 				<div class="row">
 					<h3>recommended by</h3>
 					<div class="logos-recomended clearfix">
+<?php
+					$the_query = new WP_Query( array(
+					    'post_type' 		=> 'press',
+					    'posts_per_page' 	=> 6,
+					    'orderby' 			=> 'rand' 
+					) );
+					while ( $the_query->have_posts() ) :
+					    $the_query->the_post();
+?>						
 						<div class="col-sm-2 col-xs-6">
-							<a href="http://www.travelandleisure.com/trip-ideas/best-places-travel-south-america-february#15" target="_blank"><img class="img-responsive center-block" src="<?php bloginfo('template_url');?>/assets/img/logo-travel.png" alt="Travel and Leisure"></a>
+							<?php if(get('detalles_adjuntar_pdf')){ ?>
+							<a href="<?php echo get('detalles_adjuntar_pdf'); ?>" target="_blank">
+				          		<?php the_post_thumbnail('full', array('class' => 'img-responsive center-block')); ?>
+				          	</a>
+							<?php } ?>
+							<?php if(get('detalles_enlace_externo')){ ?>
+							<a href="<?php echo get('detalles_enlace_externo'); ?>" target="_blank">
+				          		<?php the_post_thumbnail('full', array('class' => 'img-responsive center-block')); ?>
+				          	</a>
+							<?php } ?>							
 						</div>
-						<div class="col-sm-2 col-xs-6" style="display: none;">
-							<a href="http://www.travelandleisure.com/articles/santiago-cleans-up" target="_blank"><img class="img-responsive center-block" src="<?php bloginfo('template_url');?>/assets/img/logo-travel.png" alt="Travel and Leisure"></a>
-						</div>
-						<div class="col-sm-2 col-xs-6">
-							<a href="https://www.frommers.com/trip-ideas/cultural-immersion/4-vineyard-vacations-to-chile-and-argentina" target="_blank"><img class="img-responsive center-block" src="<?php bloginfo('template_url');?>/assets/img/logo-frommers.png" alt="Frommers"></a>
-						</div>
-<!--
-						<div class="col-sm-2 col-xs-6">
-							<img class="img-responsive center-block" src="<?php bloginfo('template_url');?>/assets/img/logo-harpers.png" alt="">
-						</div>
-						<div class="col-sm-2 col-xs-6">
-							<img class="img-responsive center-block" src="<?php bloginfo('template_url');?>/assets/img/logo-decanter.png" alt="">
-						</div>
-						<div class="col-sm-2 col-xs-6">
-							<img class="img-responsive center-block" src="<?php bloginfo('template_url');?>/assets/img/logo-placeres.png" alt="">
-						</div>
-						<div class="col-sm-2 col-xs-6">
-							<img class="img-responsive center-block" src="<?php bloginfo('template_url');?>/assets/img/logo-cav.png" alt="">
-						</div>
--->
+<?php
+
+					endwhile;
+?>		
 					</div>
 				</div>
 			</div>

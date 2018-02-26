@@ -9,30 +9,45 @@ Template name: About
 <?php include('header.php'); ?>
 <?php include('main-nav.php'); ?>
 <?php include('include-menu-experiencias.php'); ?>
-<?php include('slider-dtptwu.php'); ?>
+<?php 
+if ( have_posts() ) {
+	while ( have_posts() ) {
+		the_post(); 
+?>
+		<div id="slider-destinations">
+			<section class="slider-home container-fluid no-padding">
+				<div id="slider-home" class="owl-carousel owl-theme">
+				    <div class="item">
+				    	<div class="layer"></div>
+				          	<!-- 1920 x 550 -->
+				          	<div class="carousel-info">
+				          		<div class="carousel-info-inner">
+				          			<p class="hidden-xs">
+				          				<a href="<?php bloginfo('url'); ?>">Home</a> / about us
+				          			</p>
+				          			<h4>Design Your Perfect Trip With Us!!</h4>
+				          		</div>
+				          	</div>
+				          	<?php the_post_thumbnail('full', array('class' => 'img-responsive hidden-xs')); ?>
+				          	<?php the_post_thumbnail('slider_mobile', array('class' => 'img-responsive owl-lazy visible-xs')); ?>
+				    </div>
+				</div> <!-- contenedor slider -->
+			</section>
+		</div>
+
 		<section id="about" class="position-relative">
-			<div class="bloque-blanco-top-content"></div>
+			<div class="bloque-blanco-top-content">
+				<a href="#about">
+					<img src="<?php bloginfo('template_url');?>/assets/img/down-arrow.png" alt="" class="down-arrow">
+				</a>
+			</div>
 			<div class="container">
 				<?php include('include-menu-about.php'); ?>
 				<div class="row">
 					<div class="bloque clearfix mt-0">
 						<div class="col-sm-12 text-center">
 							<div class="content">
-								<p>Wine Travel Chile specializes in <span class="texto-bold-wine">tailor-made wine-and-food-focused tours</span>.
-									Founded in 2002, when Karen Gilchrist returned to Chile after living in France
-									and England for 8 years, there she had the opportunity to learn about great
-									wines and travel to the most important wine regions in the world.
-									We have built our reputation by tailor-made <span class="texto-bold-wine">creative journeys </span>through Chilean and Argentine best wine valleys.</p>
-
-								<p>Wine Travel Chile is all about the passion and the spirit of sharing
-									wonderful wine regions with others along with fantastic wine and food,
-									luxury lodging, warm local people, harvest activities and numerous opportunities for walking, biking
-									and horseback riding.</p>
-
-								<p>Every day is a unique experience, giving you many great memories to
-								take home—and a good reason to return.</p>
-
-								<p>Happy travels & Salud!</p>
+								<?php the_content(); ?>
 							</div>
 						</div>
 					</div>
@@ -59,4 +74,9 @@ Template name: About
 				</div>
 			</div>
 		</section>
+
+<?php
+	} // end while
+} // end if
+?>			
 <?php include('footer.php'); ?>

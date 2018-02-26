@@ -1,6 +1,6 @@
 <footer class="hide-beta">
 	<div class="container">
-		<form id="newsletter">
+		<form id="newsletter" action="<?php bloginfo('template_url'); ?>/ajax/suscribirse.php">
 			<div class="row">
 				<div class="box-news-letter clearfix">
 					<div class="col-sm-3">
@@ -13,7 +13,7 @@
 					<div class="col-sm-6">
 						<div class="form-group">
 								<label class="sr-only" for="email">Email address</label>
-								<input type="email" class="form-control" id="email" placeholder="Your Email Adress">
+								<input type="email" class="form-control" id="email" name="email" placeholder="Your Email Adress" required>
 						</div>
 					</div>
 					<div class="col-sm-3">

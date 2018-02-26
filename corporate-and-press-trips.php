@@ -44,7 +44,11 @@ if ( have_posts() ) {
 
 		<section id="destinations" class="position-relative">
 
-			<div class="bloque-blanco-top-content"></div>
+			<div class="bloque-blanco-top-content">
+				<a href="#destinations">
+					<img src="<?php bloginfo('template_url');?>/assets/img/down-arrow.png" alt="" class="down-arrow">
+				</a>
+			</div>
 			<div class="container">
 				<div class="row">
 					<div class="bloque clearfix mt-0">

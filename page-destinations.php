@@ -8,6 +8,11 @@ Template name: Destinations
 <?php include('header.php'); ?>
 <?php include('main-nav.php'); ?>
 <?php include('include-menu-experiencias.php'); ?>
+<?php 
+if ( have_posts() ) {
+	while ( have_posts() ) {
+		the_post(); 
+?>
 
 		<div id="slider-destinations">
 			<section class="slider-home container-fluid no-padding">
@@ -23,19 +28,25 @@ Template name: Destinations
 				          			<h4>Every Day is a Unique Wine</h4>
 				          		</div>
 				          	</div>
-				          	<!-- 1920 x 990 -->
-				          	<img class="img-responsive owl-lazy hidden-xs" data-src="<?php bloginfo('template_url'); ?>/assets/img/banner-destinations.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/banner-destinations.jpg" alt="">
-				          	<!-- 320 x 550 -->
-				          	<img class="img-responsive owl-lazy visible-xs" data-src="<?php bloginfo('template_url'); ?>/assets/img/banner-destinations-xs.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/banner-destinations-xs.jpg" alt="">
+				          	<?php the_post_thumbnail('full', array('class' => 'img-responsive hidden-xs')); ?>
+				          	<?php the_post_thumbnail('slider_mobile', array('class' => 'img-responsive owl-lazy visible-xs')); ?>
 
 				    </div>
 				</div> <!-- contenedor slider -->
 			</section>
 		</div>
 
+<?php
+	} // end while
+} // end if
+?>		
 
 		<section id="destinations" class="position-relative">
-			<div class="bloque-blanco-top-content"> </div>
+			<div class="bloque-blanco-top-content">
+				<a href="#destinations">
+					<img src="<?php bloginfo('template_url');?>/assets/img/down-arrow.png" alt="" class="down-arrow">
+				</a>
+			</div>
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-12 text-center">
@@ -143,7 +154,7 @@ Template name: Destinations
 					<div class="col-sm-12">
 						<div class="contact clearfix">
 							<div class="formulario-contacto">
-								<form action="ajax/enviar.php" method="post" id="formContacto">
+								<form action="<?php bloginfo('template_url'); ?>/ajax/enviar.php" method="post" id="formContacto">
 									<input type="hidden" name="from" value="1">
 								<div class="row">
 									<div class="col-md-6">

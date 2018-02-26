@@ -33,7 +33,10 @@ Template name: Hotels Chile
 </div>
 
 		<section id="hotels" class="position-relative">
-			<div class="bloque-blanco-top-content"> </div>
+			<div class="bloque-blanco-top-content">
+				<a href="#hotels">
+					<img src="<?php bloginfo('template_url');?>/assets/img/down-arrow.png" alt="" class="down-arrow">
+				</a></div>
 			<div class="container">
 				<div class="row">
 						<div class="col-sm-12 text-center">

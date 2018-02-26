@@ -29,7 +29,7 @@ Template name: Contact
 									Ready for your next wine adventure? Contact us for a personalized quote.
 								</p>
 								<div class="formulario-contacto">
-									<form action="ajax/enviar.php" method="post" id="formContacto">
+									<form action="<?php bloginfo('template_url'); ?>/ajax/enviar.php" method="post" id="formContacto">
 									<input type="hidden" name="from" value="2">
 									<div class="row">
 										<div class="col-md-6">

@@ -10,7 +10,10 @@ Template name: About - Testimonials
 <?php include('include-menu-experiencias.php'); ?>
 <?php include('slider-testimonials.php'); ?>
 		<section id="about" class="position-relative">
-			<div class="bloque-blanco-top-content"> </div>
+			<div class="bloque-blanco-top-content">
+				<a href="#about">
+					<img src="<?php bloginfo('template_url');?>/assets/img/down-arrow.png" alt="" class="down-arrow">
+				</a></div>
 			<div class="container">
 				<?php include('include-menu-about.php'); ?>
 				<div class="row">

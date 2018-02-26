@@ -34,18 +34,19 @@ if ( have_posts() ) {
 		          			<h4><?php the_title(); ?></h4>
 		          		</div>
 		          	</div>
-		          	<!-- 1920 x 990 -->
-		          	<img class="img-responsive owl-lazy hidden-xs" data-src="<?php bloginfo('template_url'); ?>/assets/img/top-history.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/top-history.jpg" alt="">
-		          	<!-- 320 x 550 -->
-		          	<img class="img-responsive owl-lazy visible-xs" data-src="<?php bloginfo('template_url'); ?>/assets/img/top-history-xs.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/top-history-xs.jpg" alt="">
-
+		          	<?php the_post_thumbnail('full', array('class' => 'img-responsive hidden-xs')); ?>
+		          	<?php the_post_thumbnail('slider_mobile', array('class' => 'img-responsive owl-lazy visible-xs')); ?>
 		    </div>
 		</div> <!-- contenedor top -->
 	</section>
 </div>
 
 		<section id="history" class="position-relative">
-			<div class="bloque-blanco-top-content"> </div>
+			<div class="bloque-blanco-top-content">
+				<a href="#history">
+					<img src="<?php bloginfo('template_url');?>/assets/img/down-arrow.png" alt="" class="down-arrow">
+				</a>
+			</div>
 			<div class="container">
 				<div class="row">
 						<div class="col-sm-12 text-center">
@@ -55,35 +56,34 @@ if ( have_posts() ) {
 									
 									<div class="variedades-box center-block">
 										<h2>MAIN VARIETIES PLANTED IN <?php echo $pais; ?></h2>
-											<div class="row">
+										<div class="row">
 
-												<div class="col-xs-6">
-													<h3 class="red">Red Varieties</h3>
-													<div id="red-varieties">
-														<ul>
-															<li>Malbec</li>
-															<li>Bonarda</li>
-														</ul>
-													</div>
- 												</div>
-												<div class="col-xs-6">
-													<h3 class="white">White Varieties</h3>
-													<div id="white-varieties">
-														<ul>
-															<li>Malbec</li>
-															<li>Bonarda</li>
-														</ul>
-													</div>
+											<div class="col-xs-6">
+												<h3 class="red">Red Varieties</h3>
+												<div id="red-varieties">
+													<?php echo get('wine_varieties_column_1'); ?>
+												</div>
+												</div>
+											<div class="col-xs-6">
+												<h3 class="white">White Varieties</h3>
+												<div id="white-varieties">
+													<?php echo get('wine_varieties_column_2'); ?>
 												</div>
 											</div>
+										</div>
+										<div class="row">
+											<div class="col-sm-12">
+												<?php echo get('wine_varieties_harvest_information'); ?>
+											</div>
+										</div>
 									</div>
 									<div class="maps-box">
 										<div class="row">
 											<div class="col-sm-6">
-												<img class="img-responsive center-block" src="<?php bloginfo('template_url'); ?>/assets/img/map-sm.png" alt="">
+												<img class="img-responsive center-block" src="<?php echo get('wine_varieties_region_map'); ?>" alt="">
 											</div>
 											<div class="col-sm-6">
-												<img class="img-responsive center-block" src="<?php bloginfo('template_url'); ?>/assets/img/map-md.png" alt="">
+												<img class="img-responsive center-block" src="<?php echo get('wine_varieties_country_map'); ?>" alt="">
 											</div>
 										</div>
 									</div>

@@ -238,3 +238,44 @@ $('.modal').on('shown.bs.modal', function () {
 });
 
 
+
+
+$('#newsletter').on("submit", function(e) {
+	  	e.preventDefault();
+	  
+		$('#progreso').removeClass('hide');
+		
+	  	email 		= $('#email').val();
+	  	error = 0;r
+		if(email==''){
+			alert('Please enter a valid email address ');
+			$('#email').addClass('invalid');
+			error = 1;
+		}
+	
+		
+	  
+	  	if(error==0){  
+		    $.ajax({
+		    	url:  $('#newsletter').attr('action'),
+				type: "POST",
+	            data: $('#newsletter').serialize(),
+	            success: function(data) {		   
+				    console.log(data);  
+					error = 0;
+				    if(data=='0'){
+						alert('Something wrong happened, please try again');
+					  	return;
+				    }else{	
+						alert('Thanks for subscribing!');
+					  	$('#newsletter')[0].reset();
+				    }   
+				    
+		    	}
+		    });	  	
+	  	}else{ 	
+			alert('Something wrong happened, please try again');
+		  	return;
+		}
+	});
+	

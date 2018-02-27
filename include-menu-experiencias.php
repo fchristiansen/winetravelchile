@@ -65,7 +65,7 @@
 						<div class="caluga">
 						    <a class="caluga-enlace" href="<?php bloginfo('url'); ?>/argentina/tailor-made-experiences">
 						    	<div class="lente">
-						      		<h3 class="caluga-title">TAILOR-MADE EXPERIENCES</h3>
+						      		<h3 class="caluga-title">TAILOR MADE EXPERIENCES</h3>
 						      	</div>
 						        <img class="caluga-img" src="<?php bloginfo('template_url'); ?>/assets/img/exp3.jpg" alt="">
 						    </a>
@@ -175,7 +175,7 @@
 						<div class="caluga">
 						    <a class="caluga-enlace" href="<?php bloginfo('url'); ?>/chile/tailor-made-experiences">
 						    	<div class="lente">
-						      		<h3 class="caluga-title">TAILOR-MADE EXPERIENCES</h3>
+						      		<h3 class="caluga-title">TAILOR MADE EXPERIENCES</h3>
 						      	</div>
 						        <img class="caluga-img" src="<?php bloginfo('template_url'); ?>/assets/img/exp3.jpg" alt="">
 						    </a>

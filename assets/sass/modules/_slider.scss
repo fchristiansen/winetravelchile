@@ -31,15 +31,21 @@ section.slider-home {
 	    	    z-index: 2;
 	    	    top: 36%;
 	    	    width: 80%;
+
+				@media(max-width:767px){
+					&.info-xs{
+						top: 27%;
+					}
+				}
 	    	  	.carousel-info-inner{
 	    	    	text-align: center;
 
 	    	    	h2{
 	    				font-family: $prata;
 						color: white;
-						@include font-size(70px);
+						@include font-size(60px);
 						@media(max-width: 768px){
-							@include font-size(30px);
+							@include font-size(35px);
 						}
 	    				@media(max-width: 767px){
 	    					@include font-size(25px);
@@ -158,6 +164,9 @@ section.slider-home {
                    background-color: transparent;
                    opacity: 0.5;
                  }
+             @media (max-width:767px){
+						top: 270px;
+            }
         }
 
         .owl-next {
@@ -170,6 +179,7 @@ section.slider-home {
                 @media (max-width:768px){
                    right: 10px;
                }
+
         }
         .owl-prev {
              background: url(../img/prev.png) no-repeat !important;
@@ -180,6 +190,7 @@ section.slider-home {
                @media (max-width:768px){
                    left: 10px;
                }
+
         }
 
       } // slider home

@@ -294,9 +294,10 @@ section.slider-home #slider-home .item { position: relative; }
 section.slider-home #slider-home .item video { width: 100% !important; height: auto !important; position: absolute; top: 0; left: 0; max-width: 100%; display: block; }
 section.slider-home #slider-home .item .layer { position: absolute; left: 0; top: 0; width: 100%; height: 100%; background: #000; opacity: .2; z-index: 1; }
 section.slider-home #slider-home .item .carousel-info { position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); z-index: 2; top: 36%; width: 80%; }
+@media (max-width: 767px) { section.slider-home #slider-home .item .carousel-info.info-xs { top: 27%; } }
 section.slider-home #slider-home .item .carousel-info .carousel-info-inner { text-align: center; }
-section.slider-home #slider-home .item .carousel-info .carousel-info-inner h2 { font-family: "Prata", serif; color: white; font-size: 70px; font-size: 4.375rem; }
-@media (max-width: 768px) { section.slider-home #slider-home .item .carousel-info .carousel-info-inner h2 { font-size: 30px; font-size: 1.875rem; } }
+section.slider-home #slider-home .item .carousel-info .carousel-info-inner h2 { font-family: "Prata", serif; color: white; font-size: 60px; font-size: 3.75rem; }
+@media (max-width: 768px) { section.slider-home #slider-home .item .carousel-info .carousel-info-inner h2 { font-size: 35px; font-size: 2.1875rem; } }
 @media (max-width: 767px) { section.slider-home #slider-home .item .carousel-info .carousel-info-inner h2 { font-size: 25px; font-size: 1.5625rem; } }
 section.slider-home #slider-home .item .carousel-info .carousel-info-inner h3 { font-family: "Prata", serif; color: white; font-size: 30px; font-size: 1.875rem; }
 @media (max-width: 768px) { section.slider-home #slider-home .item .carousel-info .carousel-info-inner h3 { font-size: 20px; font-size: 1.25rem; } }
@@ -320,6 +321,7 @@ section.slider-home #slider-home .owl-dots .owl-dot span { background: #86754D; 
 section.slider-home #slider-home .owl-dots .owl-dot.active span { background-color: #ECCCD0; }
 section.slider-home #slider-home .owl-next, section.slider-home #slider-home .owl-prev { width: 43px; height: 44px; position: absolute; text-indent: -9999px; top: 50%; margin-top: -30px; cursor: pointer; opacity: 0.9; }
 section.slider-home #slider-home .owl-next:hover, section.slider-home #slider-home .owl-prev:hover { background-color: transparent; opacity: 0.5; }
+@media (max-width: 767px) { section.slider-home #slider-home .owl-next, section.slider-home #slider-home .owl-prev { top: 270px; } }
 section.slider-home #slider-home .owl-next { background: url(../img/next.png) no-repeat !important; right: 30px; }
 @media (max-width: 1024px) { section.slider-home #slider-home .owl-next { right: 30px; margin-top: -30px !important; } }
 @media (max-width: 768px) { section.slider-home #slider-home .owl-next { right: 10px; } }

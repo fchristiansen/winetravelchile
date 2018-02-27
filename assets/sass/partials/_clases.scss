@@ -102,7 +102,7 @@
 		}
 
 		p{
-			font-weight: 300;
+			//font-weight: 300;
 			@include font-size(15px);
 			color: $verde;
 			margin-bottom: 2.188em;
@@ -146,6 +146,9 @@
 
 .mh-500{
 	min-height: 500px;
+	@media(max-width:768px){
+		min-height: 300px;
+	}
 }
 li.divisor-item-menu{
 	display: none;
@@ -205,7 +208,7 @@ li.divisor-item-sub-menu{
 	}
 	p{
 		font-family: $montserrat;
-		font-weight: 300;
+	//	font-weight: 300;
 		color: #616552;
 		line-height: 28px;
 		//text-transform: uppercase;
@@ -237,6 +240,15 @@ li.divisor-item-sub-menu{
 		}
 		@media(max-width: 767px){
 			margin-bottom: 30px;
+		}
+	}
+	ul{
+		li{
+				font-family: $montserrat;
+				font-weight: 500;
+			a{
+
+			}
 		}
 	}
 

@@ -56,7 +56,7 @@ section#featured{
 		@include font-size(14px);
 		margin-bottom:1em;
 		font-family: $montserrat;
-		font-weight: 300;
+		//font-weight: 300;
 		line-height: 23px;
 		@media(max-width:768px){
 			line-height: 22px;
@@ -81,9 +81,12 @@ section#team{
 
 				@media(max-width:1024px){
 					margin-bottom: 0;
+
 				}
 				@media(max-width:1023px){
-					margin-bottom: 30px;
+					//margin-bottom: 30px;
+					float: none;
+					margin: 30px auto 30px auto;
 				}
 
 			}
@@ -94,7 +97,7 @@ section#team{
 			.expert-text{
 		//		@include centerer(false, true);
 		//		left: 252px;
-				padding-top: 30px;
+				padding-top: 20px;
 				@media(max-width:768px){
 					//padding-top: 0;
 					float: left;
@@ -128,7 +131,7 @@ section#team{
 					@include font-size(12px);
 					//margin-bottom:1em;
 					font-family: $montserrat;
-					font-weight: 300;
+					//font-weight: 300;
 					line-height: 16px;
 					margin: 0;
 					padding-left: 250px;
@@ -184,7 +187,7 @@ section#testimonials{
 				@include font-size(12px);
 				color: $gris-testimonio;
 				font-family: $montserrat;
-				font-weight: 300;
+				//font-weight: 300;
 				@media(max-width:768px){
 					@include font-size(14px);
 					//line-height: 21px;
@@ -223,7 +226,7 @@ section#testimonials{
 			font-family: $montserrat;
 			@include font-size(15px);
 			color: $verde;
-			font-weight: 300;
+			//font-weight: 300;
 			@media(max-width: 768px){
 				@include font-size(12px);
 			}

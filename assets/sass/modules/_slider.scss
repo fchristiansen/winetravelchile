@@ -2,6 +2,9 @@ section.slider-home {
    #slider-home {
         position: relative;
         overflow: hidden;
+        @media(max-width: 767px){
+			max-height: 300px;
+        }
       .item {
             position: relative;
 			video{
@@ -26,18 +29,20 @@ section.slider-home {
 	    	.carousel-info{
 	    	    @include centerer(true, true);
 	    	    z-index: 2;
-	    	    top: 35%;
-	    	    .carousel-info-inner{
+	    	    top: 36%;
+	    	    width: 80%;
+	    	  	.carousel-info-inner{
 	    	    	text-align: center;
+
 	    	    	h2{
 	    				font-family: $prata;
 						color: white;
-						@include font-size(80px);
+						@include font-size(70px);
 						@media(max-width: 768px){
-							@include font-size(40px);
+							@include font-size(30px);
 						}
 	    				@media(max-width: 767px){
-	    					@include font-size(30px);
+	    					@include font-size(25px);
 	    				}
 	    	    	}
 	    	    	h3{

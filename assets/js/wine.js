@@ -26,7 +26,7 @@ $('#slider-home').owlCarousel({
 	dots: false,
 	nav:true,
 	video: true,
-	autoplay: false,
+	autoplay: true,
     responsive:{
         0:{
             items:1
@@ -42,41 +42,81 @@ $('#slider-home').owlCarousel({
 
 function carousel(elid){
 	$(elid).slick({
-	  centerMode: true,
-	  centerPadding: '500px',
-	  slidesToShow: 1,
-	  //arrows:true,
-	  responsive: [
-		  {
-		    breakpoint: 1024,
-		    settings: {
-		      arrows: false,
-		      centerMode: true,
-		      centerPadding: '40px',
-		      slidesToShow: 1
-		    }
-		  },
-	    {
-	      breakpoint: 768,
-	      settings: {
-	        arrows: false,
-	        centerMode: true,
-	        centerPadding: '40px',
-	        slidesToShow: 1
-	      }
-	    },
-	    {
-	      breakpoint: 480,
-	      settings: {
-	        arrows: false,
-	        centerMode: true,
-	        centerPadding: '40px',
-	        slidesToShow: 1
-	      }
-	    }
-	  ]
+	// 	centerMode: true,
+	// 	centerPadding: '500px',
+	// 	autoplay: true,
+	// 	autoplaySpeed: 2000,
+	// //	slidesToShow: 1,
+	// //	slidesToScroll: 1,
+	//   //arrows:true,
+	//   responsive: [
+	// 	  {
+	// 	    breakpoint: 1024,
+	// 	    settings: {
+	// 	      arrows: false,
+	// 	      centerMode: true,
+	// 	      centerPadding: '40px',
+	// 	      slidesToShow: 1
+	// 	    }
+	// 	  },
+	//     {
+	//       breakpoint: 768,
+	//       settings: {
+	//         arrows: false,
+	//         centerMode: false,
+	//         centerPadding: '0px',
+	//         slidesToShow: 1
+	//       }
+	//     },
+	//     {
+	//       breakpoint: 480,
+	//       settings: {
+	//         arrows: false,
+	//         centerMode: false,
+	//         centerPadding: '40px',
+	//         slidesToShow: 1
+	//       }
+	//     }
+	//   ]
+
+	   			centerMode: true,
+	   			autoplay: true,
+	   			autoplaySpeed: 3000,
+	            slidesToShow: 3,
+	            slidesToScroll: 1,
+	            centerPadding: '146px',
+	            responsive: [{
+	                breakpoint: 1321,
+	                    settings: {
+	                        slidesToShow: 3,
+	                        slidesToScroll: 2,
+	                        centerMode: true,
+	                        centerPadding: 'calc(calc(100vw - 1047px) / 2)',
+	                    }
+	            },{
+	                breakpoint: 1048,
+	                    settings: {
+	                        slidesToShow: 2,
+	                        slidesToScroll: 2,
+	                        centerMode: true,
+	                        centerPadding: '5vw',
+	                    }
+	            },{
+	                breakpoint: 751,
+	                    settings: {
+	                        slidesToShow: 1,
+	                        slidesToScroll: 2,
+	                        centerMode: true,
+	                        centerPadding: '5vw',
+	                    }
+	            }]
+
 	});
+
 }
+
+
+
 carousel('#carousel-destinations-fr');
 
 $('.btn-destination').on('click',function(){
@@ -242,9 +282,9 @@ $('.modal').on('shown.bs.modal', function () {
 
 $('#newsletter').on("submit", function(e) {
 	  	e.preventDefault();
-	  
+
 		$('#progreso').removeClass('hide');
-		
+
 	  	email 		= $('#email').val();
 	  	error = 0;r
 		if(email==''){
@@ -252,30 +292,30 @@ $('#newsletter').on("submit", function(e) {
 			$('#email').addClass('invalid');
 			error = 1;
 		}
-	
-		
-	  
-	  	if(error==0){  
+
+
+
+	  	if(error==0){
 		    $.ajax({
 		    	url:  $('#newsletter').attr('action'),
 				type: "POST",
 	            data: $('#newsletter').serialize(),
-	            success: function(data) {		   
-				    console.log(data);  
+	            success: function(data) {
+				    console.log(data);
 					error = 0;
 				    if(data=='0'){
 						alert('Something wrong happened, please try again');
 					  	return;
-				    }else{	
+				    }else{
 						alert('Thanks for subscribing!');
 					  	$('#newsletter')[0].reset();
-				    }   
-				    
+				    }
+
 		    	}
-		    });	  	
-	  	}else{ 	
+		    });
+	  	}else{
 			alert('Something wrong happened, please try again');
 		  	return;
 		}
 	});
-	
+

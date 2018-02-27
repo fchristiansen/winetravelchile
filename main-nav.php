@@ -1,30 +1,16 @@
 <nav id="main-nav" class="navbar navbar-default position-relative">
-	<div class="container">
+	<div class="container ">
 		<div class="row" >
 			<div class="col-sm-12">
 				<a class="logo-xs" href="<?php bloginfo('url'); ?>">
-					<img id="logo-mobile" class="img-responsive center-block" src="<?php bloginfo('template_url');?>/assets/img/logo.svg" alt="wine travel chile">
+					<img id="logo-mobile" class="img-responsive center-block" src="<?php bloginfo('template_url') ?>/assets/img/logo.svg" alt="wine travel chile">
 				</a>
-				<div class="search-wrapper" style="opacity: 1;">
-						<!-- info contacto temp -->
-						<ul class="info-contact hidden-lg">
-							<li class="whatsapp"><a href="whatsapp://tel:56995381177" alt="WhatsApp" title="WhatsApp"><i class="fa fa-whatsapp"></i> + 56 9 95381177</a></li>
-							<li class="mail"><a href="mailto:winetravelchile@gmail.com"><i class="fa fa-envelope"></i> winetravelchile@gmail.com</a></li>
-							<li class="mail"><a href="tel:56992781331"><i class="fa fa-mobile" aria-hidden="true"></i> +56 9 92781331 </a></li>
 
-						</ul>
-						<!-- fin contacto temp -->
-						<form id="search" class="navbar-form navbar-right hide">
-							<div class="form-group">
-								<input type="text" placeholder="" class="form-control">
-							</div>
-							<button type="submit" class="btn btn-success bt-vino"> in</button>
-						</form>
-				</div>
+
 
 			</div>
 		</div>
-	</div>
+	</div> <!-- container -->
 
 	<div class="container position-relative">
 		<div class="row">
@@ -36,7 +22,7 @@
 				<span class="icon-bar"></span>
 				</button>
 					<a class="navbar-brand" href="<?php bloginfo('url'); ?>">
-						<img id="logo-desk" class="img-responsive" src="<?php bloginfo('template_url');?>/assets/img/logo.svg" width="170" alt="wine travel chile">
+						<img id="logo-desk" class="img-responsive" src="<?php bloginfo('template_url') ?>/assets/img/logo.svg" width="170" alt="wine travel chile">
 					</a>
 			</div>
 			<div id="navbar" class="navbar-collapse collapse">
@@ -44,7 +30,6 @@
 					<div class="row">
 						<div class="col-sm-12">
 							<div class="search-wrapper-xs">
-
 								<form class="navbar-form navbar-right"action="<?php bloginfo('url'); ?>">
 									<div class="form-group">
 										<input type="text" placeholder="" class="form-control" name="s">
@@ -74,7 +59,7 @@
 						<ul class="info-contact">
 							<li class="whatsapp"><a href="whatsapp://tel:56995381177" alt="WhatsApp" title="WhatsApp"><i class="fa fa-whatsapp"></i> + 56 9 95381177</a></li>
 							<li class="mail"><a href="mailto:winetravelchile@gmail.com"><i class="fa fa-envelope"></i> winetravelchile@gmail.com</a></li>
-							<li class="mail"><a href="tel:56992781331"><i class="fa fa-mobile" aria-hidden="true"></i> +56 9 92781331 </a></li>
+							<li class="whatsapp"><a href="tel:56992781331"><i class="fa fa-mobile" aria-hidden="true"></i> +56 9 92781331 </a></li>
 						</ul>
 						<!-- fin contacto temp -->
 					</li>
@@ -84,7 +69,7 @@
 
 		</div>
 
-	<?php include('include-menu-contact.php'); ?>
+			<?php include('include-menu-contact.php'); ?>
 
 	</div><!--/.container -->
 	</nav> <!-- /. main nav -->

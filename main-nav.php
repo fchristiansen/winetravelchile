@@ -45,11 +45,11 @@
 						<div class="col-sm-12">
 							<div class="search-wrapper-xs">
 
-								<form class="navbar-form navbar-right" style="display: none;">
+								<form class="navbar-form navbar-right"action="<?php bloginfo('url'); ?>">
 									<div class="form-group">
-										<input type="text" placeholder="" class="form-control">
+										<input type="text" placeholder="" class="form-control" name="s">
 									</div>
-									<button type="submit" class="btn btn-success bt-vino"> in</button>
+									<button type="submit" class="btn btn-success bt-vino"><i class="fa fa-search"></i></button>
 								</form>
 							</div>
 						</div>

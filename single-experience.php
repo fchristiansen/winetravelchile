@@ -46,6 +46,15 @@ if ( have_posts() ) {
 		$id1 = $cat_list[0]->term_id ;
 		
 		$esteid = get_the_ID();
+		$category = $cat_list[0]->slug;
+		$pais	  = $term_list[0]->slug;
+		$submenu  = submenu($category,$pais,$esteid);
+	} // end while
+} // end if
+
+if ( have_posts() ) {
+	while ( have_posts() ) {
+		the_post(); 
 ?>
 		<div id="slider-destinations">
 			<section class="slider-home container-fluid no-padding">
@@ -62,7 +71,7 @@ if ( have_posts() ) {
 											$category = $cat_list[0]->slug;
 											$pais	  = $term_list[0]->slug;
 											
-											echo submenu($category,$pais,$esteid);
+											echo $submenu;
 										?>
 				          			</p>
 				          		</div>

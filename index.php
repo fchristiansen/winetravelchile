@@ -107,8 +107,7 @@
 <?php
 					$the_query = new WP_Query( array(
 					    'post_type' 		=> 'press',
-					    'posts_per_page' 	=> 6,
-					    'orderby' 			=> 'rand' 
+					    'posts_per_page' 	=> 6 
 					) );
 					while ( $the_query->have_posts() ) :
 					    $the_query->the_post();

@@ -31,7 +31,7 @@ if ( have_posts() ) {
 								?>
 		          				<a href="<?php bloginfo('url'); ?>">Home</a> / <?php echo $pais; ?> / tailor-made-experiences
 		          			</p>
-		          			<h4>Tailor-made creative journeys </h4>
+		          			<h4>Tailor made creative journeys </h4>
 		          		</div>
 		          	</div>
 		          	<?php the_post_thumbnail('full', array('class' => 'img-responsive owl-lazy hidden-xs')); ?>

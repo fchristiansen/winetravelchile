@@ -678,3 +678,14 @@ section#history .content .maps-box img { margin-bottom: 40px; }
 #includes.events .content h4.includes { font-size: 14px; font-size: 0.875rem; letter-spacing: 3px; text-transform: uppercase; background: #e0dbd8; display: inline-block; padding: 20px 20px; color: #5c2d45; width: 100%; margin-bottom: 70px; }
 #includes.events .content ul { padding: 0; list-style-type: none; }
 #includes.events .content ul li { font-size: 18px; font-size: 1.125rem; font-weight: 300; color: #616552; text-transform: capitalize; padding: 0 40px; }
+
+
+.bt-vino{    background-color: #a53b69;
+    border-color: #a53b69;
+    border-radius: 0;}
+
+.bt-vino:hover, .bt-vino:focus {
+    background-color: #682944;
+    border-color: #682944;
+    color: white;
+}

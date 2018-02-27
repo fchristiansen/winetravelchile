@@ -44,8 +44,7 @@ Template name: About - Testimonials
 						<div class="grid-sizer col-sm-6 col-md-4"></div>
 	   			<?php
 			        $originales = array(
-				        'post_type' => 'testimonial',
-				        'posts_per_page' => -1
+				        'post_type' => 'testimonial'
 			        );
 			        $query = new WP_Query( $originales ); 
 					$e = 0;

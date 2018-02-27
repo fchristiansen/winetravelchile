@@ -8,6 +8,12 @@ Template name: Hotels Chile
 <?php include('header.php'); ?>
 <?php include('main-nav.php'); ?>
 <?php include('include-menu-experiencias.php'); ?>
+<?php
+	
+if ( have_posts() ) {
+	while ( have_posts() ) {
+		the_post(); 
+?>
 <div id="slider-destinations">
 	<section class="slider-home container-fluid no-padding">
 		<div id="slider-home" class="owl-carousel owl-theme">
@@ -22,15 +28,17 @@ Template name: Hotels Chile
 		          			<h4>Unique Wine Experience</h4>
 		          		</div>
 		          	</div>
-		          	<!-- 1920 x 990 -->
-		          	<img class="img-responsive owl-lazy hidden-xs" data-src="<?php bloginfo('template_url'); ?>/assets/img/top-hotels.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/top-hotels.jpg" alt="">
-		          	<!-- 320 x 550 -->
-		          	<img class="img-responsive owl-lazy visible-xs" data-src="<?php bloginfo('template_url'); ?>/assets/img/top-hotels-xs.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/top-hotels-xs.jpg" alt="">
+		          	<?php the_post_thumbnail('full', array('class' => 'img-responsive hidden-xs')); ?>
+		          	<?php the_post_thumbnail('slider_mobile', array('class' => 'img-responsive owl-lazy visible-xs')); ?>
 
 		    </div>
 		</div> <!-- contenedor top -->
 	</section>
 </div>
+<?php
+	} // end while
+} // end if
+?>		
 
 		<section id="hotels" class="position-relative">
 			<div class="bloque-blanco-top-content">

@@ -82,14 +82,14 @@ function carousel(elid){
 	   			centerMode: true,
 	   			autoplay: true,
 	   			autoplaySpeed: 3000,
-	            slidesToShow: 3,
+	            slidesToShow: 1,
 	            slidesToScroll: 1,
-	            centerPadding: '146px',
+	            centerPadding: '500px',
 	            responsive: [{
-	                breakpoint: 1321,
+	                breakpoint: 1000,
 	                    settings: {
-	                        slidesToShow: 3,
-	                        slidesToScroll: 2,
+	                        slidesToShow: 2,
+	                        slidesToScroll: 1,
 	                        centerMode: true,
 	                        centerPadding: 'calc(calc(100vw - 1047px) / 2)',
 	                    }
@@ -102,10 +102,10 @@ function carousel(elid){
 	                        centerPadding: '5vw',
 	                    }
 	            },{
-	                breakpoint: 751,
+	                breakpoint: 768,
 	                    settings: {
 	                        slidesToShow: 1,
-	                        slidesToScroll: 2,
+	                        slidesToScroll: 1,
 	                        centerMode: true,
 	                        centerPadding: '5vw',
 	                    }
@@ -318,4 +318,19 @@ $('#newsletter').on("submit", function(e) {
 		  	return;
 		}
 	});
+
+$('.btn-pais').on('click',function(){
+	pais = $(this).data('pais');
+	if($('.sub-menu-'+pais).hasClass('clander')){
+		$('.sub-menu').addClass('clander');
+		$('.sub-menu-'+pais).removeClass('clander');
+		$('#navbar').removeClass('in');
+		$('.navbar-brand img#logo-desk').css({'width':'120px'});
+	}else{
+		$('.sub-menu-'+pais).addClass('clander');
+		$('.navbar-brand img#logo-desk').css({'width':'170px'});
+	}
+});
+
+
 

@@ -285,3 +285,33 @@ ul.not-include li img{top: -15px;position: relative; float: left; margin-right: 
 		font-size: 0.9rem !important;
 	}
 }
+
+ul.not-include{
+	list-style: none;
+	padding: 0;
+	text-align: center;
+	display: block;
+	margin: 0 auto 50px;
+	color: #626554;
+	font-family: "Montserrat", sans-serif;
+	font-size: 15px;
+	@media(max-width: 767px){
+		text-align: left;
+	}
+}
+ul.not-include li{
+	display: inline-flex;
+	padding-top: 30px;
+	text-align: left;
+	line-height: 120%;
+	 margin: 0 10px;
+	}
+ul.not-include li img{
+	top: -15px;
+	position: relative;
+	float: left;
+	 margin-right: 10px;
+	}
+
+
+

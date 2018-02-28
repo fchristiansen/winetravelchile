@@ -3,9 +3,11 @@
   	overflow: hidden;
 	box-shadow: -5px 2px 20px -1px rgba(0,0,0,0.35);
 
+
   @media(max-width: 767px){
     margin-bottom: 15px;
   }
+
 
   a.caluga-enlace{
     position: relative;
@@ -51,6 +53,13 @@
             @media(max-width: 768px){
                 @include font-size(14px);
             }
+              @media(max-width: 767px){
+                @include font-size(20px);
+            }
+             @media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation : landscape) {
+					 @include font-size(30px);
+
+ 			}
             // @media(max-width: 767px){
             //     @include font-size(33px);
             // }

@@ -187,7 +187,7 @@ input[type="email"]:-moz-placeholder, input[type="text"]:-moz-placeholder, input
 #main-nav .search-wrapper-xs .bt-vino { background-color: #a53b69; border-color: #a53b69; border-radius: 0; }
 #main-nav .search-wrapper-xs .bt-vino:hover, #main-nav .search-wrapper-xs .bt-vino:focus { background-color: #682944; border-color: #682944; color: white; }
 @media (max-width: 767px) { #main-nav .search-wrapper-xs .bt-vino { font-size: 20px; font-size: 1.25rem; width: 100%; } }
-@media (max-width: 767px) { #main-nav #navbar { border-color: transparent; -webkit-box-shadow: none; box-shadow: none; background-color: #1e1e1e; } }
+@media (max-width: 767px) { #main-nav #navbar { border-color: transparent; -webkit-box-shadow: none; box-shadow: none; background-color: #1e1e1e; margin-top: 20px; } }
 #main-nav #navbar ul#nav-list { padding: 10px 15px; }
 @media (max-width: 767px) { #main-nav #navbar ul#nav-list { padding: 20px 15px; } }
 #main-nav #navbar ul#nav-list li { color: white; }
@@ -198,6 +198,7 @@ input[type="email"]:-moz-placeholder, input[type="text"]:-moz-placeholder, input
 #main-nav #navbar ul#nav-list li a:hover, #main-nav #navbar ul#nav-list li a:focus { text-decoration: none; color: #682944; }
 @media (max-width: 1023px) { #main-nav #navbar ul#nav-list li a { font-size: 14px; font-size: 0.875rem; } }
 @media (max-width: 767px) { #main-nav #navbar ul#nav-list li a { font-size: 20px; font-size: 1.25rem; } }
+#main-nav .navbar-toggle { margin-top: 18px; }
 
 #sub-menu, #sub-menu-2 { position: absolute; min-height: 440px; background: white; width: 100%; margin-top: 110px; z-index: 100; padding: 100px 0 0 0; background-color: white; opacity: 1; -webkit-transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; top: 0; }
 #sub-menu.clander, #sub-menu.clander2, #sub-menu-2.clander, #sub-menu-2.clander2 { margin-top: -1300px; opacity: 0; }
@@ -351,9 +352,10 @@ section#team .expert-box img { float: left; margin-right: 30px; }
 @media (max-width: 1023px) { section#team .expert-box img { float: none; margin: 30px auto 30px auto; } }
 section#team .expert-box .expert-text { padding-top: 20px; }
 @media (max-width: 768px) { section#team .expert-box .expert-text { float: left; padding: 20px 20px 30px 20px; } }
-section#team .expert-box .expert-text h4 { text-transform: capitalize; color: #616552; font-size: 26px; font-size: 1.625rem; font-family: "Montserrat", sans-serif; font-weight: 400; margin: 0 0 5px 0; }
-@media (max-width: 768px) { section#team .expert-box .expert-text h4 { font-size: 18px; font-size: 1.125rem; } }
-section#team .expert-box .expert-text h3 { color: #682944; text-transform: uppercase; letter-spacing: 3px; font-size: 11px; font-size: 0.6875rem; font-family: "Montserrat", sans-serif; font-weight: 700; margin: 0 0 30px 0; }
+section#team .expert-box .expert-text h4 { text-transform: capitalize; color: #616552; font-size: 26px; font-size: 1.625rem; font-family: "Montserrat", sans-serif; font-weight: 400; margin: 0 0 5px 250px; }
+@media (max-width: 768px) { section#team .expert-box .expert-text h4 { font-size: 18px; font-size: 1.125rem; margin-left: 0; } }
+section#team .expert-box .expert-text h3 { color: #682944; text-transform: uppercase; letter-spacing: 3px; font-size: 11px; font-size: 0.6875rem; font-family: "Montserrat", sans-serif; font-weight: 700; margin: 0 0 30px 250px; }
+@media (max-width: 768px) { section#team .expert-box .expert-text h3 { margin-left: 0; } }
 section#team .expert-box .expert-text p { color: #616552; font-size: 12px; font-size: 0.75rem; font-family: "Montserrat", sans-serif; line-height: 16px; margin: 0; padding-left: 250px; padding-bottom: 30px; }
 @media (max-width: 768px) { section#team .expert-box .expert-text p { font-size: 15px; font-size: 0.9375rem; line-height: 22px; padding: 0; } }
 
@@ -385,6 +387,8 @@ section#testimonials .testimonial-box .testimonial-text .border-bottom-testimoni
 .caluga a.caluga-enlace .caluga-title { font-weight: 400; color: #ffffff; font-size: 18px; font-size: 1.125rem; position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); opacity: 1; -webkit-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out; z-index: 1; margin: 0; font-family: "Montserrat", sans-serif; text-align: center; width: 80%; line-height: normal; }
 .caluga a.caluga-enlace .caluga-title:hover .lente { background-color: rgba(0, 0, 0, 0.3); }
 @media (max-width: 768px) { .caluga a.caluga-enlace .caluga-title { font-size: 14px; font-size: 0.875rem; } }
+@media (max-width: 767px) { .caluga a.caluga-enlace .caluga-title { font-size: 20px; font-size: 1.25rem; } }
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: landscape) { .caluga a.caluga-enlace .caluga-title { font-size: 30px; font-size: 1.875rem; } }
 .caluga a.caluga-enlace .caluga-img { -webkit-transform: scale(1); transform: scale(1); -webkit-transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; width: 100%; }
 @media (min-width: 1025px) { .caluga a.caluga-enlace:hover .caluga-img { -webkit-transform: scale(1.07); transform: scale(1.07); } }
 
@@ -603,6 +607,13 @@ ul.not-include li img { top: -15px; position: relative; float: left; margin-righ
   #mobile-contact .info-contact li.mail i { font-size: 1.1rem; }
   #mobile-contact ul li.mail { font-size: 1rem; } }
 @media (max-width: 320px) { #mobile-contact ul li.mail a { font-size: 0.9rem !important; } }
+ul.not-include { list-style: none; padding: 0; text-align: center; display: block; margin: 0 auto 50px; color: #626554; font-family: "Montserrat", sans-serif; font-size: 15px; }
+@media (max-width: 767px) { ul.not-include { text-align: left; } }
+
+ul.not-include li { display: -webkit-inline-box; display: -ms-inline-flexbox; display: inline-flex; padding-top: 30px; text-align: left; line-height: 120%; margin: 0 10px; }
+
+ul.not-include li img { top: -15px; position: relative; float: left; margin-right: 10px; }
+
 #about .logos { margin-bottom: 0; }
 
 #founder .founder-img-box { background-color: #682944; }
@@ -625,9 +636,10 @@ section#team .expert-box img { float: left; margin-right: 30px; }
 @media (max-width: 1023px) { section#team .expert-box img { float: none; margin: 30px auto 30px auto; } }
 section#team .expert-box .expert-text { padding-top: 20px; }
 @media (max-width: 768px) { section#team .expert-box .expert-text { float: left; padding: 20px 20px 30px 20px; } }
-section#team .expert-box .expert-text h4 { text-transform: capitalize; color: #616552; font-size: 26px; font-size: 1.625rem; font-family: "Montserrat", sans-serif; font-weight: 400; margin: 0 0 5px 0; }
-@media (max-width: 768px) { section#team .expert-box .expert-text h4 { font-size: 18px; font-size: 1.125rem; } }
-section#team .expert-box .expert-text h3 { color: #682944; text-transform: uppercase; letter-spacing: 3px; font-size: 11px; font-size: 0.6875rem; font-family: "Montserrat", sans-serif; font-weight: 700; margin: 0 0 30px 0; }
+section#team .expert-box .expert-text h4 { text-transform: capitalize; color: #616552; font-size: 26px; font-size: 1.625rem; font-family: "Montserrat", sans-serif; font-weight: 400; margin: 0 0 5px 250px; }
+@media (max-width: 768px) { section#team .expert-box .expert-text h4 { font-size: 18px; font-size: 1.125rem; margin-left: 0; } }
+section#team .expert-box .expert-text h3 { color: #682944; text-transform: uppercase; letter-spacing: 3px; font-size: 11px; font-size: 0.6875rem; font-family: "Montserrat", sans-serif; font-weight: 700; margin: 0 0 30px 250px; }
+@media (max-width: 768px) { section#team .expert-box .expert-text h3 { margin-left: 0; } }
 section#team .expert-box .expert-text p { color: #616552; font-size: 12px; font-size: 0.75rem; font-family: "Montserrat", sans-serif; line-height: 16px; margin: 0; padding-left: 250px; padding-bottom: 30px; }
 @media (max-width: 768px) { section#team .expert-box .expert-text p { font-size: 15px; font-size: 0.9375rem; line-height: 22px; padding: 0; } }
 

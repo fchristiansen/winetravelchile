@@ -116,6 +116,7 @@
 				border-color: transparent;
 				box-shadow: none;
 				background-color: #1e1e1e;
+				margin-top: 20px;
 
 			}
 			ul#nav-list{
@@ -155,7 +156,9 @@
 				}
 			}
 		}
-
+		.navbar-toggle{
+			margin-top: 18px;
+		}
 
 }
 #sub-menu, #sub-menu-2{

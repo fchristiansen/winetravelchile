@@ -45,15 +45,16 @@
 					<li class="divisor-item-menu hide-beta">|</li>
 					<li><a href="javascript:void(0);" class="btn-pais" data-pais="ar">ARGENTINA</a></li>
 					<li class="divisor-item-menu hide-beta">|</li>
-					<li class="hide-beta"><a href="<?php bloginfo('url'); ?>/destinations" id="btn-destinations">more Destinations</a></li>
-					<li class="divisor-item-menu hide-beta">|</li>
-					<li class="hide-beta"><a href="<?php bloginfo('url'); ?>/about">ABOUT US</a></li>
+					<li class="<?php if (is_page('destinations')) echo 'active'; ?>"><a href="<?php bloginfo('url'); ?>/destinations" id="btn-destinations">more Destinations</a></li>
+					<li class="divisor-item-menu ">|</li>
+					<li class="<?php if (is_page('about') || is_page('the-team') || is_page('testimonials')|| is_page('press')) echo 'active'; ?>"><a href="<?php bloginfo('url'); ?>/about">ABOUT US</a></li>
 <!--
 					<li class="divisor-item-menu hide-beta">|</li>
 					<li class="hide-beta"><a href="javascript:void(0);">blog</a></li>
 -->
+
 					<li class="divisor-item-menu">|</li>
-					<li><a href="<?php bloginfo('url'); ?>/contact" id="btn-contacto">contact</a></li>
+					<li class="<?php if (is_page('contact')) echo 'active'; ?>"><a  href="<?php bloginfo('url'); ?>/contact" id="btn-contacto">contact</a></li>
 					<li id="mobile-contact">
 						<!-- info contacto temp -->
 						<ul class="info-contact">

@@ -3,11 +3,8 @@
 		<div class="row" >
 			<div class="col-sm-12">
 				<a class="logo-xs" href="<?php bloginfo('url'); ?>">
-					<img id="logo-mobile" class="img-responsive center-block" src="<?php bloginfo('template_url') ?>/assets/img/logo.svg" alt="wine travel chile">
+					<img id="logo-mobile" class="img-responsive center-block" src="<?php bloginfo('template_url') ?>/assets/img/logo-wine-travel-xs.png" alt="wine travel chile">
 				</a>
-
-
-
 			</div>
 		</div>
 	</div> <!-- container -->

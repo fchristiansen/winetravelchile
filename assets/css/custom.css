@@ -169,10 +169,10 @@ input[type="email"]:-moz-placeholder, input[type="text"]:-moz-placeholder, input
 @media (max-width: 768px) { .navbar-brand img#logo-desk { width: 130px; } }
 @media (max-width: 767px) { .navbar-brand img#logo-desk { display: none; } }
 
-.logo-xs { display: none; position: absolute; top: 10px; left: 25px; display: inline-block; }
+.logo-xs { position: absolute; top: 24px; left: -15px; }
 @media (min-width: 768px) { .logo-xs { display: none; } }
 @media (max-width: 767px) { .logo-xs { display: inline-block; } }
-.logo-xs img#logo-mobile { width: 60px; }
+.logo-xs img#logo-mobile { width: 220px; }
 
 #main-nav { margin-bottom: 0; background-color: #313131; border-radius: 0; border-color: #313131; min-height: 110px; position: relative; z-index: 1000; }
 @media (max-width: 767px) { #main-nav { min-height: 80px; } }

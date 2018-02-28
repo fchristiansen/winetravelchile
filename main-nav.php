@@ -69,9 +69,7 @@
 			</div><!--/.nav-collapse -->
 
 		</div>
-
 			<?php include('include-menu-contact.php'); ?>
-
 	</div><!--/.container -->
 	</nav> <!-- /. main nav -->
 <div id="overlay" class=""></div>

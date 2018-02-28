@@ -168,26 +168,9 @@ $('.btn-pais').on('click',function(){
 $('#btn-contacto').mouseover(function() {
 	$( "#fig-header-reveal-wrapper").toggleClass( 'chamber');
 	$( "#overlay").toggleClass( 'chamber');
-
-	  // if($('#fig-header-reveal-wrapper').hasClass('chamber')){
-	  // 		$('#fig-header-reveal-wrapper').removeClass('chamber');
-
-	  // }else{
-	  // 		$('#fig-header-reveal-wrapper').addClass('chamber');
-	  // }
-
-	  // if($('#overlay').hasClass('chamber')){
-	  // 		$('#overlay').removeClass('chamber');
-
-	  // }else{
-	  // 		$('#overlay').addClass('chamber');
-	  // }
-
 });
-$( "#btn-contacto" ).mouseleave(function() {
-	//$( "#fig-header-reveal-wrapper").toggleClass( 'chamber');
-	//$( "#overlay").toggleClass( 'chamber');
 
+$( "#btn-contacto" ).mouseleave(function() {
 	if($('#fig-header-reveal-wrapper').hasClass('chamber')){
 			$( "#fig-header-reveal-wrapper").addClass( 'chamber');
 

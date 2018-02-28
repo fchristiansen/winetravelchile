@@ -30,7 +30,14 @@ ul.complimentary span{background: #682944; color: #fff; border-radius: 50%; disp
 #destinations .bloque p a{font-weight: 700;}
 .day{margin-bottom: 30px;}
 
-a#request{display: block; float: left; background: #682944; color: #fff; text-align: center; font-size: 29px; text-transform: uppercase; font-weight: 700; padding: 30px 87px;line-height: 100%; font-family: "Montserrat", sans-serif; -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out;}
+a#request{display: block;
+ float: left; background: #682944;
+ color: #fff; text-align: center; font-size: 29px; text-transform: uppercase;
+ font-weight: 700;
+ padding: 30px 87px;
+ line-height: 100%;
+  font-family: "Montserrat", sans-serif; -webkit-transition: all 0.2s ease-in-out;
+   transition: all 0.2s ease-in-out;}
 a#request:hover{background: #000; text-decoration: none;}
 
 #includes{}
@@ -170,7 +177,7 @@ ul.not-include li img{top: -15px;position: relative; float: left; margin-right: 
 	    margin-right: 5px;
 	}
 	a#request {
-    	padding: 30px 0;
+    	padding: 30px 15px;
 	}
 	#includes .bloque h4 {
 	    font-size: 14px;

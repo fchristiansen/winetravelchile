@@ -204,7 +204,8 @@ input[type="email"]:-moz-placeholder, input[type="text"]:-moz-placeholder, input
 #sub-menu.clander, #sub-menu.clander2, #sub-menu-2.clander, #sub-menu-2.clander2 { margin-top: -1300px; opacity: 0; }
 @media (max-width: 767px) { #sub-menu, #sub-menu-2 { margin-top: 0; } }
 
-#fig-header-reveal-wrapper { display: none; position: absolute; right: 20px; top: 117px; width: 50%; max-width: 700px; padding: 3.125rem 2rem 1.875rem 2rem; z-index: 100; background-color: #fff; }
+#fig-header-reveal-wrapper { display: none; position: absolute; right: 20px; top: 108px; width: 60%; max-width: 700px; padding: 20px; z-index: 100; background-color: #fff; }
+@media (max-width: 768px) { #fig-header-reveal-wrapper { width: 75%; } }
 #fig-header-reveal-wrapper.chamber { display: block; }
 #fig-header-reveal-wrapper .fig-header-reveal-block { text-align: center; }
 @media (min-width: 768px) { #fig-header-reveal-wrapper .fig-header-reveal-block { padding: 0; } }
@@ -214,7 +215,7 @@ input[type="email"]:-moz-placeholder, input[type="text"]:-moz-placeholder, input
 #fig-header-reveal-wrapper .fig-header-reveal-block a span.icon-Phone { background: url(../img/ico-wasap.svg) no-repeat; width: 29px; height: 30px; display: inline-block; vertical-align: top; margin-bottom: 15px; }
 #fig-header-reveal-wrapper .fig-header-reveal-block a span.icon-Phone2 { background: url(../img/ico-fono.svg) no-repeat; width: 25px; height: 40px; display: inline-block; vertical-align: top; margin-bottom: 7px; }
 #fig-header-reveal-wrapper .fig-header-reveal-block a p { margin-bottom: 0; padding: 0; margin-bottom: 10px; }
-#fig-header-reveal-wrapper .fig-header-reveal-block a p.text { font-family: "Montserrat", sans-serif; font-weight: 400; text-transform: uppercase; font-size: 10px; font-size: 0.625rem; color: #414141; }
+#fig-header-reveal-wrapper .fig-header-reveal-block a p.text { font-family: "Montserrat", sans-serif; font-weight: 600; text-transform: uppercase; font-size: 10px; font-size: 0.625rem; color: #414141; }
 
 #overlay { display: none; width: 100%; height: 100%; position: absolute; top: 0; left: 0; background-color: rgba(0, 0, 0, 0.5); z-index: 99; position: fixed; }
 #overlay.chamber { display: block; }
@@ -573,7 +574,7 @@ ul.not-include li img { top: -15px; position: relative; float: left; margin-righ
   #simbologia ul.complimentary li { margin-right: 10px; display: block; }
   ul.complimentary li { line-height: 35px; text-align: left; }
   ul.complimentary span { width: 35px; height: 35px; font-size: 18px; margin-right: 5px; }
-  a#request { padding: 30px 0; }
+  a#request { padding: 30px 15px; }
   #includes .bloque h4 { font-size: 14px; line-height: 150%; }
   .bloque p.disclaimer { font-size: 12px; }
   .br5w { border-right: 0 solid #f7f6ef; }

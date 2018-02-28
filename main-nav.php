@@ -41,20 +41,19 @@
 					</div>
 				</div>
 				<ul id="nav-list" class="nav navbar-nav navbar-right">
-					<li><a href="javascript:void(0);" class="btn-pais" data-pais="cl">CHILE <span class="sr-only">(current)</span></a></li>
-					<li class="divisor-item-menu hide-beta">|</li>
-					<li><a href="javascript:void(0);" class="btn-pais" data-pais="ar">ARGENTINA</a></li>
-					<li class="divisor-item-menu hide-beta">|</li>
-					<li class="<?php if (is_page('destinations')) echo 'active'; ?>"><a href="<?php bloginfo('url'); ?>/destinations" id="btn-destinations">more Destinations</a></li>
-					<li class="divisor-item-menu ">|</li>
-					<li class="<?php if (is_page('about') || is_page('the-team') || is_page('testimonials')|| is_page('press')) echo 'active'; ?>"><a href="<?php bloginfo('url'); ?>/about">ABOUT US</a></li>
+					<li <?php if((is_singular('experience') && has_term( 'chile', 'country' )) || is_page(185) || is_page(176) || is_page(203) || is_page(140) || is_page(142) ){ ?>class="active"<?php } ?>><a href="javascript:void(0);" class="btn-pais" data-pais="cl">CHILE <span class="sr-only">(current)</span></a></li>
+					<li class="divisor-item-menu">|</li>
+					<li <?php if((is_singular('experience') && has_term( 'argentina', 'country' ) ) || is_page(193) || is_page(178) || is_page(65) || is_page(211) || is_page(69)   ){ ?>class="active"<?php } ?>><a href="javascript:void(0);" class="btn-pais" data-pais="ar">ARGENTINA</a></li>
+					<li class="divisor-item-menu">|</li>
+					<li <?php if(is_page('destinations')){ ?>class="active"<?php } ?>><a href="<?php bloginfo('url'); ?>/destinations" id="btn-destinations">more Destinations</a></li>
+					<li class="divisor-item-menu">|</li>
+					<li  <?php if(is_page('about')){ ?>class="active"<?php } ?>><a href="<?php bloginfo('url'); ?>/about">ABOUT US</a></li>
 <!--
-					<li class="divisor-item-menu hide-beta">|</li>
+					<li class="divisor-item-menu">|</li>
 					<li class="hide-beta"><a href="javascript:void(0);">blog</a></li>
 -->
-
 					<li class="divisor-item-menu">|</li>
-					<li class="<?php if (is_page('contact')) echo 'active'; ?>"><a  href="<?php bloginfo('url'); ?>/contact" id="btn-contacto">contact</a></li>
+					<li  <?php if(is_page('contact')){ ?>class="active"<?php } ?>><a href="<?php bloginfo('url'); ?>/contact" id="btn-contacto">contact</a></li>
 					<li id="mobile-contact">
 						<!-- info contacto temp -->
 						<ul class="info-contact">
@@ -69,7 +68,9 @@
 			</div><!--/.nav-collapse -->
 
 		</div>
+
 			<?php include('include-menu-contact.php'); ?>
+
 	</div><!--/.container -->
 	</nav> <!-- /. main nav -->
 <div id="overlay" class=""></div>

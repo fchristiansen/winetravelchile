@@ -185,12 +185,18 @@
   	display: none;
     position: absolute;
     right: 20px;
-    top: 117px;
-    width: 50%;
+    top: 108px;
+    //width: 50%;
+    width: 60%;
     max-width: 700px;
-    padding: 3.125rem 2rem 1.875rem 2rem;
+   // padding: 3.125rem 2rem 1.875rem 2rem;
+   	padding: 20px;
     z-index: 100;
     background-color: #fff;
+     @media(max-width: 768px){
+        	width: 75%;
+
+        }
 	&.chamber{
 		display:block;
 	}
@@ -245,7 +251,7 @@
     			margin-bottom: 10px;
     			&.text{
 	    			font-family: $montserrat;
-	    			font-weight: 400;
+	    			font-weight: 600;
 	    			text-transform: uppercase;
 					@include font-size(10px);
 					color: $gris-texto-caja-conacto;

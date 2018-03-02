@@ -8,10 +8,10 @@ Template name: Corporate and press trips
 <?php include('header.php'); ?>
 <?php include('main-nav.php'); ?>
 <?php include('include-menu-experiencias.php'); ?>
-<?php 
+<?php
 if ( have_posts() ) {
 	while ( have_posts() ) {
-		the_post(); 
+		the_post();
 ?>
 	<div id="slider-destinations">
 		<section class="slider-home container-fluid no-padding">
@@ -22,7 +22,7 @@ if ( have_posts() ) {
 			          	<div class="carousel-info">
 			          		<div class="carousel-info-inner">
 			          			<p class="hidden-xs">
-			          			<?php 
+			          			<?php
 				          			if ( $post->post_parent == '171' ) {
 										$pais = "Chile";
 									}else{
@@ -31,12 +31,12 @@ if ( have_posts() ) {
 								?>
 			          				<a href="<?php bloginfo('url'); ?>">Home</a> / <?php echo $pais; ?>	 / CORPORATE AND PRESS TRIPS
 			          			</p>
-			          			<h4>Corporate Wine Events</h4>
+			          			<p class="title2">Corporate Wine Events</p>
 			          		</div>
 			          	</div>
 		          	<?php the_post_thumbnail('full', array('class' => 'img-responsive owl-lazy hidden-xs')); ?>
 		          	<?php the_post_thumbnail('slider_mobile', array('class' => 'img-responsive owl-lazy visible-xs')); ?>
-	
+
 			    </div>
 			</div> <!-- contenedor top -->
 		</section>
@@ -94,6 +94,6 @@ if ( have_posts() ) {
 <?php
 	} // end while
 } // end if
-?>		
+?>
 
 <?php include('footer.php'); ?>

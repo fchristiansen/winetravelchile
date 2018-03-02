@@ -13,17 +13,18 @@ Template name: About - Testimonials
 			<div class="bloque-blanco-top-content">
 				<a href="#about">
 					<img src="<?php bloginfo('template_url');?>/assets/img/down-arrow.png" alt="" class="down-arrow">
-				</a></div>
+				</a>
+			</div>
 			<div class="container">
 				<?php include('include-menu-about.php'); ?>
 				<div class="row">
 					<div class="bloque clearfix mt-0">
 						<div class="col-sm-12 text-center">
-							<?php 
+							<?php
 							if ( have_posts() ) {
 								while ( have_posts() ) {
-									the_post(); 
-							?>							
+									the_post();
+							?>
 							<div class="content">
 								<h2><?php the_title(); ?></h2>
 								<?php the_content(); ?>
@@ -31,7 +32,7 @@ Template name: About - Testimonials
 							<?php
 								} // end while
 							} // end if
-							?>								
+							?>
 						</div>
 					</div>
 				</div>
@@ -46,12 +47,12 @@ Template name: About - Testimonials
 			        $originales = array(
 				        'post_type' => 'testimonial'
 			        );
-			        $query = new WP_Query( $originales ); 
+			        $query = new WP_Query( $originales );
 					$e = 0;
 					if ( $query->have_posts() ) {
 						while ( $query->have_posts() ) : $query->the_post();
-	        			$idprograma = get_the_ID();	
-				?>								
+	        			$idprograma = get_the_ID();
+				?>
 						<div class="grid-item col-sm-6 col-md-4">
 							<div class="testimonial-box grid-item-content">
 								<div class="ico-testimonial"></div>
@@ -63,11 +64,11 @@ Template name: About - Testimonials
 								</div>
 							</div>
 						</div>
-				<?php 		
+				<?php
 	        			$e++;
-		            endwhile; 
-					} 
-				?>								
+		            endwhile;
+					}
+				?>
 					</div>
 
 

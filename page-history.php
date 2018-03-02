@@ -8,10 +8,10 @@ Template name: History
 <?php include('header.php'); ?>
 <?php include('main-nav.php'); ?>
 <?php include('include-menu-experiencias.php'); ?>
-<?php 
+<?php
 if ( have_posts() ) {
 	while ( have_posts() ) {
-		the_post(); 
+		the_post();
 ?>
 <div id="slider-destinations">
 	<section class="slider-home container-fluid no-padding">
@@ -22,7 +22,7 @@ if ( have_posts() ) {
 		          	<div class="carousel-info">
 		          		<div class="carousel-info-inner">
 		          			<p class="hidden-xs">
-			          			<?php 
+			          			<?php
 				          			if ( $post->post_parent == '171' ) {
 										$pais = "Chile";
 									}else{
@@ -31,7 +31,7 @@ if ( have_posts() ) {
 								?>
 		          				<a href="<?php bloginfo('url'); ?>">Home</a> / <?php echo $pais; ?> /  WINE REGIONS MAP
 		          			</p>
-		          			<h4><?php the_title(); ?></h4>
+		          			<p class="title2"><?php the_title(); ?></p>
 		          		</div>
 		          	</div>
 		          	<?php the_post_thumbnail('full', array('class' => 'img-responsive hidden-xs')); ?>
@@ -53,7 +53,7 @@ if ( have_posts() ) {
 							<div class="content clearfix">
 								<img class="img-responsive center-block vina" src="<?php bloginfo('template_url'); ?>/assets/img/vina-history.jpg" alt="">
 									<?php the_content(); ?>
-									
+
 									<div class="variedades-box center-block">
 										<h2>MAIN VARIETIES PLANTED IN <?php echo $pais; ?></h2>
 										<div class="row">
@@ -95,5 +95,5 @@ if ( have_posts() ) {
 <?php
 	} // end while
 } // end if
-?>	
+?>
 <?php include('footer.php'); ?>

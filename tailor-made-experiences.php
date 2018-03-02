@@ -8,10 +8,10 @@ Template name: Tailor made Experiences
 <?php include('header.php'); ?>
 <?php include('main-nav.php'); ?>
 <?php include('include-menu-experiencias.php'); ?>
-<?php 
+<?php
 if ( have_posts() ) {
 	while ( have_posts() ) {
-		the_post(); 
+		the_post();
 ?>
 <div id="slider-destinations">
 	<section class="slider-home container-fluid no-padding">
@@ -22,7 +22,7 @@ if ( have_posts() ) {
 		          	<div class="carousel-info">
 		          		<div class="carousel-info-inner">
 		          			<p class="hidden-xs">
-			          			<?php 
+			          			<?php
 				          			if ( $post->post_parent == '171' ) {
 										$pais = "Chile";
 									}else{
@@ -31,7 +31,7 @@ if ( have_posts() ) {
 								?>
 		          				<a href="<?php bloginfo('url'); ?>">Home</a> / <?php echo $pais; ?> / tailor-made-experiences
 		          			</p>
-		          			<h4>Tailor made creative journeys </h4>
+		          			<p class="title2">Tailor made creative journeys </p>
 		          		</div>
 		          	</div>
 		          	<?php the_post_thumbnail('full', array('class' => 'img-responsive owl-lazy hidden-xs')); ?>
@@ -232,5 +232,5 @@ if ( have_posts() ) {
 <?php
 	} // end while
 } // end if
-?>		
+?>
 <?php include('footer.php'); ?>

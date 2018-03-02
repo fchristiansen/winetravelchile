@@ -7,7 +7,7 @@
 		          	<div class="carousel-info">
 		          		<div class="carousel-info-inner">
 		          			<p class="hidden-xs"><a href="<?php bloginfo('url'); ?>">Home</a> / about us</p>
-		          			<h2>Design Your Perfect Trip With Us!!</h2>
+		          			<p class="carousel-title">Design Your Perfect Trip With Us!!</p>
 		          		<!-- 	<p class="hidden-xs hide-beta">
 			          			<a href="<?php bloginfo('url'); ?>">chilean wine route</a> |
 		          				<a href="javascript:void(0);">organic AND biodinamic experience</a> |

@@ -51,6 +51,11 @@ section.slider-home {
 	    					@include font-size(25px);
 	    				}
 	    	    	}
+	    	    	p.carousel-title{
+	    	    		@extend h2;
+	    	    		letter-spacing: normal !important;
+	    	    		text-transform: none;
+	    	    	}
 	    	    	h3{
 	    				font-family: $prata;
 						color: white;
@@ -62,6 +67,10 @@ section.slider-home {
 							@include font-size(15px);
 						}
 	    	    	}
+	    	    	p.carousel-subtitle{
+						@extend h3;
+						letter-spacing: normal !important;
+	    	    	}
 	    	    	h4{
 	    				font-family: $prata;
 						color: white;
@@ -72,6 +81,13 @@ section.slider-home {
 						@media(max-width: 767px){
 							@include font-size(30px);
 						}
+
+	    	    	}
+	    	    	p.title2{
+	    	    		@extend h4;
+	    	    		text-transform: none;
+	    	    		line-height: 1.1;
+	    	    		letter-spacing: normal;
 
 	    	    	}
 					p{

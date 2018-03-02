@@ -26,7 +26,7 @@ if ( have_posts() ) {
 					          			<p class="hidden-xs">
 					          				<a href="<?php bloginfo('url'); ?>">Home</a><!--  / <a href="page-about.php">about us</a> -->  / destinations
 					          			</p>
-					          			<h4>Every Day is a Unique Wine</h4>
+					          			<p class="title2">Every Day is a Unique Wine</p>
 					          		</div>
 					          	</div>
 					          	<?php the_post_thumbnail('full', array('class' => 'img-responsive hidden-xs')); ?>

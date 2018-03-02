@@ -5,8 +5,8 @@
 	          <!-- 1920 x 550 -->
 	          	<div class="carousel-info info-xs">
 	          		<div class="carousel-info-inner">
-	          			<h2>Wine Travel Chile</h2>
-	          			<h3>Design your perfect trip with us</h3>
+	          			<p class="carousel-title">Wine Travel Chile</p>
+	          			<p class="carousel-subtitle">Design your perfect trip with us</p>
 	          		</div>
 	          	</div>
 	          	<img class="img-responsive owl-lazy hidden-xs" data-src="<?php bloginfo('template_url'); ?>/assets/img/img-slide.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/img-slide.jpg" alt="">
@@ -19,8 +19,8 @@
 	          <!-- 1920 x 550 -->
 	          	<div class="carousel-info info-xs">
 	          		<div class="carousel-info-inner">
-	          			<h2>Wine Travel Chile</h2>
-	          			<h3>Exploring Chile's Wine Country</h3>
+	          			<p class="carousel-title">Wine Travel Chile</p>
+	          			<p class="carousel-subtitle">Exploring Chile's Wine Country</p>
 						<!-- Button modal fullscreen -->
 						<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modal-fullscreen">
 						  Watch Video

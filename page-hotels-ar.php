@@ -8,10 +8,10 @@ Template name: Hotels Argentina
 <?php include('header.php'); ?>
 <?php include('main-nav.php'); ?>
 <?php include('include-menu-experiencias.php'); ?>
-<?php 
+<?php
 if ( have_posts() ) {
 	while ( have_posts() ) {
-		the_post(); 
+		the_post();
 ?>
 		<div id="slider-destinations">
 			<section class="slider-home container-fluid no-padding">
@@ -24,7 +24,7 @@ if ( have_posts() ) {
 				          			<p class="hidden-xs">
 				          				<a href="<?php bloginfo('url'); ?>">Home</a> / argentina / hotels
 				          			</p>
-				          			<h4>Unique Wine Experience</h4>
+				          			<p class="title2">Unique Wine Experience</p>
 				          		</div>
 				          	</div>
 				          	<?php the_post_thumbnail('full', array('class' => 'img-responsive hidden-xs')); ?>
@@ -38,7 +38,7 @@ if ( have_posts() ) {
 <?php
 	} // end while
 } // end if
-?>		
+?>
 		<section id="hotels" class="position-relative">
 			<div class="bloque-blanco-top-content">
 				<a href="#hotels">
@@ -79,13 +79,13 @@ if ( have_posts() ) {
 									$i = 0;
 									echo '<div class="clearfix hidden-sm hidden-xs"></div>';
 								}
-								
+
 								if($m==2){
 									$m = 0;
 									echo '<div class="clearfix visible-sm visible-xs"></div>';
 								}
 							endwhile;
-?>		
+?>
 							</div> <!-- content -->
 						</div>
 				</div>

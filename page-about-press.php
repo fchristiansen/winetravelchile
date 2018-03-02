@@ -19,7 +19,7 @@ Template name: About - Press
 				          			<p class="hidden-xs">
 				          				<a href="<?php bloginfo('url'); ?>">Home</a> / press
 				          			</p>
-				          			<h4>Press</h4>
+				          			<p class="title2">Press</p>
 				          		</div>
 				          	</div>
 				          	<?php the_post_thumbnail('full', array('class' => 'img-responsive hidden-xs')); ?>
@@ -102,7 +102,7 @@ Template name: About - Press
 						echo '<div class="clearfix"></div>';
 					}
 					endwhile;
-?>		
+?>
 <!--
 					<div class="col-sm-6">
 						<div class="download-box">

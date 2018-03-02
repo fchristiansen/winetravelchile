@@ -9,7 +9,7 @@
 		          			<p class="hidden-xs">
 		          				<a href="<?php bloginfo('url'); ?>">Home</a> / argentina / CORPORATE AND PRESS TRIPS
 		          			</p>
-		          			<h4>Corporate Wine Events</h4>
+		          			<p class="title2">Corporate Wine Events</p>
 		          		</div>
 		          	</div>
 		          	<!-- 1920 x 990 -->

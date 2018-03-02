@@ -8,10 +8,10 @@ Template name: About - Team
 <?php include('header.php'); ?>
 <?php include('main-nav.php'); ?>
 <?php include('include-menu-experiencias.php'); ?>
-<?php 
+<?php
 if ( have_posts() ) {
 	while ( have_posts() ) {
-		the_post(); 
+		the_post();
 ?>
 		<div id="slider-destinations">
 			<section class="slider-home container-fluid no-padding">
@@ -24,7 +24,7 @@ if ( have_posts() ) {
 				          			<p class="hidden-xs">
 				          				<a href="<?php bloginfo('url'); ?>">Home</a> / <a href="page-about.php">about us</a>  / team
 				          			</p>
-				          			<h4>Guided by Wine experts </h4>
+				          			<p class="title2">Guided by Wine experts </p>
 				          		</div>
 				          	</div>
 				          	<?php the_post_thumbnail('full', array('class' => 'img-responsive hidden-xs')); ?>
@@ -58,7 +58,7 @@ if ( have_posts() ) {
 <?php
 	} // end while
 } // end if
-?>					
+?>
 		<section id="featured">
 			<div class="container">
 				<div class="row">
@@ -80,9 +80,9 @@ if ( have_posts() ) {
 				$m = 0;
 				while ( $the_query->have_posts() ) :
 				    $the_query->the_post();
-					the_content(); 
+					the_content();
 				endwhile;
-?>		
+?>
 						</div>
 
 					</div>
@@ -102,7 +102,7 @@ if ( have_posts() ) {
 				while ( $the_query->have_posts() ) :
 				    $the_query->the_post();
 				    $m++;
-				?>					
+				?>
 					<div class="col-sm-6">
 						<div class="expert-box clearfix">
 							<?php the_post_thumbnail('hotel', array('class' => 'img-responsive clearfix')); ?>
@@ -114,13 +114,13 @@ if ( have_posts() ) {
 						</div>
 					</div>
 <?php
-	
+
 	if($m==2){
 		$m = 0;
 		echo '<div class="clearfix"></div>';
 	}
 	endwhile;
-?>						
+?>
 				</div>
 			</div>
 		</section>

@@ -150,22 +150,24 @@ if ( have_posts() ) {
 									<?php echo get('intinerary_description',$itinerario); ?>
 									<ul class="complimentary">
 										<?php
-										foreach (get('intinerary_complimentary',$itinerario) as &$valor) {
-
-										   if($valor == 'Breakfast'){
-										?>
-											   <li><span>B</span></li>
-										<?php
-										   }elseif($valor == 'Lunch'){
-										?>
-											   <li><span>L</span></li>
-										<?php
-										   }elseif($valor == 'Dinner'){
-										?>
-											   <li><span>D</span></li>
-										<?php
-										   }
-										}
+											if(get('intinerary_complimentary',$itinerario)){ 
+												foreach (get('intinerary_complimentary',$itinerario) as &$valor) {
+		
+												   if($valor == 'Breakfast'){
+												?>
+													   <li><span>B</span></li>
+												<?php
+												   }elseif($valor == 'Lunch'){
+												?>
+													   <li><span>L</span></li>
+												<?php
+												   }elseif($valor == 'Dinner'){
+												?>
+													   <li><span>D</span></li>
+												<?php
+												   }
+												}
+											}
 										?>
 									</ul>
 								</div>

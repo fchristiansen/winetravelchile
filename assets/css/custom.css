@@ -71,7 +71,9 @@ li.divisor-item-sub-menu { display: none !important; }
 .bloque h4, .bloque h3, .bloque section.slider-home #slider-home .item .carousel-info .carousel-info-inner p.carousel-subtitle, section.slider-home #slider-home .item .carousel-info .carousel-info-inner .bloque p.carousel-subtitle, .bloque h1, .bloque h2, .bloque section.slider-home #slider-home .item .carousel-info .carousel-info-inner p.carousel-title, section.slider-home #slider-home .item .carousel-info .carousel-info-inner .bloque p.carousel-title, .bloque section.slider-home #slider-home .item .carousel-info .carousel-info-inner p.title2, section.slider-home #slider-home .item .carousel-info .carousel-info-inner .bloque p.title2 { font-family: "Prata", serif; color: #682944; text-transform: uppercase; font-size: 46px; font-size: 2.875rem; margin-bottom: 50px; }
 @media (max-width: 767px) { .bloque h4, .bloque h3, .bloque section.slider-home #slider-home .item .carousel-info .carousel-info-inner p.carousel-subtitle, section.slider-home #slider-home .item .carousel-info .carousel-info-inner .bloque p.carousel-subtitle, .bloque h1, .bloque h2, .bloque section.slider-home #slider-home .item .carousel-info .carousel-info-inner p.carousel-title, section.slider-home #slider-home .item .carousel-info .carousel-info-inner .bloque p.carousel-title, .bloque section.slider-home #slider-home .item .carousel-info .carousel-info-inner p.title2, section.slider-home #slider-home .item .carousel-info .carousel-info-inner .bloque p.title2 { font-size: 36px; font-size: 2.25rem; margin-bottom: 25px; } }
 .bloque h1 { margin-bottom: 25px; }
-@media (max-width: 767px) { .bloque h1 { font-size: 36px; font-size: 2.25rem; margin-bottom: 25px; } }
+@media (max-width: 767px) { .bloque h1 { font-size: 30px; font-size: 1.875rem; margin-bottom: 25px; } }
+.bloque h2, .bloque section.slider-home #slider-home .item .carousel-info .carousel-info-inner p.carousel-title, section.slider-home #slider-home .item .carousel-info .carousel-info-inner .bloque p.carousel-title { font-size: 35px; font-size: 2.1875rem; }
+@media (max-width: 767px) { .bloque h2, .bloque section.slider-home #slider-home .item .carousel-info .carousel-info-inner p.carousel-title, section.slider-home #slider-home .item .carousel-info .carousel-info-inner .bloque p.carousel-title { font-size: 20px !important; font-size: 1.25rem !important; } }
 .bloque h2.title-itinerario, .bloque section.slider-home #slider-home .item .carousel-info .carousel-info-inner p.title-itinerario.carousel-title, section.slider-home #slider-home .item .carousel-info .carousel-info-inner .bloque p.title-itinerario.carousel-title { font-family: "Prata", serif; color: #682944; text-transform: uppercase; font-size: 31px; font-size: 1.875rem; margin-bottom: 20px; }
 .bloque p { font-family: "Montserrat", sans-serif; color: #616552; line-height: 28px; font-size: 15px; font-size: 0.9375rem; }
 .bloque p a { color: #682944; text-decoration: none; }
@@ -172,9 +174,9 @@ input[type="email"]:-moz-placeholder, input[type="text"]:-moz-placeholder, input
 @media (max-width: 768px) { .navbar-brand img#logo-desk { width: 130px; } }
 @media (max-width: 767px) { .navbar-brand img#logo-desk { display: none; } }
 
-.logo-xs { position: absolute; top: 24px; left: -15px; }
+.logo-xs { position: absolute; top: 24px; left: -15px; z-index: 100; }
 @media (min-width: 768px) { .logo-xs { display: none; } }
-@media (max-width: 767px) { .logo-xs { display: inline-block; } }
+@media (max-width: 767px) { .logo-xs a { display: inline-block; } }
 .logo-xs img#logo-mobile { width: 220px; }
 
 #main-nav { margin-bottom: 0; background-color: #313131; border-radius: 0; border-color: #313131; min-height: 110px; position: relative; z-index: 1000; }
@@ -304,7 +306,7 @@ section.slider-home #slider-home .item .carousel-info .carousel-info-inner { tex
 section.slider-home #slider-home .item .carousel-info .carousel-info-inner h2, section.slider-home #slider-home .item .carousel-info .carousel-info-inner p.carousel-title { font-family: "Prata", serif; color: white; font-size: 60px; font-size: 3.75rem; }
 @media (max-width: 768px) { section.slider-home #slider-home .item .carousel-info .carousel-info-inner h2, section.slider-home #slider-home .item .carousel-info .carousel-info-inner p.carousel-title { font-size: 35px; font-size: 2.1875rem; } }
 @media (max-width: 767px) { section.slider-home #slider-home .item .carousel-info .carousel-info-inner h2, section.slider-home #slider-home .item .carousel-info .carousel-info-inner p.carousel-title { font-size: 25px; font-size: 1.5625rem; } }
-section.slider-home #slider-home .item .carousel-info .carousel-info-inner p.carousel-title { letter-spacing: normal !important; text-transform: none; }
+section.slider-home #slider-home .item .carousel-info .carousel-info-inner p.carousel-title { letter-spacing: normal !important; text-transform: none; line-height: 1.1; }
 section.slider-home #slider-home .item .carousel-info .carousel-info-inner h3, section.slider-home #slider-home .item .carousel-info .carousel-info-inner p.carousel-subtitle { font-family: "Prata", serif; color: white; font-size: 30px; font-size: 1.875rem; }
 @media (max-width: 768px) { section.slider-home #slider-home .item .carousel-info .carousel-info-inner h3, section.slider-home #slider-home .item .carousel-info .carousel-info-inner p.carousel-subtitle { font-size: 20px; font-size: 1.25rem; } }
 @media (max-width: 767px) { section.slider-home #slider-home .item .carousel-info .carousel-info-inner h3, section.slider-home #slider-home .item .carousel-info .carousel-info-inner p.carousel-subtitle { font-size: 15px; font-size: 0.9375rem; } }

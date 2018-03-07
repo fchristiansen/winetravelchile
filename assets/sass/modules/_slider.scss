@@ -3,7 +3,7 @@ section.slider-home {
         position: relative;
         overflow: hidden;
         @media(max-width: 767px){
-			max-height: 300px;
+			max-height: 370px;
         }
       .item {
             position: relative;
@@ -30,7 +30,14 @@ section.slider-home {
 	    	    @include centerer(true, true);
 	    	    z-index: 2;
 	    	    top: 36%;
-	    	    width: 80%;
+	    	    width: 85%;
+	    	    &.blog-info{
+
+	    	    	@media(max-width: 767px){
+						top:48% !important;
+	    	    		width: 90% !important;
+	    			}
+	    	    }
 
 				@media(max-width:767px){
 					&.info-xs{
@@ -90,10 +97,48 @@ section.slider-home {
 	    	    		line-height: 1.1;
 	    	    		letter-spacing: normal;
 
+
 	    	    	}
 					p{
 						letter-spacing: 3px;
 						@include font-size(15px);
+					}
+					p{
+						&.tit-autor{
+							font-family: $montserrat;
+							font-weight: 700;
+							@include font-size(30px);
+							color: white;
+							text-transform: capitalize;
+							letter-spacing: normal;
+							margin-bottom: 0px;
+							@media(max-width:768px){
+								@include font-size(16px);
+								margin-bottom: 8px;
+							}
+
+						}
+						&.txt-resumen{
+							font-family: $montserrat;
+							font-weight: 300;
+							@include font-size(20px);
+							color: white;
+							text-transform: capitalize;
+							letter-spacing: normal;
+							line-height: 30px;
+							padding: 0 100px;
+							margin-bottom: 40px;
+							@media(max-width:1024px){
+								margin-bottom: 20px;
+								line-height: 24px;
+							}
+							@media(max-width:768px){
+								@include font-size(14px);
+								line-height: normal;
+								padding: 0;
+								margin-bottom: 8px;
+							}
+						}
 					}
 	    	    }
 	    	}

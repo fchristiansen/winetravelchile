@@ -335,6 +335,13 @@ ul.not-include li img{
 			.carousel-info{
 				.carousel-info-inner{
 					p{
+						span{
+							&.txt-bread{
+								@include font-size(10px);
+								line-height: 1.1;
+								padding: 8px 0;
+							}
+						}
 
 						a{
 							@include font-size(10px);

@@ -172,7 +172,8 @@
 
 					</div>
 					<div class="col-xs-12 col-sm-6 col-sm-pull-6">
-						<p class="copy">WINE TRAVEL CHILE. | 2018 ALL RIGHTS RESERVED.</p>
+						<?php  ?>
+						<p class="copy">WINE TRAVEL CHILE. | <?php echo date('Y'); ?> ALL RIGHTS RESERVED.</p>
 					</div>
 			</div>
 		</div>

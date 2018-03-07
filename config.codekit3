@@ -2132,6 +2132,13 @@
 		"oAP": "\/assets\/sass\/.sass-cache\/35e0ff924f4938e8d5437d3efcd0ab2b5038b0f4\/_about.scssc",
 		"oF": 0
 		},
+	"\/assets\/sass\/.sass-cache\/35e0ff924f4938e8d5437d3efcd0ab2b5038b0f4\/_blog.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/sass\/.sass-cache\/35e0ff924f4938e8d5437d3efcd0ab2b5038b0f4\/_blog.scssc",
+		"oF": 0
+		},
 	"\/assets\/sass\/.sass-cache\/35e0ff924f4938e8d5437d3efcd0ab2b5038b0f4\/_caluga.scssc": {
 		"cB": 0,
 		"ft": 8192,
@@ -2907,6 +2914,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/assets\/sass\/modules\/_blog.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/sass\/modules\/_blog.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/assets\/sass\/modules\/_caluga.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -3344,6 +3364,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/assets\/video\/small.mp4",
+		"oF": 0
+		},
+	"\/blog.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/blog.php",
 		"oF": 0
 		},
 	"\/classes\/Mobile_Detect.php": {

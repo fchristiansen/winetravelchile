@@ -17,9 +17,9 @@ Template name: Contact
 						<div class="bloque clearfix">
 							<div class="col-sm-6 hidden-xs hidden-sm col-md-6 col-lg-6">
 
-										<img class="img-responsive img-cava1" src="<?php bloginfo('template_url'); ?>/assets/img/contacto/bodega-cavas.jpg" alt="">
+								<img class="img-responsive img-cava1" src="<?php bloginfo('template_url'); ?>/assets/img/contacto/bodega-cavas.jpg" alt="">
 
-										<img class="img-responsive img-cava2" src="<?php bloginfo('template_url'); ?>/assets/img/contacto/bodega-cavas-1024.jpg" alt="">
+								<img class="img-responsive img-cava2" src="<?php bloginfo('template_url'); ?>/assets/img/contacto/bodega-cavas-1024.jpg" alt="">
 
 							</div>
 							<div class="col-sm-12 col-md-6 col-lg-6">
@@ -36,8 +36,20 @@ Template name: Contact
 											<div class="form-group">
 											    <label for="sel1">Destination *</label>
 												  <select class="form-control required" id="sel1" name="destino">
-												    <option value="Luxury Red Wine Experience">Luxury Red Wine Experience</option>
-												    <option value="Women's Walking, Wine and Food Experience">Women's Walking, Wine and Food Experience</option>
+												  	<option value="CHILEAN WINE ROUTE">CHILEAN WINE ROUTE</option>
+												  	<option value="ORGANIC AND BIODYMAMIC EXPERIENCE">ORGANIC AND BIODYMAMIC EXPERIENCE</option>
+												  	<option value="LUXURY RED WINE EXPERIENCE">LUXURY RED WINE EXPERIENCE</option>
+												  	<option value="CASUAL WHITE AND RED EXPERIENCE">CASUAL WHITE AND RED EXPERIENCE</option>
+												  	<option value="COASTAL WINE EXPERIENCE">COASTAL WINE EXPERIENCE</option>
+												  	<option value="WOMEN’S WALKING, WINE AND FOOD EXPERIENCE">WOMEN’S WALKING, WINE AND FOOD EXPERIENCE</option>
+												  	<option value="ACTIVE COASTAL WINE EXPERIENCE ">ACTIVE COASTAL WINE EXPERIENCE </option>
+												  	<option value="LUXURY MALBEC AND CULINARY EXPERIENCE">LUXURY MALBEC AND CULINARY EXPERIENCE</option>
+												  	<option value="CULINARY MALBEC AND SPARKLING EXPERIENCE">CULINARY MALBEC AND SPARKLING EXPERIENCE</option>
+												  	<option value="ACTIVE SALTA WINE AND FOOD EXPERIENCE">ACTIVE SALTA WINE AND FOOD EXPERIENCE</option>
+
+
+												  <!--   <option value="Luxury Red Wine Experience">Luxury Red Wine Experience</option>
+												    <option value="Women's Walking, Wine and Food Experience">Women's Walking, Wine and Food Experience</option> -->
 
 												  </select>
 											</div>

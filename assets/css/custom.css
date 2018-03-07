@@ -15,6 +15,8 @@ body { font-family: "Quicksand", Helvetica, Arial, sans-serif; }
 
 .texto-bold-wine { font-weight: 700; color: #682944; }
 
+@media (max-width: 768px) { .btn-read { padding-top: 4px; padding-bottom: 4px; font-size: 13px; font-size: 0.8125rem; } }
+
 @media (max-width: 767px) { /*permite centrar horizontalmente la lista de redes en mobile*/
   .center-xs { display: table; margin: 0 auto; } }
 .borde-lr { border-left: 1px solid #682944; border-right: 1px solid #682944; }
@@ -264,7 +266,7 @@ a.back { background: url(../img/arrow-left.svg) no-repeat; display: block; width
 form#form-suscribe { border: 1px solid #000000; }
 form#form-suscribe.form-inline { display: block; }
 form#form-suscribe.form-inline .form-control { border: none; background-color: transparent; }
-form#form-suscribe.form-inline .btn-primary { background-color: #000000; border: none; text-transform: uppercase; color: white; font-weight: 400; color: white; font-size: 11px; font-size: 0.6875rem; border-radius: 0; letter-spacing: 4px; cursor: pointer; }
+form#form-suscribe.form-inline .btn-primary, form#form-suscribe.form-inline .btn-read { background-color: #000000; border: none; text-transform: uppercase; color: white; font-weight: 400; color: white; font-size: 11px; font-size: 0.6875rem; border-radius: 0; letter-spacing: 4px; cursor: pointer; }
 
 section.crear-cuenta { background-color: #ECCCD0; padding-bottom: 45px; }
 section.crear-cuenta h2, section.crear-cuenta section.slider-home #slider-home .item .carousel-info .carousel-info-inner p.carousel-title, section.slider-home #slider-home .item .carousel-info .carousel-info-inner section.crear-cuenta p.carousel-title { font-weight: 400; color: black; font-size: 36px; font-size: 2.25rem; text-transform: uppercase; text-align: center; letter-spacing: 4px; padding: 45px 0; border-bottom: 1px solid #000000; }
@@ -296,11 +298,12 @@ form#form-modal-news-letter { padding-top: 20px; max-width: 80%; }
 #form-carro .form-control:hover, #form-carro .form-control:focus { outline: none; }
 
 section.slider-home #slider-home { position: relative; overflow: hidden; }
-@media (max-width: 767px) { section.slider-home #slider-home { max-height: 300px; } }
+@media (max-width: 767px) { section.slider-home #slider-home { max-height: 370px; } }
 section.slider-home #slider-home .item { position: relative; }
 section.slider-home #slider-home .item video { width: 100% !important; height: auto !important; position: absolute; top: 0; left: 0; max-width: 100%; display: block; }
 section.slider-home #slider-home .item .layer { position: absolute; left: 0; top: 0; width: 100%; height: 100%; background: #000; opacity: .2; z-index: 1; }
-section.slider-home #slider-home .item .carousel-info { position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); z-index: 2; top: 36%; width: 80%; }
+section.slider-home #slider-home .item .carousel-info { position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); z-index: 2; top: 36%; width: 85%; }
+@media (max-width: 767px) { section.slider-home #slider-home .item .carousel-info.blog-info { top: 48% !important; width: 90% !important; } }
 @media (max-width: 767px) { section.slider-home #slider-home .item .carousel-info.info-xs { top: 27%; } }
 section.slider-home #slider-home .item .carousel-info .carousel-info-inner { text-align: center; }
 section.slider-home #slider-home .item .carousel-info .carousel-info-inner h2, section.slider-home #slider-home .item .carousel-info .carousel-info-inner p.carousel-title { font-family: "Prata", serif; color: white; font-size: 60px; font-size: 3.75rem; }
@@ -316,6 +319,11 @@ section.slider-home #slider-home .item .carousel-info .carousel-info-inner h4, s
 @media (max-width: 767px) { section.slider-home #slider-home .item .carousel-info .carousel-info-inner h4, section.slider-home #slider-home .item .carousel-info .carousel-info-inner .bloque h3, .bloque section.slider-home #slider-home .item .carousel-info .carousel-info-inner h3, .bloque section.slider-home #slider-home .item .carousel-info .carousel-info-inner p.carousel-subtitle, section.slider-home #slider-home .item .carousel-info .carousel-info-inner .bloque p.carousel-subtitle, section.slider-home #slider-home .item .carousel-info .carousel-info-inner .bloque h1, .bloque section.slider-home #slider-home .item .carousel-info .carousel-info-inner h1, section.slider-home #slider-home .item .carousel-info .carousel-info-inner .bloque h2, .bloque section.slider-home #slider-home .item .carousel-info .carousel-info-inner h2, .bloque section.slider-home #slider-home .item .carousel-info .carousel-info-inner p.carousel-title, section.slider-home #slider-home .item .carousel-info .carousel-info-inner .bloque p.carousel-title, section.slider-home #slider-home .item .carousel-info .carousel-info-inner p.title2 { font-size: 30px; font-size: 1.875rem; } }
 section.slider-home #slider-home .item .carousel-info .carousel-info-inner p.title2 { text-transform: none; line-height: 1.1; letter-spacing: normal; }
 section.slider-home #slider-home .item .carousel-info .carousel-info-inner p { letter-spacing: 3px; font-size: 15px; font-size: 0.9375rem; }
+section.slider-home #slider-home .item .carousel-info .carousel-info-inner p.tit-autor { font-family: "Montserrat", sans-serif; font-weight: 700; font-size: 30px; font-size: 1.875rem; color: white; text-transform: capitalize; letter-spacing: normal; margin-bottom: 0px; }
+@media (max-width: 768px) { section.slider-home #slider-home .item .carousel-info .carousel-info-inner p.tit-autor { font-size: 16px; font-size: 1rem; margin-bottom: 8px; } }
+section.slider-home #slider-home .item .carousel-info .carousel-info-inner p.txt-resumen { font-family: "Montserrat", sans-serif; font-weight: 300; font-size: 20px; font-size: 1.25rem; color: white; text-transform: capitalize; letter-spacing: normal; line-height: 30px; padding: 0 100px; margin-bottom: 40px; }
+@media (max-width: 1024px) { section.slider-home #slider-home .item .carousel-info .carousel-info-inner p.txt-resumen { margin-bottom: 20px; line-height: 24px; } }
+@media (max-width: 768px) { section.slider-home #slider-home .item .carousel-info .carousel-info-inner p.txt-resumen { font-size: 14px; font-size: 0.875rem; line-height: normal; padding: 0; margin-bottom: 8px; } }
 section.slider-home #slider-home .item .owl-video-wrapper { overflow: hidden; width: 100%; height: auto; }
 @media (max-width: 767px) { section.slider-home #slider-home .item .owl-video-wrapper { min-height: 400px; } }
 section.slider-home #slider-home .item .owl-video-wrapper a { position: relative; }
@@ -470,9 +478,9 @@ footer .box-links-footer ul li a:hover, footer .box-links-footer ul li a:focus {
 @media (max-width: 991px) { .rrss-container p.copy { text-align: center; } }
 
 /* agregados por Seo2 */
-.btn-primary { background-color: #682944; border-color: #682944; text-transform: uppercase; font-family: "Montserrat", sans-serif; border-radius: 0; }
+.btn-primary, .btn-read { background-color: #682944; border-color: #682944; text-transform: uppercase; font-family: "Montserrat", sans-serif; border-radius: 0; }
 
-.btn-primary:focus, .btn-primary:active, .btn-primary:hover { background-color: #000; border-color: #000; }
+.btn-primary:focus, .btn-read:focus, .btn-primary:active, .btn-read:active, .btn-primary:hover, .btn-read:hover { background-color: #000; border-color: #000; }
 
 #slider-destinations section.slider-home #slider-home .item .carousel-info { width: 70%; }
 
@@ -625,7 +633,8 @@ ul.not-include li { display: -webkit-inline-box; display: -ms-inline-flexbox; di
 
 ul.not-include li img { top: -15px; position: relative; float: left; margin-right: 10px; }
 
-@media (max-width: 767px) { #slider-destinations #slider-home .carousel-info .carousel-info-inner p a { font-size: 10px; font-size: 0.625rem; line-height: 1.1; padding: 8px 0; }
+@media (max-width: 767px) { #slider-destinations #slider-home .carousel-info .carousel-info-inner p span.txt-bread { font-size: 10px; font-size: 0.625rem; line-height: 1.1; padding: 8px 0; }
+  #slider-destinations #slider-home .carousel-info .carousel-info-inner p a { font-size: 10px; font-size: 0.625rem; line-height: 1.1; padding: 8px 0; }
   #slider-destinations #slider-home .carousel-info .carousel-info-inner p.title-experience { margin-top: 70px; font-size: 30px !important; } }
 
 #about .logos { margin-bottom: 0; }

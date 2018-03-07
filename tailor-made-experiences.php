@@ -215,7 +215,7 @@ if ( have_posts() ) {
 									to personally design the itinerary that best meets their needs and desires.<p>
 								<!-- texto para argentina -->
 								<p class="disclaimer">
-									You can also email or phone us: Email: info@winetravelchile.com
+									You can also email or phone us: Email: info@winetravelchile.com <br>
 									Phone:  Chile + 56 9 927 81331, WhatsApp (+ 56 9) 953 81177   USA + 1 (626) 657 0045
 								</p>
 

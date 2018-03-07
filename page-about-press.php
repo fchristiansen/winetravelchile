@@ -16,8 +16,8 @@ Template name: About - Press
 				          	<!-- 1920 x 550 -->
 				          	<div class="carousel-info">
 				          		<div class="carousel-info-inner">
-				          			<p class="hidden-xs">
-				          				<a href="<?php bloginfo('url'); ?>">Home</a> / press
+				          			<p class="">
+				          				<a href="<?php bloginfo('url'); ?>">Home</a> / <span class="txt-bread">press</span>
 				          			</p>
 				          			<p class="title2">Press</p>
 				          		</div>

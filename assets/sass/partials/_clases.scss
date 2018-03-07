@@ -1,3 +1,12 @@
+.btn-read{
+	@extend .btn-primary;
+	@media(max-width:768px){
+		padding-top: 4px;
+		padding-bottom: 4px;
+		@include font-size(13px);
+	}
+}
+
 //.hide-beta{display: none !important;}
 @media(max-width:767px){
 			/*permite centrar horizontalmente la lista de redes en mobile*/

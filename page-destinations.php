@@ -169,9 +169,9 @@ if ( have_posts() ) {
 										<div class="form-group">
 										    <label for="sel1">Destination *</label>
 											  <select class="form-control required" id="sel1" name="destino">
-											    <option value="Luxury Red Wine Experience">Luxury Red Wine Experience</option>
-											    <option value="Women's Walking, Wine and Food Experience">Women's Walking, Wine and Food Experience</option>
-
+											    <option value="France">France</option>
+											    <option value="New Zealand">New Zealand</option>
+											    <option value="Uruguay">Uruguay</option>
 											  </select>
 										</div>
 									</div>

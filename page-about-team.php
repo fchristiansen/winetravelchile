@@ -24,7 +24,7 @@ if ( have_posts() ) {
 				          			<p class="hidden-xs">
 				          				<a href="<?php bloginfo('url'); ?>">Home</a> / <a href="page-about.php">about us</a>  / team
 				          			</p>
-				          			<p class="title2">Guided by Wine experts </p>
+				          			<p class="title2">Guided by Wine Experts </p>
 				          		</div>
 				          	</div>
 				          	<?php the_post_thumbnail('full', array('class' => 'img-responsive hidden-xs')); ?>
@@ -70,7 +70,7 @@ if ( have_posts() ) {
 					<div class="col-sm-8">
 						<div class="">
 							<h5>Karen Gilchrist</h5>
-							<h6>FOUNDER, TRIP PLANNER AND WINE EXPERT GUIDE</h6>
+							<h6>FOUNDER, TRIP PLANNER</h6>
 							<span class="rectangulo-vino-small"></span>
 											<?php
 					$the_query = new WP_Query( array(

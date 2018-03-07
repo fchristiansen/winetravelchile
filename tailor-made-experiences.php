@@ -31,7 +31,7 @@ if ( have_posts() ) {
 								?>
 		          				<a href="<?php bloginfo('url'); ?>">Home</a> / <?php echo $pais; ?> / tailor-made-experiences
 		          			</p>
-		          			<p class="title2">Tailor made creative journeys </p>
+		          			<p class="title2">Tailor - Made Creative Journeys</p>
 		          		</div>
 		          	</div>
 		          	<?php the_post_thumbnail('full', array('class' => 'img-responsive owl-lazy hidden-xs')); ?>
@@ -105,9 +105,7 @@ if ( have_posts() ) {
 										<div class="form-group">
 										    <label for="sel1">Destination *</label>
 											  <select class="form-control required" id="sel1" name="destino">
-											    <option value="Luxury Red Wine Experience">Luxury Red Wine Experience</option>
-											    <option value="Women's Walking, Wine and Food Experience">Women's Walking, Wine and Food Experience</option>
-
+											    <option value="Tailor Made">Tailor Made</option>
 											  </select>
 										</div>
 									</div>
@@ -213,13 +211,15 @@ if ( have_posts() ) {
 								</ul>
 							</div>
 							<div class="col-sm-12 text-center">
-								<p class="disclaimer">This is a sample itinerary. We work closely with our travelers<br>
+								<p class="disclaimer">We work closely with our travelers<br>
 									to personally design the itinerary that best meets their needs and desires.<p>
 								<!-- texto para argentina -->
 								<p class="disclaimer">
 									You can also email or phone us: Email: info@winetravelchile.com
 									Phone:  Chile + 56 9 927 81331, WhatsApp (+ 56 9) 953 81177   USA + 1 (626) 657 0045
 								</p>
+
+
 							</div>
 						</div>
 					</div>

@@ -9,7 +9,7 @@
 		          			<p class="hidden-xs">
 		          				<a href="<?php bloginfo('url'); ?>">Home</a> / <a href="page-about.php">about us</a>  / testimonials
 		          			</p>
-		          			<p class="title2">Every Day is a Unique Wine</p>
+		          			<p class="title2">Every Day is a Unique Wine Experience</p>
 		          		</div>
 		          	</div>
 		          	<!-- 1920 x 990 -->

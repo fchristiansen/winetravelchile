@@ -6,7 +6,8 @@
 	          	<div class="carousel-info info-xs">
 	          		<div class="carousel-info-inner">
 	          			<p class="carousel-title">Wine Travel Chile</p>
-	          			<p class="carousel-subtitle">Design your perfect trip with us</p>
+	          			<p class="carousel-subtitle">Travel + Leisure “ a once-in-a-lifetime wine tour in Chile”</p>
+	          			<a href="http://www.travelandleisure.com/trip-ideas/best-places-travel-south-america-february#chile-wine-country" target="_blank" class="btn btn-primary btn-lg"> read more</a>
 	          		</div>
 	          	</div>
 	          	<img class="img-responsive owl-lazy hidden-xs" data-src="<?php bloginfo('template_url'); ?>/assets/img/img-slide.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/img-slide.jpg" alt="">

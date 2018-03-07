@@ -13,7 +13,7 @@
 					<div class="col-sm-6">
 						<div class="form-group">
 								<label class="sr-only" for="email">Email address</label>
-								<input type="email" class="form-control" id="email" name="email" placeholder="Your Email Adress" required>
+								<input type="email" class="form-control" id="email" name="email" placeholder="Your Email Address" required>
 						</div>
 					</div>
 					<div class="col-sm-3">
@@ -42,11 +42,11 @@
 						) );
 						while ( $the_query->have_posts() ) :
 						    $the_query->the_post();
-						?>									
+						?>
 								<li><a href="<?php the_permalink(); ?>">Wine and Food Experience</a></li>
 						<?php
 							endwhile;
-						?>	
+						?>
 						<?php
 							$the_query = new WP_Query( array(
 						    'post_type' 		=> 'experience',
@@ -62,11 +62,11 @@
 						) );
 						while ( $the_query->have_posts() ) :
 						    $the_query->the_post();
-						?>	
+						?>
 								<li><a href="<?php the_permalink(); ?>">Active Wine and Food Experience</a></li>
 						<?php
 							endwhile;
-						?>	
+						?>
 								<li><a href="<?php bloginfo('url'); ?>/chile/tailor-made-experiences">Tailor-Made</a></li>
 								<li><a href="<?php bloginfo('url'); ?>/chile/corporate-and-press-trips">Corporate and Press Trips</a></li>
 								<li><a href="<?php bloginfo('url'); ?>/chile/history-of-chilean-wine/">Wine Regions Map</a></li>
@@ -92,11 +92,11 @@
 						) );
 						while ( $the_query->have_posts() ) :
 						    $the_query->the_post();
-						?>									
+						?>
 								<li><a href="<?php the_permalink(); ?>">Wine and Food Experience</a></li>
 						<?php
 							endwhile;
-						?>	
+						?>
 						<?php
 							$the_query = new WP_Query( array(
 						    'post_type' 		=> 'experience',
@@ -112,11 +112,11 @@
 						) );
 						while ( $the_query->have_posts() ) :
 						    $the_query->the_post();
-						?>	
+						?>
 								<li><a href="<?php the_permalink(); ?>">Active Wine and Food Experience</a></li>
 						<?php
 							endwhile;
-						?>	
+						?>
 								<li><a href="<?php bloginfo('url'); ?>/argentina/tailor-made-experiences">Tailor-Made</a></li>
 								<li><a href="<?php bloginfo('url'); ?>/argentina/corporate-and-press-trips">Corporate and Press Trips</a></li>
 								<li><a href="<?php bloginfo('url'); ?>/argentina/history-of-argentina-wine/">Wine Regions Map</a></li>

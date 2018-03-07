@@ -73,7 +73,9 @@ if ( have_posts() ) {
 										</div>
 										<div class="row">
 											<div class="col-sm-12">
-												<?php echo get('wine_varieties_harvest_information'); ?>
+												<div class="harvest-info">
+													<?php echo get('wine_varieties_harvest_information'); ?>
+												</div>
 											</div>
 										</div>
 									</div>

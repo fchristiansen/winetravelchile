@@ -23,9 +23,9 @@ function submenu($category,$pais,$esteid){
 		$submenu .= '<a href="'.get_the_permalink().'" ';
 		if($otroid == $esteid){
 			$submenu .= 'class="active" ';
-			$submenu .= '>'.get_the_title().'</a> |';
+			$submenu .= '>'.get_the_title().'</a> <span class="hidden-xs">|</span>';
 		}else{
-			$submenu .= '>'.get_the_title().'</a> |';
+			$submenu .= '>'.get_the_title().'</a> <span class="hidden-xs">|</span>';
 		}
 	endwhile;
 
@@ -65,8 +65,8 @@ if ( have_posts() ) {
 				          	<div class="carousel-info">
 				          		<div class="carousel-info-inner">
 				          			<p class="hidden-xs"><a href="<?php bloginfo('url'); ?>">Home</a> / <a href="javascript:void(0);"><?php echo $term_list[0]->name ; ?></a> / <?php echo $cat_list[0]->name ; ?></p>
-				          			<p class="carousel-title"><?php echo $cat_list[0]->name ; ?></p>
-				          			<p class="hidden-xs hide-beta">
+				          			<p class="carousel-title title-experience"><?php echo $cat_list[0]->name ; ?></p>
+				          			<p class="">
 										<?php
 											$category = $cat_list[0]->slug;
 											$pais	  = $term_list[0]->slug;
@@ -150,9 +150,9 @@ if ( have_posts() ) {
 									<?php echo get('intinerary_description',$itinerario); ?>
 									<ul class="complimentary">
 										<?php
-											if(get('intinerary_complimentary',$itinerario)){ 
+											if(get('intinerary_complimentary',$itinerario)){
 												foreach (get('intinerary_complimentary',$itinerario) as &$valor) {
-		
+
 												   if($valor == 'Breakfast'){
 												?>
 													   <li><span>B</span></li>
@@ -225,10 +225,12 @@ if ( have_posts() ) {
 								</ul>
 							</div>
 							<div class="col-sm-12 text-center">
+							<div class="disclaimer">
+									<?php echo get('includes_disclaimer'); ?>
+							</div>
 
-								<?php echo get('includes_disclaimer'); ?>
-								<p class="disclaimer">This is a sample itinerary. We work closely with our travelers<br>
-									to personally design the itinerary that best meets their needs and desires.<p>
+								<!-- <p class="disclaimer">This is a sample itinerary. We work closely with our travelers
+									to personally design the itinerary that best meets their needs and desires.<p> -->
 							</div>
 						</div>
 					</div>

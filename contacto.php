@@ -36,20 +36,26 @@ Template name: Contact
 											<div class="form-group">
 											    <label for="sel1">Destination *</label>
 												  <select class="form-control required" id="sel1" name="destino">
-												  	<option value="CHILEAN WINE ROUTE">CHILEAN WINE ROUTE</option>
-												  	<option value="ORGANIC AND BIODYMAMIC EXPERIENCE">ORGANIC AND BIODYMAMIC EXPERIENCE</option>
-												  	<option value="LUXURY RED WINE EXPERIENCE">LUXURY RED WINE EXPERIENCE</option>
-												  	<option value="CASUAL WHITE AND RED EXPERIENCE">CASUAL WHITE AND RED EXPERIENCE</option>
-												  	<option value="COASTAL WINE EXPERIENCE">COASTAL WINE EXPERIENCE</option>
-												  	<option value="WOMEN’S WALKING, WINE AND FOOD EXPERIENCE">WOMEN’S WALKING, WINE AND FOOD EXPERIENCE</option>
-												  	<option value="ACTIVE COASTAL WINE EXPERIENCE ">ACTIVE COASTAL WINE EXPERIENCE </option>
-												  	<option value="LUXURY MALBEC AND CULINARY EXPERIENCE">LUXURY MALBEC AND CULINARY EXPERIENCE</option>
-												  	<option value="CULINARY MALBEC AND SPARKLING EXPERIENCE">CULINARY MALBEC AND SPARKLING EXPERIENCE</option>
-												  	<option value="ACTIVE SALTA WINE AND FOOD EXPERIENCE">ACTIVE SALTA WINE AND FOOD EXPERIENCE</option>
-
-
-												  <!--   <option value="Luxury Red Wine Experience">Luxury Red Wine Experience</option>
-												    <option value="Women's Walking, Wine and Food Experience">Women's Walking, Wine and Food Experience</option> -->
+												    <option value="" >Select a destination</option>
+													<?php
+														$experience = $_GET['e'];
+														$the_query = new WP_Query( array(
+													    'post_type' 		=> 'experience',
+														'posts_per_page'	=> -1
+													) );
+													while ( $the_query->have_posts() ) :
+													    $the_query->the_post();
+														$esteid = get_the_ID();
+														if(has_term( 'argentina', 'country' )){
+															$pais =  " - Argentina";
+														}else{
+															$pais =  " - Chile";
+														}
+													?>													  
+												    <option value="<?php the_title(); ?>" <?php if($esteid == $experience){ ?>selected<?php } ?>><?php the_title(); ?><?php echo $pais; ?></option>
+													<?php
+														endwhile;
+													?>
 
 												  </select>
 											</div>

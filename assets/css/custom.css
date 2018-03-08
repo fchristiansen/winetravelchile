@@ -15,6 +15,8 @@ body { font-family: "Quicksand", Helvetica, Arial, sans-serif; }
 
 .texto-bold-wine { font-weight: 700; color: #682944; }
 
+#contacto .formulario-contacto form .form-control { text-transform: uppercase !important; }
+
 @media (max-width: 768px) { .btn-read { padding-top: 4px; padding-bottom: 4px; font-size: 13px; font-size: 0.8125rem; } }
 
 @media (max-width: 767px) { /*permite centrar horizontalmente la lista de redes en mobile*/
@@ -636,6 +638,8 @@ ul.not-include li img { top: -15px; position: relative; float: left; margin-righ
 @media (max-width: 767px) { #slider-destinations #slider-home .carousel-info .carousel-info-inner p span.txt-bread { font-size: 10px; font-size: 0.625rem; line-height: 1.1; padding: 8px 0; }
   #slider-destinations #slider-home .carousel-info .carousel-info-inner p a { font-size: 10px; font-size: 0.625rem; line-height: 1.1; padding: 8px 0; }
   #slider-destinations #slider-home .carousel-info .carousel-info-inner p.title-experience { margin-top: 70px; font-size: 30px !important; } }
+
+.bloque p.disclaimer a { text-transform: uppercase; color: #616552 !important; }
 
 #about .logos { margin-bottom: 0; }
 

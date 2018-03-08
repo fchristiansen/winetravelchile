@@ -226,6 +226,7 @@ if ( have_posts() ) {
 										<div class="form-group">
 										    <label for="sel1">Destination *</label>
 											  <select class="form-control required" id="sel1" name="destino">
+											  	 <option value="" >Select a destination</option>
 											    <option value="France">France</option>
 											    <option value="New Zealand">New Zealand</option>
 											    <option value="Uruguay">Uruguay</option>

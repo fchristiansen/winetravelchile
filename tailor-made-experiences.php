@@ -216,7 +216,7 @@ if ( have_posts() ) {
 								<!-- texto para argentina -->
 								<p class="disclaimer">
 									You can also email or phone us: Email: info@winetravelchile.com <br>
-									Phone:  Chile + 56 9 927 81331, WhatsApp (+ 56 9) 953 81177   USA + 1 (626) 657 0045
+									Phone:  Chile <a href="tel:+56992781331">+ 56 9 927 81331</a>, WhatsApp <a href="whatsapp://tel:56995381177">(+ 56 9) 953 81177 </a>, USA <a href="tel:+16266570045">+ 1 (626) 657 0045</a>
 								</p>
 
 

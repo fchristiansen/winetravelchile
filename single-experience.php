@@ -184,7 +184,7 @@ if ( have_posts() ) {
 								?>
 							</div><!-- fin row -->
 									<?php } ?>
-							<a href="<?php bloginfo('url'); ?>/contact" id="request">REQUEST A DETAILED<br>ITINERARY</a>
+							<a href="<?php bloginfo('url'); ?>/contact" id="request">more information</a>
 						</div>
 					</div>
 

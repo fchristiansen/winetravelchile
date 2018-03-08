@@ -22,7 +22,7 @@
 							<p>
 								Visit beautiful wineries and taste the most delicious wines in each of the wine valleys along the route.
 								You will also enjoy world’s most spectacular settings, <a href="">and regional cuisine</a> while visiting local
-								villages and staying in small and luxury hotels.
+								villages and staying in small luxury hotels.
 							</p>
 							<div class="box-more hide-beta">
 								<a href="<?php bloginfo('url'); ?>/luxury-red-wine-experience">more

@@ -20,10 +20,9 @@
 							<h1> Wine Tour in Chile</h1>
 							<h2> Private Wine and Food Experience</h2>
 							<p>
-								Travel visiting beautiful wineries and tasting the most delicious wines
-								in each of the wine valleys along the route. You will also enjoy World’s
-								most spectacular settings, <a href="">and regional cuisine</a>, while visiting local villages
-								and lodging in small and luxury hotels.
+								Visit beautiful wineries and taste the most delicious wines in each of the wine valleys along the route.
+								You will also enjoy world’s most spectacular settings, <a href="">and regional cuisine</a> while visiting local
+								villages and staying in small and luxury hotels.
 							</p>
 							<div class="box-more hide-beta">
 								<a href="<?php bloginfo('url'); ?>/luxury-red-wine-experience">more
@@ -55,7 +54,12 @@
 						</div>
 						<div class="col-sm-6">
 							<p>
-								Wine Travel Chile specializes in tailor-made wine-and-food-focused tours. Founded in 2002, when Karen Gilchrist returned to Chile after living in France and England for 8 years, there she had the opportunity to learn about great wines and travel to the most important wine regions in the world. We have built our reputation by tailor-made creative journeys through Chilean and Argentine best wine valleys.</p>
+								Wine Travel Chile specializes in tailor-made wine-and-food-focused tours. Karen Gilchrist founded the company in 2002,
+								when she returned to Chile after living in France and England for 8 years. While abroad she had the opportunity to learn
+								about great wines and travel to the most important wine regions in the world.
+								We have built our reputation by crafting creative, tailor-made journeys through the best wine
+								 regions in Chile and Argentina.
+							</p>
 								<div class="box-more hide-beta">
 									<a href="<?php bloginfo('url'); ?>/about">more
 										<img src="<?php bloginfo('template_url');?>/assets/img/arrow-more.png" alt="">
@@ -75,11 +79,10 @@
 							<div class="col-sm-6">
 								<h2> GUIDED BY WINE EXPERTS</h2>
 								<p>
-									Our multilingual team has years of experience in arranging, operating, and guiding high
-									quality trips. The people who embark on our tours have the opportunity to visit
-									beautiful wineries and local villages, enjoy great views, stunning scenery and
-									regional cuisine, and taste the most delicious wines in Chile,
-									Argentina, Uruguay, France, and beyond.
+									Our multilingual team has years of experience in creating, arranging, operating, and guiding high-quality trips.
+									The people who embark on our tours have the opportunity to visit beautiful wineries and local villages,
+									enjoy great views, stunning scenery and regional cuisine, and taste the most delicious
+									wines in Chile, Argentina, Uruguay, France, and beyond.
 								</p>
 								<div class="box-more hide-beta">
 									<a href="<?php bloginfo('url'); ?>/about/the-team">more

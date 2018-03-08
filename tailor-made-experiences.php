@@ -29,9 +29,9 @@ if ( have_posts() ) {
 										$pais = "Argentina";
 									}
 								?>
-		          				<a href="<?php bloginfo('url'); ?>">Home</a> / <?php echo $pais; ?> / tailor-made-experiences
+		          				<a href="<?php bloginfo('url'); ?>">Home</a> / <?php echo $pais; ?> / Tailor-made experiences
 		          			</p>
-		          			<p class="title2">Tailor - Made Creative Journeys</p>
+		          			<p class="title2">Tailor-Made Creative Journeys</p>
 		          		</div>
 		          	</div>
 		          	<?php the_post_thumbnail('full', array('class' => 'img-responsive owl-lazy hidden-xs')); ?>
@@ -79,7 +79,7 @@ if ( have_posts() ) {
 					<div class="col-sm-6">
 						<ul>
 							<li>Design your perfect trip with us</li>
-							<li>We want to plan your dream trip!!</li>
+							<li>We want to plan your dream trip!</li>
 						</ul>
 					</div>
 					<div class="col-sm-6">
@@ -147,7 +147,7 @@ if ( have_posts() ) {
 								<div class="row">
 									<div class="col-md-6">
 										<div class="form-group">
-										    <label for="date1">Dates of Travel From</label>
+										    <label for="date1">Travel Dates From</label>
 
 										    <div class='input-group date' id='datetimepicker1'>
 							                    <input type='text' class="form-control fechainput required" name="fecha1" id="date1" readonly=""  />
@@ -160,7 +160,7 @@ if ( have_posts() ) {
 									</div>
 									<div class="col-md-6">
 										<div class="form-group">
-										    <label for="date2">Dates of Travel To</label>
+										    <label for="date2">Travel Dates To</label>
 										    <div class='input-group date' id='datetimepicker2'>
 							                    <input type='text' class="form-control fechainput required" name="fecha2" id="date2" readonly=""  />
 							                    <span class="input-group-addon">

@@ -25,7 +25,7 @@ if ( have_posts() ) {
 				          			<p class="hidden-xs">
 				          				<a href="<?php bloginfo('url'); ?>">Home</a> / about us
 				          			</p>
-				          			<p class="title2">Design Your Perfect Trip With Us!!</p>
+				          			<p class="title2">Design Your Perfect Trip With Us!</p>
 				          		</div>
 				          	</div>
 				          	<?php the_post_thumbnail('full', array('class' => 'img-responsive hidden-xs')); ?>

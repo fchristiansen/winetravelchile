@@ -62,7 +62,7 @@ if ( have_posts() ) {
 			</div>
 		</section>
 		<section id="includes" class="events">
-			<div class="container-fluid no-padding bg-gris-2 mt-50 position-relative">
+			<div class="container-fluid no-padding  mt-50 position-relative">
 				<div class="container">
 					<div class="row">
 						<div class="content center-block clearfix">

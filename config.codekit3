@@ -3741,6 +3741,13 @@
 		"oAP": "\/single-testimonial.php",
 		"oF": 0
 		},
+	"\/single.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/single.php",
+		"oF": 0
+		},
 	"\/slider-awawe.php": {
 		"cB": 0,
 		"ft": 8192,

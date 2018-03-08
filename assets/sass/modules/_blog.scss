@@ -56,22 +56,25 @@ section.design-trip-banner{
 		.mid-banner-caption{
 			text-align: center;
 			@include centerer(true, true);
-			a{
-				&.btn-lg{
+			p{
+				&.mid-banner-title{
+					font-family: $prata;
+					@include font-size(50px);
+					color:white;
 					margin-bottom: 30px;
-				}
-			}
-				p{
-					&.mid-banner-title{
-						font-family: $prata;
-						@include font-size(50px);
-						color:white;
 
-						@media(max-width:767px){
-							@include font-size(30px);
-						}
+					@media(max-width:767px){
+						@include font-size(30px);
+						margin-bottom: 20px;
 					}
 				}
+			}
+			a{
+				&.btn-lg{
+					//margin-bottom: 30px;
+				}
+			}
+
 		}
 		.mid-banner-img{
 

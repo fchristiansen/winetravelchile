@@ -184,7 +184,8 @@ if ( have_posts() ) {
 								?>
 							</div><!-- fin row -->
 									<?php } ?>
-							<a href="<?php bloginfo('url'); ?>/contact" id="request">more information</a>
+							<a href="<?php bloginfo('url'); ?>/contact?e=<?php echo $esteid; ?>" id="request">more information</a>
+
 						</div>
 					</div>
 

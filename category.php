@@ -72,6 +72,7 @@ if (have_posts()) :
 						</div>
 						<div class="post-excerpt">
 							<?php the_excerpt(); ?>
+							<a href="<?php the_permalink(); ?>" class="btn btn-primary btn-lg btn-read-more">read MORE</a>
 						</div>
 					</div>
 				</article> <!-- post box -->

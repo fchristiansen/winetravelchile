@@ -730,6 +730,7 @@ section#history .content .maps-box img { margin-bottom: 40px; }
 .posts-list .post-box .post-title h1 { font-size: 22px; font-size: 1.375rem; color: #616552; text-transform: uppercase; font-weight: 700; font-family: "Montserrat", Arial, Helvetica, sans-serif; margin-top: 0; }
 .posts-list .post-box .post-author p { font-size: 18px; font-size: 1.125rem; color: #682944; text-transform: capitalize; font-weight: 600; font-family: "Montserrat", Arial, Helvetica, sans-serif; }
 .posts-list .post-box .post-excerpt p { font-size: 14px; font-size: 0.875rem; color: #616552; font-weight: 300; font-family: "Montserrat", Arial, Helvetica, sans-serif; }
+.posts-list .post-box .post-excerpt a.btn-read-more { padding: 6px 12px; font-size: 14px; }
 
 section.design-trip-banner .mid-banner-container { position: relative; }
 section.design-trip-banner .mid-banner-container .mid-banner-caption { text-align: center; position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }

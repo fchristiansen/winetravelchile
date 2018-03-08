@@ -45,6 +45,13 @@
 				font-family: $montserrat;
 
 			}
+			a{
+				&.btn-read-more{
+					padding: 6px 12px;
+					font-size: 14px;
+
+				}
+			}
 		}
 	}
 

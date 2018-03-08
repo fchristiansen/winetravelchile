@@ -97,6 +97,51 @@ if ( have_posts() ) {
 					    <div>
 			      			<img class="img-responsive owl-lazy" data-src="<?php bloginfo('template_url'); ?>/assets/img/destinations/francia/9.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/destinations/francia/9.jpg" alt="">
 					    </div>
+					    <div>
+			      			<img class="img-responsive owl-lazy" data-src="<?php bloginfo('template_url'); ?>/assets/img/destinations/francia/10.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/destinations/francia/10.jpg" alt="">
+					    </div>
+					    <div>
+			      			<img class="img-responsive owl-lazy" data-src="<?php bloginfo('template_url'); ?>/assets/img/destinations/francia/11.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/destinations/francia/11.jpg" alt="">
+					    </div>
+					    <div>
+			      			<img class="img-responsive owl-lazy" data-src="<?php bloginfo('template_url'); ?>/assets/img/destinations/francia/12.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/destinations/francia/12.jpg" alt="">
+					    </div>
+					    <div>
+			      			<img class="img-responsive owl-lazy" data-src="<?php bloginfo('template_url'); ?>/assets/img/destinations/francia/13.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/destinations/francia/13.jpg" alt="">
+					    </div>
+					    <div>
+			      			<img class="img-responsive owl-lazy" data-src="<?php bloginfo('template_url'); ?>/assets/img/destinations/francia/14.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/destinations/francia/14.jpg" alt="">
+					    </div>
+					    <div>
+			      			<img class="img-responsive owl-lazy" data-src="<?php bloginfo('template_url'); ?>/assets/img/destinations/francia/15.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/destinations/francia/15.jpg" alt="">
+					    </div>
+					    <div>
+			      			<img class="img-responsive owl-lazy" data-src="<?php bloginfo('template_url'); ?>/assets/img/destinations/francia/16.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/destinations/francia/16.jpg" alt="">
+					    </div>
+					    <div>
+			      			<img class="img-responsive owl-lazy" data-src="<?php bloginfo('template_url'); ?>/assets/img/destinations/francia/17.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/destinations/francia/17.jpg" alt="">
+					    </div>
+					    <div>
+			      			<img class="img-responsive owl-lazy" data-src="<?php bloginfo('template_url'); ?>/assets/img/destinations/francia/18.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/destinations/francia/18.jpg" alt="">
+					    </div>
+					    <div>
+			      			<img class="img-responsive owl-lazy" data-src="<?php bloginfo('template_url'); ?>/assets/img/destinations/francia/19.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/destinations/francia/19.jpg" alt="">
+					    </div>
+					    <div>
+			      			<img class="img-responsive owl-lazy" data-src="<?php bloginfo('template_url'); ?>/assets/img/destinations/francia/20.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/destinations/francia/20.jpg" alt="">
+					    </div>
+					    <div>
+			      			<img class="img-responsive owl-lazy" data-src="<?php bloginfo('template_url'); ?>/assets/img/destinations/francia/21.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/destinations/francia/21.jpg" alt="">
+					    </div>
+					    <div>
+			      			<img class="img-responsive owl-lazy" data-src="<?php bloginfo('template_url'); ?>/assets/img/destinations/francia/22.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/destinations/francia/22.jpg" alt="">
+					    </div>
+					    <div>
+			      			<img class="img-responsive owl-lazy" data-src="<?php bloginfo('template_url'); ?>/assets/img/destinations/francia/23.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/destinations/francia/23.jpg" alt="">
+					    </div>
+					    <div>
+			      			<img class="img-responsive owl-lazy" data-src="<?php bloginfo('template_url'); ?>/assets/img/destinations/francia/24.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/destinations/francia/24.jpg" alt="">
+					    </div>
 					</div>
 
 					<div id="carousel-destinations-nz" class="carousel-destinations hide">
@@ -143,6 +188,18 @@ if ( have_posts() ) {
 						    </div>
 						    <div>
 				      			<img class="img-responsive owl-lazy" data-src="<?php bloginfo('template_url'); ?>/assets/img/destinations/uruguay/5.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/destinations/uruguay/5.jpg" alt="">
+						    </div>
+						    <div>
+				      			<img class="img-responsive owl-lazy" data-src="<?php bloginfo('template_url'); ?>/assets/img/destinations/uruguay/6.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/destinations/uruguay/6.jpg" alt="">
+						    </div>
+						    <div>
+				      			<img class="img-responsive owl-lazy" data-src="<?php bloginfo('template_url'); ?>/assets/img/destinations/uruguay/7.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/destinations/uruguay/7.jpg" alt="">
+						    </div>
+						    <div>
+				      			<img class="img-responsive owl-lazy" data-src="<?php bloginfo('template_url'); ?>/assets/img/destinations/uruguay/8.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/destinations/uruguay/8.jpg" alt="">
+						    </div>
+						    <div>
+				      			<img class="img-responsive owl-lazy" data-src="<?php bloginfo('template_url'); ?>/assets/img/destinations/uruguay/9.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/destinations/uruguay/9.jpg" alt="">
 						    </div>
 						</div>
 				</div>

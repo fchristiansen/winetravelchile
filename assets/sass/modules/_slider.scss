@@ -118,7 +118,10 @@ section.slider-home {
 							}
 
 						}
-						&.txt-resumen{
+
+					}
+					.txt-resumen{
+						p{
 							font-family: $montserrat;
 							font-weight: 300;
 							@include font-size(20px);
@@ -138,6 +141,7 @@ section.slider-home {
 								padding: 0;
 								margin-bottom: 8px;
 							}
+
 						}
 					}
 	    	    }

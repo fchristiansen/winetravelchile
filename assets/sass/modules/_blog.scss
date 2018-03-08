@@ -1,0 +1,93 @@
+.posts-list{
+
+	.container{
+		max-width: 850px;
+	}
+	@media(max-width:768px){
+		padding: 40px 0;
+	}
+	.post-box{
+		margin-bottom: 30px;
+		.post-thumb-img{
+			img{
+				@media(max-width:767px){
+					margin-bottom: 30px;
+
+				}
+			}
+		}
+		.post-title{
+			h1{
+				@include font-size(22px);
+				color:$verde;
+				text-transform: uppercase;
+				font-weight:700;
+				font-family: $montserrat;
+				margin-top: 0;
+			}
+		}
+		.post-author{
+			p{
+				@include font-size(18px);
+				color:$vino;
+				text-transform: capitalize;
+				font-weight:600;
+				font-family: $montserrat;
+
+
+			}
+		}
+		.post-excerpt{
+			p{
+				@include font-size(14px);
+				color:$verde;
+				font-weight: 300;
+				font-family: $montserrat;
+
+			}
+		}
+	}
+
+}
+
+section.design-trip-banner{
+	.mid-banner-container{
+		position: relative;
+		.mid-banner-caption{
+			text-align: center;
+			@include centerer(true, true);
+			a{
+				&.btn-lg{
+					margin-bottom: 30px;
+				}
+			}
+				p{
+					&.mid-banner-title{
+						font-family: $prata;
+						@include font-size(50px);
+						color:white;
+
+						@media(max-width:767px){
+							@include font-size(30px);
+						}
+					}
+				}
+		}
+		.mid-banner-img{
+
+		}
+
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+

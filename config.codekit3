@@ -540,11 +540,151 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/assets\/img\/destinations\/francia\/11.jpg": {
+		"ft": 16384,
+		"iS": 176457,
+		"oA": 0,
+		"oAP": "\/assets\/img\/destinations\/francia\/11.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/destinations\/francia\/12.jpg": {
+		"ft": 16384,
+		"iS": 131160,
+		"oA": 0,
+		"oAP": "\/assets\/img\/destinations\/francia\/12.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/destinations\/francia\/13.jpg": {
+		"ft": 16384,
+		"iS": 179875,
+		"oA": 0,
+		"oAP": "\/assets\/img\/destinations\/francia\/13.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/destinations\/francia\/14.jpg": {
+		"ft": 16384,
+		"iS": 130238,
+		"oA": 0,
+		"oAP": "\/assets\/img\/destinations\/francia\/14.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/destinations\/francia\/15.jpg": {
+		"ft": 16384,
+		"iS": 103125,
+		"oA": 0,
+		"oAP": "\/assets\/img\/destinations\/francia\/15.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/destinations\/francia\/16.jpg": {
+		"ft": 16384,
+		"iS": 116282,
+		"oA": 0,
+		"oAP": "\/assets\/img\/destinations\/francia\/16.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/destinations\/francia\/17.jpg": {
+		"ft": 16384,
+		"iS": 227722,
+		"oA": 0,
+		"oAP": "\/assets\/img\/destinations\/francia\/17.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/destinations\/francia\/18.jpg": {
+		"ft": 16384,
+		"iS": 180082,
+		"oA": 0,
+		"oAP": "\/assets\/img\/destinations\/francia\/18.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/destinations\/francia\/19.jpg": {
+		"ft": 16384,
+		"iS": 153588,
+		"oA": 0,
+		"oAP": "\/assets\/img\/destinations\/francia\/19.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/assets\/img\/destinations\/francia\/2.jpg": {
 		"ft": 16384,
 		"iS": 490397,
 		"oA": 0,
 		"oAP": "\/assets\/img\/destinations\/francia\/2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/destinations\/francia\/20.jpg": {
+		"ft": 16384,
+		"iS": 216786,
+		"oA": 0,
+		"oAP": "\/assets\/img\/destinations\/francia\/20.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/destinations\/francia\/21.jpg": {
+		"ft": 16384,
+		"iS": 110875,
+		"oA": 0,
+		"oAP": "\/assets\/img\/destinations\/francia\/21.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/destinations\/francia\/22.jpg": {
+		"ft": 16384,
+		"iS": 189174,
+		"oA": 0,
+		"oAP": "\/assets\/img\/destinations\/francia\/22.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/destinations\/francia\/23.jpg": {
+		"ft": 16384,
+		"iS": 190572,
+		"oA": 0,
+		"oAP": "\/assets\/img\/destinations\/francia\/23.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/img\/destinations\/francia\/24.jpg": {
+		"ft": 16384,
+		"iS": 106080,
+		"oA": 0,
+		"oAP": "\/assets\/img\/destinations\/francia\/24.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -755,6 +895,46 @@
 		"iS": 548612,
 		"oA": 0,
 		"oAP": "\/assets\/img\/destinations\/uruguay\/5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/destinations\/uruguay\/6.jpg": {
+		"ft": 16384,
+		"iS": 124037,
+		"oA": 0,
+		"oAP": "\/assets\/img\/destinations\/uruguay\/6.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/destinations\/uruguay\/7.jpg": {
+		"ft": 16384,
+		"iS": 204931,
+		"oA": 0,
+		"oAP": "\/assets\/img\/destinations\/uruguay\/7.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/destinations\/uruguay\/8.jpg": {
+		"ft": 16384,
+		"iS": 107247,
+		"oA": 0,
+		"oAP": "\/assets\/img\/destinations\/uruguay\/8.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/destinations\/uruguay\/9.jpg": {
+		"ft": 16384,
+		"iS": 164145,
+		"oA": 0,
+		"oAP": "\/assets\/img\/destinations\/uruguay\/9.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1372,6 +1552,26 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/mid-banner-xs.jpg": {
+		"ft": 16384,
+		"iS": 89510,
+		"oA": 0,
+		"oAP": "\/assets\/img\/mid-banner-xs.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/img\/mid-banner.jpg": {
+		"ft": 16384,
+		"iS": 279342,
+		"oA": 0,
+		"oAP": "\/assets\/img\/mid-banner.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/assets\/img\/next.png": {
@@ -3366,11 +3566,11 @@
 		"oAP": "\/assets\/video\/small.mp4",
 		"oF": 0
 		},
-	"\/blog.php": {
+	"\/category.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/blog.php",
+		"oAP": "\/category.php",
 		"oF": 0
 		},
 	"\/classes\/Mobile_Detect.php": {

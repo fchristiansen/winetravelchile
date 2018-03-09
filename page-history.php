@@ -15,7 +15,7 @@ if ( have_posts() ) {
 ?>
 <div id="slider-destinations">
 	<section class="slider-home container-fluid no-padding">
-		<div id="slider-home" class="owl-carousel owl-theme">
+		<div class="slider-solo">
 		    <div class="item">
 		    	<div class="layer"></div>
 		          	<!-- 1920 x 550 -->
@@ -29,7 +29,7 @@ if ( have_posts() ) {
 										$pais = "Argentina";
 									}
 								?>
-		          				<a href="<?php bloginfo('url'); ?>">Home</a> / <?php echo $pais; ?> /  WINE REGIONS MAP
+		          				<a href="<?php bloginfo('url'); ?>">Home</a> / <?php echo $pais; ?> /  <span class="txt-bread">WINE REGIONS MAP</span>
 		          			</p>
 		          			<p class="title2"><?php the_title(); ?></p>
 		          		</div>

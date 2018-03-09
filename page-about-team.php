@@ -15,14 +15,14 @@ if ( have_posts() ) {
 ?>
 		<div id="slider-destinations">
 			<section class="slider-home container-fluid no-padding">
-				<div id="slider-home" class="owl-carousel owl-theme">
+				<div class="slider-solo">
 				    <div class="item">
 				    	<div class="layer"></div>
 				          	<!-- 1920 x 550 -->
 				          	<div class="carousel-info">
 				          		<div class="carousel-info-inner">
-				          			<p class="hidden-xs">
-				          				<a href="<?php bloginfo('url'); ?>">Home</a> / <a href="page-about.php">about us</a>  / team
+				          			<p class="">
+				          				<a href="<?php bloginfo('url'); ?>">Home</a> / <a href="page-about.php">about us</a>  / <span class="txt-bread">team</span>
 				          			</p>
 				          			<p class="title2">Guided by Wine Experts </p>
 				          		</div>
@@ -70,7 +70,7 @@ if ( have_posts() ) {
 					<div class="col-sm-8">
 						<div class="">
 							<h5>Karen Gilchrist</h5>
-							<h6>FOUNDER, TRIP PLANNER</h6>
+							<h6>FOUNDER AND TRIP PLANNER</h6>
 							<span class="rectangulo-vino-small"></span>
 											<?php
 					$the_query = new WP_Query( array(

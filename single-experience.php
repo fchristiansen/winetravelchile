@@ -58,13 +58,14 @@ if ( have_posts() ) {
 ?>
 		<div id="slider-destinations">
 			<section class="slider-home container-fluid no-padding">
-				<div id="slider-home" class="owl-carousel owl-theme">
+				<div class="slider-solo">
 				    <div class="item">
 				    	<div class="layer"></div>
 				          <!-- 1920 x 550 -->
 				          	<div class="carousel-info">
 				          		<div class="carousel-info-inner">
-				          			<p class="hidden-xs"><a href="<?php bloginfo('url'); ?>">Home</a> / <a href="javascript:void(0);"><?php echo $term_list[0]->name ; ?></a> / <?php echo $cat_list[0]->name ; ?></p>
+				          			<p class="hidden-xs">
+				          				<a href="<?php bloginfo('url'); ?>">Home</a> / <a href="javascript:void(0);"><span class="txt-bread"><?php echo $term_list[0]->name ; ?></span></a> / <span class="txt-bread"><?php echo $cat_list[0]->name ; ?></span></p>
 				          			<p class="carousel-title title-experience"><?php echo $cat_list[0]->name ; ?></p>
 				          			<p class="">
 										<?php
@@ -109,9 +110,9 @@ if ( have_posts() ) {
 							<div class="row">
 								<div class="col-sm-6">
 									<h6>Tour Map</h6>
-									<div class="row hidden-xs">
+									<div class="row">
 										<div class="col-sm-10 col-sm-offset-1">
-											<img src="<?php echo get('detalles_mapa'); ?>" class="img-responsive" alt="tour-map">
+											<img src="<?php echo get('detalles_mapa'); ?>" class="img-responsive img-map" alt="tour-map">
 										</div>
 									</div>
 								</div>

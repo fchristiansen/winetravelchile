@@ -15,7 +15,7 @@ if ( have_posts() ) {
 ?>
 	<div id="slider-destinations">
 		<section class="slider-home container-fluid no-padding">
-			<div id="slider-home" class="owl-carousel owl-theme">
+			<div class="slider-solo">
 			    <div class="item">
 			    	<div class="layer"></div>
 			          	<!-- 1920 x 550 -->
@@ -29,7 +29,7 @@ if ( have_posts() ) {
 										$pais = "Argentina";
 									}
 								?>
-			          				<a href="<?php bloginfo('url'); ?>">Home</a> / <?php echo $pais; ?>	 / CORPORATE AND PRESS TRIPS
+			          				<a href="<?php bloginfo('url'); ?>">Home</a> / <span class="txt-bread"><?php echo $pais; ?>	</span> / <span class="txt-bread">CORPORATE AND PRESS TRIPS</span>
 			          			</p>
 			          			<p class="title2">Corporate Wine Events</p>
 			          		</div>
@@ -55,6 +55,9 @@ if ( have_posts() ) {
 						<div class="col-sm-12 text-center">
 							<h4>CORPORATE AND PRESS TRIPS</h4>
 							<?php the_content(); ?>
+							<a  href="<?php bloginfo('url'); ?>/about/the-team/" class="btn btn-primary btn-lg">
+							  MORE INFORMATION
+							</a>
 						</div>
 					</div>
 

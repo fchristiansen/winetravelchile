@@ -331,7 +331,7 @@ ul.not-include li img{
 #slider-destinations{
 
 	@media(max-width:767px){
-		#slider-home{
+		#slider-home, .slider-solo{
 			.carousel-info{
 				.carousel-info-inner{
 					p{
@@ -368,5 +368,9 @@ ul.not-include li img{
 		}
 }
 
-
+#tourmap{
+	.img-map{
+		margin-bottom: 10px;
+	}
+}
 

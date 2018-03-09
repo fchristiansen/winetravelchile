@@ -8,9 +8,14 @@ Template name: About - Press
 <?php include('header.php'); ?>
 <?php include('main-nav.php'); ?>
 <?php include('include-menu-experiencias.php'); ?>
+	<?php
+	if ( have_posts() ) {
+		while ( have_posts() ) {
+			the_post();
+	?>
 		<div id="slider-destinations">
 			<section class="slider-home container-fluid no-padding">
-				<div id="slider-home" class="owl-carousel owl-theme">
+				<div class="slider-solo">
 				    <div class="item">
 				    	<div class="layer"></div>
 				          	<!-- 1920 x 550 -->
@@ -28,7 +33,10 @@ Template name: About - Press
 				</div> <!-- contenedor slider -->
 			</section>
 		</div>
-
+	<?php
+		} // end while
+	} // end if
+	?>
 		<section id="about" class="position-relative">
 			<div class="bloque-blanco-top-content">
 				<a href="#about">
@@ -70,10 +78,11 @@ Template name: About - Press
 				</div>
 			</div>
 		</section><!-- about -->
+
 		<section id="prensa">
 			<div class="container">
 				<div class="row">
-<?php
+				<?php
 					$the_query = new WP_Query( array(
 					    'post_type' => 'press',
 					    'posts_per_page' => -1
@@ -83,7 +92,7 @@ Template name: About - Press
 					while ( $the_query->have_posts() ) :
 					    $the_query->the_post();
 					    $m++;
-?>
+					?>
 					<div class="col-sm-6">
 						<div class="download-box">
 							<h2><?php the_title(); ?></h2>
@@ -96,7 +105,7 @@ Template name: About - Press
 							<?php } ?>
 						</div>
 					</div>
-<?php
+					<?php
 					if($m==2){
 						$m = 0;
 						echo '<div class="clearfix"></div>';

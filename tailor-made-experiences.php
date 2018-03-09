@@ -15,13 +15,13 @@ if ( have_posts() ) {
 ?>
 <div id="slider-destinations">
 	<section class="slider-home container-fluid no-padding">
-		<div id="slider-home" class="owl-carousel owl-theme">
+		<div class="slider-solo">
 		    <div class="item">
 		    	<div class="layer"></div>
 		          	<!-- 1920 x 550 -->
 		          	<div class="carousel-info">
 		          		<div class="carousel-info-inner">
-		          			<p class="hidden-xs">
+		          			<p class="">
 			          			<?php
 				          			if ( $post->post_parent == '171' ) {
 										$pais = "Chile";
@@ -29,7 +29,7 @@ if ( have_posts() ) {
 										$pais = "Argentina";
 									}
 								?>
-		          				<a href="<?php bloginfo('url'); ?>">Home</a> / <?php echo $pais; ?> / Tailor-made experiences
+		          				<a href="<?php bloginfo('url'); ?>">Home</a> / <span class="txt-bread"><?php echo $pais; ?> </span>/ <span class="txt-bread">Tailor-made experiences</span>
 		          			</p>
 		          			<p class="title2">Tailor-Made Creative Journeys</p>
 		          		</div>

@@ -1,3 +1,4 @@
+
 section.slider-home {
    #slider-home {
         position: relative;
@@ -260,10 +261,211 @@ section.slider-home {
         }
 
       } // slider home
+      .slider-solo{
+			        position: relative;
+			        overflow: hidden;
+			        @media(max-width: 767px){
+						max-height: 370px;
+			        }
+			      .item {
+			            position: relative;
+						video{
+							width: 100% !important;
+			    			height: auto !important;
+			    			position: absolute;
+			    			top: 0;
+			    			left: 0;
+			    			max-width: 100%;
+			    			display: block;
+						}
+				    	.layer{
+				    		position: absolute;
+				    		left: 0;
+				    		top: 0;
+				    		width: 100%;
+				    		height: 100%;
+				    		background: #000;
+				    		opacity: .2;
+				    		z-index: 1;
+				    	}
+				    	.carousel-info{
+				    	    @include centerer(true, true);
+				    	    z-index: 2;
+				    	    top: 36%;
+				    	    width: 85%;
+				    	    &.blog-info{
+
+				    	    	@media(max-width: 767px){
+									top:48% !important;
+				    	    		width: 90% !important;
+				    			}
+				    	    }
+
+							@media(max-width:767px){
+								&.info-xs{
+									top: 27%;
+								}
+							}
+				    	  	.carousel-info-inner{
+				    	    	text-align: center;
+
+				    	    	h2{
+				    				font-family: $prata;
+									color: white;
+									@include font-size(60px);
+									@media(max-width: 768px){
+										@include font-size(35px);
+									}
+				    				@media(max-width: 767px){
+				    					@include font-size(25px);
+				    				}
+				    	    	}
+				    	    	p.carousel-title{
+				    	    		@extend h2;
+				    	    		letter-spacing: normal !important;
+				    	    		text-transform: none;
+				    	    		line-height: 1.1;
+				    	    	}
+				    	    	h3{
+				    				font-family: $prata;
+									color: white;
+									@include font-size(30px);
+									@media(max-width: 768px){
+										@include font-size(20px);
+									}
+									@media(max-width: 767px){
+										@include font-size(15px);
+									}
+				    	    	}
+				    	    	p.carousel-subtitle{
+									@extend h3;
+									letter-spacing: normal !important;
+				    	    	}
+				    	    	h4{
+				    				font-family: $prata;
+									color: white;
+									@include font-size(60px);
+									@media(max-width: 768px){
+										@include font-size(40px);
+									}
+									@media(max-width: 767px){
+										@include font-size(30px);
+									}
+
+				    	    	}
+				    	    	p.title2{
+				    	    		@extend h4;
+				    	    		text-transform: none;
+				    	    		line-height: 1.1;
+				    	    		letter-spacing: normal;
 
 
-  }
+				    	    	}
+								p{
+									letter-spacing: 3px;
+									@include font-size(15px);
+								}
+								p{
+									&.tit-autor{
+										font-family: $montserrat;
+										font-weight: 700;
+										@include font-size(30px);
+										color: white;
+										text-transform: capitalize;
+										letter-spacing: normal;
+										margin-bottom: 0px;
+										@media(max-width:768px){
+											@include font-size(16px);
+											margin-bottom: 8px;
+										}
 
+									}
+
+								}
+								.txt-resumen{
+									p{
+										font-family: $montserrat;
+										font-weight: 300;
+										@include font-size(20px);
+										color: white;
+										text-transform: capitalize;
+										letter-spacing: normal;
+										line-height: 30px;
+										padding: 0 100px;
+										margin-bottom: 40px;
+										@media(max-width:1024px){
+											margin-bottom: 20px;
+											line-height: 24px;
+										}
+										@media(max-width:768px){
+											@include font-size(14px);
+											line-height: normal;
+											padding: 0;
+											margin-bottom: 8px;
+										}
+
+									}
+								}
+				    	    }
+				    	}
+
+
+			   }
+
+
+
+      }
+
+}
+
+
+#slider-destinations section.slider-home .slider-solo .item .carousel-info{width: 70%;}
+#slider-destinations section.slider-home .slider-solo .item .carousel-info .carousel-info-inner h2{font-size: 3rem;}
+#slider-destinations .slider-solo .carousel-info-inner p{text-transform: uppercase; font-family: "Montserrat", sans-serif; color: #fff; line-height: 220%;}
+#slider-destinations .slider-solo .carousel-info-inner p a{color: #fff; padding-left: 5px; padding-right: 5px; display: inline-block;}
+#slider-destinations .slider-solo .carousel-info-inner p a.active{background: #682944;}
+
+#slider-destinations {
+	.slider-solo{
+		.carousel-info{
+			.carousel-info-inner{
+				p.title2{
+    				font-family: $prata;
+					color: white;
+					@include font-size(60px);
+					@media(max-width: 768px){
+						@include font-size(40px);
+					}
+					@media(max-width: 767px){
+						@include font-size(30px);
+					}
+					text-transform: none;
+	    	    		line-height: 1.1;
+	    	    		letter-spacing: normal;
+				}
+				p.carousel-title{
+    				font-family: $prata;
+					color: white;
+					@include font-size(60px);
+					@media(max-width: 768px){
+						@include font-size(40px);
+					}
+					@media(max-width: 767px){
+						@include font-size(30px);
+					}
+					text-transform: none;
+	    	    		line-height: 1.1;
+	    	    		letter-spacing: normal;
+				}
+			}
+		}
+	}
+}
+
+@media(max-width:767px){
+	#slider-destinations
+		section.slider-home .slider-solo .item .carousel-info .carousel-info-inner h2{font-size: 2rem;}
+}
 
 
 

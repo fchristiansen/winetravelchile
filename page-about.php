@@ -16,14 +16,14 @@ if ( have_posts() ) {
 ?>
 		<div id="slider-destinations">
 			<section class="slider-home container-fluid no-padding">
-				<div id="slider-home" class="owl-carousel owl-theme">
+				<div class="slider-solo">
 				    <div class="item">
 				    	<div class="layer"></div>
 				          	<!-- 1920 x 550 -->
 				          	<div class="carousel-info">
 				          		<div class="carousel-info-inner">
-				          			<p class="hidden-xs">
-				          				<a href="<?php bloginfo('url'); ?>">Home</a> / about us
+				          			<p class="">
+				          				<a href="<?php bloginfo('url'); ?>">Home</a> / <span class="txt-bread">about us</span>
 				          			</p>
 				          			<p class="title2">Design Your Perfect Trip With Us!</p>
 				          		</div>

@@ -16,8 +16,7 @@ if ( have_posts() ) {
 
 		<div id="slider-destinations">
 			<section class="slider-home container-fluid no-padding">
-
-					<div id="slider-home" class="owl-carousel owl-theme">
+					<div class="slider-solo">
 					    <div class="item">
 					    	<div class="layer"></div>
 					          	<!-- 1920 x 550 -->
@@ -26,12 +25,11 @@ if ( have_posts() ) {
 					          			<p class="hidden-xs">
 					          				<a href="<?php bloginfo('url'); ?>">Home</a><!--  / <a href="page-about.php">about us</a> -->  / destinations
 					          			</p>
-					          			<p class="title2">Every Day is a Unique Wine</p>
+					          			<p class="title2">Every Day is a Unique Experience</p>
 					          		</div>
 					          	</div>
 					          	<?php the_post_thumbnail('full', array('class' => 'img-responsive hidden-xs')); ?>
 					          	<?php the_post_thumbnail('slider_mobile', array('class' => 'img-responsive owl-lazy visible-xs')); ?>
-
 					    </div>
 					</div> <!-- contenedor slider -->
 
@@ -70,9 +68,9 @@ if ( have_posts() ) {
 			<div class="container-fluid no-padding">
 				<div class="row">
 					<div id="carousel-destinations-fr" class="carousel-destinations">
-					    <div>
+					   <!--  <div>
 			      			<img class="img-responsive owl-lazy" data-src="<?php bloginfo('template_url'); ?>/assets/img/destinations/francia/1.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/destinations/francia/1.jpg" alt="">
-					    </div>
+					    </div> -->
 					    <div>
 			      			<img class="img-responsive owl-lazy" data-src="<?php bloginfo('template_url'); ?>/assets/img/destinations/francia/2.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/destinations/francia/2.jpg" alt="">
 					    </div>
@@ -97,9 +95,9 @@ if ( have_posts() ) {
 					    <div>
 			      			<img class="img-responsive owl-lazy" data-src="<?php bloginfo('template_url'); ?>/assets/img/destinations/francia/9.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/destinations/francia/9.jpg" alt="">
 					    </div>
-					    <div>
+					    <!-- <div>
 			      			<img class="img-responsive owl-lazy" data-src="<?php bloginfo('template_url'); ?>/assets/img/destinations/francia/10.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/destinations/francia/10.jpg" alt="">
-					    </div>
+					    </div> -->
 					    <div>
 			      			<img class="img-responsive owl-lazy" data-src="<?php bloginfo('template_url'); ?>/assets/img/destinations/francia/11.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/destinations/francia/11.jpg" alt="">
 					    </div>
@@ -136,9 +134,9 @@ if ( have_posts() ) {
 					    <div>
 			      			<img class="img-responsive owl-lazy" data-src="<?php bloginfo('template_url'); ?>/assets/img/destinations/francia/22.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/destinations/francia/22.jpg" alt="">
 					    </div>
-					    <div>
+					    <!-- <div>
 			      			<img class="img-responsive owl-lazy" data-src="<?php bloginfo('template_url'); ?>/assets/img/destinations/francia/23.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/destinations/francia/23.jpg" alt="">
-					    </div>
+					    </div> -->
 					    <div>
 			      			<img class="img-responsive owl-lazy" data-src="<?php bloginfo('template_url'); ?>/assets/img/destinations/francia/24.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/destinations/francia/24.jpg" alt="">
 					    </div>

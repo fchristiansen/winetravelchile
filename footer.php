@@ -67,7 +67,7 @@
 						<?php
 							endwhile;
 						?>
-								<li><a href="<?php bloginfo('url'); ?>/chile/tailor-made-experiences">Tailor-Made</a></li>
+								<li><a href="<?php bloginfo('url'); ?>/chile/tailor-made-experiences">Tailor Made</a></li>
 								<li><a href="<?php bloginfo('url'); ?>/chile/corporate-and-press-trips">Corporate and Press Trips</a></li>
 								<li><a href="<?php bloginfo('url'); ?>/chile/history-of-chilean-wine/">Wine Regions Map</a></li>
 								<li><a href="<?php bloginfo('url'); ?>/chile/hotels/">Hotels</a></li>
@@ -117,7 +117,7 @@
 						<?php
 							endwhile;
 						?>
-								<li><a href="<?php bloginfo('url'); ?>/argentina/tailor-made-experiences">Tailor-Made</a></li>
+								<li><a href="<?php bloginfo('url'); ?>/argentina/tailor-made-experiences">Tailor Made</a></li>
 								<li><a href="<?php bloginfo('url'); ?>/argentina/corporate-and-press-trips">Corporate and Press Trips</a></li>
 								<li><a href="<?php bloginfo('url'); ?>/argentina/history-of-argentina-wine/">Wine Regions Map</a></li>
 								<li><a href="<?php bloginfo('url'); ?>/argentina/hotels/">Hotels</a></li>

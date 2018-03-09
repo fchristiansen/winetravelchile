@@ -21,7 +21,7 @@
 							<h2> Private Wine and Food Experience</h2>
 							<p>
 								Visit beautiful wineries and taste the most delicious wines in each of the wine valleys along the route.
-								You will also enjoy world’s most spectacular settings, <a href="">and regional cuisine</a> while visiting local
+								You will also enjoy world’s most spectacular settings, <a href="#">and regional cuisine</a> while visiting local
 								villages and staying in small luxury hotels.
 							</p>
 							<div class="box-more hide-beta">
@@ -32,7 +32,7 @@
 
 						</div>
 						<div class="col-sm-6">
-							<div class="picture-r clearfix">
+							<div class="picture-r">
 								<div class="bg-picture-r">
 									<img class="img-responsive picture" src="<?php bloginfo('template_url');?>/assets/img/bg1.png" alt="Private Wine and Food Experience">
 								</div>
@@ -91,7 +91,7 @@
 								</div>
 							</div>
 							<div class="col-sm-6">
-								<div class="picture-r clearfix">
+								<div class="picture-r">
 									<div class="bg-picture-r">
 										<img class="img-responsive picture" src="<?php bloginfo('template_url');?>/assets/img/img4.png" alt=" GUIDED BY WINE EXPERTS">
 									</div>

@@ -1,4 +1,5 @@
 
+
 section.slider-home {
    #slider-home {
         position: relative;
@@ -6,8 +7,10 @@ section.slider-home {
         @media(max-width: 767px){
 			max-height: 370px;
         }
+
       .item {
             position: relative;
+
 			video{
 				width: 100% !important;
     			height: auto !important;
@@ -246,7 +249,9 @@ section.slider-home {
                 @media (max-width:768px){
                    right: 10px;
                }
-
+			&.disabled{
+				display: none;
+			}
         }
         .owl-prev {
              background: url(../img/prev.png) no-repeat !important;
@@ -257,10 +262,14 @@ section.slider-home {
                @media (max-width:768px){
                    left: 10px;
                }
-
+			&.disabled{
+				display: none;
+			}
         }
 
       } // slider home
+
+
       .slider-solo{
 			        position: relative;
 			        overflow: hidden;

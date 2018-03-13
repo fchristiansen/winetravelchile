@@ -361,9 +361,11 @@ section.slider-home #slider-home .owl-next:hover, section.slider-home #slider-ho
 section.slider-home #slider-home .owl-next { background: url(../img/next.png) no-repeat !important; right: 30px; }
 @media (max-width: 1024px) { section.slider-home #slider-home .owl-next { right: 30px; margin-top: -30px !important; } }
 @media (max-width: 768px) { section.slider-home #slider-home .owl-next { right: 10px; } }
+section.slider-home #slider-home .owl-next.disabled { display: none; }
 section.slider-home #slider-home .owl-prev { background: url(../img/prev.png) no-repeat !important; left: 30px; }
 @media (max-width: 1024px) { section.slider-home #slider-home .owl-prev { margin-top: -30px !important; } }
 @media (max-width: 768px) { section.slider-home #slider-home .owl-prev { left: 10px; } }
+section.slider-home #slider-home .owl-prev.disabled { display: none; }
 section.slider-home .slider-solo { position: relative; overflow: hidden; }
 @media (max-width: 767px) { section.slider-home .slider-solo { max-height: 370px; } }
 section.slider-home .slider-solo .item { position: relative; }
@@ -702,7 +704,9 @@ ul.not-include li img { top: -15px; position: relative; float: left; margin-righ
 
 .bloque p.disclaimer a { text-transform: uppercase; color: #616552 !important; }
 
-#tourmap .img-map { margin-bottom: 10px; }
+@media (max-width: 767px) { #tourmap .img-map { margin-bottom: 60px; } }
+
+@media (max-width: 767px) { #includes .bloque.lista-includes p { margin-bottom: 0; } }
 
 #about .logos { margin-bottom: 0; }
 

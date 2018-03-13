@@ -204,7 +204,7 @@ if ( have_posts() ) {
 						</div>
 					</div>
 					<div class="row">
-						<div class="bloque clearfix">
+						<div class="bloque clearfix lista-includes">
 							<div class="col-sm-6">
 								<?php echo get('includes_column_1'); ?>
 							</div>

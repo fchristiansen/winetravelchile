@@ -370,7 +370,19 @@ ul.not-include li img{
 
 #tourmap{
 	.img-map{
-		margin-bottom: 10px;
+		@media(max-width:767px){
+			margin-bottom: 60px;
+		}
+	}
+}
+#includes{
+	.bloque.lista-includes{
+		p{
+			@media(max-width:767px){
+				margin-bottom: 0;
+			}
+		}
+
 	}
 }
 

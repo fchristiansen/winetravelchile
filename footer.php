@@ -180,13 +180,15 @@
 	</div>
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="//code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<!-- Latest compiled and minified JavaScript -->
-		<script src="<?php bloginfo('template_url');?>/assets/js/owl.carousel.min.js"></script>
+
 		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<script src="<?php bloginfo('template_url');?>/assets/js/owl.carousel.min.js"></script>
 		<script src="<?php bloginfo('template_url');?>/assets/js/simpleLightbox.min.js"></script>
 		<script src="<?php bloginfo('template_url');?>/assets/js/masonry.js"></script>
-		<script type="text/javascript" src="<?php bloginfo('template_url');?>/assets/slick/slick.min.js"></script>
+		<script src="<?php bloginfo('template_url');?>/assets/slick/slick.min.js"></script>
 		<script src='//cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.1/js/bootstrap-datepicker.min.js'></script>
 		<script src="<?php bloginfo('template_url');?>/assets/js/vendor/jquery.form.min.js"></script>
 		<script src="<?php bloginfo('template_url');?>/assets/js/vendor/jquery.validate.min.js"></script>

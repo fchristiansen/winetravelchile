@@ -12,7 +12,7 @@
 	          	</div>
 	          	<img class="img-responsive owl-lazy hidden-xs" data-src="<?php bloginfo('template_url'); ?>/assets/img/img-slide.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/img-slide.jpg" alt="">
 	         	 <!-- 768 x 550 -->
-	            <img class="img-responsive owl-lazy visible-xs" data-src="<?php bloginfo('template_url'); ?>/assets/img/img-slidem.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/img-slidem.jpg" alt="">
+	            <img class="img-responsive visible-xs" src="<?php bloginfo('template_url'); ?>/assets/img/img-slidem.jpg" alt="">
 	    </div>
 
 	    <div class="item">
@@ -26,12 +26,11 @@
 						<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modal-fullscreen">
 						  Watch Video
 						</button>
-
 	          		</div>
 	          	</div>
 	          	<img class="img-responsive owl-lazy hidden-xs" data-src="<?php bloginfo('template_url'); ?>/assets/img/img-slide2.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/img-slide2.jpg" alt="">
 	         	 <!-- 768 x 550 -->
-	            <img class="img-responsive owl-lazy visible-xs" data-src="<?php bloginfo('template_url'); ?>/assets/img/img-slide2m.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/img-slide2m.jpg" alt="">
+	            <img class="img-responsive  visible-xs" src="<?php bloginfo('template_url'); ?>/assets/img/img-slide2m.jpg" alt="">
 	    </div>
 <!--
 	    <div class="item">

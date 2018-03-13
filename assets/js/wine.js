@@ -20,12 +20,12 @@ $('#return-to-top').click(function() {      // When arrow is clicked
 
 
 $('#slider-home').owlCarousel({
-	loop:true,
+	loop:false,
 	lazyLoad: true,
 	margin:0,
 	dots: false,
 	nav:true,
-	video: true,
+	video: false,
 	autoplay: true,
     responsive:{
         0:{

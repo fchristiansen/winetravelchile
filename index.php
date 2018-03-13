@@ -108,14 +108,14 @@
 				<div class="row">
 					<h3>recommended by</h3>
 					<div class="logos-recomended clearfix">
-<?php
-					$the_query = new WP_Query( array(
-					    'post_type' 		=> 'press',
-					    'posts_per_page' 	=> 6
-					) );
-					while ( $the_query->have_posts() ) :
-					    $the_query->the_post();
-?>
+					<?php
+						$the_query = new WP_Query( array(
+						    'post_type' 		=> 'press',
+						    'posts_per_page' 	=> 6
+						) );
+						while ( $the_query->have_posts() ) :
+						    $the_query->the_post();
+					?>
 						<div class="col-sm-2 col-xs-6">
 							<?php if(get('detalles_adjuntar_pdf')){ ?>
 							<a href="<?php echo get('detalles_adjuntar_pdf'); ?>" target="_blank">
@@ -128,10 +128,10 @@
 				          	</a>
 							<?php } ?>
 						</div>
-<?php
+						<?php
 
-					endwhile;
-?>
+							endwhile;
+						?>
 					</div>
 				</div>
 			</div>

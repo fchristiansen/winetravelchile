@@ -85,6 +85,7 @@ li.divisor-item-sub-menu { display: none !important; }
 .bloque .box-more a { font-family: "Montserrat", Arial, Helvetica, sans-serif; font-size: 13px; font-size: 0.8125rem; color: #616552; text-transform: uppercase; display: inline-block; cursor: pointer; margin-right: 30px; letter-spacing: 9px; text-decoration: none; }
 .bloque .box-more a:hover, .bloque .box-more a:focus { color: #313131; }
 @media (max-width: 767px) { .bloque .box-more { margin-bottom: 30px; } }
+@media (max-width: 767px) { .bloque ul { margin-bottom: 0; } }
 .bloque ul li { font-family: "Montserrat", Arial, Helvetica, sans-serif; font-weight: 500; }
 
 .pt-200 { padding-top: 200px; }
@@ -171,6 +172,21 @@ input[type="email"]:-moz-placeholder, input[type="text"]:-moz-placeholder, input
 .botonera ul li a:hover, .botonera ul li a:focus { text-decoration: none; color: #682944; }
 .botonera ul li a:hover, .botonera ul li a:focus, .botonera ul li a.activo { border-color: transparent !important; background-color: #e3dcd9 !important; color: #682944 !important; }
 @media (max-width: 768px) { .botonera ul li a { font-size: 12px; font-size: 0.75rem; padding-left: 10px; padding-right: 10px; } }
+
+section#not-found .error-message { display: block; margin: 0 auto; }
+section#not-found .error-message img { margin-top: 100px; }
+@media (max-width: 1024px) { section#not-found .error-message img { margin-top: 0px; } }
+@media (max-width: 768px) { section#not-found .error-message img { margin-top: 50px; } }
+@media (max-width: 767px) { section#not-found .error-message img { margin-top: 50px; } }
+section#not-found .error-message p { text-transform: uppercase; margin: 0; font-family: "Montserrat", Arial, Helvetica, sans-serif; }
+section#not-found .error-message p.title { color: #682944; font-size: 20px; font-size: 1.25rem; }
+@media (max-width: 767px) { section#not-found .error-message p.title { font-size: 16px; font-size: 1rem; } }
+section#not-found .error-message p.call { color: #682944; font-size: 16px; font-size: 1rem; text-transform: none; margin-bottom: 40px; }
+@media (max-width: 1024px) { section#not-found .error-message p.call { margin-bottom: 20px; } }
+@media (max-width: 767px) { section#not-found .error-message p.call { font-size: 14px; font-size: 0.875rem; } }
+section#not-found .error-message .btn-return { padding: 20px 36px; -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; color: #000000; cursor: pointer; background-color: #a53b69; color: white; border: none; }
+section#not-found .error-message .btn-return:hover, section#not-found .error-message .btn-return:focus { text-decoration: none; color: #682944; }
+section#not-found .error-message .btn-return:hover, section#not-found .error-message .btn-return:focus { background-color: #6A2943; color: white; }
 
 .navbar-brand { position: absolute; display: block; top: 20px; z-index: 1000; height: auto; padding: 0; }
 @media (max-width: 768px) { .navbar-brand { left: 50px; } }

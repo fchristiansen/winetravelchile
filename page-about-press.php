@@ -50,26 +50,33 @@ Template name: About - Press
 						<div class="col-sm-12 text-center">
 							<div class="content mb-0">
 								<h2>Press</h2>
-								<div class="logos clearfix">
-									<div class="col-sm-2 col-xs-6">
-										<img class="img-responsive center-block" src="<?php bloginfo('template_url'); ?>/assets/img/logo-travel.png" alt="">
+
+									<div class="logos-recomended clearfix">
+									<?php
+										$the_query = new WP_Query( array(
+										    'post_type' 		=> 'press',
+										    'posts_per_page' 	=> 6
+										) );
+										while ( $the_query->have_posts() ) :
+										    $the_query->the_post();
+									?>
+										<div class="col-sm-2 col-xs-6">
+											<?php if(get('detalles_adjuntar_pdf')){ ?>
+											<a href="<?php echo get('detalles_adjuntar_pdf'); ?>" target="_blank">
+								          		<?php the_post_thumbnail('full', array('class' => 'img-responsive center-block')); ?>
+								          	</a>
+											<?php } ?>
+											<?php if(get('detalles_enlace_externo')){ ?>
+											<a href="<?php echo get('detalles_enlace_externo'); ?>" target="_blank">
+								          		<?php the_post_thumbnail('full', array('class' => 'img-responsive center-block')); ?>
+								          	</a>
+											<?php } ?>
+										</div>
+										<?php
+
+											endwhile;
+										?>
 									</div>
-									<div class="col-sm-2 col-xs-6">
-										<img class="img-responsive center-block" src="<?php bloginfo('template_url'); ?>/assets/img/logo-frommers.png" alt="">
-									</div>
-									<div class="col-sm-2 col-xs-6">
-										<img class="img-responsive center-block" src="<?php bloginfo('template_url'); ?>/assets/img/logo-harpers.png" alt="">
-									</div>
-									<div class="col-sm-2 col-xs-6">
-										<img class="img-responsive center-block" src="<?php bloginfo('template_url'); ?>/assets/img/logo-decanter.png" alt="">
-									</div>
-									<div class="col-sm-2 col-xs-6">
-										<img class="img-responsive center-block" src="<?php bloginfo('template_url'); ?>/assets/img/logo-placeres.png" alt="">
-									</div>
-									<div class="col-sm-2 col-xs-6">
-										<img class="img-responsive center-block" src="<?php bloginfo('template_url'); ?>/assets/img/logo-cav.png" alt="">
-									</div>
-								</div>
 
 							</div> <!-- content -->
 						</div>

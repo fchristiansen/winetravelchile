@@ -285,6 +285,9 @@ li.divisor-item-sub-menu{
 		}
 	}
 	ul{
+		@media(max-width:767px){
+				margin-bottom: 0;
+		}
 		li{
 				font-family: $montserrat;
 				font-weight: 500;
@@ -620,7 +623,59 @@ input[type="password"]:-moz-placeholder
 		}
 
 	}
-
+section#not-found{
+	.error-message{
+		display:block;
+		margin: 0 auto;
+		img{
+			margin-top: 100px;
+			@media(max-width:1024px){
+				margin-top: 0px;
+			}
+			@media(max-width:768px){
+				margin-top: 50px;
+			}
+			@media(max-width:767px){
+				margin-top: 50px;
+			}
+		}
+		p{
+			text-transform: uppercase;
+			margin: 0;
+			font-family: $montserrat;
+			&.title{
+				color: $vino;
+				@include font-size(20px);
+				@media(max-width:767px){
+					@include font-size(16px);
+				}
+			}
+			&.call{
+				color: #682944;
+				@include font-size(16px);
+				text-transform: none;
+				margin-bottom: 40px;
+				@media(max-width:1024px){
+					margin-bottom: 20px;
+				}
+				@media(max-width:767px){
+					@include font-size(14px);
+				}
+			}
+		}
+		.btn-return{
+			padding: 20px 36px;
+			@include link;
+			background-color: #a53b69;
+			color: white;
+			border: none;
+			&:hover, &:focus{
+				background-color: #6A2943;
+				color: white;
+			}
+		}
+	} // bloque error
+}
 
 
 

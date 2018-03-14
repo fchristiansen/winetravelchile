@@ -1970,6 +1970,16 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"\/assets\/js\/sweetalert.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/sweetalert.min-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
 	"\/assets\/js\/vendor\/jquery.form.min.js": {
 		"ft": 64,
 		"ma": 0,

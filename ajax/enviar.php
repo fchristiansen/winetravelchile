@@ -11,9 +11,9 @@ $destino 	= $_POST["destino"];
 $pasajeros 	= $_POST["pasajeros"];
 $nombre 	= $_POST["nombre"];
 $apellido 	= $_POST["apellido"];
-$email 	= $_POST["email"]; 
-$fecha1 = $_POST["fecha1"]; 
-$fecha2 = $_POST["fecha2"]; 
+$email 	= $_POST["email"];
+$fecha1 = $_POST["fecha1"];
+$fecha2 = $_POST["fecha2"];
 $phone = $_POST["phone"];
 
 if(isset($_POST["comment"])){
@@ -81,21 +81,21 @@ $error_count = 0;
 		$error_count++;
 	}
 
-	//validar fecha1 sea menor a fecha2 
+	//validar fecha1 sea menor a fecha2
 
 
 	//guardar en bd
 	if($error_count == 0){
 		$data = Array (
-				'destino' => sanatize_input($destino), 
-				'pasajeros' => sanatize_input($pasajeros), 
-				'nombre' => sanatize_input($nombre), 
-				'apellido' => sanatize_input($apellido), 
-				'email' => sanatize_input($email), 
-				'phone' => sanatize_input($phone), 
-				'fecha_ini' => sanatize_input($fecha1), 
-				'fecha_ter' => sanatize_input($fecha2), 
-				'mensaje' => sanatize_input($mensaje), 
+				'destino' => sanatize_input($destino),
+				'pasajeros' => sanatize_input($pasajeros),
+				'nombre' => sanatize_input($nombre),
+				'apellido' => sanatize_input($apellido),
+				'email' => sanatize_input($email),
+				'phone' => sanatize_input($phone),
+				'fecha_ini' => sanatize_input($fecha1),
+				'fecha_ter' => sanatize_input($fecha2),
+				'mensaje' => sanatize_input($mensaje),
 				'fecha_contacto' => sanatize_input($hoy)
 				);
 		$id = $db->insert ('contacto', $data);
@@ -106,8 +106,8 @@ $error_count = 0;
 		}
 
 	//enviar email
-		$to = "winetravelchile@gmail.com";
-		$subject = "Contact Form - Winetravel.com";
+		$to = "info@winetravelchile.com";
+		$subject = "Consultas Web - WINETRAVELCHILE.COM";
 		$txt = "Destination: ".$destino."\n\n";
 		$txt.= "#Of Passengers: ".$pasajeros."\n\n";
 		$txt.= "First Name: ".$nombre."\n\n";

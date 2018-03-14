@@ -20,7 +20,7 @@ $('#return-to-top').click(function() {      // When arrow is clicked
 
 
 $('#slider-home').owlCarousel({
-	loop:false,
+	loop:true,
 	lazyLoad: true,
 	margin:0,
 	dots: false,
@@ -284,16 +284,17 @@ $('#newsletter').on("submit", function(e) {
 
 		$('#progreso').removeClass('hide');
 
-	  	email 		= $('#email').val();
-	  	error = 0;r
+	  	email 		= $('#email2').val();
+	  	error = 0;
 		if(email==''){
-			alert('Please enter a valid email address ');
-			$('#email').addClass('invalid');
+			swal({
+			 // title: "Good job!",
+			  text: "Please enter a valid email adress.",
+			  icon: "error"
+			});
+			$('#email2').addClass('invalid');
 			error = 1;
 		}
-
-
-
 	  	if(error==0){
 		    $.ajax({
 		    	url:  $('#newsletter').attr('action'),
@@ -303,17 +304,29 @@ $('#newsletter').on("submit", function(e) {
 				    console.log(data);
 					error = 0;
 				    if(data=='0'){
-						alert('Something wrong happened, please try again');
+						swal({
+							  text: "Something wrong happened, please try again",
+							  icon: "error"
+							});
 					  	return;
 				    }else{
-						alert('Thanks for subscribing!');
+						swal({
+
+							  text: "Thanks for subscribing!",
+							  icon: "success",
+							});
 					  	$('#newsletter')[0].reset();
 				    }
 
 		    	}
 		    });
 	  	}else{
-			alert('Something wrong happened, please try again');
+		//	alert('Something wrong happened, please try again');
+			swal({
+				 // title: "Good job!",
+				  text: "Something wrong happened, please try again",
+				  icon: "error"
+				});
 		  	return;
 		}
 	});

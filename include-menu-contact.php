@@ -13,7 +13,8 @@
 			</div>
 
 			<div class="col-xs-12 col-sm-4 fig-header-reveal-block borde-lr">
-				<a href="whatsapp://tel:56995381177">
+			<!-- 	<a href="whatsapp://tel:56995381177"> -->
+				<a href="https://api.whatsapp.com/send?phone=56995381177&text=Mensaje desde pagina web" target="_blank">
 					<span class="icon-Phone center-block "></span><br>
 					<p class="text">
 						WhatsApp <br>

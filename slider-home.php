@@ -1,5 +1,7 @@
 <section class="slider-home container-fluid no-padding">
 	<div id="slider-home" class="owl-carousel owl-theme">
+
+
 	    <div class="item">
 	    	<div class="layer"></div>
 	          <!-- 1920 x 550 -->
@@ -7,7 +9,7 @@
 	          		<div class="carousel-info-inner">
 	          			<p class="carousel-title">Wine Travel Chile</p>
 	          			<p class="carousel-subtitle">Travel + Leisure “a once-in-a-lifetime wine tour in Chile”</p>
-	          			<a href="http://www.travelandleisure.com/trip-ideas/best-places-travel-south-america-february#chile-wine-country" target="_blank" class="btn btn-primary btn-lg"> read more</a>
+	          			<a href="http://www.travelandleisure.com/trip-ideas/best-places-travel-south-america-february#chile-wine-country" target="_blank" class="btn btn-primary btn-lg">read more</a>
 	          		</div>
 	          	</div>
 	          	<img class="img-responsive owl-lazy hidden-xs" data-src="<?php bloginfo('template_url'); ?>/assets/img/img-slide.jpg" src="<?php bloginfo('template_url'); ?>/assets/img/img-slide.jpg" alt="">

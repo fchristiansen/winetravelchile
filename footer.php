@@ -7,13 +7,13 @@
 							<div class="texto-sobre">
 								<img  id="sobre" class="img-responsive" src="<?php bloginfo('template_url');?>/assets/img/sobre.png" alt="">
 								<p>Sign up for <br>
-								our newsletter</p>
+									our newsletter</p>
 							</div>
 					</div>
 					<div class="col-sm-6">
 						<div class="form-group">
 								<label class="sr-only" for="email">Email address</label>
-								<input type="email" class="form-control" id="email" name="email" placeholder="Your Email Address" required>
+								<input type="email" class="form-control" id="email2" name="email" placeholder="Your Email Address" required>
 						</div>
 					</div>
 					<div class="col-sm-3">
@@ -194,6 +194,8 @@
 		<script src="<?php bloginfo('template_url');?>/assets/js/vendor/jquery.validate.min.js"></script>
 		<script src="<?php bloginfo('template_url');?>/assets/js/contact.js"></script>
 		<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+		<script src="<?php bloginfo('template_url'); ?>/assets/js/sweetalert.min.js"></script>
 		<script src="<?php bloginfo('template_url');?>/assets/js/wine.js"></script>
+
 </body>
 </html>

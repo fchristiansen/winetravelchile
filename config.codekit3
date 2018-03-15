@@ -2409,6 +2409,13 @@
 		"oAP": "\/assets\/sass\/.sass-cache\/35e0ff924f4938e8d5437d3efcd0ab2b5038b0f4\/_forms.scssc",
 		"oF": 0
 		},
+	"\/assets\/sass\/.sass-cache\/35e0ff924f4938e8d5437d3efcd0ab2b5038b0f4\/_formularios.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/sass\/.sass-cache\/35e0ff924f4938e8d5437d3efcd0ab2b5038b0f4\/_formularios.scssc",
+		"oF": 0
+		},
 	"\/assets\/sass\/.sass-cache\/35e0ff924f4938e8d5437d3efcd0ab2b5038b0f4\/_history.scssc": {
 		"cB": 0,
 		"ft": 8192,
@@ -3255,6 +3262,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/assets\/sass\/modules\/_forms.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/sass\/modules\/_formularios.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/sass\/modules\/_formularios.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

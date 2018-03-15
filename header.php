@@ -52,3 +52,4 @@
 		<link rel="icon" type="image/png" href="<?php bloginfo('template_url');?>/assets/img/logo.png" />
 	</head>
 	<body>
+		<div id="blogurl" class="hide" data-url="<?php bloginfo('template_url');?>"></div>

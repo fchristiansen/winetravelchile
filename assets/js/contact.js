@@ -8,7 +8,8 @@ jQuery(function() {
 				jQuery(form).ajaxSubmit({
 
 					beforeSubmit: function(arr, $form, options) {
-					    $("#result").html('<div id="loader"><img src="assets/img/ajax-loader.gif" alt="loading..."></div>');
+						var ruta = $('#blogurl').attr('data-url');
+					    $("#result").html('<div id="loader"><img src="'+ruta+'/assets/img/ajax-loader.gif" alt="loading..."></div>');
 					},
 					success: function(data) {
 			            //$('#htmlExampleTarget').fadeIn('slow');

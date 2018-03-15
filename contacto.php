@@ -51,7 +51,7 @@ Template name: Contact
 														}else{
 															$pais =  " - Chile";
 														}
-													?>													  
+													?>
 												    <option value="<?php the_title(); ?>" <?php if($esteid == $experience){ ?>selected<?php } ?>><?php the_title(); ?><?php echo $pais; ?></option>
 													<?php
 														endwhile;
@@ -98,7 +98,7 @@ Template name: Contact
 									<div class="row">
 										<div class="col-md-6">
 											<div class="form-group">
-											    <label for="date1">Travel Dates From</label>
+											    <label for="date1">Travel Dates From *</label>
 
 											    <div class='input-group date' id='datetimepicker1'>
 								                    <input type='text' class="form-control fechainput required" name="fecha1" id="date1" readonly=""  />
@@ -111,7 +111,7 @@ Template name: Contact
 										</div>
 										<div class="col-md-6">
 											<div class="form-group">
-											    <label for="date2"> Travel Dates To</label>
+											    <label for="date2"> Travel Dates To *</label>
 											    <div class='input-group date' id='datetimepicker2'>
 								                    <input type='text' class="form-control fechainput required" name="fecha2" id="date2" readonly=""  />
 								                    <span class="input-group-addon">

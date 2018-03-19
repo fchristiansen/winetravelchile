@@ -2,14 +2,8 @@
 <?php include('main-nav.php'); ?>
 <?php include('include-menu-experiencias.php'); ?>
 <?php wp_reset_postdata(); ?>
-<?php
-	$i = 0;
-if (have_posts()) :
-	while (have_posts()) :
-		the_post();
-			$i++;
-			if($i==1){
-		?>
+
+<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
 		<div id="slider-destinations">
 			<section class="slider-home container-fluid no-padding">
@@ -36,8 +30,6 @@ if (have_posts()) :
 					          	<?php the_post_thumbnail('slider_mobile', array('class' => 'img-responsive owl-lazy visible-xs')); ?>
 					    </div>
 					</div> <!-- contenedor slider -->
-
-
 			</section>
 		</div>
 	<section id="about" class="position-relative">
@@ -47,52 +39,134 @@ if (have_posts()) :
 			</a>
 		</div>
 	</section>
-	<section class="post">
-	<?php }else{ ?>
-	<!-- 	acá debe ir la lista del resto de posts -->
-
-		<div class="container">
+	<section class="the-post-content">
+		<div class="container the-content">
 			<div class="row">
-				<article class="post-box clearfix">
-					<div class="col-sm-6">
-						<!-- 580 x 330 -->
-						<div class="post-thumb-img">
-							<a href="<?php the_permalink(); ?>">
-								<?php the_post_thumbnail('full', array('class' => 'img-responsive')); ?>
-							</a>
+				<div class="col-sm-12">
+						<?php the_content(); ?>
+						<div id="slider-post" class="owl-carousel owl-theme">
+							<div class="item">
+						      	<img class="img-responsive" src="<?php bloginfo('template_url'); ?>/assets/img/imgpost1.jpg" alt="">
+							</div>
+
+							<div class="item">
+						      	<img class="img-responsive" src="<?php bloginfo('template_url'); ?>/assets/img/imgpost2.jpg" alt="">
+							</div>
+							<div class="item">
+						      	<img class="img-responsive" src="<?php bloginfo('template_url'); ?>/assets/img/imgpost3.jpg" alt="">
+							</div>
 						</div>
-					</div>
-					<div class="col-sm-6">
-						<div class="post-title">
-							<?php the_title( '<h1>', '</h1>' ); ?>
+						<div class="text-center">
+							<a href="" class="btn btn-default boton-submit">GET INSPIRED</a>
 						</div>
-						<div class="post-author">
-							<p><?php the_author(); ?></p>
-						</div>
-						<div class="post-excerpt">
-							<?php the_excerpt(); ?>
-							<a href="<?php the_permalink(); ?>" class="btn btn-primary btn-lg btn-read-more">read MORE</a>
-						</div>
-					</div>
-				</article> <!-- post box -->
+				</div>
 			</div>
 		</div>
+</section> <!-- noticia -->
 
-	<? } ?>
-	<?php
-	endwhile;
-	endif;
-	?>
-</section>
-<section class="design-trip-banner">
-	<div class="mid-banner-container">
-		<div class="mid-banner-caption">
-			<p class="mid-banner-title">Design your perfect trip with us</p>
-			<a href="<?php the_permalink(); ?>" class="btn btn-primary btn-lg">MORE INFORMATION</a>
+	<section id="post-author">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-4">
+						<div class="the-author-img">
+							<img class="img-responsive img-circle img-author center" src="<?php bloginfo('template_url'); ?>/assets/img/img-author.jpg" alt="">
+						</div>
+					</div>
+					<div class="col-sm-8">
+						<div class="the-autor-profile">
+							<div class="center">
+								<h5>Karen Gilchrist</h5>
+								<h6>FOUNDER AND TRIP PLANNER</h6>
+								<span class="rectangulo-vino-small"></span>
+								<p>
+									Trilingual, with extensive experience in tourism development,
+									 marketing, and communications in Chile, France, and the
+									  United Kingdom, Karen saw the opportunity to build a
+									   boutique tour operator company around the fascinat
+									   ing world of fine wine and dining immersed in the
+									    natural beauty of Chile and other wine-producing countries around the world.
+									    She also has vast experience with wine routes in the new world and old world.
+									    She was the General Manager of the Maule Valley Wine Route (1999–2002),
+									    during which time she organized Chile's first Carmenere event (2001).
+								</p>
+								<?php
+								//$the_query = new WP_Query( array(
+							   // 'post_type' => 'the_team',
+							    //'posts_per_page'	=> 1
+								//));
+							//	$m = 0;
+							// while ( $the_query->have_posts() ) :
+							//     $the_query->the_post();
+							// 	the_content();
+							// endwhile;
+							?>
+							</div>
+
+
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+		</section> <!-- post author -->
+
+
+
+<?php endwhile; else : ?>
+	<p><?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?></p>
+<?php endif; ?>
+
+
+<section class="more-items">
+	<div class="container">
+		<h1>more items</h1>
+		<span class="rectangulo-vino-small"></span>
+		<div class="row">
+			<article class="post-box">
+				<div class="col-sm-4">
+					<!-- 580 x 330 -->
+					<div class="post-thumb-img">
+						<a href="<?php the_permalink(); ?>">
+							<?php the_post_thumbnail('full', array('class' => 'img-responsive')); ?>
+						</a>
+							<?php the_title( '<h2>', '</h2>' ); ?>
+							<?php the_excerpt(); ?>
+							<a href="<?php the_permalink(); ?>" class="btn btn-primary btn-lg btn-read-more">read MORE</a>
+					</div>
+				</div>
+
+			</article> <!-- post box -->
+			<article class="post-box">
+				<div class="col-sm-4">
+					<!-- 580 x 330 -->
+					<div class="post-thumb-img">
+						<a href="<?php the_permalink(); ?>">
+							<?php the_post_thumbnail('full', array('class' => 'img-responsive')); ?>
+						</a>
+							<?php the_title( '<h2>', '</h2>' ); ?>
+							<?php the_excerpt(); ?>
+							<a href="<?php the_permalink(); ?>" class="btn btn-primary btn-lg btn-read-more">read MORE</a>
+					</div>
+				</div>
+
+			</article> <!-- post box -->
+			<article class="post-box">
+				<div class="col-sm-4">
+					<!-- 580 x 330 -->
+					<div class="post-thumb-img">
+						<a href="<?php the_permalink(); ?>">
+							<?php the_post_thumbnail('full', array('class' => 'img-responsive')); ?>
+						</a>
+							<?php the_title( '<h2>', '</h2>' ); ?>
+							<?php the_excerpt(); ?>
+							<a href="<?php the_permalink(); ?>" class="btn btn-primary btn-lg btn-read-more">read MORE</a>
+					</div>
+				</div>
+
+			</article> <!-- post box -->
 		</div>
-		<img class="img-responsive hidden-xs hidden-sm mid-banner-img" src="<?php bloginfo('template_url') ?>/assets/img/mid-banner.jpg" alt="Design your perfect trip with us">
-		<img class="img-responsive visible-xs visible-sm mid-banner-img" src="<?php bloginfo('template_url') ?>/assets/img/mid-banner-xs.jpg" alt="Design your perfect trip with us">
 	</div>
-</section>
 
+</section>
 <?php include('footer.php'); ?>

@@ -1259,6 +1259,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/img\/img-author.jpg": {
+		"ft": 16384,
+		"iS": 55511,
+		"oA": 0,
+		"oAP": "\/assets\/img\/img-author.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/assets\/img\/img-slide.jpg": {
 		"ft": 16384,
 		"iS": 260083,
@@ -1319,6 +1329,36 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/imgpost1.jpg": {
+		"ft": 16384,
+		"iS": 142724,
+		"oA": 0,
+		"oAP": "\/assets\/img\/imgpost1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/imgpost2.jpg": {
+		"ft": 16384,
+		"iS": 144212,
+		"oA": 0,
+		"oAP": "\/assets\/img\/imgpost2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/imgpost3.jpg": {
+		"ft": 16384,
+		"iS": 68483,
+		"oA": 0,
+		"oAP": "\/assets\/img\/imgpost3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/assets\/img\/logo-cav.png": {

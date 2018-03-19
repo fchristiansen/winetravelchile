@@ -48,52 +48,50 @@ if (have_posts()) :
 		</div>
 	</section>
 	<section class="posts-list">
-	<?php }else{ ?>
-	<!-- 	acá debe ir la lista del resto de posts -->
-
-		<div class="container">
-			<div class="row">
-				<article class="post-box clearfix">
-					<div class="col-sm-6">
-						<!-- 580 x 330 -->
-						<div class="post-thumb-img">
-							<a href="<?php the_permalink(); ?>">
-								<?php the_post_thumbnail('full', array('class' => 'img-responsive')); ?>
-							</a>
-
+		<?php }else{ ?>
+		<!-- 	acá debe ir la lista del resto de posts -->
+			<div class="container">
+				<div class="row">
+					<article class="post-box clearfix">
+						<div class="col-sm-6">
+							<!-- 580 x 330 -->
+							<div class="post-thumb-img">
+								<a href="<?php the_permalink(); ?>">
+									<?php the_post_thumbnail('full', array('class' => 'img-responsive')); ?>
+								</a>
+							</div>
 						</div>
-					</div>
-					<div class="col-sm-6">
-						<div class="post-title">
-							<?php the_title( '<h1>', '</h1>' ); ?>
+						<div class="col-sm-6">
+							<div class="post-title">
+								<?php the_title( '<h1>', '</h1>' ); ?>
+							</div>
+							<div class="post-author">
+								<p><?php the_author(); ?></p>
+							</div>
+							<div class="post-excerpt">
+								<?php the_excerpt(); ?>
+								<a href="<?php the_permalink(); ?>" class="btn btn-primary btn-lg btn-read-more">read MORE</a>
+							</div>
 						</div>
-						<div class="post-author">
-							<p><?php the_author(); ?></p>
-						</div>
-						<div class="post-excerpt">
-							<?php the_excerpt(); ?>
-							<a href="<?php the_permalink(); ?>" class="btn btn-primary btn-lg btn-read-more">read MORE</a>
-						</div>
-					</div>
-				</article> <!-- post box -->
+					</article> <!-- post box -->
+				</div>
 			</div>
-		</div>
 
-	<? } ?>
-	<?php
-	endwhile;
-	endif;
-	?>
-</section>
-<section class="design-trip-banner">
-	<div class="mid-banner-container">
-		<div class="mid-banner-caption">
-			<p class="mid-banner-title">Design your perfect trip with us</p>
-			<a href="<?php the_permalink(); ?>" class="btn btn-primary btn-lg">MORE INFORMATION</a>
+		<? } ?>
+		<?php
+		endwhile;
+		endif;
+		?>
+	</section> <!-- caja noticias superior noticias -->
+	<section class="design-trip-banner">
+		<div class="mid-banner-container">
+			<div class="mid-banner-caption">
+				<p class="mid-banner-title">Design your perfect trip with us</p>
+				<a href="<?php bloginfo('url');?>/contact" class="btn btn-primary btn-lg">MORE INFORMATION</a>
+			</div>
+			<img class="img-responsive hidden-xs hidden-sm mid-banner-img" src="<?php bloginfo('template_url') ?>/assets/img/mid-banner.jpg" alt="Design your perfect trip with us">
+			<img class="img-responsive visible-xs visible-sm mid-banner-img" src="<?php bloginfo('template_url') ?>/assets/img/mid-banner-xs.jpg" alt="Design your perfect trip with us">
 		</div>
-		<img class="img-responsive hidden-xs hidden-sm mid-banner-img" src="<?php bloginfo('template_url') ?>/assets/img/mid-banner.jpg" alt="Design your perfect trip with us">
-		<img class="img-responsive visible-xs visible-sm mid-banner-img" src="<?php bloginfo('template_url') ?>/assets/img/mid-banner-xs.jpg" alt="Design your perfect trip with us">
-	</div>
-</section>
+	</section>
 
 <?php include('footer.php'); ?>

@@ -825,7 +825,6 @@ section.design-trip-banner .mid-banner-container .mid-banner-caption p.mid-banne
 .the-post-content .the-content #slider-post .owl-dots .owl-dot.active span { background-color: #ECCCD0; }
 .the-post-content .the-content #slider-post .owl-next, .the-post-content .the-content #slider-post .owl-prev { width: 43px; height: 44px; position: absolute; text-indent: -9999px; top: 50%; margin-top: -22px; cursor: pointer; opacity: 0.9; }
 .the-post-content .the-content #slider-post .owl-next:hover, .the-post-content .the-content #slider-post .owl-prev:hover { background-color: transparent; opacity: 0.5; }
-@media (max-width: 767px) { .the-post-content .the-content #slider-post .owl-next, .the-post-content .the-content #slider-post .owl-prev { top: 270px; } }
 .the-post-content .the-content #slider-post .owl-next { background: url(../img/next.png) no-repeat !important; right: 0; }
 .the-post-content .the-content #slider-post .owl-next.disabled { display: none; }
 .the-post-content .the-content #slider-post .owl-prev { background: url(../img/prev.png) no-repeat !important; left: 0; }

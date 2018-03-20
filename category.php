@@ -10,10 +10,8 @@ if (have_posts()) :
 			$i++;
 			if($i==1){
 		?>
-
 		<div id="slider-destinations">
 			<section class="slider-home container-fluid no-padding">
-
 					<div id="slider-home" class="owl-carousel owl-theme">
 					    <div class="item">
 					    	<div class="layer"></div>
@@ -57,7 +55,7 @@ if (have_posts()) :
 							<!-- 580 x 330 -->
 							<div class="post-thumb-img">
 								<a href="<?php the_permalink(); ?>">
-									<?php the_post_thumbnail('full', array('class' => 'img-responsive')); ?>
+									<?php the_post_thumbnail('caluga', array('class' => 'img-responsive')); ?>
 								</a>
 							</div>
 						</div>

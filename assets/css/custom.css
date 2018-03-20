@@ -848,10 +848,11 @@ section.design-trip-banner .mid-banner-container .mid-banner-caption p.mid-banne
 @media (max-width: 767px) { #post-author img.center { position: relative; top: auto; left: auto; -webkit-transform: none; transform: none; } }
 
 section.more-items { padding: 40px 0; }
+section.more-items .post-box { display: block; }
 @media (max-width: 767px) { section.more-items .post-box { margin-bottom: 30px; } }
 section.more-items h1 { font-size: 27px; font-size: 1.6875rem; color: #616552; text-transform: capitalize; }
 section.more-items h2, section.more-items section.slider-home #slider-home .item .carousel-info .carousel-info-inner p.carousel-title, section.slider-home #slider-home .item .carousel-info .carousel-info-inner section.more-items p.carousel-title, section.more-items section.slider-home .slider-solo .item .carousel-info .carousel-info-inner p.carousel-title, section.slider-home .slider-solo .item .carousel-info .carousel-info-inner section.more-items p.carousel-title { font-size: 20px; font-size: 1.25rem; color: #616552; }
-section.more-items p { font-size: 14px; font-size: 0.875rem; color: #616552; margin-bottom: 20px; }
+section.more-items p { font-size: 14px; font-size: 0.875rem; color: #616552; margin-bottom: 20px; font-weight: 500; }
 section.more-items a.btn-read-more { font-size: 10px; font-size: 0.625rem; padding: 10px 20px; }
 
 #contacto .formulario-contacto textarea.form-control { text-transform: none !important; }

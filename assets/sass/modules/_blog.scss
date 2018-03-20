@@ -278,6 +278,7 @@ section.design-trip-banner{
 section.more-items{
 	padding: 40px 0;
 	.post-box{
+		display: block;
 		@media(max-width:767px){
 			margin-bottom: 30px;
 		}
@@ -296,6 +297,7 @@ section.more-items{
 		@include font-size(14px);
 		color: $verde;
 		margin-bottom: 20px;
+		font-weight: 500;
 	}
 	a{
 		&.btn-read-more{

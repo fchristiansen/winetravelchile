@@ -5,6 +5,8 @@
 <?php
 	$i = 0;
 if (have_posts()) :
+$count_posts = wp_count_posts();
+$published_posts = $count_posts->publish;
 	while (have_posts()) :
 		the_post();
 			$i++;
@@ -75,8 +77,8 @@ if (have_posts()) :
 				</div>
 			</div>
 
-			<?php if($i == 3) : ?>
-			<section class="design-trip-banner loop-blog">
+			<?php if($i == 4) : ?>
+			<section class="design-trip-banner <?php if($i == 4 && $published_posts == 4) : ?> <?php else :?>loop-blog <?php endif;?>">
 				<div class="mid-banner-container">
 					<div class="mid-banner-caption">
 						<p class="mid-banner-title">Design your perfect trip with us</p>
@@ -86,7 +88,7 @@ if (have_posts()) :
 					<img class="img-responsive visible-xs visible-sm mid-banner-img" src="<?php bloginfo('template_url') ?>/assets/img/mid-banner-xs.jpg" alt="Design your perfect trip with us">
 				</div>
 			</section> <!-- design trip banner -->
-			<?php endif;?>	
+			<?php endif;?>
 
 		<? } ?>
 		<?php

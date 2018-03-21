@@ -58,6 +58,9 @@
 }
 
 section.design-trip-banner{
+	&.loop-blog {
+		margin-bottom:30px;
+	}
 	.mid-banner-container{
 		position: relative;
 		.mid-banner-caption{

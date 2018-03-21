@@ -75,21 +75,25 @@ if (have_posts()) :
 				</div>
 			</div>
 
+			<?php if($i == 3) : ?>
+			<section class="design-trip-banner loop-blog">
+				<div class="mid-banner-container">
+					<div class="mid-banner-caption">
+						<p class="mid-banner-title">Design your perfect trip with us</p>
+						<a href="<?php bloginfo('url');?>/contact" class="btn btn-primary btn-lg">MORE INFORMATION</a>
+					</div>
+					<img class="img-responsive hidden-xs hidden-sm mid-banner-img" src="<?php bloginfo('template_url') ?>/assets/img/mid-banner.jpg" alt="Design your perfect trip with us">
+					<img class="img-responsive visible-xs visible-sm mid-banner-img" src="<?php bloginfo('template_url') ?>/assets/img/mid-banner-xs.jpg" alt="Design your perfect trip with us">
+				</div>
+			</section> <!-- design trip banner -->
+			<?php endif;?>	
+
 		<? } ?>
 		<?php
 		endwhile;
 		endif;
 		?>
 	</section> <!-- caja noticias superior noticias -->
-	<section class="design-trip-banner">
-		<div class="mid-banner-container">
-			<div class="mid-banner-caption">
-				<p class="mid-banner-title">Design your perfect trip with us</p>
-				<a href="<?php bloginfo('url');?>/contact" class="btn btn-primary btn-lg">MORE INFORMATION</a>
-			</div>
-			<img class="img-responsive hidden-xs hidden-sm mid-banner-img" src="<?php bloginfo('template_url') ?>/assets/img/mid-banner.jpg" alt="Design your perfect trip with us">
-			<img class="img-responsive visible-xs visible-sm mid-banner-img" src="<?php bloginfo('template_url') ?>/assets/img/mid-banner-xs.jpg" alt="Design your perfect trip with us">
-		</div>
-	</section> <!-- design trip banner -->
+
 
 <?php include('footer.php'); ?>

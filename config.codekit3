@@ -3759,34 +3759,6 @@
 		"oAP": "\/page-about-team.php",
 		"oF": 0
 		},
-	"\/page-about-testimonials.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/page-about-testimonials.php",
-		"oF": 0
-		},
-	"\/page-about.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/page-about.php",
-		"oF": 0
-		},
-	"\/page-destinations.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/page-destinations.php",
-		"oF": 0
-		},
-	"\/page-history.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/page-history.php",
-		"oF": 0
-		},
 	"\/page-hotels-ar.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -3799,13 +3771,6 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/page-hotels-cl.php",
-		"oF": 0
-		},
-	"\/page-terms.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/page-terms.php",
 		"oF": 0
 		},
 	"\/search.php": {
@@ -3834,48 +3799,6 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/single.php",
-		"oF": 0
-		},
-	"\/slider-awawe.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/slider-awawe.php",
-		"oF": 0
-		},
-	"\/slider-home.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/slider-home.php",
-		"oF": 0
-		},
-	"\/slider-lrwe.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/slider-lrwe.php",
-		"oF": 0
-		},
-	"\/slider-testimonials.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/slider-testimonials.php",
-		"oF": 0
-		},
-	"\/slider-trips.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/slider-trips.php",
-		"oF": 0
-		},
-	"\/tailor-made-experiences.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/tailor-made-experiences.php",
 		"oF": 0
 		}
 	},

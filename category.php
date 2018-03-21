@@ -90,6 +90,6 @@ if (have_posts()) :
 			<img class="img-responsive hidden-xs hidden-sm mid-banner-img" src="<?php bloginfo('template_url') ?>/assets/img/mid-banner.jpg" alt="Design your perfect trip with us">
 			<img class="img-responsive visible-xs visible-sm mid-banner-img" src="<?php bloginfo('template_url') ?>/assets/img/mid-banner-xs.jpg" alt="Design your perfect trip with us">
 		</div>
-	</section>
+	</section> <!-- design trip banner -->
 
 <?php include('footer.php'); ?>

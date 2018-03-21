@@ -103,10 +103,10 @@ section.design-trip-banner{
 		@media(max-width:767px){
 			padding: 30px 15px 30px 15px;
 		}
-	#slider-post {
+#slider-post {
         position: relative;
         overflow: hidden;
-		margin: 40px 0;
+		margin: 40px 0 0 0;
 
       .item {
             position: relative;
@@ -207,6 +207,7 @@ section.design-trip-banner{
 			//max-width: 200px;
 			padding: 10px 40px;
 			height:auto;
+			margin-top: 40px;
 
 		}
 	}

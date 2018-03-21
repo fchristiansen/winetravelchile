@@ -44,32 +44,29 @@
 			<div class="row">
 				<div class="col-sm-12">
 						<?php the_content(); ?>
-
-						<div id="slider-post" class="owl-carousel owl-theme">
-								<?
-						  	$f = 0;
-						  	$bloques = get_order_group('slider_imagen'); // guarda el bloque en un array //poner uno de los campos
-						  	foreach($bloques as $bloque){ // recorre cada bloque de edición
-							$e = $e +1;
-							$f++;
-							$fotos = get_order_field('slider_imagen', $bloque); // guarda las fotos en un array
-							foreach ($fotos as $foto) {
-							?>
-									<div class="item">
-								      	<img class="img-responsive" src="<?php echo get('slider_imagen', $e, $foto) ?>" alt="">
-									</div>
-									 <? } ?>
-        					<? } ?>
-
-						</div>
-
+						<?php if(get('slider_imagen')){ ?>
+							<div id="slider-post" class="owl-carousel owl-theme">
+									<?
+							  	$f = 0;
+							  	$bloques = get_order_group('slider_imagen'); // guarda el bloque en un array //poner uno de los campos
+							  	foreach($bloques as $bloque){ // recorre cada bloque de edición
+								$e = $e +1;
+								$f++;
+								$fotos = get_order_field('slider_imagen', $bloque); // guarda las fotos en un array
+								foreach ($fotos as $foto) {
+								?>
+										<div class="item">
+									      	<img class="img-responsive" src="<?php echo get('slider_imagen', $e, $foto) ?>" alt="">
+										</div>
+										 <? } ?>
+	        					<? } ?>
+							</div>
+						<? } ?>
 						<div class="text-center">
-							<?php
-
-								if(get('texto_boton')){
-									$texto_boton = get('texto_boton'); ?>
-									<a href="<?php echo get('boton_enlace'); ?>" target="<?php if(get('enlace_externo')){?> _blank <?php } ?>" class="btn btn-default boton-submit"><?php echo $texto_boton ?></a>
-								<? } ?>
+							<?php if(get('texto_boton')){
+								$texto_boton = get('texto_boton'); ?>
+								<a href="<?php echo get('boton_enlace'); ?>" target="<?php if(get('enlace_externo')){?> _blank <?php } ?>" class="btn btn-default boton-submit"><?php echo $texto_boton ?></a>
+							<? } ?>
 
 						</div>
 				</div>

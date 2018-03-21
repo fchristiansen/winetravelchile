@@ -814,7 +814,7 @@ section.design-trip-banner .mid-banner-container .mid-banner-caption p.mid-banne
 @media (min-width: 1024px) { .the-post-content .the-content { margin-top: -60px; } }
 @media (max-width: 768px) { .the-post-content .the-content { padding: 30px 50px 40px 50px; } }
 @media (max-width: 767px) { .the-post-content .the-content { padding: 30px 15px 30px 15px; } }
-.the-post-content .the-content #slider-post { position: relative; overflow: hidden; margin: 40px 0; }
+.the-post-content .the-content #slider-post { position: relative; overflow: hidden; margin: 40px 0 0 0; }
 .the-post-content .the-content #slider-post .item { position: relative; }
 .the-post-content .the-content #slider-post .owl-nav { margin: 0; }
 .the-post-content .the-content #slider-post .owl-nav.disabled { display: none; }
@@ -832,7 +832,7 @@ section.design-trip-banner .mid-banner-container .mid-banner-caption p.mid-banne
 .the-post-content p { font-size: 15px; font-size: 0.9375rem; color: #616552; line-height: 25px; text-align: center; font-weight: 500; }
 .the-post-content p img.size-full { display: block; max-width: 100%; height: auto; margin: 60px auto; }
 @media (max-width: 767px) { .the-post-content p img.size-full { margin: 30px auto; } }
-.the-post-content a.boton-submit { display: inline-block; padding: 10px 40px; height: auto; }
+.the-post-content a.boton-submit { display: inline-block; padding: 10px 40px; height: auto; margin-top: 40px; }
 
 #post-author { min-height: 360px; background-color: #f3f3e5; padding: 40px 0; }
 @media (max-width: 767px) { #post-author { padding: 30px 0; } }

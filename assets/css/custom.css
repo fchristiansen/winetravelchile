@@ -191,7 +191,7 @@ section#not-found .error-message .btn-return:hover, section#not-found .error-mes
 section#not-found .error-message .btn-return:hover, section#not-found .error-message .btn-return:focus { background-color: #6A2943; color: white; }
 
 .navbar-brand { position: absolute; display: block; top: 20px; z-index: 1000; height: auto; padding: 0; }
-@media (max-width: 768px) { .navbar-brand { left: 50px; } }
+@media (max-width: 768px) { .navbar-brand { left: 23px; } }
 .navbar-brand img#logo-desk { width: 170px; height: auto; -webkit-transition: all ease-in-out 0.2s; transition: all ease-in-out 0.2s; }
 @media (max-width: 768px) { .navbar-brand img#logo-desk { width: 130px; } }
 @media (max-width: 767px) { .navbar-brand img#logo-desk { display: none; } }
@@ -323,7 +323,7 @@ section.slider-home #slider-home .item { position: relative; }
 section.slider-home #slider-home .item video { width: 100% !important; height: auto !important; position: absolute; top: 0; left: 0; max-width: 100%; display: block; }
 section.slider-home #slider-home .item .layer { position: absolute; left: 0; top: 0; width: 100%; height: 100%; background: #000; opacity: .2; z-index: 1; }
 section.slider-home #slider-home .item .carousel-info { position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); z-index: 2; top: 36%; width: 85%; }
-@media (max-width: 767px) { section.slider-home #slider-home .item .carousel-info.blog-info { top: 48% !important; width: 90% !important; } }
+@media (max-width: 767px) { section.slider-home #slider-home .item .carousel-info.blog-info { top: 160px !important; width: 90% !important; } }
 @media (max-width: 767px) { section.slider-home #slider-home .item .carousel-info.info-xs { top: 27%; } }
 section.slider-home #slider-home .item .carousel-info .carousel-info-inner { text-align: center; }
 section.slider-home #slider-home .item .carousel-info .carousel-info-inner h2, section.slider-home #slider-home .item .carousel-info .carousel-info-inner p.carousel-title { font-family: "Prata", Arial, Helvetica, serif; color: white; font-size: 60px; font-size: 3.75rem; }

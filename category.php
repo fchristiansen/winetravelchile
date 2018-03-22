@@ -24,7 +24,7 @@ $published_posts = $count_posts->publish;
 					          				<a href="<?php bloginfo('url'); ?>">Home</a> / <span class="txt-bread">blog</span>
 					          			</p>
 					          			<p class="title2"><?php the_title(); ?></p>
-					          			<p class="tit-autor"><?php the_author(); ?></p>
+					          			<p class="tit-autor"><?php echo get('nombre_del_autor'); ?></p>
 					          			<div class="txt-resumen">
 					          				<?php the_excerpt(); ?>
 					          			</div>
@@ -66,7 +66,7 @@ $published_posts = $count_posts->publish;
 								<?php the_title( '<h1>', '</h1>' ); ?>
 							</div>
 							<div class="post-author">
-								<p><?php the_author(); ?></p>
+								<p><?php echo get('nombre_del_autor'); ?></p>
 							</div>
 							<div class="post-excerpt">
 								<?php the_excerpt(); ?>

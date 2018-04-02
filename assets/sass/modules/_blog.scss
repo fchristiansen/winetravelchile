@@ -192,6 +192,7 @@ section.design-trip-banner{
 		line-height: 25px;
 		text-align: center;
 		font-weight: 500;
+		font-family: $montserrat;
 		img{
 			&.size-full{
 				display: block;
@@ -292,16 +293,19 @@ section.more-items{
 		@include font-size(27px);
 		color: $verde;
 		text-transform: capitalize;
+		font-family: $montserrat;
 	}
 	h2{
 		@include font-size(20px);
 		color: $verde;
+		font-family: $montserrat;
 	}
 	p{
 		@include font-size(14px);
 		color: $verde;
 		margin-bottom: 20px;
 		font-weight: 500;
+		font-family: $montserrat;
 	}
 	a{
 		&.btn-read-more{

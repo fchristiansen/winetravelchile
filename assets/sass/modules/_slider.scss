@@ -438,7 +438,7 @@ section.slider-home {
 	.slider-solo{
 		.carousel-info{
 			.carousel-info-inner{
-				p.title2{
+				p.title2, h1.title2{
     				font-family: $prata;
 					color: white;
 					@include font-size(60px);
@@ -465,6 +465,14 @@ section.slider-home {
 					text-transform: none;
 	    	    		line-height: 1.1;
 	    	    		letter-spacing: normal;
+				}
+				p{
+					&.tit-autor{
+						text-transform: capitalize;
+						@include font-size(24px);
+						font-weight: 500;
+
+					}
 				}
 			}
 		}

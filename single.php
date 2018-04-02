@@ -8,7 +8,7 @@
 		<div id="slider-destinations">
 			<section class="slider-home container-fluid no-padding">
 
-					<div id="slider-home" class="owl-carousel owl-theme">
+					<div class="slider-solo">
 					    <div class="item">
 					    	<div class="layer"></div>
 					          	<!-- 1920 x 550 -->
@@ -17,11 +17,16 @@
 					          			<p class="">
 					          				<a href="<?php bloginfo('url'); ?>">Home</a> / <a href="<?php bloginfo('url'); ?>/category/blog/">blog</a>
 					          			</p>
-					          			<p class="title2"><?php the_title(); ?></p>
-					          			<p class="tit-autor"><?php echo get('nombre_del_autor'); ?></p>
-					          			<div class="txt-resumen">
+					          			<h1 class="title2"><?php the_title(); ?></h1>
+					          			<?php if(get('nombre_del_autor')); { ?>
+
+					          			  <p class="tit-autor">By:  <?php echo get('nombre_del_autor'); ?></p>
+					          			<? } ?>
+
+
+					          		<!-- 	<div class="txt-resumen">
 					          				<?php the_excerpt(); ?>
-					          			</div>
+					          			</div> -->
 					          			<!-- <a href="<?php the_permalink(); ?>" class="btn btn-primary btn-lg btn-read">read MORE</a> -->
 
 					          		</div>
@@ -107,7 +112,7 @@
 
 <section class="more-items">
 	<div class="container">
-		<h1>more items</h1>
+		<h1>more</h1>
 		<span class="rectangulo-vino-small"></span>
 		<div class="row">
 

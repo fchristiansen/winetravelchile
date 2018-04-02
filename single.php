@@ -18,9 +18,8 @@
 					          				<a href="<?php bloginfo('url'); ?>">Home</a> / <a href="<?php bloginfo('url'); ?>/category/blog/">blog</a>
 					          			</p>
 					          			<h1 class="title2"><?php the_title(); ?></h1>
-					          			<?php if(get('nombre_del_autor')); { ?>
-
-					          			  <p class="tit-autor">By:  <?php echo get('nombre_del_autor'); ?></p>
+					          			<?php if(get('nombre_del_autor') != ""){ ?>
+					          			  <p class="tit-autor">By: <?php echo get('nombre_del_autor'); ?></p>
 					          			<? } ?>
 
 

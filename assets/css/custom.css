@@ -2,7 +2,7 @@
 
 html { height: 100%; font-size: 100%; }
 
-body { min-height: 100%; }
+body { min-height: 100%; background-color: white; }
 
 /*elimina el padding de las columnas*/
 .no-gutter > [class*='col-'] { padding-right: 0; padding-left: 0; }
@@ -224,6 +224,7 @@ section#not-found .error-message .btn-return:hover, section#not-found .error-mes
 #main-nav #navbar ul#nav-list li a { -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; color: #000000; cursor: pointer; color: white; text-transform: uppercase; font-size: 16px; font-size: 1rem; font-family: "Montserrat", Arial, Helvetica, sans-serif; padding: 0 10px; line-height: normal; }
 #main-nav #navbar ul#nav-list li a:hover, #main-nav #navbar ul#nav-list li a:focus { text-decoration: none; color: #682944; }
 @media (max-width: 1023px) { #main-nav #navbar ul#nav-list li a { font-size: 14px; font-size: 0.875rem; } }
+@media (max-width: 768px) { #main-nav #navbar ul#nav-list li a { font-size: 12px; font-size: 0.75rem; } }
 @media (max-width: 767px) { #main-nav #navbar ul#nav-list li a { font-size: 20px; font-size: 1.25rem; } }
 #main-nav .navbar-toggle { margin-top: 18px; }
 
@@ -374,7 +375,7 @@ section.slider-home .slider-solo .item { position: relative; }
 section.slider-home .slider-solo .item video { width: 100% !important; height: auto !important; position: absolute; top: 0; left: 0; max-width: 100%; display: block; }
 section.slider-home .slider-solo .item .layer { position: absolute; left: 0; top: 0; width: 100%; height: 100%; background: #000; opacity: .2; z-index: 1; }
 section.slider-home .slider-solo .item .carousel-info { position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); z-index: 2; top: 36%; width: 85%; }
-@media (max-width: 767px) { section.slider-home .slider-solo .item .carousel-info.blog-info { top: 48% !important; width: 90% !important; } }
+@media (max-width: 767px) { section.slider-home .slider-solo .item .carousel-info.blog-info { width: 90% !important; } }
 @media (max-width: 767px) { section.slider-home .slider-solo .item .carousel-info.info-xs { top: 27%; } }
 section.slider-home .slider-solo .item .carousel-info .carousel-info-inner { text-align: center; }
 section.slider-home .slider-solo .item .carousel-info .carousel-info-inner h2, section.slider-home .slider-solo #slider-home .item .carousel-info .carousel-info-inner p.carousel-title, section.slider-home #slider-home .slider-solo .item .carousel-info .carousel-info-inner p.carousel-title, section.slider-home .slider-solo .item .carousel-info .carousel-info-inner p.carousel-title { font-family: "Prata", Arial, Helvetica, serif; color: white; font-size: 60px; font-size: 3.75rem; }
@@ -406,13 +407,20 @@ section.slider-home .slider-solo .item .carousel-info .carousel-info-inner .txt-
 
 #slider-destinations .slider-solo .carousel-info-inner p a.active { background: #682944; }
 
-#slider-destinations .slider-solo .carousel-info .carousel-info-inner p.title2, #slider-destinations .slider-solo .carousel-info .carousel-info-inner h1.title2 { font-family: "Prata", Arial, Helvetica, serif; color: white; font-size: 60px; font-size: 3.75rem; text-transform: none; line-height: 1.1; letter-spacing: normal; }
+#slider-destinations .slider-solo .carousel-info .carousel-info-inner p.title2, #slider-destinations .slider-solo .carousel-info .carousel-info-inner h1.title2 { font-family: "Prata", Arial, Helvetica, serif; color: white; font-size: 55px; font-size: 3.4375rem; text-transform: none; line-height: 1.1; letter-spacing: normal; }
 @media (max-width: 768px) { #slider-destinations .slider-solo .carousel-info .carousel-info-inner p.title2, #slider-destinations .slider-solo .carousel-info .carousel-info-inner h1.title2 { font-size: 40px; font-size: 2.5rem; } }
 @media (max-width: 767px) { #slider-destinations .slider-solo .carousel-info .carousel-info-inner p.title2, #slider-destinations .slider-solo .carousel-info .carousel-info-inner h1.title2 { font-size: 30px; font-size: 1.875rem; } }
+#slider-destinations .slider-solo .carousel-info .carousel-info-inner h1.title2 { margin-bottom: 0; }
+@media (max-width: 1024px) { #slider-destinations .slider-solo .carousel-info .carousel-info-inner h1.title2 { font-size: 30px; font-size: 1.875rem; } }
+@media (max-width: 767px) { #slider-destinations .slider-solo .carousel-info .carousel-info-inner h1.title2 { font-size: 20px; font-size: 1.25rem; } }
 #slider-destinations .slider-solo .carousel-info .carousel-info-inner p.carousel-title { font-family: "Prata", Arial, Helvetica, serif; color: white; font-size: 60px; font-size: 3.75rem; text-transform: none; line-height: 1.1; letter-spacing: normal; }
 @media (max-width: 768px) { #slider-destinations .slider-solo .carousel-info .carousel-info-inner p.carousel-title { font-size: 40px; font-size: 2.5rem; } }
 @media (max-width: 767px) { #slider-destinations .slider-solo .carousel-info .carousel-info-inner p.carousel-title { font-size: 30px; font-size: 1.875rem; } }
 #slider-destinations .slider-solo .carousel-info .carousel-info-inner p.tit-autor { text-transform: capitalize; font-size: 24px; font-size: 1.5rem; font-weight: 500; }
+@media (max-width: 1024px) { #slider-destinations .slider-solo .carousel-info .carousel-info-inner p.tit-autor { font-size: 20px; font-size: 1.25rem; margin-bottom: 20px; } }
+@media (max-width: 767px) { #slider-destinations .slider-solo .carousel-info .carousel-info-inner p.tit-autor { font-size: 18px; font-size: 1.125rem; margin-bottom: 17px; } }
+@media (max-width: 1024px) { #slider-destinations .slider-solo .carousel-info .carousel-info-inner .txt-resumen p { font-size: 17px; font-size: 1.0625rem; line-height: 24px; } }
+@media (max-width: 767px) { #slider-destinations .slider-solo .carousel-info .carousel-info-inner .txt-resumen p { font-size: 12px; font-size: 0.75rem; line-height: 20px; } }
 
 @media (max-width: 767px) { #slider-destinations section.slider-home .slider-solo .item .carousel-info .carousel-info-inner h2, #slider-destinations section.slider-home .slider-solo .item .carousel-info .carousel-info-inner p.carousel-title { font-size: 2rem; } }
 #about .logos { margin-bottom: 0; }

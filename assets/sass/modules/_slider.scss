@@ -305,7 +305,7 @@ section.slider-home {
 				    	    &.blog-info{
 
 				    	    	@media(max-width: 767px){
-									top:48% !important;
+									//top:48% !important;
 				    	    		width: 90% !important;
 				    			}
 				    	    }
@@ -441,7 +441,7 @@ section.slider-home {
 				p.title2, h1.title2{
     				font-family: $prata;
 					color: white;
-					@include font-size(60px);
+					@include font-size(55px);
 					@media(max-width: 768px){
 						@include font-size(40px);
 					}
@@ -451,6 +451,18 @@ section.slider-home {
 					text-transform: none;
 	    	    		line-height: 1.1;
 	    	    		letter-spacing: normal;
+
+				}
+				h1{
+					&.title2{
+						margin-bottom: 0;
+						@media(max-width: 1024px){
+							@include font-size(30px);
+						}
+						@media(max-width: 767px){
+							@include font-size(20px);
+						}
+					}
 				}
 				p.carousel-title{
     				font-family: $prata;
@@ -471,8 +483,26 @@ section.slider-home {
 						text-transform: capitalize;
 						@include font-size(24px);
 						font-weight: 500;
+						@media(max-width: 1024px){
+							@include font-size(20px);
+							margin-bottom: 20px;
+						}
+						@media(max-width: 767px){
+							@include font-size(18px);
+							margin-bottom: 17px;
+						}
 
 					}
+				}
+				.txt-resumen p{
+					@media(max-width: 1024px){
+							@include font-size(17px);
+							line-height: 24px;
+						}
+					@media(max-width: 767px){
+							@include font-size(12px);
+							line-height: 20px;
+						}
 				}
 			}
 		}

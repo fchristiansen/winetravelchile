@@ -14,7 +14,7 @@ $published_posts = $count_posts->publish;
 		?>
 		<div id="slider-destinations">
 			<section class="slider-home container-fluid no-padding">
-					<div id="slider-home" class="owl-carousel owl-theme">
+					<div class="slider-solo">
 					    <div class="item">
 					    	<div class="layer"></div>
 					          	<!-- 1920 x 550 -->
@@ -23,8 +23,10 @@ $published_posts = $count_posts->publish;
 					          			<p class="">
 					          				<a href="<?php bloginfo('url'); ?>">Home</a> / <span class="txt-bread">blog</span>
 					          			</p>
-					          			<p class="title2"><?php the_title(); ?></p>
-					          			<p class="tit-autor"><?php echo get('nombre_del_autor'); ?></p>
+					          			<h1 class="title2"><?php the_title(); ?></h1>
+					          				<?php if(get('nombre_del_autor') != ""){ ?>
+					          			  	<p class="tit-autor">By: <?php echo get('nombre_del_autor'); ?></p>
+					          			<? } ?>
 					          			<div class="txt-resumen">
 					          				<?php the_excerpt(); ?>
 					          			</div>
@@ -36,8 +38,6 @@ $published_posts = $count_posts->publish;
 					          	<?php the_post_thumbnail('slider_mobile', array('class' => 'img-responsive owl-lazy visible-xs')); ?>
 					    </div>
 					</div> <!-- contenedor slider -->
-
-
 			</section>
 		</div>
 	<section id="about" class="position-relative">

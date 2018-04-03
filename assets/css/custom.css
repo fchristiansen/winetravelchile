@@ -419,8 +419,9 @@ section.slider-home .slider-solo .item .carousel-info .carousel-info-inner .txt-
 #slider-destinations .slider-solo .carousel-info .carousel-info-inner p.tit-autor { text-transform: capitalize; font-size: 24px; font-size: 1.5rem; font-weight: 500; }
 @media (max-width: 1024px) { #slider-destinations .slider-solo .carousel-info .carousel-info-inner p.tit-autor { font-size: 20px; font-size: 1.25rem; margin-bottom: 20px; } }
 @media (max-width: 767px) { #slider-destinations .slider-solo .carousel-info .carousel-info-inner p.tit-autor { font-size: 18px; font-size: 1.125rem; margin-bottom: 17px; } }
-@media (max-width: 1024px) { #slider-destinations .slider-solo .carousel-info .carousel-info-inner .txt-resumen p { font-size: 17px; font-size: 1.0625rem; line-height: 24px; } }
-@media (max-width: 767px) { #slider-destinations .slider-solo .carousel-info .carousel-info-inner .txt-resumen p { font-size: 12px; font-size: 0.75rem; line-height: 20px; } }
+#slider-destinations .slider-solo .carousel-info .carousel-info-inner .txt-resumen p { line-height: 30px; text-transform: none; }
+@media (max-width: 1024px) { #slider-destinations .slider-solo .carousel-info .carousel-info-inner .txt-resumen p { font-size: 18px; line-height: 24px; } }
+@media (max-width: 767px) { #slider-destinations .slider-solo .carousel-info .carousel-info-inner .txt-resumen p { font-size: 12px; font-size: 0.75rem; line-height: 18px; margin-bottom: 15px; } }
 
 @media (max-width: 767px) { #slider-destinations section.slider-home .slider-solo .item .carousel-info .carousel-info-inner h2, #slider-destinations section.slider-home .slider-solo .item .carousel-info .carousel-info-inner p.carousel-title { font-size: 2rem; } }
 #about .logos { margin-bottom: 0; }

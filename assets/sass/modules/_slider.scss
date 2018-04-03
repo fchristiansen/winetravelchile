@@ -479,6 +479,7 @@ section.slider-home {
 	    	    		letter-spacing: normal;
 				}
 				p{
+
 					&.tit-autor{
 						text-transform: capitalize;
 						@include font-size(24px);
@@ -495,13 +496,17 @@ section.slider-home {
 					}
 				}
 				.txt-resumen p{
+					line-height: 30px;
+					text-transform: none;
 					@media(max-width: 1024px){
-							@include font-size(17px);
-							line-height: 24px;
+							font-size: 18px ;
+							line-height: 24px ;
+
 						}
 					@media(max-width: 767px){
 							@include font-size(12px);
-							line-height: 20px;
+							line-height: 18px;
+							margin-bottom: 15px;
 						}
 				}
 			}

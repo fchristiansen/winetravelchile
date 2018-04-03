@@ -48,7 +48,7 @@
 					<li class="divisor-item-menu">|</li>
 					<li  <?php if(is_page('about')){ ?>class="active"<?php } ?>><a href="<?php bloginfo('url'); ?>/about">ABOUT US</a></li>
 					<li class="divisor-item-menu">|</li>
-					<li  <?php if(is_category('blog') || (in_category('blog'))){ ?>class="active"<?php } ?>><a href="<?php bloginfo('url'); ?>/category/blog/">blog</a></li>
+					<li  <?php if((in_category('blog') || is_category('blog')) && !is_home() ){ ?>class="active"<?php } ?>><a href="<?php bloginfo('url'); ?>/category/blog/">blog</a></li>
 <!--
 					<li class="divisor-item-menu">|</li>
 					<li class="hide-beta"><a href="javascript:void(0);">blog</a></li>
